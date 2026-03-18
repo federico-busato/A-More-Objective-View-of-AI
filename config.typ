@@ -9,7 +9,7 @@
 
 #let large(string) = [#text(size: 20pt)[#string]]
 
-#let notes_slides(content, title: "", number: "") = slide(
+#let notes_slide(content, title: "", number: "") = slide(
   title: [
     #text(font: "Latin Modern Sans", weight: "bold")[
       #if number != "" { [#title #h(1fr) #number] } else { [#title] }

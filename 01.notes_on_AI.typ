@@ -84,7 +84,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Preface", number: "1/2")[
+#notes_slide(title: "Preface", number: "1/2")[
   I started writing these notes because I keep reading recurring misleading information, without any evidence, about the impact of AI on software development. #bold[I find this narrative harmful and unfair, especially for students or people in their early career].
 
   While studying, I discovered several important topics related to my research that I think are worth mentioning. These include the impact of AI on employment, the illusion of consciousness, comparisons between the human brain and AI, the physical constraints of AI, skill formation, implications for society, software development, and several others.
@@ -97,7 +97,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Preface", number: "2/2")[
+#notes_slide(title: "Preface", number: "2/2")[
 
   To maintain focus on the main topics and avoid digressions, I preferred to leave out long descriptions and directly report data, research findings, anecdotal facts, and emblematic quotes from people with much more expertise than me. This helps to make the content succinct, not waste your time, and (hopefully) keep it appealing.
   #v(20pt)
@@ -113,9 +113,10 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Introduction", number: "1/3")[
+#notes_slide(title: "Introduction", number: "1/3")[
 
   Artificial Intelligence (AI) presents an unprecedented opportunity, not just as a _productivity booster_, but also to elevate people from domain-specific, expert-level tasks to #bold[designing higher-level intents].
+  #v(20pt)
 
   Additionally, AI has the potential to #bold[enhance learning efficiency] and make skills more accessible, reducing technical barriers and #bold[enabling a wider range of people to perform complex tasks.]
   #notes_footnote_link(
@@ -123,21 +124,11 @@
     "Working with AI: Measuring the Applicability of Generative AI to Occupations",
     "Tomlinson et al., Microsoft Research, 2025",
   )
-
-  #v(-20pt)
-  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Nature, 2025")[
-    "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
-    #notes_footnote_link(
-      "https://www.nature.com/articles/s41598-025-97652-6",
-      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
-      "Kestin et al., Nature, Scientific Reports, 2025",
-    )
-  ]
 ]
 
 // =====================================================================================================================
 
-#notes_slides(title: "Introduction", number: "2/3")[
+#notes_slide(title: "Introduction", number: "2/3")[
 
   In the following slides, we disentangle the most common misconceptions related to AI, the role of human expertise, and the tendency to attribute human traits to Large Language Models (LLMs). Contrary to _sensationalist_ statements based on "personal feelings", which are very often present on social media, the following analysis is grounded in recent research data. A brief summary:
 
@@ -153,7 +144,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Introduction", number: "3/3")[
+#notes_slide(title: "Introduction", number: "3/3")[
   We start these notes by investigating why #bold[the human brain and AI systems are intrinsically incomparable, both structurally and functionally] and, closely related, why #bold[LLMs should not be considered conscious].
 
   #v(20pt)
@@ -169,7 +160,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "1/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "1/6")[
 
   The human brain has 86 billion neurons and 100 trillion synapses. We might intuitively think that once an AI system reaches this threshold, intelligence, or even consciousness, will naturally arise. However, recent studies argue that to reach the complexity of even one biological neuron, a modern deep neural network requires between five and eight layers of nodes #notes_footnote_link("https://www.sciencedirect.com/science/article/pii/S0896627321005018", "Single cortical neurons as deep artificial neural networks", "Beniaguev et al., Neuron, 2021"). Real neurons might be even more complex.
 
@@ -185,7 +176,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "2/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "2/6")[
 
   #notes_quote(title: "Computation's Limits: What a Neuron Teaches Us", details: [\ ocrampal, 2025])[
     "#bold[The neuron operates across multiple timescales] without coordinating them, generates its own organizational principles without pre-specification, and contextually determines what causes what.
@@ -200,7 +191,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "3/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "3/6")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is extremely sparse]. The probability of two neurons being connected is \~ 1 in 100 million. This is in sharp contrast to AI models that show mostly dense organization.
@@ -215,7 +206,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "4/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "4/6")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is subject to continuous learning]. It performs inference and learning #notes_underline[concurrently], in #notes_underline[real time].
@@ -237,7 +228,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "5/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "5/6")[
   #v(-15pt)
 
   - #bold[Continuous dynamics and perception].
@@ -263,7 +254,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Structurally Different", number: "6/6")[
+#notes_slide(title: "AI and Human Brain are Structurally Different", number: "6/6")[
 
   - #bold[Metabolic constraints].
 
@@ -284,7 +275,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Functionally Different", number: "1/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "1/5")[
 
   - Current AI models are #bold["stochastic parrots"]. #notes_footnote_link(
       "https://dl.acm.org/doi/10.1145/3442188.3445922",
@@ -307,7 +298,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Functionally Different", number: "2/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "2/5")[
 
   #notes_quote(
     title: [Language models cannot reliably distinguish\ belief from knowledge and fact],
@@ -326,7 +317,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Functionally Different", number: "3/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "3/5")[
 
   #v(-15pt)
   #notes_quote(
@@ -363,7 +354,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Functionally Different", number: "4/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "4/5")[
 
   - #bold[AI models struggle to generalize beyond their training sets]. The classic example of this behavior is the accuracy disparity between English and non-English results.
   #set text(size: 19pt)
@@ -383,7 +374,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "AI and Human Brain are Functionally Different", number: "5/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "5/5")[
 
   #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
@@ -404,7 +395,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "The Illusion of Consciousness")[
+#notes_slide(title: "The Illusion of Consciousness")[
   #set text(size: 19pt)
 
   #notes_quote(
@@ -424,7 +415,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Final Remarks")[
+#notes_slide(title: "Final Remarks")[
 
   #notes_quote(title: "The Mythology Of Conscious AI", details: [\ Noema Magazine, 2026])[
     "If we confuse ourselves too readily with our machine creations, we not only overestimate them, we also #bold[underestimate ourselves]."
@@ -440,7 +431,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty")[
+#notes_slide(title: "Productivity Gain Uncertainty")[
 
   - The relationship between AI adoption and evidence of productivity gains is a _controversial topic_. Some research studies and economic data suggest that AI enhances productivity, while others show no benefits or even a negative impact.
 
@@ -461,7 +452,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
 
   #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
     "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
@@ -475,7 +466,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
 
   #notes_quote(
     title: text(size: 17pt)[The Projected Impact of Generative AI on Future Productivity Growth],
@@ -504,7 +495,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
 
   #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
     "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
@@ -518,7 +509,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
 
   #notes_quote(
     title: "Firm Data on AI",
@@ -535,7 +526,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
 
   #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
     "AI tools didn't reduce work, they #bold[consistently intensified it].
@@ -553,7 +544,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
 
   #set text(size: 19pt)
   #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
@@ -574,7 +565,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
 
   #align(center)[
     #image("notes_on_AI/smothering_heights.png", height: 83%)
@@ -588,7 +579,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
 
   #align(center)[
     #image("notes_on_AI/metr_v2.png", height: 83%)
@@ -603,7 +594,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Productivity Gain and Labor Markets")[
+#notes_slide(title: "Productivity Gain and Labor Markets")[
 
   #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
     "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
@@ -623,7 +614,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Unlikely Exponential Growth", number: "1/4")[
+#notes_slide(title: "Unlikely Exponential Growth", number: "1/4")[
 
   #set list(spacing: 35pt)
   - #bold[Fundamental Physical Limits of Transistors and Memory].
@@ -648,7 +639,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Unlikely Exponential Growth", number: "2/4")[
+#notes_slide(title: "Unlikely Exponential Growth", number: "2/4")[
 
   #set list(spacing: 40pt)
   - #bold[Hardware Resource Constraints]. Reconstructing one cubic millimeter of human temporal cortex (\~50-57k cells and \~130-150M synapses) generated 1.4 Petabytes of data. Scaling to the full human brain would require 1.6 zettabytes of storage costing \$50 billion and spanning 140 acres. #notes_footnote_link(
@@ -671,7 +662,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Unlikely Exponential Growth", number: "3/4")[
+#notes_slide(title: "Unlikely Exponential Growth", number: "3/4")[
 
   #set text(size: 18pt)
   #v(-50pt)
@@ -694,7 +685,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Unlikely Exponential Growth", number: "4/4")[
+#notes_slide(title: "Unlikely Exponential Growth", number: "4/4")[
 
   #set list(spacing: 40pt)
   - #bold[Run out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
@@ -736,7 +727,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Hallucinations are Mathematically Inevitable", number: "1/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/3")[
 
   #notes_quote(
     title: "OpenAI admits AI hallucinations are mathematically inevitable, not just engineering flaws",
@@ -761,7 +752,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Hallucinations are Mathematically Inevitable", number: "2/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/3")[
 
   #notes_quote(title: "GPTZero")[
     "300 papers under review by the prestigious International Conference on Learning Representations (ICLR). We discovered that 50 submissions included at least one obvious hallucination.
@@ -782,7 +773,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Hallucinations are Mathematically Inevitable", number: "3/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/3")[
 
   #notes_quote(title: "Deloitte goes all in on AI", details: [\ TechCrunch, 2025])[
     "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
@@ -808,7 +799,7 @@
 
 == Generalization
 
-#notes_slides(title: "Generalization")[
+#notes_slide(title: "Generalization")[
 
   - #bold[Lack of generalization beyond the training data.]
 
@@ -826,7 +817,7 @@
 
 == Creativity
 
-#notes_slides(title: "Creativity", number: "1/2")[
+#notes_slide(title: "Creativity", number: "1/2")[
 
   - #bold[Perceived AI creativity degrades into template-like recombination.]
 
@@ -842,7 +833,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Creativity", number: "2/2")[
+#notes_slide(title: "Creativity", number: "2/2")[
 
   #notes_quote(
     title: [Generative AI enhances individual creativity\ but reduces the collective diversity of novel content],
@@ -873,7 +864,7 @@
 
 == Production Quality
 
-#notes_slides(title: "Production Quality", number: "1/2")[
+#notes_slide(title: "Production Quality", number: "1/2")[
 
   #notes_quote(
     title: "Remote Labor Index: Measuring AI Automation of Remote Work",
@@ -890,7 +881,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Production Quality", number: "2/2")[
+#notes_slide(title: "Production Quality", number: "2/2")[
 
   #notes_quote(
     title: "Many SWE-bench-Passing PRs Would Not Be Merged into Main",
@@ -909,7 +900,7 @@
 
 == Causality and Real-World Understanding
 
-#notes_slides(title: "Causality and Real-World Understanding", number: "1/3")[
+#notes_slide(title: "Causality and Real-World Understanding", number: "1/3")[
 
   - #bold[Causality]. AI systems excel at identifying patterns (correlation) but struggle to understand why things happen (causation).
 
@@ -920,7 +911,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Causality and Real-World Understanding", number: "2/3")[
+#notes_slide(title: "Causality and Real-World Understanding", number: "2/3")[
 
   - #bold[Real-World Understanding]. AI systems solve problems without a coherent representation of the real world.
 
@@ -939,7 +930,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Causality and Real-World Understanding", number: "3/3")[
+#notes_slide(title: "Causality and Real-World Understanding", number: "3/3")[
 
   #notes_quote(title: "Gemini for Google Cloud and responsible AI", details: [\ Google, 2026])[
     "Gemini models might lack grounding and factuality in real-world knowledge, physical properties, or accurate understanding."
@@ -955,7 +946,7 @@
 
 == Non-Determinism
 
-#notes_slides(title: "Non-Determinism")[
+#notes_slide(title: "Non-Determinism")[
 
   #set list(spacing: 50pt)
   - #bold[Almost all AI models are non-deterministic]. The same model with identical inputs could produce very different results. Non-determinism undermines #notes_underline[reliability] and #notes_underline[reproducibility], and creates #notes_underline[inconsistent] user experiences.
@@ -974,7 +965,7 @@
 
 == Quality Degradation <p2e>
 
-#notes_slides(title: "Quality Degradation")[
+#notes_slide(title: "Quality Degradation")[
 
   - #bold[The same AI model can significantly degrade over time]. Such behavior can manifest over the course of months or even days #notes_footnote_link("https://marginlab.ai/trackers/claude-code/", "Claude Code Opus 4.5 Performance Tracker", "MarginLab").
 
@@ -995,7 +986,7 @@
 
 == Intellectual Property
 
-#notes_slides(title: "Intellectual Property", number: "1/3")[
+#notes_slide(title: "Intellectual Property", number: "1/3")[
 
   - #bold[Private Code Violation]. LLMs can memorize unique snippets of code from private sources and use them without any transparency.
 
@@ -1013,7 +1004,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Intellectual Property", number: "2/3")[
+#notes_slide(title: "Intellectual Property", number: "2/3")[
 
   #notes_quote(title: "Extracting books from production language models", details: [\ Ahmed et al., 2026])[
     "While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models.
@@ -1029,7 +1020,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Intellectual Property", number: "3/3")[
+#notes_slide(title: "Intellectual Property", number: "3/3")[
 
   #notes_quote(title: "The dictionary sues OpenAI", details: [\ TechCrunch, 2026])[
     "Britannica, which owns Merriam-Webster, retains the copyright to nearly 100,000 online articles, which have been scraped and used to train OpenAI's LLMs without permission, the publisher alleges in the lawsuit."
@@ -1045,7 +1036,7 @@
 
 == Sycophancy
 
-#notes_slides(title: "Sycophancy", number: "1/3")[
+#notes_slide(title: "Sycophancy", number: "1/3")[
 
   - #bold[LLMs prioritize agreeing with a user over providing accurate answers.]
 
@@ -1066,7 +1057,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Sycophancy", number: "2/3")[
+#notes_slide(title: "Sycophancy", number: "2/3")[
 
   #notes_quote(
     title: "Towards Understanding Sycophancy in Language Models",
@@ -1087,7 +1078,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Sycophancy", number: "3/3")[
+#notes_slide(title: "Sycophancy", number: "3/3")[
 
   #notes_quote(
     title: "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
@@ -1106,7 +1097,7 @@
 
 == Social Coherence
 
-#notes_slides(title: "Social Coherence")[
+#notes_slide(title: "Social Coherence")[
 
   - #bold[LLMs are not able to perform actions consistently considering the context, others, the agent itself, permissions, and consequences across interactions].
   #v(-10pt)
@@ -1130,7 +1121,7 @@
 
 == Security Risks
 
-#notes_slides(title: "Security Risks", number: "1/2")[
+#notes_slide(title: "Security Risks", number: "1/2")[
 
   - #bold[LLMs can be used maliciously to inject commands.]
 
@@ -1151,7 +1142,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Security Risks", number: "2/2")[
+#notes_slide(title: "Security Risks", number: "2/2")[
 
   #align(center)[
     #image("notes_on_AI/chipotle.png", height: 90%)
@@ -1163,7 +1154,7 @@
 
 == Liability
 
-#notes_slides(title: "Liability", number: "1/2")[
+#notes_slide(title: "Liability", number: "1/2")[
 
   - #bold[Lack of liability]. AI agents are not responsible for the code they generate. They don't have a sense of purpose or goals.
 
@@ -1182,7 +1173,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Liability", number: "2/2")[
+#notes_slide(title: "Liability", number: "2/2")[
   #set text(size: 19pt)
 
   #v(-20pt)
@@ -1216,7 +1207,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Implications for the Future")[
+#notes_slide(title: "Implications for the Future")[
 
   - #bold[AI is not going away]. Blindly refusing AI is not the solution. Instead, it is fundamental to understand its capabilities and limitations.
 
@@ -1239,7 +1230,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Employment", number: "1/2")[
+#notes_slide(title: "Employment", number: "1/2")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -1260,7 +1251,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Employment", number: "2/2")[
+#notes_slide(title: "Employment", number: "2/2")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -1279,9 +1270,42 @@
 
 // =====================================================================================================================
 
+== Learning
+
+#notes_slide(title: "Learning", number: "1/2")[
+
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Nature, 2025")[
+    "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41598-025-97652-6",
+      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+      "Kestin et al., Nature, Scientific Reports, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Learning", number: "2/2")[
+
+  #notes_quote(
+    title: "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
+    details: "Bastani et al., 2026",
+  )[
+    "Our results show that personalized sequencing improves outcomes compared to fixed sequencing by 0.15 standard deviations on an in-person written exam completed without AI assistance, #bold[which translates into as much as 6-9 months of additional schooling] according to some estimates. Notably, these gains were achieved without increasing instruction time or teacher workload. Furthermore, our mediation analysis suggests that these gains are mediated #bold[by increased student engagement]"
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6423358",
+      "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
+      "Bastani et al., Preprint, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Deskilling
 
-#notes_slides(title: "Deskilling", number: "1/2")[
+#notes_slide(title: "Deskilling", number: "1/2")[
 
   - #bold[AI has demonstrated significant user deskilling].
     #v(-10pt)
@@ -1306,7 +1330,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Deskilling", number: "2/2")[
+#notes_slide(title: "Deskilling", number: "2/2")[
 
   #notes_quote(title: "Your Brain on ChatGPT", details: [\ Kosmyna et al., 2025])[
     "EEG analysis presented robust evidence that LLM, Search Engine and Brain-only groups had significantly different neural connectivity patterns, reflecting divergent cognitive strategies.
@@ -1324,7 +1348,7 @@
 
 == Echo Chamber
 
-#notes_slides(title: "Echo Chamber (Sycophancy Again)")[
+#notes_slide(title: "Echo Chamber (Sycophancy Again)")[
 
   #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
     "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses result in increased confidence in those hypotheses #bold[while not bringing the user any closer to the truth]."
@@ -1340,7 +1364,7 @@
 
 == Social Risks
 
-#notes_slides(title: "Social Risks", number: "1/2")[
+#notes_slide(title: "Social Risks", number: "1/2")[
 
   The real danger to society is not that AI will actually become conscious, #bold[but rather the risks that arise from _believing_ it is]. We may grant legal rights or moral consideration to AI systems, or AI could be used to manipulate human users for commercial or #bold[political gain].
   #notes_footnote_link(
@@ -1372,7 +1396,7 @@
 
 // =====================================================================================================================
 
-#notes_slides(title: "Social Risks", number: "2/2")[
+#notes_slide(title: "Social Risks", number: "2/2")[
 
   #v(-5pt)
   #notes_quote(title: "On the conversational persuasiveness of GPT-4", details: "Nature, 2025")[
