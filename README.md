@@ -73,7 +73,6 @@ A practical look at AI in software development.
   - The Illusion of Competence
   - Technical Debt
   - Security Vulnerability
-  - Redundancy
   - The 'Last Mile' Problem
 
 - **AI as a Software Engineering Tool**
@@ -95,6 +94,7 @@ Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 
 - [All about AI](https://www.youtube.com/playlist?list=PL2sqoYCw1CJXpmI3AvOXz2r4iEqRFEpkS) by Andrew Perfors.
 - [Modern-Day Oracle or Bullshit Machines](https://thebullshitmachines.com/) by Carl T. Bergstrom and Jevin D. West.
+- [The Dangerous Illusion of AI Coding? - Jeremy Howard](https://www.youtube.com/watch?v=dHBEQ-Ryo24)
 
 ## License
 
