@@ -727,13 +727,12 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/4")[
 
   #notes_quote(
-    title: "OpenAI admits AI hallucinations are mathematically inevitable, not just engineering flaws",
+    title: [OpenAI admits AI hallucinations are mathematically inevitable,\ not just engineering flaws],
     details: [\ OpenAI, GeorgiaTech, 2025],
   )[
-
     #indent() "large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of admitting uncertainty.
 
     #indent() ... #bold[Unlike human intelligence, it lacks the humility to acknowledge uncertainty]. When unsure, it doesn't defer to deeper research or human oversight; instead, it often presents estimates as facts.
@@ -752,7 +751,26 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/4")[
+
+  #notes_quote(
+    title: [Hallucination is Inevitable:
+      An Innate Limitation of Large Language Models
+    ],
+    details: [\ Xu et al., 2026],
+  )[
+    "hallucination is inevitable for computable LLMs if the ground truth function is any computable function. Since the formal world is a part of the real world, #bold[we further conclude that it is impossible to eliminate hallucination in the real world LLMs]."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2401.11817",
+      "Hallucination is Inevitable: An Innate Limitation of Large Language Models",
+      "Xu et al., 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/4")[
 
   #notes_quote(title: "GPTZero")[
     "300 papers under review by the prestigious International Conference on Learning Representations (ICLR). We discovered that 50 submissions included at least one obvious hallucination.
@@ -773,7 +791,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/3")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "4/4")[
 
   #notes_quote(title: "Deloitte goes all in on AI", details: [\ TechCrunch, 2025])[
     "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
@@ -781,16 +799,6 @@
       "https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/",
       "Deloitte goes all in on AI - despite having to issue a hefty refund for use of AI",
       "R. Szkutak, TechCrunch, 2025",
-    )
-  ]
-
-  #v(-10pt)
-  #notes_quote(title: "Wired, 2025")[
-    "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data to Hackers Who Tried the Password '123456'."
-    #notes_footnote_link(
-      "https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/",
-      "McDonald's AI Hiring Bot Exposed Millions of Applicants' Data to Hackers Who Tried the Password '123456'",
-      "A. Greenberg, Wired, 2025",
     )
   ]
 ]
@@ -1230,7 +1238,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "1/2")[
+#notes_slide(title: "Employment", number: "1/3")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -1251,7 +1259,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "2/2")[
+#notes_slide(title: "Employment", number: "2/3")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -1264,6 +1272,51 @@
       "https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/",
       "See which jobs are most threatened by AI and who may be able to adapt",
       "Schaul & Shira, The Washington Post, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "3/3")[
+
+  #notes_quote(
+    title: [Evidence of an AI-driven shakeup of job markets is patchy],
+    details: [\ Oxford Economics, 2026],
+  )[
+    "#bold[we're sceptical that firms can quickly and seamlessly substitute workers with AI even in
+    sectors where the potential for AI disruption is greatest]. What's more, some surveys suggest that
+    AI use in larger US firms has recently stalled.
+
+    #indent() ... Data from Challenger, Gray and Christmas suggests that AI-related US job losses are snowballing. In the first 11 months of 2025, AI was cited as a reason for almost 55,000 US job cuts, which accounts for over 75% of the reported AI-related job losses since the reason was first cited in 2023. However, these 55,000 or #bold[so many AI-related job losses above account for only 4.5% of total reported job losses in the report]."
+    #notes_footnote_link(
+      "https://www.oxfordeconomics.com/wp-content/uploads/2026/01/Evidence-of-an-AI-driven-shakeup-of-job-markets-is-patchy.pdf",
+      "Evidence of an AI-driven shakeup of job markets is patchy",
+      "Oxford Economics, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Environmental Risks
+
+#notes_slide(title: "Environmental Risks")[
+
+  - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials, finance small nuclear reactors and improve transportation planning and routing, which could contribute to reducing carbon emissions overall.
+
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Allen Holub, 2026")[
+    "#bold[All data centers combined account for about 0.5% of global carbon emissions].
+    #notes_footnote_link(
+      "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
+      "AI and climate change",
+      "International Energy Agency (IEA), 2025",
+    )
+    Of that, \~10% is AI-related, so AI is responsible for 0.05% of global carbon emissions. Cars and other transportation account for ~25% of total emissions."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41598-025-97652-6",
+      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+      "Allen Holub, 2026",
     )
   ]
 ]
