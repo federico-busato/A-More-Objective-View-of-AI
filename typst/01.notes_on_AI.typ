@@ -66,21 +66,26 @@
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 1/3] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 1/4] <touying:hidden>
 
 #outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 2/3] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 2/4] <touying:hidden>
 
 #outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 3/3] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 3/4] <touying:hidden>
 
 #outline(target: selector(heading).after(<p3s>).before(<p3e>), title: none)
+// =====================================================================================================================
+
+== #text(font: "Latin Modern Sans", weight: "bold")[A More Objective View of AI #h(1fr) 4/4] <touying:hidden>
+
+#outline(target: selector(heading).after(<p4s>).before(<p4e>), title: none)
 
 // =====================================================================================================================
 
@@ -427,187 +432,6 @@
   ]
 ]
 
-= Productivity Gain Uncertainty
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty")[
-
-  - The relationship between AI adoption and evidence of productivity gains is a _controversial topic_. Some research studies and economic data suggest that AI enhances productivity, while others show no benefits or even a negative impact.
-
-  #notes_quote(
-    title: "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
-    details: "Forbes, 2026",
-  )[
-    "The AI productivity story in early 2026 is neither the revolution that vendors promise nor the disappointment that skeptics predict #bold[-it's a transition whose timeline remains genuinely uncertain].
-
-    #indent() ... History suggests AI's macro impact may similarly require a decade of complementary innovation before the statistics catch up to the promise."
-    #notes_footnote_link(
-      "https://www.forbes.com/sites/guneyyildiz/2026/01/20/ai-productivitys-4-trillion-question-hype-hope-and-hard-data/",
-      "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
-      "G. Yıldız, Forbes, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
-
-  #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
-    "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
-    #notes_footnote_link(
-      "https://www.economist.com/finance-and-economics/2026/02/22/the-ai-productivity-boom-is-not-here-yet",
-      "The AI productivity boom is not here (yet)",
-      "The Economist, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
-
-  #notes_quote(
-    title: text(size: 17pt)[The Projected Impact of Generative AI on Future Productivity Growth],
-    details: [\ University of Pennsylvania, 2025],
-  )[
-    "AI will increase productivity and GDP by #bold[1.5% by 2035], nearly 3% by 2055, and 3.7% by 2075. AI's boost to annual productivity growth is strongest in the early 2030s but eventually fades"
-    #notes_footnote_link(
-      "https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth",
-      "The Projected Impact of Generative AI on Future Productivity Growth",
-      "Arnon et al., University of Pennsylvania, 2025",
-    )
-  ]
-
-  #notes_quote(
-    title: "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-    details: [\ METR, 2025],
-  )[
-    "Surprisingly, we find that when developers use AI tools, they #bold[take 19% longer than without -- AI makes them slower]."
-    #notes_footnote_link(
-      "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
-      "Becker et al., METR, 2025",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
-
-  #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
-    "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
-    #notes_footnote_link(
-      "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html",
-      "CEO confidence in revenue outlook hits five-year low",
-      "PwC 2026 Global CEO Survey, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
-
-  #notes_quote(
-    title: "Firm Data on AI",
-    details: [\ National Bureau of Economic Research, 2026\ (6000 senior executives, across US, UK, Germany, Australia)],
-  )[
-    "Firms report little impact of AI over the last 3 years, with #bold[over 80% of firms reporting no impact on either employment or productivity]. Firms predict sizable impacts over the next 3 years, forecasting AI will boost productivity by 1.4%"
-    #notes_footnote_link(
-      "https://www.nber.org/papers/w34836",
-      "Firm Data on AI",
-      "National Bureau of Economic Research, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
-
-  #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
-    "AI tools didn't reduce work, they #bold[consistently intensified it].
-
-    #indent() ... We identified three main forms of intensification: #notes_underline[task expansion], #notes_underline[blurred boundaries between work and non-work], and more #notes_underline[multitasking].
-
-    #indent() ... For workers, the cumulative effect is fatigue, burnout, and a growing sense that work is harder to step away from."
-    #notes_footnote_link(
-      "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
-      "AI Doesn't Reduce Work-It Intensifies It",
-      "Ranganathan & Ye, Harvard Business Review, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
-
-  #set text(size: 19pt)
-  #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
-    #bold[Work is accelerating faster than the systems designed to manage it.]
-
-    #indent() ... Focus efficiency, the percentage of work time spent in focused, uninterrupted activity, declined to 60% -- a three-year low. Risk of disengagement jumped 23%.
-
-    #indent() ... AI is adding to workloads rather than redistributing them. Collaboration is expanding faster than attention can support it. Productivity gains are real but increasingly funded by fragmentation rather than depth.
-
-    #indent() ... The data is unambiguous: AI does not reduce workloads. AI is being used as an additional productivity layer, not a substitute for existing work.
-    #notes_footnote_link(
-      "https://www.activtrak.com/resources/state-of-the-workplace/",
-      "2026 State of the Workplace",
-      "ActivTrak, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
-
-  #align(center)[
-    #image("notes_on_AI/smothering_heights.png", height: 83%)
-  ]
-  #notes_unmarked_footnote_link(
-    "https://assets.jpmprivatebank.com/content/dam/jpm-pb-aem/global/en/documents/eotm/smothering-heights.pdf",
-    "Smothering Heights",
-    "M. Cembalest, J.P. Morgan, 2026",
-  )
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
-
-  #align(center)[
-    #image("notes_on_AI/metr_v2.png", height: 83%)
-  ]
-
-  #notes_unmarked_footnote_link(
-    "https://metr.org/blog/2026-02-24-uplift-update/",
-    "We are Changing our Developer Productivity Experiment Design",
-    "Becker et al., METR, 2026",
-  )
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Productivity Gain and Labor Markets")[
-
-  #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
-    "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
-
-    #indent() ... By making execution cheap, AI shifts value upstream toward cognitive tasks-judgment, problem framing, and integration--that are #notes_underline[unevenly distributed] and #notes_underline[slow to acquire]. As a result, access to AI alone is unlikely to equalize outcomes. #bold[What matters is not whether workers can use AI but whether they can turn its output into useful work.]"
-    #notes_unmarked_footnote_link(
-      "https://www.science.org/doi/10.1126/science.aef5239",
-      "AI raises the productivity bar",
-      "Wu & Vasilescu, Science, 2026",
-    )
-  ]
-]
-
 // =====================================================================================================================
 
 = Unlikely Exponential Growth  <p1e>
@@ -672,7 +496,7 @@
 
   #v(-10pt)
   #align(center)[
-    #image("notes_on_AI/datacenter_energy.png", width: 60%)
+    #image("01.notes_on_AI/datacenter_energy.png", width: 60%)
   ]
 
   #v(-50pt)
@@ -913,7 +737,7 @@
   - #bold[Causality]. AI systems excel at identifying patterns (correlation) but struggle to understand why things happen (causation).
 
   #align(center)[
-    #image("notes_on_AI/claude_opus_46.png", width: 40%)
+    #image("01.notes_on_AI/claude_opus_46.png", width: 40%)
   ]
 ]
 
@@ -1048,25 +872,6 @@
 
   - #bold[LLMs prioritize agreeing with a user over providing accurate answers.]
 
-    #notes_quote(
-      title: "BrokenMath",
-      details: [\ Petrov et al., 2025],
-    )[
-      "#bold[sycophancy is widespread in state-of-the-art language models], with even the strongest model, GPT-5, exhibiting it in 29.0% of cases.
-
-      #indent() This significantly limits the potential of LLMs in mathematics, as detecting and correcting these flawed proofs is challenging and requires manual verification by expert mathematicians."
-      #notes_footnote_link(
-        "https://www.sycophanticmath.ai/",
-        "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
-        "Petrov et al., 2025",
-      )
-    ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: "Sycophancy", number: "2/3")[
-
   #notes_quote(
     title: "Towards Understanding Sycophancy in Language Models",
     details: [\ Sharma et al., ICLR, 2024],
@@ -1086,17 +891,41 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: "Sycophancy", number: "2/3")[
+
+  #set text(size: 18pt)
+  #notes_quote(
+    title: [Sycophantic AI decreases prosocial intentions\ and promotes dependence],
+    details: [\ Cheng et al., Science, 2026],
+  )[
+    "The sycophantic (flattering, people-pleasing, affirming) behavior of artificial intelligence (AI) chatbots, which #bold[has been designed to increase user engagement], poses risks as people increasingly seek advice about interpersonal dilemmas.
+
+    #indent() ... The model's responses were nearly 50% more sycophantic than humans',  #bold[even when users engaged in unethical, illegal, or harmful behaviors].
+
+    #indent() ... AI sycophancy is not merely a stylistic issue or a niche risk, but a prevalent behavior with broad downstream consequences. Although affirmation may feel supportive, sycophancy can #bold[undermine users' capacity for self-correction and responsible decision-making]."
+    #notes_footnote_link(
+      "https://www.science.org/doi/10.1126/science.aec8352",
+      "Sycophantic AI decreases prosocial intentions and promotes dependence",
+      "Cheng et al., Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: "Sycophancy", number: "3/3")[
 
   #notes_quote(
-    title: "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
-    details: [\ Hōrōshi, 2026],
+    title: [BrokenMath: A Benchmark for Sycophancy\ in Theorem Proving with LLMs],
+    details: [\ Petrov et al., 2025],
   )[
-    "#bold[LLMs optimize for plausibility over correctness.]"
+    "#bold[sycophancy is widespread in state-of-the-art language models], with even the strongest model, GPT-5, exhibiting it in 29.0% of cases.
+
+    #indent() This significantly limits the potential of LLMs in mathematics, as detecting and correcting these flawed proofs is challenging and requires manual verification by expert mathematicians."
     #notes_footnote_link(
-      "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
-      "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
-      "Hōrōshi, 2026",
+      "https://www.sycophanticmath.ai/",
+      "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
+      "Petrov et al., 2025",
     )
   ]
 ]
@@ -1153,14 +982,14 @@
 #notes_slide(title: "Security Risks", number: "2/2")[
 
   #align(center)[
-    #image("notes_on_AI/chipotle.png", height: 90%)
+    #image("01.notes_on_AI/chipotle.png", height: 90%)
   ]
 
 ]
 
 // =====================================================================================================================
 
-== Liability
+== Liability <p3e>
 
 #notes_slide(title: "Liability", number: "1/2")[
 
@@ -1211,6 +1040,191 @@
 
 // =====================================================================================================================
 
+
+= Productivity Gain Uncertainty <p4s>
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty")[
+
+  - The relationship between AI adoption and evidence of productivity gains is a _controversial topic_. Some research studies and economic data suggest that AI enhances productivity, while others show no benefits or even a negative impact.
+
+  #notes_quote(
+    title: "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
+    details: "Forbes, 2026",
+  )[
+    "The AI productivity story in early 2026 is neither the revolution that vendors promise nor the disappointment that skeptics predict #bold[-it's a transition whose timeline remains genuinely uncertain].
+
+    #indent() ... History suggests AI's macro impact may similarly require a decade of complementary innovation before the statistics catch up to the promise."
+    #notes_footnote_link(
+      "https://www.forbes.com/sites/guneyyildiz/2026/01/20/ai-productivitys-4-trillion-question-hype-hope-and-hard-data/",
+      "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
+      "G. Yıldız, Forbes, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
+
+  #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
+    "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
+    #notes_footnote_link(
+      "https://www.economist.com/finance-and-economics/2026/02/22/the-ai-productivity-boom-is-not-here-yet",
+      "The AI productivity boom is not here (yet)",
+      "The Economist, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
+  #set text(size: 19pt)
+
+  #notes_quote(
+    title: text(size: 17pt)[The Projected Impact of Generative AI on Future Productivity Growth],
+    details: [\ University of Pennsylvania, 2025],
+  )[
+    "AI will increase productivity and GDP by #bold[1.5% by 2035], nearly 3% by 2055, and 3.7% by 2075. AI's boost to annual productivity growth is strongest in the early 2030s but eventually fades"
+    #notes_footnote_link(
+      "https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth",
+      "The Projected Impact of Generative AI on Future Productivity Growth",
+      "Arnon et al., University of Pennsylvania, 2025",
+    )
+  ]
+
+  #notes_quote(
+    title: "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    details: [\ METR, 2025],
+  )[
+    "Surprisingly, we find that when developers use AI tools, they #bold[take 19% longer than without -- AI makes them slower]."
+    #notes_footnote_link(
+      "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "Becker et al., METR, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
+
+  #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
+    "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
+    #notes_footnote_link(
+      "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html",
+      "CEO confidence in revenue outlook hits five-year low",
+      "PwC 2026 Global CEO Survey, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
+
+  #notes_quote(
+    title: "Firm Data on AI",
+    details: [\ National Bureau of Economic Research, 2026\ (6000 senior executives, across US, UK, Germany, Australia)],
+  )[
+    "Firms report little impact of AI over the last 3 years, with #bold[over 80% of firms reporting no impact on either employment or productivity]. Firms predict sizable impacts over the next 3 years, forecasting AI will boost productivity by 1.4%"
+    #notes_footnote_link(
+      "https://www.nber.org/papers/w34836",
+      "Firm Data on AI",
+      "National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
+
+  #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
+    "AI tools didn't reduce work, they #bold[consistently intensified it].
+
+    #indent() ... We identified three main forms of intensification: #notes_underline[task expansion], #notes_underline[blurred boundaries between work and non-work], and more #notes_underline[multitasking].
+
+    #indent() ... For workers, the cumulative effect is fatigue, burnout, and a growing sense that work is harder to step away from."
+    #notes_footnote_link(
+      "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "AI Doesn't Reduce Work-It Intensifies It",
+      "Ranganathan & Ye, Harvard Business Review, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
+
+  #set text(size: 19pt)
+  #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
+    #bold[Work is accelerating faster than the systems designed to manage it.]
+
+    #indent() ... Focus efficiency, the percentage of work time spent in focused, uninterrupted activity, declined to 60% -- a three-year low. Risk of disengagement jumped 23%.
+
+    #indent() ... AI is adding to workloads rather than redistributing them. Collaboration is expanding faster than attention can support it. Productivity gains are real but increasingly funded by fragmentation rather than depth.
+
+    #indent() ... The data is unambiguous: AI does not reduce workloads. AI is being used as an additional productivity layer, not a substitute for existing work.
+    #notes_footnote_link(
+      "https://www.activtrak.com/resources/state-of-the-workplace/",
+      "2026 State of the Workplace",
+      "ActivTrak, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
+
+  #align(center)[
+    #image("01.notes_on_AI/smothering_heights.png", height: 83%)
+  ]
+  #notes_unmarked_footnote_link(
+    "https://assets.jpmprivatebank.com/content/dam/jpm-pb-aem/global/en/documents/eotm/smothering-heights.pdf",
+    "Smothering Heights",
+    "M. Cembalest, J.P. Morgan, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
+
+  #align(center)[
+    #image("01.notes_on_AI/metr_v2.png", height: 83%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://metr.org/blog/2026-02-24-uplift-update/",
+    "We are Changing our Developer Productivity Experiment Design",
+    "Becker et al., METR, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain and Labor Markets")[
+
+  #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
+    "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
+
+    #indent() ... By making execution cheap, AI shifts value upstream toward cognitive tasks-judgment, problem framing, and integration--that are #notes_underline[unevenly distributed] and #notes_underline[slow to acquire]. As a result, access to AI alone is unlikely to equalize outcomes. #bold[What matters is not whether workers can use AI but whether they can turn its output into useful work.]"
+    #notes_unmarked_footnote_link(
+      "https://www.science.org/doi/10.1126/science.aef5239",
+      "AI raises the productivity bar",
+      "Wu & Vasilescu, Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 = Implications for the Future
 
 // =====================================================================================================================
@@ -1238,7 +1252,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "1/3")[
+#notes_slide(title: "Employment", number: "1/4")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -1259,7 +1273,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "2/3")[
+#notes_slide(title: "Employment", number: "2/4")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -1278,21 +1292,38 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "3/3")[
+#notes_slide(title: "Employment", number: "3/4")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
     details: [\ Oxford Economics, 2026],
   )[
-    "#bold[we're sceptical that firms can quickly and seamlessly substitute workers with AI even in
-    sectors where the potential for AI disruption is greatest]. What's more, some surveys suggest that
-    AI use in larger US firms has recently stalled.
+    "#bold[we're sceptical that firms can quickly and seamlessly substitute workers with AI even in sectors where the potential for AI disruption is greatest]. What's more, some surveys suggest that AI use in larger US firms has recently stalled.
 
     #indent() ... Data from Challenger, Gray and Christmas suggests that AI-related US job losses are snowballing. In the first 11 months of 2025, AI was cited as a reason for almost 55,000 US job cuts, which accounts for over 75% of the reported AI-related job losses since the reason was first cited in 2023. However, these 55,000 or #bold[so many AI-related job losses above account for only 4.5% of total reported job losses in the report]."
     #notes_footnote_link(
       "https://www.oxfordeconomics.com/wp-content/uploads/2026/01/Evidence-of-an-AI-driven-shakeup-of-job-markets-is-patchy.pdf",
       "Evidence of an AI-driven shakeup of job markets is patchy",
       "Oxford Economics, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "4/4")[
+
+  #notes_quote(
+    title: [Labor Market Report],
+    details: [\ LinkedIn, 2026],
+  )[
+    "Despite headlines, #bold[AI isn't the culprit behind slow hiring]. LinkedIn data shows #bold[economic uncertainty, and monetary policy shifts are the primary drivers]. Advanced economies are struggling the most, with hiring down 20%-35% compared to pre-pandemic levels.
+
+    #indent() ... Many roles as we have known them will undergo this transformation into new collar. In the past two years, #bold[employers have created at least 1.3 million AI-related job opportunities.]"
+    #notes_footnote_link(
+      "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/linkedIn-labor-market-report-building-a-future-of-work-that-works-jan-2026.pdf",
+      "Labor Market Report",
+      "LinkedIn, 2026",
     )
   ]
 ]
@@ -1477,4 +1508,4 @@
   ]
 ]
 
-<p3e>
+<p4e>

@@ -87,9 +87,9 @@
 
 #notes_slide(title: "AI Replacing Developers Misconception")[
 
-  _Despite the daily dystopian and gloomy predictions on social media and news websites, AI will not replace software developers. In fact, demand for them is and will remain strong._
+  _Despite the daily dystopian and gloomy predictions on social media and news sites, AI will not replace software developers. In fact, demand for software developers is and will remain strong._
 
-  Layoffs and lower entry-level job postings have been driven by #bold[massive capital spending on infrastructure] and economic uncertainty, disproportionately affecting early-career roles.
+  Layoffs and the decline in entry-level job postings have been driven by #bold[massive capital spending on infrastructure] and economic uncertainty, disproportionately affecting early-career roles.
   _The industry is effectively trading junior headcount for compute capacity_.
   #notes_footnote_link(
     "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
@@ -107,16 +107,16 @@
   )
 
   #v(10pt)
-  A study from Harvard Business School #notes_footnote_link("https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555", "Generative AI as Seniority-Biased Technological Change", "Social Science Research Network, 2025") highlighted that at firms adopting AI, junior employment drops significantly while senior employment remains flat. The researchers warn that this is a _"defensive move"_ that boosts short-term efficiency but #bold[risks a long-term talent crisis], as there will be fewer human experts trained to supervise the AI systems of the future.
+  A Harvard Business School study #notes_footnote_link("https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555", "Generative AI as Seniority-Biased Technological Change", "Social Science Research Network, 2025") found that at firms adopting AI, junior employment drops significantly while senior employment remains flat. The researchers warn that this is a _"defensive move"_ that boosts short-term efficiency but #bold[risks a long-term talent crisis], as fewer human experts will be trained to supervise the AI systems of the future.
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "1/7")[
+#notes_slide(title: "AI and Software Employment", number: "1/8")[
   #set text(size: 22pt)
 
   #notes_quote(title: "Shaping AI's Impact on Billions of Lives")[
-    "The impact of productivity gains on jobs depends on whether the demand for goods produced by that work is #bold[elastic] or #bold[inelastic]. If demand is #underline(offset: 3pt)[inelastic], productivity gains means jobs will be lost...
+    "The impact of productivity gains on jobs depends on whether the demand for goods produced by that work is #bold[elastic] or #bold[inelastic]. If demand is #underline(offset: 3pt)[inelastic], productivity gains mean jobs will be lost...
 
     ... If product demand is sufficiently #underline(offset: 3pt)[elastic], productivity-enhancing technology will #underline(offset: 3pt)[increase industry employment]\"
     #notes_footnote_link(
@@ -129,24 +129,23 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "2/7")[
+#notes_slide(title: "AI and Software Employment", number: "2/8")[
 
-  #bold[Software development has #notes_underline[elastic] demand]. It offers endless potential and opportunities, driven by its integration into every aspect of life and business, and the rapid technological evolution.
+  #bold[Software development has #notes_underline[elastic] demand]. It offers great potential and opportunities, driven by its integration into every aspect of life and business and by rapid technological evolution.
   #v(10pt)
 
   #set list(spacing: 30pt)
   - The US Bureau of Labor Statistics predicts a #bold[25% increase] in software developers over the next decade #notes_footnote_link("https://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm", "Employment Projections, 2025-2035", "US Bureau of Labor Statistics, 2025").
-  - The World Economic Forum lists software and application developers among the #bold[fastest-growing jobs] in the 2025-2030 timeframe
-  #notes_footnote_link("https://www.weforum.org/publications/the-future-of-jobs-report-2025/", "Future of Jobs Report, 2025-2030", "World Economic Forum, 2025").
+  - The World Economic Forum lists software and application developers among the #bold[fastest-growing jobs] in the 2025-2030 timeframe #notes_footnote_link("https://www.weforum.org/publications/the-future-of-jobs-report-2025/", "Future of Jobs Report, 2025-2030", "World Economic Forum, 2025").
 
   - The global software market size is projected to reach \$1.4 trillion by 2030, growing at a compound annual #bold[growth rate] (CAGR) of #bold[+11.3%] #notes_footnote_link("https://www.grandviewresearch.com/industry-analysis/software-market-report", "Software Market (2025 - 2030)", "Grand View Research, 2025").
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "3/7")[
+#notes_slide(title: "AI and Software Employment", number: "3/8")[
 
-  - Engineering headcount change since 2022: Meta #bold[+19%], Google #bold[+16%], Apple #bold[+13%] #notes_footnote_link("https://underdog.io/blog/software-engineer-job-market-2025", "Software Engineer Job Market 2025", "Underdog.io, 2025").
+  - Engineering headcount changes since 2022: Meta #bold[+19%], Google #bold[+16%], Apple #bold[+13%] #notes_footnote_link("https://underdog.io/blog/software-engineer-job-market-2025", "Software Engineer Job Market 2025", "Underdog.io, 2025").
 
   #notes_quote(title: "AI exuberance: Economic upside, stock market downside")[
     \~ Jobs with high exposure to AI have seen #notes_underline[greater wage] and #notes_underline[stronger job growth] than jobs minimally exposed to AI
@@ -156,11 +155,11 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "4/7")[
+#notes_slide(title: "AI and Software Employment", number: "4/8")[
 
   #v(-30pt)
   #align(center)[
-    #image("notes_on_AI/capex_vs_people.png", width: 65%)
+    #image("02.notes_on_AI/capex_vs_people.png", width: 65%)
   ]
   #v(-20pt)
   #notes_unmarked_footnote_link(
@@ -172,7 +171,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "5/7")[
+#notes_slide(title: "AI and Software Employment", number: "5/8")[
 
   #text(
     size: 18pt,
@@ -188,13 +187,27 @@
     [#text(fill: blue)[➜]],
   )
   #align(center)[
-    #image("notes_on_AI/occupation_2034.png", height: 80%)
+    #image("02.notes_on_AI/occupation_2034.png", height: 80%)
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "6/7")[
+#notes_slide(title: "AI and Software Employment", number: "6/8")[
+
+  #align(center)[
+    #image("02.notes_on_AI/software_employment_2026.png", height: 82%)
+  ]
+  #notes_unmarked_footnote_link(
+    "https://www.ft.com/content/7325e967-5f4e-40b1-af3f-7d2351781843?syn-25a6b1a6=1",
+    "The AI Shift: Will software engineers survive agentic AI?",
+    "Sarah & Murdoch, Financial Times, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "AI and Software Employment", number: "7/8")[
 
   #notes_quote(
     title: "Redefining the Software Engineering Profession for AI",
@@ -211,17 +224,17 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Software Employment", number: "7/7")[
+#notes_slide(title: "AI and Software Employment", number: "8/8")[
 
   #notes_quote(
     title: "What is agentic engineering?",
     details: [\ S. Willison, 2026],
   )[
-    "Now that we have software that can write working code, what is there left for us humans to do?
+    "Now that we have software that can write working code, #bold[what is there left for us humans to do?]
 
     #indent() #bold[The answer is so much stuff.]
 
-    #indent() Writing code has never been the sole activity of a software engineer. The craft has always been figuring out what code to write. Any given software problem has dozens of potential solutions, each with their own tradeoffs. Our job is to navigate those options and find the ones that are the best fit for our unique set of circumstances and requirements.
+    #indent() Writing code has never been the sole activity of a software engineer. The craft has always been figuring out what code to write. Any given software problem has dozens of potential solutions, each with their own tradeoffs. Our job is to navigate those options and find the ones that are the best fit for our unique set of circumstances and requirements."
     #notes_footnote_link(
       "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/",
       "What is agentic engineering?",
@@ -238,7 +251,7 @@
 
 == Generalization
 
-#notes_slide(title: "Generalization", number: "1/2")[
+#notes_slide(title: "Generalization")[
 
   - #bold[Lack of generalization beyond the training data.]
 
@@ -255,7 +268,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Creativity", number: "2/2")[
+#notes_slide(title: "Creativity")[
 
   #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
     "Due to what might poetically be called "preconceived notions" baked into a coding model's neural network (more technically, statistical semantic associations), #bold[it can be difficult to get AI agents to create truly novel things], even if you carefully spell out what you want." @benj_edwards
@@ -308,10 +321,10 @@
 
 #notes_slide(title: "Technical Debt", number: "1/4")[
 
-  - #bold[AI-assisted code has contributed to a measurable decline in code quality.] Code generated by LLMs without engineering supervision tends to deteriorate quickly over time due to duplicated logic, inconsistent naming, and poor architectural  organization. This translates to growing costs of maintaining, disatisfaction, and fragile systems.
+  - #bold[AI-assisted code has contributed to a measurable decline in code quality.] Code generated by LLMs without engineering supervision tends to deteriorate quickly over time due to duplicated logic, inconsistent naming, and poor architectural organization. This translates into rising maintenance costs, lower developer satisfaction, and fragile systems.
 
   #align(center)[
-    #image("notes_on_AI/messy_codebase.jpg", width: 40%)
+    #image("02.notes_on_AI/messy_codebase.jpg", width: 40%)
   ]
 ]
 
@@ -404,7 +417,7 @@
 #notes_slide(title: "Security Vulnerability", number: "2/4")[
 
   #align(center)[
-    #image("notes_on_AI/apiiro_1.png", width: 90%)
+    #image("02.notes_on_AI/apiiro_1.png", width: 90%)
   ]
 ]
 
@@ -413,11 +426,9 @@
 #notes_slide(title: "Security Vulnerability", number: "3/4")[
 
   #align(center)[
-    #image("notes_on_AI/apiiro_2.png", width: 75%)
+    #image("02.notes_on_AI/apiiro_2.png", width: 75%)
   ]
 ]
-
-// =====================================================================================================================
 
 // =====================================================================================================================
 
@@ -474,7 +485,7 @@
   )[
     With AI, it's easier to get the first 90 percent out there. This means we can spend more time on the remaining 10 percent, which means more time for craftsmanship and figuring out how to make your users happy.
     #notes_footnote_link(
-      "https://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing",
+      "https://kanfa.macbudkowski.com/vibecoding-cryptosaurus",
       "The 100 hour gap between a vibecoded prototype and a working product",
       "M. Budkowski, 2026",
     )
@@ -490,11 +501,12 @@
 
 == Code Generation is NOT Software Engineering
 
-#notes_slide(title: "Code Generation is NOT Software Engineering", number: "1/3")[
+#notes_slide(title: "Code Generation is NOT Software Engineering", number: "1/5")[
 
   - #bold[LLMs should not be seen as a substitute for software engineering.]
 
-  #notes_quote(title: "Simon Willison", details: "Vibe engineering")[
+  #v(-10pt)
+  #notes_quote(title: "Simon Willison", details: [\ Vibe engineering])[
     "#bold[One of the lesser spoken truths of working productively with LLMs as a software engineer on non-toy-projects is that it's #notes_underline[difficult]]. There's a lot of depth to understanding how to use the tools, there are plenty of traps to avoid, and the pace at which they can churn out working code raises the bar for what the human participant can and should be contributing.
 
     #indent() ... Iterating with coding agents to #bold[produce production-quality] code that I'm confident #bold[I can maintain in the future] feels like a different process entirely."
@@ -508,9 +520,45 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Code Generation is NOT Software Engineering", number: "2/3")[
+#notes_slide(title: "Code Generation is NOT Software Engineering", number: "2/5")[
 
-  #notes_quote(title: "Code Is Cheap Now. Software Isn't")[
+  #notes_quote(title: "Andrej Karpathy")[
+    I'm not very happy with the code quality and I think #bold[agents bloat abstractions], have poor code aesthetics, are very prone to copy pasting code blocks and #bold[it's a mess], but at this point I stopped fighting it too hard and just moved on.
+    #notes_footnote_link(
+      "https://x.com/karpathy/status/2035173492447224237",
+      "Andrej Karpathy, 2026",
+      "",
+    )
+  ]
+]
+// =====================================================================================================================
+
+#notes_slide(title: "Code Generation is NOT Software Engineering", number: "3/5")[
+
+  #notes_quote(
+    title: "Reports of code's death are greatly exaggerated",
+    details: [\ Steve Krouse],
+  )[
+    "#bold[Programming, like writing, is an activity, where one iteratively sharpens what they're doing as they do it.]
+
+    #indent()... But, #bold[vibe coding gives the illusion that your vibes are precise abstractions]. They will feel this way right up until they leak, which will happen when you add enough features or get enough scale. #bold[Unexpected behaviors (bugs) that emerge from lower levels of abstraction that you don't understand] will sneak up on you and wreck your whole day."
+    #notes_footnote_link(
+      "https://stevekrouse.com/precision",
+      "Reports of code's death are greatly exaggerated",
+      "Steve Krouse, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Code Generation is NOT Software Engineering", number: "4/5")[
+  #set text(size: 19.5pt)
+
+  #notes_quote(
+    title: "Code Is Cheap Now. Software Isn't",
+    details: [\ Chris Gregori],
+  )[
     "#bold[LLMs] have effectively killed the cost of generating lines of code, but they #bold[haven't touched the cost of truly understanding a problem]. We're seeing a flood of "apps built in a weekend," but most of these are just thin wrappers around third-party APIs. They look impressive in a Twitter demo, but they often crumble the moment they hit the friction of the real world...
 
     #indent()... In this new reality, #bold[engineering expertise remains incredibly valuable], but the nature of the role is shifting. Relevance is not fading. Instead, it is about leveraging these tools to build at a higher level than was previously possible. True expertise is now required to steer these systems and provide the technical oversight that LLMs currently lack."
@@ -524,9 +572,12 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Code Generation is NOT Software Engineering", number: "3/3")[
+#notes_slide(title: "Code Generation is NOT Software Engineering", number: "5/5")[
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
+  #notes_quote(
+    title: "Benj Edwards",
+    details: [\ Ars Technica],
+  )[
     "Creating durable production code, managing a complex project, or crafting something truly novel still requires experience, patience, and skill beyond what today's AI agents can provide on their own.
 
     #indent() ... veteran software developers probably shouldn't fear losing their jobs to these tools any time soon. #bold[In fact, they may become busier than ever].
@@ -555,7 +606,10 @@
 
   - #bold[AI systems complement human expertise. They do not substitute for it.]
 
-  #notes_quote(title: "The skeptic's guide to generative AI assisted coding", details: [\ Rob Patro])[
+  #notes_quote(
+    title: "The skeptic's guide to generative AI assisted coding",
+    details: [\ Rob Patro],
+  )[
     "What the models do, the capabilities they have, and the quality of the content they produce is, to a large extent, #bold[a reflection of the user]."
     #notes_footnote_link(
       "https://combine-lab.github.io/blog/2026/02/15/a-skeptics-guide-to-generative-ai-coding.html",
@@ -569,8 +623,11 @@
 
 #notes_slide(title: "The Role of Human Expertise", number: "2/4")[
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
-    "#bold[Experienced human software developers bring judgment, creativity, and domain knowledge that AI models lack]. They know how to architect systems for long-term maintainability, how to balance technical debt against feature velocity, and when to push back when requirements don't make sense
+  #notes_quote(
+    title: "Benj Edwards",
+    details: "Ars Technica",
+  )[
+    "#bold[Experienced human software developers bring judgment, creativity, and domain knowledge that AI models lack]. They know how to architect systems for long-term maintainability, how to balance technical debt against feature velocity, and when to push back when requirements don't make sense.
 
     #indent() ... They can automate many tasks, but #bold[managing the overarching project scope still falls to the person telling the tool what to do]." @benj_edwards
   ]
@@ -580,12 +637,18 @@
 
 #notes_slide(title: "The Role of Human Expertise", number: "3/4")[
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
+  #notes_quote(
+    title: "Benj Edwards",
+    details: "Ars Technica",
+  )[
     #indent() "Knowing something about how good software development works helps a lot when guiding an #bold[AI coding agent---the tool amplifies your existing knowledge rather than replacing it]".  @benj_edwards
   ]
 
   #v(20pt)
-  #notes_quote(title: "Simon Willison", details: "Vibe engineering")[
+  #notes_quote(
+    title: "Simon Willison",
+    details: "Vibe engineering",
+  )[
     "#bold[AI tools amplify existing expertise]. The more skills and experience you have as a software engineer the faster and better the results you can get from working with LLMs and coding agents." @simon_willison
   ]
 ]
@@ -631,14 +694,14 @@
 
 #notes_slide(title: "Engineering Practices in the Age of AI", number: "1/5")[
 
-  #bold[LLMs reward existing software engineering practices.] The following list contains a minimal collection of practices where AI systems can enhance the software development process. This list has been compiled from public engineers' notes, colleagues, and personal experience.
+  #bold[LLMs reward existing software engineering practices.] The following list presents a concise set of practices in which AI systems can enhance the software development process. This list has been compiled from engineers' public notes, discussions with colleagues, and personal experience.
 
   #set list(spacing: 30pt)
-  - #bold[Code Review]. LLMs rely on pattern matching and memorization. They can be very effective at finding common issues, wrong logic, or missing assumptions in code. _This is not a substitute for human code review_.
+  - #bold[Code Review]. LLMs rely on pattern matching and memorization. They can be very effective at finding common issues, faulty logic, or missing assumptions in code. _This is not a substitute for human code review_.
 
-  - #bold[Documentation]. Writing documentation is essential for software understanding and maintenance, but it is often a time-consuming and boring task. LLMs can help write documentation, or a draft, quickly, _to review and refine later_.
+  - #bold[Documentation]. Writing documentation is essential for understanding and maintaining software, but it is often a time-consuming and boring task. LLMs can help write documentation, or a draft, quickly, _to review and refine later_.
 
-  - #bold[Code Explanation]. LLMs are able to parse code much faster than humans. For this reason, they can be very useful for explaining code within its context, or for understanding the organization and workflow of large codebases.
+  - #bold[Code Explanation]. LLMs can parse code much faster than humans. As a result, they can be very useful for explaining code in context or for understanding the organization and workflow of large codebases.
 ]
 
 // =====================================================================================================================
@@ -646,11 +709,11 @@
 #notes_slide(title: "Engineering Practices in the Age of AI", number: "2/5")[
 
   #set list(spacing: 40pt)
-  - #bold[Prototyping]. Productization is the most demanding phase of the development process. However, it requires a clear idea of what to achieve, which is often not the case. LLMs can be very effective at quickly implementing new features or ideas, _even if the quality is far from production-ready_.
+  - #bold[Prototyping]. Productization is the most demanding phase of the development process, and it requires a clear idea of what to achieve, which is often not the case. LLMs can be very effective at quickly implementing new features or ideas, _even if the quality is far from production-ready_.
 
-  - #bold[Discussing Ideas and Intuitions]. It is not uncommon to reflect on new ideas or revise previous ones about specific aspects of a problem. LLMs can discuss these topics similarly to how a coworker might, even before prototyping.
+  - #bold[Discussing Ideas and Intuitions]. It is common to reflect on new ideas or revisit earlier ones when thinking through specific aspects of a problem. LLMs can discuss these topics much as a coworker might, even before prototyping.
 
-  - #bold[Evaluating Alternatives]. There are dozens of ways to solve a given problem. LLMs can suggest alternatives that users can evaluate, and then select the most suitable one _depending on the context_.
+  - #bold[Evaluating Alternatives]. There are dozens of ways to solve a given problem. LLMs can suggest alternatives that users can evaluate and then select the most suitable option _depending on the context_.
 ]
 
 // =====================================================================================================================
@@ -658,11 +721,11 @@
 #notes_slide(title: "Engineering Practices in the Age of AI", number: "3/5")[
 
   #set list(spacing: 40pt)
-  - #bold[Enforcing Coding Style]. Large codebases involving several engineers tend to develop high-level practices that are often difficult to enforce with common tools. Coding style can fall into this category. Requirements such as "the code shall not use lambda expressions" are difficult to automate but trivial with LLMs.
+  - #bold[Enforcing Coding Style]. Large codebases involving several engineers tend to develop high-level practices that are often difficult to enforce with common tools. Coding style can fall into this category. Requirements such as "the code shall not use lambda expressions" are difficult to enforce with traditional tools but trivial for LLMs.
 
   - #bold[Testing]. Robust and comprehensive testing suites prevent users _and LLMs_ from unintentionally introducing bugs. Additionally, LLMs can quickly draft tests that can be adjusted later.
 
-  - #bold[Refactoring]. Technology evolves faster than engineers can keep up with, especially in projects with insufficient engineering resources. LLMs are an excellent tool for modernizing codebases, but it is important to pay attention to _maintaining the underlying logic_.
+  - #bold[Refactoring]. Technology evolves faster than engineers can keep up with, especially in projects with limited engineering resources. LLMs are an excellent tool for modernizing codebases, but it is important to pay attention to _maintaining the underlying logic_.
 ]
 
 // =====================================================================================================================
@@ -670,9 +733,9 @@
 #notes_slide(title: "Engineering Practices in the Age of AI", number: "4/5")[
 
   #set list(spacing: 40pt)
-  - #bold[Debugging]. LLMs can automate the debugging process, especially for simple bugs. They can compile, execute, analyze the output, or even navigate the `git` history, and find connections in the code to identify problems or formulate hypotheses.
+  - #bold[Debugging]. LLMs can automate the debugging process, especially for simple bugs. They can compile, execute, analyze the output, or even navigate the `git` history and find connections in the code to identify problems or formulate hypotheses.
 
-  - #bold[Vibe-coding Tools]. It is common to face limitations with open-source tools because each project has its own specific context. Engineering work often doesn't allow spending time on external projects to overcome these limitations. LLMs can implement small features while engineers work on the actual code. One example could be adding a new check to `clang-tidy`.
+  - #bold[Vibe-coding Tools]. It is common to face limitations with open-source tools because each project has its own specific context. Engineering work often does not leave time to contribute to external projects to overcome these limitations. LLMs can implement small features while engineers stay focused on the actual code. One example could be adding a new check to `clang-tidy`.
 
   - #bold[Syntax Helper]. It is common to work on projects written in programming languages outside our area of expertise. LLMs can assist by explaining new syntax and translating between languages.
 ]
@@ -681,7 +744,7 @@
 
 #notes_slide(title: "Engineering Practices in the Age of AI", number: "5/5")[
 
-  - #bold[Git Interaction]. LLMs show excellent capabilities when operating with `git`. They can navigate history to reverse changes and identify the root causes of bugs. They can also handle the rebase process in complex scenarios without human intervention.
+  - #bold[Git Interaction]. LLMs show excellent capabilities when working with `git`. They can navigate history, reverse changes, and identify the root causes of bugs. They can also handle complex rebases without human intervention.
 ]
 
 <p2e>
