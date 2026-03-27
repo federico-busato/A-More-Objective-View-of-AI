@@ -77,16 +77,29 @@ See the [Tinymist documentation](https://myriad-dreamin.github.io/tinymist/) for
 
 ### Compiling from the Command Line
 
-To compile a chapter to PDF:
+To compile a chapter to **PDF** (automated by CI):
 
 ```bash
-typst compile typst/01.notes_on_AI.typ
+typst compile typst/01.notes_on_AI.typ 01.notes_on_AI.pdf
 ```
 
 To watch for changes and recompile automatically:
 
 ```bash
-typst watch typst/01.notes_on_AI.typ
+typst watch typst/01.notes_on_AI.typ 01.notes_on_AI.pdf
+```
+
+----
+
+To compile a chapter to **HTML** (automated by CI):
+
+Install ` touying-exported` with Python `pip`:
+```bash
+pip install -U touying
+```
+
+```bash
+touying compile typst/01.notes_on_AI.typ --output html/01.notes_on_AI.html
 ```
 
 ## Contribution Guidelines

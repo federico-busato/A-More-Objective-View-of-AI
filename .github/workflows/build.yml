@@ -1,0 +1,69 @@
+name: Build Notes
+
+on:
+  push:
+    branches: [main]
+    paths: ['typst/**']
+  pull_request:
+    paths: ['typst/**']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Install Latin Modern fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-lmodern
+
+      - name: Install Font Awesome 6
+        run: |
+          mkdir -p .fonts
+          FA_VERSION=6.7.2
+          wget -q "https://use.fontawesome.com/releases/v${FA_VERSION}/fontawesome-free-${FA_VERSION}-desktop.zip" -O fa.zip
+          unzip -q fa.zip -d .fonts
+          rm fa.zip
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install touying exporter
+        run: pip install -U touying
+
+      - name: Compile PDFs
+        env:
+          TYPST_FONT_PATHS: .fonts
+        run: |
+          for f in typst/*.notes_on_AI.typ; do
+            name=$(basename "$f" .typ)
+            typst compile "$f" "${name}.pdf"
+          done
+
+      - name: Compile HTML
+        env:
+          TYPST_FONT_PATHS: .fonts
+        run: |
+          mkdir -p html
+          for f in typst/*.notes_on_AI.typ; do
+            name=$(basename "$f" .typ)
+            touying compile "$f" --font-paths .fonts --output "html/${name}.html"
+          done
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-notes
+          path: '*.pdf'
+
+      - name: Upload HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-notes
+          path: html/
