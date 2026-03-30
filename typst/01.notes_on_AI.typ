@@ -1332,9 +1332,42 @@
 
 == Environmental Risks
 
-#notes_slide(title: "Environmental Risks")[
+#notes_slide(title: "Environmental Risks - Local Impact")[
 
-  - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials, finance small nuclear reactors and improve transportation planning and routing, which could contribute to reducing carbon emissions overall.
+  - #bold[While data centers are not a concern at global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, energy cost increases, reduce local tax revenues, and don't provide other benefits, such as, high-paying jobs. #notes_footnote_link(
+    "https://www.wri.org/insights/us-data-center-growth-impacts",
+    "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
+    "Walker and Goldsmith, World Resources Institute, 2026",
+  )#super(",") #notes_footnote_link(
+    "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+    "What happends when data centers come to town?",
+    "Nguyen & Green, Univesity of Michigan, 2025",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Global Impact", number: "1/2")[
+
+  - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "Millions of new materials discovered with deep learning",
+      "Merchant & Cubuk, DeepMind, 2023",
+    ), funding small nuclear reactors #notes_footnote_link(
+      "https://www.cnbc.com/2025/03/29/these-nuclear-companies-lead-the-race-to-build-small-reactors-in-us.html",
+      "These nuclear companies are leading the race to build advanced small reactors in the U.S.",
+      "S. Kimball, CNBC, 2025",
+    ), and improve transportation planning and routing #notes_footnote_link(
+      "https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/",
+      "GreenLight, Using Google AI to reduce traffic emissions",
+      "Google, 2025",
+    ), which could contribute to reducing carbon emissions overall.
+
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Global Impact", number: "2/2")[
 
   #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Allen Holub, 2026")[
     "#bold[All data centers combined account for about 0.5% of global carbon emissions].
