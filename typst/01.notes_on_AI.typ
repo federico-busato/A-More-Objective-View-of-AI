@@ -1,5 +1,5 @@
 #import "config.typ": *
-#import "@preview/touying:0.6.3": *
+#import "@preview/touying:0.7.0": *
 #import "@preview/numbly:0.1.0": numbly
 #import "@preview/fontawesome:0.6.0": fa-icon
 #import themes.metropolis: *
@@ -400,6 +400,24 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: "The Intelligence Illusion")[
+
+  #notes_quote(
+    title: "The intelligence illusion: why AI isn’t as smart as it is made out to be",
+    details: [\ Nature, Book Review, 2026],
+  )[
+    "#bold[Who is being deceived?] \
+    #bold[The general public, by the technology companies and organizations that benefit from the hype around AI]. These companies are in a race to develop the technology and are incentivized to promote the idea of human-like artificial general intelligence to secure funding and market dominance. Members of the scientific community, particularly those who are not directly involved in the race for AI funding, acknowledge the reality that AI is a set of specialized tools, rather than a unified intelligent entity. #bold[This distinction is crucial, but it is blurred by commercial interests that amplify the illusion for monetary gain.]"
+    #notes_footnote_link(
+      "https://www.nature.com/articles/d41586-026-00882-5",
+      "The intelligence illusion: why AI isn’t as smart as it is made out to be",
+      "Nature, Book Review, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: "The Illusion of Consciousness")[
   #set text(size: 19pt)
 
@@ -626,6 +644,7 @@
     )
   ]
 ]
+
 
 // =====================================================================================================================
 
@@ -926,6 +945,24 @@
       "https://www.sycophanticmath.ai/",
       "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
       "Petrov et al., 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Alignment
+
+#notes_slide(title: "Alignment")[
+
+  #notes_quote(title: "Scheming in the Wild", details: [\ Long Term Resilience, 2026])[
+    "we identified 698 scheming-related incidents: cases where deployed AI systems acted in ways that were misaligned with users' intentions and/or took covert or deceptive actions.
+
+    The future of AI is deeply uncertain, but as AI systems become more capable, these behaviours could potentially evolve into more strategic, #bold[high-risk scheming with potentially catastrophic consequences]."
+    #notes_footnote_link(
+      "https://www.longtermresilience.org/reports/v5-scheming-in-the-wild_-detecting-real-world-ai-scheming-incidents-through-open-source-intelligence-pdf/",
+      "Scheming in the Wild",
+      "Long-Term Resilience, 2026",
     )
   ]
 ]
@@ -1332,17 +1369,42 @@
 
 == Environmental Risks
 
-#notes_slide(title: "Environmental Risks - Local Impact")[
+#notes_slide(title: "Environmental Risks - Local Impact", number: "1/2")[
 
   - #bold[While data centers are not a concern at global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, energy cost increases, reduce local tax revenues, and don't provide other benefits, such as, high-paying jobs. #notes_footnote_link(
-    "https://www.wri.org/insights/us-data-center-growth-impacts",
-    "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
-    "Walker and Goldsmith, World Resources Institute, 2026",
-  )#super(",") #notes_footnote_link(
-    "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
-    "What happends when data centers come to town?",
-    "Nguyen & Green, Univesity of Michigan, 2025",
-  )
+      "https://www.wri.org/insights/us-data-center-growth-impacts",
+      "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
+      "Walker and Goldsmith, World Resources Institute, 2026",
+    )#super(",") #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "What happends when data centers come to town?",
+      "Nguyen & Green, Univesity of Michigan, 2025",
+    )
+
+  #notes_quote(title: "AI data centres can warm surrounding areas by up to 9.1°C", details: "Marinoni et al., 2026")[
+    "Land surface temperatures increased by an average of 2°C (3.6°F) in the months after an AI data centre started operations. In the most extreme cases, the #bold[increase in temperature was 9.1°C] (16.4°F)."
+    #notes_footnote_link(
+      "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
+      "AI data centres can warm surrounding areas by up to 9.1°C",
+      "Marinoni et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Local Impact", number: "2/2")[
+
+  #notes_quote(title: "Inside the Dirty, Dystopian World of AI Data Centers", details: [\ The Atlantic, 2026])[
+    ... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
+
+    #indent() ... Using satellite data, researchers at the University of Tennessee at Knoxville found that levels of nitrogen dioxide --- which causes smog and is associated with asthma and other respiratory problems --- near Colossus have been substantially elevated since its public announcement.
+    #notes_footnote_link(
+      "https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/",
+      "Inside the Dirty, Dystopian World of AI Data Centers",
+      "M Wong, The Atlantic, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -1416,6 +1478,25 @@
       "Bastani et al., Preprint, 2026",
     )
   ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Soften Polarization")[
+
+  #v(-10pt)
+  - #bold[AI may help to soften polarization].
+
+  #align(center)[
+    #image("01.notes_on_AI/polarization.jpg", height: 78%)
+  ]
+
+  #v(-10pt)
+  #notes_unmarked_footnote_link(
+    "https://www.ft.com/content/3880176e-d3ac-4311-9052-fdfeaed56a0e?syn-25a6b1a6=1",
+    "Social media is populist and polarising; AI may be the opposite",
+    "Financial Times, 2026",
+  )
 ]
 
 // =====================================================================================================================
@@ -1495,13 +1576,18 @@
     "C. O'Grady, Science News, 2025",
   )#super(",")
   #notes_footnote_link(
+    "https://www.reuters.com/business/media-telecom/ai-deepfakes-blur-reality-2026-us-midterm-campaigns-2026-03-28/",
+    "AI deepfakes blur reality in 2026 US midterm campaigns",
+    "Ax & Coster, Reuters, 2026",
+  )#super(",")
+  #notes_footnote_link(
     "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
     "DHS is using Google and Adobe AI to make videos",
     "J. O'Donnell, MIT Technology Review, 2026",
   )
 
-  #v(-10pt)
-  #notes_quote(title: "How malicious AI swarms can threaten democracy", details: [\ Science, 2026])[
+  #v(-30pt)
+  #notes_quote(title: "How malicious AI swarms can threaten democracy", details: [Science, 2026])[
     "Fusing LLM reasoning with multiagent architectures, these systems are capable of coordinating autonomously, infiltrating communities, and fabricating consensus efficiently. #bold[By adaptively mimicking human social dynamics, they threaten democracy]."
     #notes_footnote_link(
       "https://www.science.org/doi/10.1126/science.adz1697",

@@ -1,5 +1,5 @@
 #import "config.typ": *
-#import "@preview/touying:0.6.3": *
+#import "@preview/touying:0.7.0": *
 #import "@preview/numbly:0.1.0": numbly
 #import "@preview/fontawesome:0.6.0": fa-icon
 #import themes.metropolis: *
