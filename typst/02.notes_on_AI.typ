@@ -19,7 +19,33 @@
     author: [#text(20pt, font: "Latin Modern Sans")[\ _Federico Busato_]],
     date: [#h(21.5cm) #datetime.today().display()],
   ),
-  config-common(reset-footnote-number-per-slide: false),
+  //  config-common(reset-footnote-number-per-slide: false),
+  config-common(
+    new-section-slide-fn: (level: 1, numbered: true, body) => touying-slide-wrapper(self => {
+      self = utils.merge-dicts(self, config-page(fill: self.colors.neutral-lightest))
+      touying-slide(self: self, {
+        set align(horizon)
+        show: pad.with(20%)
+        set text(size: 40pt, weight: "bold") // change this value (default is 1.5em = 30pt)
+        stack(
+          dir: ttb,
+          spacing: 1em,
+          text(self.colors.neutral-darkest, utils.display-current-heading(
+            level: level,
+            numbered: numbered,
+            style: auto,
+          )),
+          block(height: 2pt, width: 100%, spacing: 0pt, components.progress-bar(
+            height: 2pt,
+            self.colors.primary,
+            self.colors.primary-light,
+          )),
+        )
+        text(self.colors.neutral-dark, body)
+      })
+    }),
+    reset-footnote-number-per-slide: false,
+  ),
   config-page(margin: (top: 3em, bottom: 14pt, x: 2em)),
 )
 
@@ -46,7 +72,6 @@
 #set raw(tab-size: 4)
 
 // =====================================================================================================================
-
 
 #show outline.entry: it => link(
   it.element.location(),

@@ -280,7 +280,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "1/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "1/6")[
 
   - Current AI models are #bold["stochastic parrots"]. #notes_footnote_link(
       "https://dl.acm.org/doi/10.1145/3442188.3445922",
@@ -303,7 +303,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "2/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "2/6")[
 
   #notes_quote(
     title: [Language models cannot reliably distinguish\ belief from knowledge and fact],
@@ -322,7 +322,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "3/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "3/6")[
 
   #v(-15pt)
   #notes_quote(
@@ -359,7 +359,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "4/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "4/6")[
 
   - #bold[AI models struggle to generalize beyond their training sets]. The classic example of this behavior is the accuracy disparity between English and non-English results.
   #set text(size: 19pt)
@@ -379,7 +379,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "5/5")[
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "5/6")[
 
   #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
@@ -390,6 +390,25 @@
       "https://link.springer.com/article/10.1186/s13104-024-06920-7",
       "The performance of OpenAI ChatGPT-4 and Google Gemini in virology multiple-choice questions: a comparative analysis of English and Arabic responses",
       "Sallam et al., BMC Research Notes, 2024",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "AI and Human Brain are Functionally Different", number: "6/6")[
+
+  #notes_quote(
+    title: [Mirage: The Illusion of Visual Understanding],
+    details: [\ Asadi et al., 2026],
+  )[
+    "Frontier models readily generate detailed image descriptions and elaborate reasoning traces, including    pathology-biased clinical findings, #bold[for images never provided].
+
+    #indent()...  In the most extreme case, our model achieved the top rank on a standard chest Xray question-answering benchmark#bold[ without access to any images]."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2603.21687",
+      "Mirage: The Illusion of Visual Understanding",
+      "Asadi et al., arXiv, 2026",
     )
   ]
 ]
@@ -1262,6 +1281,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: "Employment", number: "4/4")[
+
+  #notes_quote(
+    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
+    details: [\ National Bureau of Economic Research, 2026],
+  )[
+    "Micro-level evidence suggests that AI generates #bold[meaningful time savings] for many workers. At the macro level, in recent years industries with higher AI adoption rates have #bold[experienced faster productivity growth]. While we do not establish causality, this relationship is statistically significant and similar in magnitude in Europe and the US."
+    #notes_footnote_link(
+      "https://www.nber.org/papers/w34995",
+      "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 = Implications for the Future
 
 // =====================================================================================================================
@@ -1289,7 +1325,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "1/4")[
+#notes_slide(title: "Employment", number: "1/5")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -1310,7 +1346,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "2/4")[
+#notes_slide(title: "Employment", number: "2/5")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -1329,7 +1365,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "3/4")[
+#notes_slide(title: "Employment", number: "3/5")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
@@ -1348,7 +1384,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "4/4")[
+#notes_slide(title: "Employment", number: "4/5")[
 
   #notes_quote(
     title: [Labor Market Report],
@@ -1361,6 +1397,23 @@
       "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/linkedIn-labor-market-report-building-a-future-of-work-that-works-jan-2026.pdf",
       "Labor Market Report",
       "LinkedIn, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "5/5")[
+
+  #notes_quote(
+    title: [FEDS Notes],
+    details: [\ 2026],
+  )[
+    We find that thus far, #bold[there is no evidence of a reduction in job postings for industries or firms which have higher levels of AI adoption]. The overall slowdown in national job postings following the pandemic recovery does not appear to be driven (even modestly) by AI.
+    #notes_footnote_link(
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
+      "FEDS Notes",
+      "Board of Governors of the Federal Reserve System, 2026",
     )
   ]
 ]
