@@ -1,66 +1,6 @@
 #import "config.typ": *
-#import "@preview/touying:0.7.0": *
-#import "@preview/numbly:0.1.0": numbly
-#import "@preview/fontawesome:0.6.0": fa-icon
-#import themes.metropolis: *
 
-#set quote(block: true)
-#set text(font: "Latin Modern Sans")
-#set heading(numbering: numbly("{1}.", default: "1.1"))
-
-// =====================================================================================================================
-
-#show: metropolis-theme.with(
-  aspect-ratio: "16-9",
-  footer: self => self.info.institution,
-  config-info(
-    title: "",
-    subtitle: [#text(40pt)[#smallcaps[(A More) Objective View of AI]]],
-    author: [#text(20pt, font: "Latin Modern Sans")[\ _Federico Busato_]],
-    date: [#h(21.5cm) #datetime.today().display()],
-  ),
-  config-common(reset-footnote-number-per-slide: false),
-  config-page(margin: (top: 3em, bottom: 14pt, x: 2em)),
-)
-
-//======================================================================================================================
-
-#show outline.entry.where(
-  level: 1,
-): set block(above: 26pt)
-
-#show smallcaps: set text(font: "Latin Modern Roman Caps")
-
-#show quote: set pad(x: 4em)
-
-#set footnote(numbering: n => text(weight: "extrabold")[#h(5pt)#str(n)])
-
-// =====================================================================================================================
-
-#show raw.where(block: true): box.with(
-  fill: rgb("#f0f0f0"),
-  //  inset: 8pt,
-  //  radius: 5pt,
-)
-#show raw.where(block: true): set text(12pt, font: "Latin Modern Mono", weight: "extrabold")
-#set raw(tab-size: 4)
-
-#show outline.entry: it => link(
-  it.element.location(),
-  it.indented(it.prefix(), text(size: 24pt, weight: "bold")[#it.body()]),
-)
-#show outline.entry.where(
-  level: 1,
-): set block(above: 40pt)
-#show outline.entry.where(
-  level: 2,
-): set block(above: 16pt)
-#show outline.entry.where(
-  level: 2,
-): it => link(
-  it.element.location(),
-  it.indented(it.prefix(), text(size: 22pt)[#it.body()]),
-)
+#show: notes-theme.with(title: [(A More) Objective View of AI])
 
 #title-slide()
 
