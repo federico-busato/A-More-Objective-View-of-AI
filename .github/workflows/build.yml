@@ -41,7 +41,7 @@ jobs:
         env:
           TYPST_FONT_PATHS: .fonts
         run: |
-          for f in typst/*.notes_on_AI.typ; do
+          for f in typst/[0-9]*.typ; do
             name=$(basename "$f" .typ)
             typst compile "$f" "${name}.pdf"
           done
@@ -51,7 +51,7 @@ jobs:
           TYPST_FONT_PATHS: .fonts
         run: |
           mkdir -p html
-          for f in typst/*.notes_on_AI.typ; do
+          for f in typst/[0-9]*.typ; do
             name=$(basename "$f" .typ)
             touying compile "$f" --font-paths .fonts --output "html/${name}.html"
           done
