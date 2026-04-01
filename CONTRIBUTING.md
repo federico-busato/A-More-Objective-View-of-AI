@@ -22,18 +22,20 @@ The Typst sources are located in the [`typst/`](https://github.com/federico-busa
 
 ```
 typst/
-├── config.typ                 # Shared macros and theme configuration
-├── 01.notes_on_AI.typ         # Chapter 1 source
-├── 01.notes_on_AI/            # Chapter 1 material
-├── 02.notes_on_AI.typ         # Chapter 2 source
-├── 02.notes_on_AI/            # Chapter 2 material
+├── config.typ                                    # Shared macros and theme configuration
+├── 00.Preface_and_Introduction.typ               # Preface and Introduction
+├── 00.Preface_and_Introduction/     
+├── 01.Biological_and_Artifical_Intelligence.typ  # Biological and Artificial Intelligence
+├── 01.Biological_and_Artifical_Intelligence     
+├── 02.AI_Limitations.typ                         # AI Limitations
+├── 02.AI_Limitations/
 ├── ...
 ```
 
 Each chapter consists of:
 
-- A **`.typ` file** (e.g., `01.notes_on_AI.typ`) containing the slide content.
-- A **directory** with the same base name (e.g., `01.notes_on_AI/`) containing images and other assets used by that chapter.
+- A **`.typ` file** (e.g., `02.AI_Limitations.typ`) containing the slide content.
+- A **directory** with the same base name (e.g., `02.AI_Limitations.typ/`) containing images and other assets used by that chapter.
 
 ## Setting Up the Environment
 
@@ -80,13 +82,13 @@ See the [Tinymist documentation](https://myriad-dreamin.github.io/tinymist/) for
 To compile a chapter to **PDF** (automated by CI):
 
 ```bash
-typst compile typst/01.notes_on_AI.typ 01.notes_on_AI.pdf
+typst compile typst/02.AI_Limitations.typ 02.AI_Limitations.pdf
 ```
 
 To watch for changes and recompile automatically:
 
 ```bash
-typst watch typst/01.notes_on_AI.typ 01.notes_on_AI.pdf
+typst watch typst/02.AI_Limitations.typ 02.AI_Limitations.pdf
 ```
 
 ----
@@ -99,7 +101,7 @@ pip install -U touying
 ```
 
 ```bash
-touying compile typst/01.notes_on_AI.typ --output html/01.notes_on_AI.html
+touying compile typst/02.AI_Limitations.typ --output html/02.AI_Limitations.html
 ```
 
 ## Contribution Guidelines

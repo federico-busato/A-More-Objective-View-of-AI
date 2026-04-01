@@ -26,16 +26,19 @@ Opinions about AI range from predictions of imminent societal or economic collap
 
 ## Table of Contents
 
-### 1. [(A More) Objective View of AI](01.notes_on_AI.pdf)
+### 0. [Preface and Introduction](00.Preface_and_Introduction.pdf)
 
-A broad examination of AI from scientific, cognitive, and societal perspectives.
+### 1. [Biological and Artificial Intelligence](01.Biological_and_Artifical_Intelligence.pdf)
+
+A broad examination of AI from scientific, cognitive, and social perspectives.
 
 - **Introduction**
 - **AI and Human Brain are Structurally Different**
 - **AI and Human Brain are Functionally Different**
 - **The Illusion of Consciousness**
-- **Productivity Gain Uncertainty**
-- **Unlikely Exponential Growth**
+
+### 2. [AI Limitations](02.AI_Limitations.pdf)
+
 - **AI Technical Limitations**
  
   - Hallucinations are Mathematically Inevitable
@@ -44,24 +47,31 @@ A broad examination of AI from scientific, cognitive, and societal perspectives.
   - Production Quality
   - Causality and Real-World Understanding
   - Non-Determinism
-  - Quality Degradation 
+  - Quality Fluctuation
 
 - **AI "Social" Limitations**
   
   - Intellectual Property
   - Sycophancy
+  - Alignment
   - Social Coherence
   - Security Risks
   - Liability
 
+### 3. [Implications for the Future](03.Implications_for_the_Future.pdf)
+
+- **Unlikely Exponential Growth**
+- **Productivity Gain Uncertainty**
 - **Implications for the Future**
- 
+
   - Employment
+  - Environmental Risks
+  - Learning
   - Deskilling
   - Echo Chamber
   - Social Risks
 
-### 2. [Software Development in the Age of AI](02.notes_on_AI.pdf)
+### 4. [Software Development in the Age of AI](04.Software_Development.pdf)
 
 A practical look at AI in software development.
 
@@ -94,7 +104,7 @@ Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 
 - [All about AI](https://www.youtube.com/playlist?list=PL2sqoYCw1CJXpmI3AvOXz2r4iEqRFEpkS) by Andrew Perfors.
 - [Modern-Day Oracle or Bullshit Machines](https://thebullshitmachines.com/) by Carl T. Bergstrom and Jevin D. West.
-- [The Dangerous Illusion of AI Coding? - Jeremy Howard](https://www.youtube.com/watch?v=dHBEQ-Ryo24)
+- [The Dangerous Illusion of AI Coding?](https://www.youtube.com/watch?v=dHBEQ-Ryo24) by Jeremy Howard.
 
 ## License
 

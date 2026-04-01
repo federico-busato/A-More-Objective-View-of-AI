@@ -1,0 +1,733 @@
+#import "config.typ": *
+
+#show: notes-theme.with(title: [Implications for the Future])
+
+#title-slide()
+
+// =====================================================================================================================
+
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 1/2] <touying:hidden>
+
+#outline(title: none)
+//#outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
+
+// =====================================================================================================================
+
+= Unlikely Exponential Growth  <p1e>
+
+// =====================================================================================================================
+
+#notes_slide(title: "Unlikely Exponential Growth", number: "1/4")[
+
+  #set list(spacing: 35pt)
+  - #bold[Fundamental Physical Limits of Transistors and Memory].
+
+    #set list(spacing: 25pt)
+    - The thermodynamic minimum gate length of a _transistor_ will likely be reached by 2030, while the limits of photolithography are expected around 2029. #notes_footnote_link(
+        "https://asteriskmag.com/issues/03/the-transistor-cliff",
+        "The Transistor Cliff",
+        "S. Constantin, 2023",
+      )
+
+    - _Memory bandwidth_ has been increasing far more slowly than FLOP/s, at 30x in the last 20 years (1.5x/2yr), while FLOP/s have increased 90,000x in the same period (3x/2yr). This is a much more conservative constraint on potential AI growth. #notes_footnote_link(
+        "https://ieeexplore.ieee.org/document/10477550",
+        "AI and Memory Wall",
+        "Gholami et al., IEEE Micro, 2024",
+      )#super(",") #notes_footnote_link(
+        "https://arxiv.org/pdf/2601.05047",
+        "Challenges and Research Directions for Large Language Model Inference Hardware",
+        "Ma and Patterson, Google, 2026",
+      )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Unlikely Exponential Growth", number: "2/4")[
+
+  #set list(spacing: 40pt)
+  - #bold[Hardware Resource Constraints]. Reconstructing one cubic millimeter of human temporal cortex (\~50-57k cells and \~130-150M synapses) generated 1.4 Petabytes of data. Scaling to the full human brain would require 1.6 zettabytes of storage costing \$50 billion and spanning 140 acres. #notes_footnote_link(
+      "https://research.google/blog/a-browsable-petascale-reconstruction-of-the-human-cortex/",
+      "A Browsable Petascale Reconstruction of the Human Cortex",
+      "Blakely et al., Google, 2021",
+    )#super(",") #notes_footnote_link(
+      "https://www.tomshardware.com/tech-industry/full-scan-of-1-cubic-millimeter-of-brain-tissue-took-14-petabytes-of-data-equivalent-to-14000-full-length-4k-movies",
+      "Full scan of 1 cubic millimeter of brain tissue took 1.4 petabytes of data, equivalent to 14,000 4K movies",
+      "S. Grimm, Tom's Hardware, 2024",
+    )
+
+  - #bold[Datacenters require 24/7 energy]. Solar and wind energy are not suitable for this purpose. On average, a nuclear power plant takes about #notes_underline[9.4 years] to build, with an additional #notes_underline[3-4 years] for the licensing process. #notes_footnote_link(
+      "https://visualizingenergy.org/global-nuclear-reactor-construction-starts-and-duration-1949-2023/",
+      "Global nuclear reactor construction starts and duration, 1949-2023",
+      "Cleveland & Mirkova, Boston University, 2024",
+    )
+
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Unlikely Exponential Growth", number: "3/4")[
+
+  #set text(size: 18pt)
+  #v(-50pt)
+  #quote()[
+    #indent() #emph["#bold[The data center share of U.S. total electricity demand in 2030 ranges from 9% to 17%, an increase from 4-5% today]. At the state level, continued development of the largest DC market in Virginia implies a share increasing to between 39% and 57% by 2030."]
+  ]
+
+  #v(-10pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/datacenter_energy.png", width: 60%)
+  ]
+
+  #v(-50pt)
+  #notes_unmarked_footnote_link(
+    "https://powering-intelligence.epri.com/executive-summary.html",
+    "Powering Intelligence 2026",
+    "EPRI, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Unlikely Exponential Growth", number: "4/4")[
+
+  #set list(spacing: 40pt)
+  - #bold[Run out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
+      "https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data",
+      "Will we run out of data? Limits of LLM scaling based on human-generated data",
+      "Villalobos et al., EpochAI, 2024",
+    )
+
+  - #bold[AI quality degradation when trained on recursively generated data]. AI-generated content has surpassed the _quantity_ of human-written articles. This implies that AI models are trained on increasingly low-quality data, reinforcing hallucinations.
+    #notes_footnote_link(
+      "https://graphite.io/five-percent/more-articles-are-now-created-by-ai-than-humans",
+      "More Articles Are Now Created by AI Than Humans",
+      "Paredes et al., Graphite, 2025",
+    )#super(",")
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41586-024-07566-y",
+      "AI models collapse when trained on recursively generated data",
+      "Shumailov et al., Nature, 2024",
+    )#super(",")
+    #notes_footnote_link(
+      "https://aclanthology.org/2024.findings-acl.103.pdf",
+      "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism",
+      "Thompson et al., Association for Computational Linguistics, 2024",
+    )#super(",")
+    #notes_footnote_link(
+      "https://ahrefs.com/blog/what-percentage-of-new-content-is-ai-generated/",
+      "74% of New Webpages Include AI Content (Study of 900k Pages)",
+      "Law et al., Ahrefs, 2025",
+    )
+]
+
+
+// =====================================================================================================================
+
+
+= Productivity Gain Uncertainty <p4s>
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty")[
+
+  - The relationship between AI adoption and evidence of productivity gains is a _controversial topic_. Some research studies and economic data suggest that AI enhances productivity, while others show no benefits or even a negative impact.
+
+  #notes_quote(
+    title: "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
+    details: "Forbes, 2026",
+  )[
+    "The AI productivity story in early 2026 is neither the revolution that vendors promise nor the disappointment that skeptics predict #bold[-it's a transition whose timeline remains genuinely uncertain].
+
+    #indent() ... History suggests AI's macro impact may similarly require a decade of complementary innovation before the statistics catch up to the promise."
+    #notes_footnote_link(
+      "https://www.forbes.com/sites/guneyyildiz/2026/01/20/ai-productivitys-4-trillion-question-hype-hope-and-hard-data/",
+      "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
+      "G. Yıldız, Forbes, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
+
+  #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
+    "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
+    #notes_footnote_link(
+      "https://www.economist.com/finance-and-economics/2026/02/22/the-ai-productivity-boom-is-not-here-yet",
+      "The AI productivity boom is not here (yet)",
+      "The Economist, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
+  #set text(size: 19pt)
+
+  #notes_quote(
+    title: text(size: 17pt)[The Projected Impact of Generative AI on Future Productivity Growth],
+    details: [\ University of Pennsylvania, 2025],
+  )[
+    "AI will increase productivity and GDP by #bold[1.5% by 2035], nearly 3% by 2055, and 3.7% by 2075. AI's boost to annual productivity growth is strongest in the early 2030s but eventually fades"
+    #notes_footnote_link(
+      "https://budgetmodel.wharton.upenn.edu/issues/2025/9/8/projected-impact-of-generative-ai-on-future-productivity-growth",
+      "The Projected Impact of Generative AI on Future Productivity Growth",
+      "Arnon et al., University of Pennsylvania, 2025",
+    )
+  ]
+
+  #notes_quote(
+    title: "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    details: [\ METR, 2025],
+  )[
+    "Surprisingly, we find that when developers use AI tools, they #bold[take 19% longer than without -- AI makes them slower]."
+    #notes_footnote_link(
+      "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+      "Becker et al., METR, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
+
+  #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
+    "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
+    #notes_footnote_link(
+      "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html",
+      "CEO confidence in revenue outlook hits five-year low",
+      "PwC 2026 Global CEO Survey, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
+
+  #notes_quote(
+    title: "Firm Data on AI",
+    details: [\ National Bureau of Economic Research, 2026\ (6000 senior executives, across US, UK, Germany, Australia)],
+  )[
+    "Firms report little impact of AI over the last 3 years, with #bold[over 80% of firms reporting no impact on either employment or productivity]. Firms predict sizable impacts over the next 3 years, forecasting AI will boost productivity by 1.4%"
+    #notes_footnote_link(
+      "https://www.nber.org/papers/w34836",
+      "Firm Data on AI",
+      "National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
+
+  #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
+    "AI tools didn't reduce work, they #bold[consistently intensified it].
+
+    #indent() ... We identified three main forms of intensification: #notes_underline[task expansion], #notes_underline[blurred boundaries between work and non-work], and more #notes_underline[multitasking].
+
+    #indent() ... For workers, the cumulative effect is fatigue, burnout, and a growing sense that work is harder to step away from."
+    #notes_footnote_link(
+      "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "AI Doesn't Reduce Work-It Intensifies It",
+      "Ranganathan & Ye, Harvard Business Review, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
+
+  #set text(size: 19pt)
+  #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
+    #bold[Work is accelerating faster than the systems designed to manage it.]
+
+    #indent() ... Focus efficiency, the percentage of work time spent in focused, uninterrupted activity, declined to 60% -- a three-year low. Risk of disengagement jumped 23%.
+
+    #indent() ... AI is adding to workloads rather than redistributing them. Collaboration is expanding faster than attention can support it. Productivity gains are real but increasingly funded by fragmentation rather than depth.
+
+    #indent() ... The data is unambiguous: AI does not reduce workloads. AI is being used as an additional productivity layer, not a substitute for existing work.
+    #notes_footnote_link(
+      "https://www.activtrak.com/resources/state-of-the-workplace/",
+      "2026 State of the Workplace",
+      "ActivTrak, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
+
+  #align(center)[
+    #image("03.Implications_for_the_Future/smothering_heights.png", height: 83%)
+  ]
+  #notes_unmarked_footnote_link(
+    "https://assets.jpmprivatebank.com/content/dam/jpm-pb-aem/global/en/documents/eotm/smothering-heights.pdf",
+    "Smothering Heights",
+    "M. Cembalest, J.P. Morgan, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
+
+  #align(center)[
+    #image("03.Implications_for_the_Future/metr_v2.png", height: 83%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://metr.org/blog/2026-02-24-uplift-update/",
+    "We are Changing our Developer Productivity Experiment Design",
+    "Becker et al., METR, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Productivity Gain and Labor Markets")[
+
+  #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
+    "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
+
+    #indent() ... By making execution cheap, AI shifts value upstream toward cognitive tasks-judgment, problem framing, and integration--that are #notes_underline[unevenly distributed] and #notes_underline[slow to acquire]. As a result, access to AI alone is unlikely to equalize outcomes. #bold[What matters is not whether workers can use AI but whether they can turn its output into useful work.]"
+    #notes_unmarked_footnote_link(
+      "https://www.science.org/doi/10.1126/science.aef5239",
+      "AI raises the productivity bar",
+      "Wu & Vasilescu, Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "AI is not Going Away")[
+
+  - #bold[AI is not going away]. Blindly refusing AI is not the solution. Instead, it is fundamental to understand its capabilities and limitations.
+
+    #notes_quote(
+      title: "AI Won't Take Your Job if You Know About IA",
+      details: [\ Harvard Graduate School of Education, 2024],
+    )[
+      "Love it or hate it, artificial intelligence (AI) is here, and it's not going away. As the technology evolves, AI will only become more prominent in our everyday interactions, shaping everything from how students learn to the work employees do at the office."
+      #notes_footnote_link(
+        "https://www.gse.harvard.edu/ideas/news/24/02/ai-wont-take-your-job-if-you-know-about-ia",
+        "AI Won't Take Your Job if You Know About IA",
+        "Dede & McCool, Harvard Graduate School of Education, 2024",
+      )
+    ]
+]
+
+// =====================================================================================================================
+
+= Employment
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "1/7")[
+
+  #notes_quote(
+    title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
+    details: [\ Bloomberg, 2026],
+  )[
+    "AI has become the most powerful proactive frame available. 'We're restructuring around AI' is a growth signal. 'We over-hired during the pandemic and revenue softened' is an accountability signal.
+
+    #indent() ... What makes AI washing corrosive is the confusion it creates, both inside and outside companies.
+
+    #indent() ... #bold[And every incoherent account adds to the public's conviction that AI is eliminating jobs at a pace the data simply do not support.]"
+    #notes_footnote_link(
+      "https://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing",
+      "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
+      "G. Mukunda, Bloomberg, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "2/7")[
+
+  #notes_quote(
+    title: [See which jobs are most threatened by AI\ and who may be able to adapt],
+    details: [\ The Washington Post, 2026],
+  )[
+    "#bold[A flood of sometimes conflicting analyses shows the yawning gap between what little is known about how AI is changing work and everyone's understandable hunger for certainty].
+
+    #indent() ... Economists say it's nearly impossible to forecast AI's effect on the labor market from the current capabilities of the technology or the business sectors it's seeping into first."
+    #notes_footnote_link(
+      "https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/",
+      "See which jobs are most threatened by AI and who may be able to adapt",
+      "Schaul & Shira, The Washington Post, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "3/7")[
+
+  #notes_quote(
+    title: [Evidence of an AI-driven shakeup of job markets is patchy],
+    details: [\ Oxford Economics, 2026],
+  )[
+    "#bold[we're sceptical that firms can quickly and seamlessly substitute workers with AI even in sectors where the potential for AI disruption is greatest]. What's more, some surveys suggest that AI use in larger US firms has recently stalled.
+
+    #indent() ... Data from Challenger, Gray and Christmas suggests that AI-related US job losses are snowballing. In the first 11 months of 2025, AI was cited as a reason for almost 55,000 US job cuts, which accounts for over 75% of the reported AI-related job losses since the reason was first cited in 2023. However, these 55,000 or #bold[so many AI-related job losses above account for only 4.5% of total reported job losses in the report]."
+    #notes_footnote_link(
+      "https://www.oxfordeconomics.com/wp-content/uploads/2026/01/Evidence-of-an-AI-driven-shakeup-of-job-markets-is-patchy.pdf",
+      "Evidence of an AI-driven shakeup of job markets is patchy",
+      "Oxford Economics, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "4/7")[
+
+  #notes_quote(
+    title: [Labor Market Report],
+    details: [\ LinkedIn, 2026],
+  )[
+    "Despite headlines, #bold[AI isn't the culprit behind slow hiring]. LinkedIn data shows #bold[economic uncertainty, and monetary policy shifts are the primary drivers]. Advanced economies are struggling the most, with hiring down 20%-35% compared to pre-pandemic levels.
+
+    #indent() ... Many roles as we have known them will undergo this transformation into new collar. In the past two years, #bold[employers have created at least 1.3 million AI-related job opportunities.]"
+    #notes_footnote_link(
+      "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/linkedIn-labor-market-report-building-a-future-of-work-that-works-jan-2026.pdf",
+      "Labor Market Report",
+      "LinkedIn, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "5/7")[
+
+  #notes_quote(
+    title: [FEDS Notes],
+    details: [\ 2026],
+  )[
+    We find that thus far, #bold[there is no evidence of a reduction in job postings for industries or firms which have higher levels of AI adoption]. The overall slowdown in national job postings following the pandemic recovery does not appear to be driven (even modestly) by AI.
+    #notes_footnote_link(
+      "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
+      "FEDS Notes",
+      "Board of Governors of the Federal Reserve System, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "6/7")[
+
+  #notes_quote(
+    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
+    details: [\ National Bureau of Economic Research, 2026],
+  )[
+    "Micro-level evidence suggests that AI generates #bold[meaningful time savings] for many workers. At the macro level, in recent years industries with higher AI adoption rates have #bold[experienced faster productivity growth]. While we do not establish causality, this relationship is statistically significant and similar in magnitude in Europe and the US."
+    #notes_footnote_link(
+      "https://www.nber.org/papers/w34995",
+      "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "7/7")[
+
+  #notes_quote(
+    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
+    details: [\ Budgetlab, Yale University, 2025],
+  )[
+    "While anxiety over the effects of AI on today's labor market is widespread, our data suggests it remains largely speculative. The picture of AI's impact on the labor market that emerges from our data is one that #bold[largely reflects stability, not major disruption at an economy-wide level]."
+    #notes_footnote_link(
+      "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
+      "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "Gimbel et al., Budgetlab, Yale University, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+= Positive Implications
+
+// =====================================================================================================================
+
+== Learning
+
+#notes_slide(title: "Learning", number: "1/2")[
+
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Nature, 2025")[
+    "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41598-025-97652-6",
+      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+      "Kestin et al., Nature, Scientific Reports, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Learning", number: "2/2")[
+
+  #notes_quote(
+    title: "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
+    details: "Bastani et al., 2026",
+  )[
+    "Our results show that personalized sequencing improves outcomes compared to fixed sequencing by 0.15 standard deviations on an in-person written exam completed without AI assistance, #bold[which translates into as much as 6-9 months of additional schooling] according to some estimates. Notably, these gains were achieved without increasing instruction time or teacher workload. Furthermore, our mediation analysis suggests that these gains are mediated #bold[by increased student engagement]"
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6423358",
+      "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
+      "Bastani et al., Preprint, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Soften Polarization
+
+#notes_slide(title: "Soften Polarization")[
+
+  #v(-10pt)
+  - #bold[AI may help to soften polarization].
+
+  #align(center)[
+    #image("03.Implications_for_the_Future/polarization.jpg", height: 78%)
+  ]
+
+  #v(-10pt)
+  #notes_unmarked_footnote_link(
+    "https://www.ft.com/content/3880176e-d3ac-4311-9052-fdfeaed56a0e?syn-25a6b1a6=1",
+    "Social media is populist and polarising; AI may be the opposite",
+    "Financial Times, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+= Negative Implications
+
+// =====================================================================================================================
+
+== Environmental Risks
+
+#notes_slide(title: "Environmental Risks - Local Impact", number: "1/2")[
+
+  - #bold[While data centers are not a concern at global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, energy cost increases, reduce local tax revenues, and don't provide other benefits, such as, high-paying jobs. #notes_footnote_link(
+      "https://www.wri.org/insights/us-data-center-growth-impacts",
+      "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
+      "Walker and Goldsmith, World Resources Institute, 2026",
+    )#super(",") #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "What happends when data centers come to town?",
+      "Nguyen & Green, Univesity of Michigan, 2025",
+    )
+
+  #notes_quote(title: "AI data centres can warm surrounding areas by up to 9.1°C", details: "Marinoni et al., 2026")[
+    "Land surface temperatures increased by an average of 2°C (3.6°F) in the months after an AI data centre started operations. In the most extreme cases, the #bold[increase in temperature was 9.1°C] (16.4°F)."
+    #notes_footnote_link(
+      "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
+      "AI data centres can warm surrounding areas by up to 9.1°C",
+      "Marinoni et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Local Impact", number: "2/2")[
+
+  #notes_quote(title: "Inside the Dirty, Dystopian World of AI Data Centers", details: [\ The Atlantic, 2026])[
+    ... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
+
+    #indent() ... Using satellite data, researchers at the University of Tennessee at Knoxville found that levels of nitrogen dioxide --- which causes smog and is associated with asthma and other respiratory problems --- near Colossus have been substantially elevated since its public announcement.
+    #notes_footnote_link(
+      "https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/",
+      "Inside the Dirty, Dystopian World of AI Data Centers",
+      "M Wong, The Atlantic, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Global Impact", number: "1/2")[
+
+  - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "Millions of new materials discovered with deep learning",
+      "Merchant & Cubuk, DeepMind, 2023",
+    ), funding small nuclear reactors #notes_footnote_link(
+      "https://www.cnbc.com/2025/03/29/these-nuclear-companies-lead-the-race-to-build-small-reactors-in-us.html",
+      "These nuclear companies are leading the race to build advanced small reactors in the U.S.",
+      "S. Kimball, CNBC, 2025",
+    ), and improve transportation planning and routing #notes_footnote_link(
+      "https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/",
+      "GreenLight, Using Google AI to reduce traffic emissions",
+      "Google, 2025",
+    ), which could contribute to reducing carbon emissions overall.
+
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Global Impact", number: "2/2")[
+
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Allen Holub, 2026")[
+    "#bold[All data centers combined account for about 0.5% of global carbon emissions].
+    #notes_footnote_link(
+      "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
+      "AI and climate change",
+      "International Energy Agency (IEA), 2025",
+    )
+    Of that, \~10% is AI-related, so AI is responsible for 0.05% of global carbon emissions. Cars and other transportation account for ~25% of total emissions."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41598-025-97652-6",
+      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+      "Allen Holub, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Deskilling
+
+#notes_slide(title: "Deskilling", number: "1/2")[
+
+  - #bold[AI has demonstrated significant user deskilling].
+    #v(-10pt)
+    #notes_quote(title: "How AI Impacts Skill Formation", details: "Anthropic, 2026")[
+      "AI use impairs conceptual understanding, code reading, and debugging abilities, [17% lower] without delivering significant efficiency gains on average."
+      #notes_footnote_link(
+        "https://arxiv.org/pdf/2601.20245",
+        "How AI Impacts Skill Formation",
+        "Shen & Tamkin, arXiv, Anthropic, 2026",
+      )
+    ]
+
+    #notes_quote(title: "Rapid generative AI rollout in health care", details: "The Lancet, 2025")[
+      "continuous exposure to AI for polyp detection [potentially cancerous] reduced the adenoma detection rate...with a 6.0% absolute difference, suggesting a detrimental effect on endoscopist capability."
+      #notes_footnote_link(
+        "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(25)00091-3/fulltext",
+        "Rapid generative AI rollout in health care",
+        "The Lancet Digital Health, 2025",
+      )
+    ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Deskilling", number: "2/2")[
+
+  #notes_quote(title: "Your Brain on ChatGPT", details: [\ Kosmyna et al., 2025])[
+    "EEG analysis presented robust evidence that LLM, Search Engine and Brain-only groups had significantly different neural connectivity patterns, reflecting divergent cognitive strategies.
+
+    #indent() #bold[Brain connectivity systematically scaled down with the amount of external support]: the Brain-only group exhibited the strongest, widest-ranging networks, Search Engine group showed intermediate engagement, and LLM assistance elicited the weakest overall coupling."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2506.08872",
+      "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+      "Kosmyna et al., arXiv, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Echo Chamber
+
+#notes_slide(title: "Echo Chamber (Sycophancy Again)")[
+
+  #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
+    "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses result in increased confidence in those hypotheses #bold[while not bringing the user any closer to the truth]."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2602.14270",
+      "A Rational Analysis of the Effects of Sycophantic AI",
+      "Batista et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Social Risks
+
+#notes_slide(title: "Social Risks", number: "1/2")[
+
+  The real danger to society is not that AI will actually become conscious, #bold[but rather the risks that arise from _believing_ it is]. We may grant legal rights or moral consideration to AI systems, or AI could be used to manipulate human users for commercial or #bold[political gain].
+  #notes_footnote_link(
+    "https://www.science.org/doi/10.1126/science.adn4935",
+    "Illusions of AI consciousness",
+    "Bengio & Elmoznino, Science, 2025",
+  )#super(",")
+  #notes_footnote_link(
+    "https://www.science.org/content/article/unethical-ai-research-reddit-under-fire",
+    "'Unethical' AI research on Reddit under fire",
+    "C. O'Grady, Science News, 2025",
+  )#super(",")
+  #notes_footnote_link(
+    "https://www.reuters.com/business/media-telecom/ai-deepfakes-blur-reality-2026-us-midterm-campaigns-2026-03-28/",
+    "AI deepfakes blur reality in 2026 US midterm campaigns",
+    "Ax & Coster, Reuters, 2026",
+  )#super(",")
+  #notes_footnote_link(
+    "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
+    "DHS is using Google and Adobe AI to make videos",
+    "J. O'Donnell, MIT Technology Review, 2026",
+  )
+
+  #v(-30pt)
+  #notes_quote(title: "How malicious AI swarms can threaten democracy", details: [Science, 2026])[
+    "Fusing LLM reasoning with multiagent architectures, these systems are capable of coordinating autonomously, infiltrating communities, and fabricating consensus efficiently. #bold[By adaptively mimicking human social dynamics, they threaten democracy]."
+    #notes_footnote_link(
+      "https://www.science.org/doi/10.1126/science.adz1697",
+      "How malicious AI swarms can threaten democracy",
+      "Schroeder et al., Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Social Risks", number: "2/2")[
+
+  #v(-5pt)
+  #notes_quote(title: "On the conversational persuasiveness of GPT-4", details: "Nature, 2025")[
+    "In debate pairs where AI and humans were not equally persuasive, #bold[GPT-4 with personalization was more persuasive 64.4% of the time]...Our findings highlight the power of LLM-based persuasion and have implications for the governance and design of online platforms."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41562-025-02194-6",
+      "On the conversational persuasiveness of GPT-4",
+      "Salvi et al., Nature Human Behaviour, 2025",
+    )
+  ]
+
+  #v(-5pt)
+  #notes_quote(
+    title: "Grady Booch",
+    details: [Creator of UML\ Author of the \"Object-Oriented Analysis and Design\" book],
+  )[
+    "I do not fear the rise of superintelligence.\
+    #v(-3pt)
+    #indent() I do, however, fear the rise of billionaires, organizations, and world powers who seek to use computing to maximize their power, influence, and control."
+    #notes_footnote_link(
+      "https://bsky.app/profile/booch.com/post/3merhogezjc2t",
+      "Grady Booch",
+      "Bluesky, 2026",
+    )
+  ]
+]
+
+<p4e>

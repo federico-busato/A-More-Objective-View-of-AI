@@ -86,7 +86,13 @@
     aspect-ratio: "16-9",
     footer: self => self.info.institution,
     config-info(
-      title: [#text(40pt)[#smallcaps[#title]]],
+      title: {
+        v(-50pt)
+        text(24pt)[#emph[A (More) Objective View of AI]]
+        linebreak()
+        v(50pt)
+        text(40pt)[#smallcaps[#title]]
+      },
       subtitle: "",
       author: [#text(20pt, font: "Latin Modern Sans")[\ _Federico Busato_]],
       date: [#h(21.5cm) #datetime.today().display()],
@@ -104,7 +110,7 @@
 
   show smallcaps: set text(font: "Latin Modern Roman Caps")
 
-  show quote: set pad(x: 4em)
+  show quote: set pad(x: 2em)
 
   set footnote(numbering: n => text(weight: "extrabold")[#h(5pt)#str(n)])
 
@@ -120,7 +126,7 @@
   )
   show outline.entry.where(
     level: 1,
-  ): set block(above: 40pt)
+  ): set block(above: 50pt)
   show outline.entry.where(
     level: 2,
   ): set block(above: 16pt)
