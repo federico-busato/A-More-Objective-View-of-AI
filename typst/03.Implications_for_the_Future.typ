@@ -2,18 +2,50 @@
 
 #show: notes-theme.with(title: [Implications for the Future])
 
+// =====================================================================================================================
+
 #title-slide()
 
 // =====================================================================================================================
 
 == #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 1/2] <touying:hidden>
 
-#outline(title: none)
-//#outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
+#show outline.entry.where(level: 1): set block(above: 60pt)
+#outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
-= Unlikely Exponential Growth  <p1e>
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 2/2] <touying:hidden>
+
+#show outline.entry.where(level: 1): set block(above: 30pt)
+#outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
+
+// =====================================================================================================================
+
+= Introduction <p1s>
+
+// =====================================================================================================================
+
+#notes_slide(title: "AI is not Going Away")[
+
+  - #bold[AI is not going away]. Blindly refusing AI is not the solution. Instead, it is fundamental to understand its capabilities and limitations.
+
+    #notes_quote(
+      title: "AI Won't Take Your Job if You Know About IA",
+      details: [\ Harvard Graduate School of Education, 2024],
+    )[
+      "Love it or hate it, artificial intelligence (AI) is here, and it's not going away. As the technology evolves, AI will only become more prominent in our everyday interactions, shaping everything from how students learn to the work employees do at the office."
+      #notes_footnote_link(
+        "https://www.gse.harvard.edu/ideas/news/24/02/ai-wont-take-your-job-if-you-know-about-ia",
+        "AI Won't Take Your Job if You Know About IA",
+        "Dede & McCool, Harvard Graduate School of Education, 2024",
+      )
+    ]
+]
+
+// =====================================================================================================================
+
+= Unlikely Exponential Growth
 
 // =====================================================================================================================
 
@@ -124,7 +156,7 @@
 // =====================================================================================================================
 
 
-= Productivity Gain Uncertainty <p4s>
+= Productivity Gain Uncertainty
 
 // =====================================================================================================================
 
@@ -134,7 +166,7 @@
 
   #notes_quote(
     title: "AI Productivity's $4 Trillion Question: Hype, Hope, And Hard Data",
-    details: "Forbes, 2026",
+    details: [\ Forbes, 2026],
   )[
     "The AI productivity story in early 2026 is neither the revolution that vendors promise nor the disappointment that skeptics predict #bold[-it's a transition whose timeline remains genuinely uncertain].
 
@@ -292,6 +324,10 @@
 
 // =====================================================================================================================
 
+= Employment <p1e>
+
+// =====================================================================================================================
+
 #notes_slide(title: "Productivity Gain and Labor Markets")[
 
   #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
@@ -305,29 +341,6 @@
     )
   ]
 ]
-
-// =====================================================================================================================
-
-#notes_slide(title: "AI is not Going Away")[
-
-  - #bold[AI is not going away]. Blindly refusing AI is not the solution. Instead, it is fundamental to understand its capabilities and limitations.
-
-    #notes_quote(
-      title: "AI Won't Take Your Job if You Know About IA",
-      details: [\ Harvard Graduate School of Education, 2024],
-    )[
-      "Love it or hate it, artificial intelligence (AI) is here, and it's not going away. As the technology evolves, AI will only become more prominent in our everyday interactions, shaping everything from how students learn to the work employees do at the office."
-      #notes_footnote_link(
-        "https://www.gse.harvard.edu/ideas/news/24/02/ai-wont-take-your-job-if-you-know-about-ia",
-        "AI Won't Take Your Job if You Know About IA",
-        "Dede & McCool, Harvard Graduate School of Education, 2024",
-      )
-    ]
-]
-
-// =====================================================================================================================
-
-= Employment
 
 // =====================================================================================================================
 
@@ -460,13 +473,13 @@
 
 // =====================================================================================================================
 
-= Positive Implications
+= Positive Impacts <p2s>
 
 // =====================================================================================================================
 
-== Scientific Breakthroughs
+== Protein Structure Prediction
 
-#notes_slide(title: "Scientific Breakthroughs", number: "1/2")[
+#notes_slide(title: "Protein Structure Prediction")[
 
   #notes_quote(title: "AlphaFold2", details: [\ Nobel Prize in Chemistry, 2024])[
     "In 2020, Demis Hassabis and John Jumper presented an AI model called #bold[AlphaFold2]. With its help, they have been able to #bold[predict the structure of virtually all the 200 million proteins] that researchers have identified. Since their breakthrough, #bold[AlphaFold2 has been used by more than two million people from 190 countries]. Among a myriad of scientific applications, researchers can now better understand antibiotic resistance and create images of enzymes that can decompose plastic."
@@ -477,6 +490,108 @@
     )
   ]
 ]
+// =====================================================================================================================
+
+== Material Discovery
+
+#notes_slide(title: "Material Discovery")[
+
+  #set text(size: 19pt)
+  #notes_quote(title: "GNoME", details: [DeepMind, 2023])[
+    "With GNoME, we've multiplied the number of technologically viable materials known to humanity. Of its 2.2 million predictions, 380,000 are the most stable, #bold[making them promising candidates for experimental synthesis]."
+    #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "Millions of new materials discovered with deep learning",
+      "Merchant & Cubuk, DeepMind, 2023",
+    )
+  ]
+
+  #notes_quote(title: "The Materials Project", details: [Berkeley Lab, 2026])[
+    "The open-access materials database ... enabling AI-ready scientific datasets at an unprecedented scale for batteries,
+    quantum computing, microelectronics, and more..
+
+    #indent() ... in 650,000+ registered users, 32,000+ scientific journal citations, \~5,000 active users a day, 200,000+ materials, 577,000+ molecules, 465+ TBs of data, 300 million+ data requests a year."
+    #notes_footnote_link(
+      "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "Accelerating Discovery: How the Materials Project Is Helping to Usher in the AI Revolution for Materials Science",
+      "Merchant & Cubuk, DeepMind, 2023",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Weather Forecasting
+
+#notes_slide(title: "Weather Forecasting", number: "1/2")[
+
+  #notes_quote(title: "GraphCast", details: [\ Google, 2023])[
+    "GraphCast, a state-of-the-art AI model able to make medium-range weather forecasts with unprecedented accuracy. GraphCast predicts weather conditions up to 10 days in advance #bold[more accurately and much faster than the industry gold-standard weather simulation system]."
+    #notes_footnote_link(
+      "https://deepmind.google/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/",
+      "GraphCast: AI model for faster and more accurate global weather forecasting",
+      "Google, 2023",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Weather Forecasting", number: "2/2")[
+
+  #notes_quote(title: "FourCastNet", details: [\ Nvidia, 2025])[
+    "FourCastNet 3 delivers forecasting accuracy that surpasses leading conventional ensemble models and rivals the best diffusion-based methods, while #bold[producing forecasts 8 to 60 times faster] than these approaches.
+
+    #indent() ... a strong candidate for improving meteorological forecasting and early warning systems."
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2507.12144",
+      "FourCastNet 3: A geometric approach to probabilistic machine-learning weather forecasting at scale",
+      "Bonev et al., 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Healthcare
+
+#notes_slide(title: "Healthcare - Drug Discovery")[
+
+  #notes_quote(title: "TNIK Inhibitor", details: [\ Insilico, 2025])[
+    Idiopathic pulmonary fibrosis (IPF) is a type of chronic scarring lung disease characterized by a progressive and irreversible decline in lung function affecting around 5 million people globally.
+    #notes_footnote_link(
+      "https://insilico.com/pipeline_target_targetx",
+      "TNIK Inhibitor: Treating Fibrotic diseases (Phase IIa completed)",
+      "Insilico, 2025",
+    )
+
+    #indent() ... This is the first time an #bold[AI-designed drug] for an AI-discovered disease-associated target  #bold[has been tested in the clinic] [phase 2a].
+    #notes_footnote_link(
+      "https://insilico.com/blog/1112",
+      "A Phase 2 Readout Generates Excitement for the Potential of AI-Driven Drug Discovery",
+      "Insilico, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Healthcare - Diagnose Diseases")[
+
+  #notes_quote(
+    title: [New AI model can detect multiple cognitive brain diseases\ from a single blood sample],
+    details: [\ Lund University, 2026],
+  )[
+    "Using advanced statistical learning methods and a process known as 'joint learning,' the researchers' AI model was able to identify a specific set of proteins that form a general pattern for diseases involving brain degeneration.
+
+    Vogel confirms that their #bold[AI model outperforms previous models, while also being able to diagnose five different dementia-related conditions]: Alzheimer's disease, Parkinson's disease, ALS, frontotemporal dementia, and previous stroke."
+    #notes_footnote_link(
+      "https://www.lunduniversity.lu.se/article/new-ai-model-can-detect-multiple-cognitive-brain-diseases-single-blood-sample",
+      "New AI model can detect multiple cognitive brain diseases from a single blood sample",
+      "Lund University, 2026",
+    )
+  ]
+]
 
 // =====================================================================================================================
 
@@ -484,7 +599,7 @@
 
 #notes_slide(title: "Learning", number: "1/2")[
 
-  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Nature, 2025")[
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: [\ Nature, 2025])[
     "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
     #notes_footnote_link(
       "https://www.nature.com/articles/s41598-025-97652-6",
@@ -534,7 +649,7 @@
 
 // =====================================================================================================================
 
-= Negative Implications
+= Negative Impacts
 
 // =====================================================================================================================
 
@@ -552,14 +667,15 @@
       "Nguyen & Green, Univesity of Michigan, 2025",
     )
 
-  #notes_quote(title: "AI data centres can warm surrounding areas by up to 9.1°C", details: "Marinoni et al., 2026")[
-    "Land surface temperatures increased by an average of 2°C (3.6°F) in the months after an AI data centre started operations. In the most extreme cases, the #bold[increase in temperature was 9.1°C] (16.4°F)."
-    #notes_footnote_link(
-      "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
-      "AI data centres can warm surrounding areas by up to 9.1°C",
-      "Marinoni et al., arXiv, 2026",
-    )
-  ]
+  // Chris Preist at the University of Bristol, UK, says the results may be more nuanced than they first appear. “It would be worth doing follow-up research to understand to what extent it’s the heat generated from computation versus the heat generated from the building itself,”
+  //  #notes_quote(title: "AI data centres can warm surrounding areas by up to 9.1°C", details: "Marinoni et al., 2026")[
+  //    "Land surface temperatures increased by an average of 2°C (3.6°F) in the months after an AI data centre started //operations. In the most extreme cases, the #bold[increase in temperature was 9.1°C] (16.4°F)."
+  //    #notes_footnote_link(
+  //      "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
+  //      "AI data centres can warm surrounding areas by up to 9.1°C",
+  //      "Marinoni et al., arXiv, 2026",
+  //    )
+  //  ]
 ]
 
 // =====================================================================================================================
@@ -602,7 +718,7 @@
 
 #notes_slide(title: "Environmental Risks - Global Impact", number: "2/2")[
 
-  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: "Allen Holub, 2026")[
+  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: [\ Allen Holub, 2026])[
     "#bold[All data centers combined account for about 0.5% of global carbon emissions].
     #notes_footnote_link(
       "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
@@ -679,7 +795,7 @@
 
 // =====================================================================================================================
 
-== Social Risks
+== Social Risks <p2e>
 
 #notes_slide(title: "Social Risks", number: "1/2")[
 
@@ -745,5 +861,3 @@
     )
   ]
 ]
-
-<p4e>

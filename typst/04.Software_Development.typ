@@ -148,7 +148,7 @@
 
   #notes_quote(
     title: "Redefining the Software Engineering Profession for AI",
-    details: "Communications of the ACM, 2026",
+    details: [\ Communications of the ACM, 2026],
   )[
     "Without the hiring of early-in-career developers, the profession's talent pipeline will collapse, and organizations will face a future without the next generation of experienced engineers."
     #notes_footnote_link(
@@ -192,7 +192,7 @@
 
   - #bold[Lack of generalization beyond the training data.]
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
+  #notes_quote(title: "Benj Edwards", details: [\ Ars Technica])[
     "This brittleness means that #bold[coding agents are almost frighteningly good at what they've been trained and fine-tuned on---modern programming languages], JavaScript, HTML, and similar well-represented technologies---and generally #bold[terrible at tasks on which they have not been deeply trained].
 
     #indent() ... It took me five minutes to make a nice HTML5 demo with Claude but a week of torturous trial and error, plus actual systematic design on my part, to make a similar demo of an Atari 800 game." @benj_edwards
@@ -207,7 +207,7 @@
 
 #notes_slide(title: "Creativity")[
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
+  #notes_quote(title: "Benj Edwards", details: [\ Ars Technica])[
     "Due to what might poetically be called "preconceived notions" baked into a coding model's neural network (more technically, statistical semantic associations), #bold[it can be difficult to get AI agents to create truly novel things], even if you carefully spell out what you want." @benj_edwards
   ]
 ]
@@ -240,7 +240,7 @@
 
 #notes_slide(title: "The Illusion of Competence", number: "2/2")[
 
-  #notes_quote(title: "Sonar", details: "State of Code Developer Survey report")[
+  #notes_quote(title: "Sonar", details: [\ State of Code Developer Survey report, 2026])[
     #indent() "61% agree that \"AI often produces code that looks correct but isn't reliable.\" That's a critical finding---it means #bold[AI code can introduce subtle bugs that are harder to spot than typical human errors.]
 
     #indent() The same percentage (61%) agree that it \"#bold[requires a lot of effort to get good code from AI]\" through prompting and fixing."
@@ -271,7 +271,7 @@
 
   #v(-10pt)
   #set text(size: 19pt)
-  #notes_quote(title: "GitClear", details: "AI Copilot Code Quality")[
+  #notes_quote(title: "GitClear", details: [\ AI Copilot Code Quality, 2025])[
     "#bold[The share of copy/pasted lines surged] from 8.3% in 2020 to 12.3% in 2024, a 48% relative increase.
 
     #indent() The proportion of new code that was revised within two weeks of its initial commit grew from 3.1% in 2020 to 5.7% in 2024, indicating a #bold[rise in premature or low-quality commits].
@@ -371,7 +371,7 @@
 
 #notes_slide(title: "Security Vulnerability", number: "4/4")[
 
-  #notes_quote(title: "Building a C compiler with a team of parallel Claudes", details: "Anthropic")[
+  #notes_quote(title: "Building a C compiler with a team of parallel Claudes", details: [\ Anthropic, 2026])[
     "We are still early, and #bold[fully autonomous development comes with real risks]. When a human sits with Claude during development, they can ensure consistent quality and catch errors in real time. For autonomous systems, #bold[it is easy to see tests pass and assume the job is done, when this is #notes_underline[rarely] the case]."
     #notes_footnote_link(
       "https://www.anthropic.com/engineering/building-c-compiler",
@@ -389,7 +389,7 @@
 
   - #bold[The "Last Mile" Problem]. Prototyping with AI is not the same as building a production-quality product.
 
-  #notes_quote(title: "Benj Edwards", details: "Ars Technica")[
+  #notes_quote(title: "Benj Edwards", details: [\ Ars Technica, 2026])[
     "The first 90 percent of an AI coding project comes in fast and amazes you. #bold[The last 10 percent involves tediously filling in the details] through back-and-forth trial-and-error conversation with the agent." @benj_edwards
   ]
 ]
@@ -417,7 +417,7 @@
 #notes_slide(title: "The 'Last Mile' Problem", number: "3/3")[
 
   #notes_quote(
-    title: [The 100 hour gap between a vibecoded prototype\ and a working product],
+    title: [The 100 hour gap between a vibecoded prototype and a working product],
     details: [\ M. Budkowski, 2026],
   )[
     With AI, it's easier to get the first 90 percent out there. This means we can spend more time on the remaining 10 percent, which means more time for craftsmanship and figuring out how to make your users happy.
@@ -562,7 +562,7 @@
 
   #notes_quote(
     title: "Benj Edwards",
-    details: "Ars Technica",
+    details: [\ Ars Technica, 2026],
   )[
     "#bold[Experienced human software developers bring judgment, creativity, and domain knowledge that AI models lack]. They know how to architect systems for long-term maintainability, how to balance technical debt against feature velocity, and when to push back when requirements don't make sense.
 
@@ -596,7 +596,7 @@
 
   #notes_quote(
     title: "Redefining the Software Engineering Profession for AI",
-    details: "Communications of the ACM, 2026",
+    details: [\ Communications of the ACM, 2026],
   )[
     "Relying too much on AI risks missing subtle bugs, architectural flaws, and vulnerabilities that only skilled engineers can catch. #bold[Human oversight, critical thinking, and domain knowledge are indispensable] for both correcting errors and driving innovation as technology progresses.
 

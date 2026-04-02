@@ -25,7 +25,7 @@
   )
   On the other hand, a deeper look clearly indicates the opposite conclusion.
 
-  These notes by investigating why #bold[the human brain and AI systems are intrinsically incomparable, both structurally and functionally] and, closely related, why #bold[LLMs should not be considered conscious].
+  These notes investigate why #bold[the human brain and AI systems are intrinsically incomparable, both structurally and functionally] and, closely related, why #bold[LLMs should not be considered conscious].
 ]
 
 // =====================================================================================================================

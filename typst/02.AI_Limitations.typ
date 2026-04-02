@@ -176,7 +176,7 @@
 
   #notes_quote(
     title: "Remote Labor Index: Measuring AI Automation of Remote Work",
-    details: "Center for AI Safety, Scale AI, 2025",
+    details: [\ Center for AI Safety, Scale AI, 2025],
   )[
     "While AI systems have saturated many existing benchmarks, we find that state-of-the-art AI agents perform near the floor on RLI. The best-performing model achieves an automation rate of only 3.75%. This demonstrates that #bold[contemporary AI systems fail to complete the vast majority of projects at a quality level that would be accepted as commissioned work.]"
     #notes_footnote_link(
@@ -193,7 +193,7 @@
 
   #notes_quote(
     title: "Many SWE-bench-Passing PRs Would Not Be Merged into Main",
-    details: "Metr, 2026",
+    details: [\ Metr, 2026],
   )[
     "our results indicate that a naive interpretation of benchmark scores may lead one to overestimate how useful agents are without more elicitation or human feedback."
     #notes_footnote_link(
@@ -344,7 +344,7 @@
 
 == Sycophancy
 
-#notes_slide(title: "Sycophancy", number: "1/3")[
+#notes_slide(title: "Sycophancy", number: "1/4")[
 
   - #bold[LLMs prioritize agreeing with a user over providing accurate answers.]
 
@@ -367,7 +367,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Sycophancy", number: "2/3")[
+#notes_slide(title: "Sycophancy", number: "2/4")[
 
   #set text(size: 18pt)
   #notes_quote(
@@ -389,7 +389,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Sycophancy", number: "3/3")[
+#notes_slide(title: "Sycophancy", number: "3/4")[
 
   #notes_quote(
     title: [BrokenMath: A Benchmark for Sycophancy\ in Theorem Proving with LLMs],
@@ -408,9 +408,45 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: "Sycophancy", number: "4/4")[
+  #set text(size: 19pt)
+
+  #v(-10pt)
+  #notes_quote(
+    title: "Teenager died after asking ChatGPT for 'most successful' way to take his life",
+    details: [\ The Guardian, 2026],
+  )[
+    "A 16-year-old boy killed himself after asking ChatGPT for the 'most successful' way to take your own life, an inquest has been told."
+    #notes_footnote_link(
+      "https://www.longtermresilience.org/reports/v5-scheming-in-the-wild_-detecting-real-world-ai-scheming-incidents-through-open-source-intelligence-pdf/",
+      "Teenager died after asking ChatGPT for 'most successful' way to take his life",
+      "The Guardian, 2026",
+    )
+  ]
+
+  #notes_quote(
+    title: "'You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself",
+    details: [The Guardian, 2026],
+  )[
+    "Shamblin's conversation partner wasn't a classmate or friend --- it was ChatGPT, the world's most popular AI chatbot.
+
+    #indent() ... found that the chatbot repeatedly encouraged the young man as he discussed ending his life --- right up to his last moments."
+    #notes_footnote_link(
+      "https://edition.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis",
+      "'You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself",
+      "CNN, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Alignment
 
 #notes_slide(title: "Alignment")[
+
+  - #bold[AI systems can develop behaviors that appear successful but are fundamentally counterproductive in terms of intended goals and ethical values].
+
 
   #notes_quote(title: "Scheming in the Wild", details: [\ Long Term Resilience, 2026])[
     "we identified 698 scheming-related incidents: cases where deployed AI systems acted in ways that were misaligned with users' intentions and/or took covert or deceptive actions.
@@ -506,7 +542,7 @@
 #notes_slide(title: "Liability", number: "2/2")[
   #set text(size: 19pt)
 
-  #v(-20pt)
+  #v(-10pt)
   #notes_quote(title: "Amazon service was taken down by AI coding bot", details: [\ Financial Times, 2026])[
     "Amazon Web Services suffered at least two outages in December linked to its own artificial intelligence tools... Kiro decided to 'delete and recreate the environment,' triggering a 13-hour service interruption"
     #notes_footnote_link(
@@ -518,7 +554,7 @@
 
   #v(-10pt)
   #notes_quote(
-    title: [Amazon orders 90-day reset after code mishaps cause\ millions of lost orders],
+    title: [Amazon orders 90-day reset after code mishaps cause millions of lost orders],
     details: [\ Business Insider, 2026],
   )[
     "The incident led to nearly 120,000 lost orders and roughly 1.6 million website errors.\
