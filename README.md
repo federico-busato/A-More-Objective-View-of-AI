@@ -1,3 +1,9 @@
+<p align="center">
+<img src="others/logo.webp" width="500">
+<br>
+(<sup><sub>original image from <a href="https://newsroom.arm.com/blog/nvidia-drive-agx-jetson-thor-arm-neoverse">Arm</a></sub></sup>)
+</p>
+
 # (A More) Objective View of AI
 
 The profound influence of AI on technology, human culture, and society is undeniable.
