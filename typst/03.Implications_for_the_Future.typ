@@ -464,6 +464,22 @@
 
 // =====================================================================================================================
 
+== Scientific Breakthroughs
+
+#notes_slide(title: "Scientific Breakthroughs", number: "1/2")[
+
+  #notes_quote(title: "AlphaFold2", details: [\ Nobel Prize in Chemistry, 2024])[
+    "In 2020, Demis Hassabis and John Jumper presented an AI model called #bold[AlphaFold2]. With its help, they have been able to #bold[predict the structure of virtually all the 200 million proteins] that researchers have identified. Since their breakthrough, #bold[AlphaFold2 has been used by more than two million people from 190 countries]. Among a myriad of scientific applications, researchers can now better understand antibiotic resistance and create images of enzymes that can decompose plastic."
+    #notes_footnote_link(
+      "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+      "AlphaFold2",
+      "Nobel Prize in Chemistry, 2024",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Learning
 
 #notes_slide(title: "Learning", number: "1/2")[
