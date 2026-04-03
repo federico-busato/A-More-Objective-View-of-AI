@@ -8,17 +8,24 @@
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 1/2] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 1/3] <touying:hidden>
 
 #show outline.entry.where(level: 1): set block(above: 60pt)
 #outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 2/2] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 2/3] <touying:hidden>
 
 #show outline.entry.where(level: 1): set block(above: 30pt)
 #outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
+
+// =====================================================================================================================
+
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 3/3] <touying:hidden>
+
+#show outline.entry.where(level: 1): set block(above: 30pt)
+#outline(target: selector(heading).after(<p3s>).before(<p3e>), title: none)
 
 // =====================================================================================================================
 
@@ -344,7 +351,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "1/7")[
+#notes_slide(title: "Employment", number: "1/10")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -365,7 +372,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "2/7")[
+#notes_slide(title: "Employment", number: "2/10")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -384,7 +391,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "3/7")[
+#notes_slide(title: "Employment", number: "3/10")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
@@ -403,7 +410,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "4/7")[
+#notes_slide(title: "Employment", number: "4/10")[
 
   #notes_quote(
     title: [Labor Market Report],
@@ -422,7 +429,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "5/7")[
+#notes_slide(title: "Employment", number: "5/10")[
 
   #notes_quote(
     title: [FEDS Notes],
@@ -439,7 +446,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "6/7")[
+#notes_slide(title: "Employment", number: "6/10")[
 
   #notes_quote(
     title: [Mind the Gap: AI Adoption in Europe and the U.S.],
@@ -456,7 +463,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "7/7")[
+#notes_slide(title: "Employment", number: "7/10")[
 
   #notes_quote(
     title: [Mind the Gap: AI Adoption in Europe and the U.S.],
@@ -467,6 +474,66 @@
       "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
       "Mind the Gap: AI Adoption in Europe and the U.S.",
       "Gimbel et al., Budgetlab, Yale University, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "8/10")[
+
+  #notes_quote(
+    title: [AI and Young-adult Jobs: The Real Mystery],
+    details: [\ Economic Innovation Group, 2026],
+  )[
+    "Young workers of all education levels are lagging the rest of the labor market. #bold[Focusing too much on education rather than age as the main labor market weakness starts us in the wrong direction].
+
+    So is AI nonetheless to blame for the broad-based weakness in the labor market for young people? It's true that some lower-skilled jobs can be replaced by AI. Call center workers and data entry jobs are potential examples. But there are not enough of these jobs to really drive the youth labor market."
+    #notes_footnote_link(
+      "https://agglomerations.eig.org/p/ai-and-young-adult-jobs-the-real?publication_id=2739407&post_id=190033461&isFreemail=true&r=2mn9q2&triedRedirect=true",
+      "AI and Young-adult Jobs: The Real Mystery",
+      "Ozimek & Goldschlag, Economic Innovation Group, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "9/10")[
+
+  #align(center)[
+    #image("03.Implications_for_the_Future/graduate_employment.png", height: 83%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://www.employamerica.org/labor-market-analysis/dont-blame-ai-for-the-rise-in-recent-graduate-unemployment/",
+    "Don’t Blame AI For The Rise in Recent Graduate Unemployment",
+    "W. Raderman, Employ America, 2026",
+  )
+]
+
+
+// =====================================================================================================================
+
+#notes_slide(title: "Employment", number: "10/10")[
+
+  #set text(size: 18pt)
+  #v(-10pt)
+  #notes_quote(
+    title: [Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks],
+    details: [\ Economic Innovation Group, 2026],
+  )[
+    "the association between LLM performance and task duration is well approximated by a relatively flat, near-linear relationship rather than a steep, wave-like pattern.
+
+    #indent() ... the success rates achieved by LLMs in this analysis should not be interpreted as implying that a corresponding share of tasks can (or should) be automated today
+
+    #indent() ... the loss of individual tasks does not necessary hurt the employees. Indeed, based on the expertise of task and how that relates to the occupation's bundle of tasks, automation could increase or decrease wages.
+
+    #indent() ... In particular, we require each task instance to be self-contained, with all relevant information provided in the prompt. This constraint limits our ability to represent tasks that depend on interaction with external artifacts"
+    #notes_unmarked_footnote_link(
+      "https://arxiv.org/html/2604.01363v1",
+      "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks",
+      "Mertens et al., arXiv, 2026",
     )
   ]
 ]
@@ -628,7 +695,7 @@
 
 // =====================================================================================================================
 
-== Soften Polarization
+== Soften Polarization <p2e>
 
 #notes_slide(title: "Soften Polarization")[
 
@@ -649,13 +716,13 @@
 
 // =====================================================================================================================
 
-= Negative Impacts
+= Negative Impacts <p3s>
 
 // =====================================================================================================================
 
 == Environmental Risks
 
-#notes_slide(title: "Environmental Risks - Local Impact", number: "1/2")[
+#notes_slide(title: "Environmental Risks - Local Impact", number: "1/3")[
 
   - #bold[While data centers are not a concern at global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, energy cost increases, reduce local tax revenues, and don't provide other benefits, such as, high-paying jobs. #notes_footnote_link(
       "https://www.wri.org/insights/us-data-center-growth-impacts",
@@ -680,16 +747,33 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Environmental Risks - Local Impact", number: "2/2")[
+#notes_slide(title: "Environmental Risks - Local Impact", number: "2/3")[
 
   #notes_quote(title: "Inside the Dirty, Dystopian World of AI Data Centers", details: [\ The Atlantic, 2026])[
-    ... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
+    "... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
 
-    #indent() ... Using satellite data, researchers at the University of Tennessee at Knoxville found that levels of nitrogen dioxide --- which causes smog and is associated with asthma and other respiratory problems --- near Colossus have been substantially elevated since its public announcement.
+    #indent() ... Using satellite data, researchers at the University of Tennessee at Knoxville found that levels of nitrogen dioxide --- which causes smog and is associated with asthma and other respiratory problems --- near Colossus have been substantially elevated since its public announcement."
     #notes_footnote_link(
       "https://www.theatlantic.com/magazine/2026/04/ai-data-centers-energy-demands/686064/",
       "Inside the Dirty, Dystopian World of AI Data Centers",
       "M Wong, The Atlantic, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Environmental Risks - Local Impact", number: "3/3")[
+
+  #notes_quote(
+    title: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant",
+    details: [\ Wired, 2026],
+  )[
+    "A new data center being built with investments from Google will be partly powered by a natural gas project that emits the yearly emissions #bold[equivalent of putting more than 970,000 additional gas-powered cars on the road]."
+    #notes_footnote_link(
+      "https://www.wired.com/story/a-new-google-funded-data-center-will-be-powered-by-a-massive-gas-plant/",
+      "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant",
+      "Taft et al., Wired, 2026",
     )
   ]
 ]
@@ -795,7 +879,26 @@
 
 // =====================================================================================================================
 
-== Social Risks <p2e>
+== Health Risks
+
+#notes_slide(title: "Health Risks")[
+
+  #notes_quote(
+    title: "Patients Use AI-Clinicians Should Ask How",
+    details: [\ JAMA Psychiatry, 2026],
+  )[
+    "More than 5 million US youth (13.1%) have sought mental health advice from AI, #bold[with rates reaching 22.2% among 18- to 21-year-olds]. A 2025 study of adults with mental health conditions who use large language models reported nearly half use them for support, including for anxiety, depression, and personal advice. Users seek emotional support, companionship, psychoeducation, and help processing difficult experiences, likely between sessions and #bold[sometimes instead of clinical care altogether]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41598-025-97652-6",
+      "Patients Use AI-Clinicians Should Ask How",
+      "K. Saba & B. Weeks, JAMA Psychiatry, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Social Risks <p3e>
 
 #notes_slide(title: "Social Risks", number: "1/2")[
 
@@ -861,3 +964,4 @@
     )
   ]
 ]
+ 

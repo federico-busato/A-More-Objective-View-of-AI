@@ -31,11 +31,11 @@
 
 // =====================================================================================================================
 
-= Introduction <p1s>
+= Introduction
 
 // =====================================================================================================================
 
-#notes_slide(title: "Introduction", number: "1/3")[
+#notes_slide(title: "Introduction", number: "1/2")[
 
   Artificial Intelligence (AI) presents an unprecedented opportunity, not just as a _productivity booster_, but also to elevate people from domain-specific, expert-level tasks to #bold[designing higher-level intents].
   #v(20pt)
@@ -50,19 +50,12 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Introduction", number: "2/3")[
+#notes_slide(title: "Introduction", number: "2/2")[
 
   In the following slides, we disentangle the most common misconceptions related to AI, the role of human expertise, and the tendency to attribute human traits to Large Language Models (LLMs). Contrary to _sensationalist_ statements based on "personal feelings", which are very often present on social media, the following analysis is grounded in recent research data. A brief summary:
-]
 
-// =====================================================================================================================
-
-#notes_slide(title: "Introduction", number: "3/3")[
-  We start these notes by investigating why #bold[the human brain and AI systems are intrinsically incomparable, both structurally and functionally] and, closely related, why #bold[LLMs should not be considered conscious].
-
-  #v(20pt)
-  Next, we will highlight the problem of #bold[hallucinations in AI], the #bold[uncertainties] in the impact of AI on productivity, the #bold[unlikely exponential growth] of AI capabilities in the short/medium term, its #bold[limitations], and the #bold[future impact of AI] on skill formation and potential social risks.
-
-  #v(20pt)
-  In the second part of these notes, we will focus on the relation between #bold[AI and software development]. We will explore the impact of AI on software employment, the role of software engineering, and the risks of AI-generated code.
+  - The human brain and AI systems are incomparable, and LLMs should not be considered conscious.
+  - Technical and "Social" limitations of AI.
+  - Implications for the future, including scientific advances, employment, environmental risks, learning, and social risks.
+  - Impact of AI on software development, covering also software employment, the role of software engineering, and the risks of AI-generated code.
 ]

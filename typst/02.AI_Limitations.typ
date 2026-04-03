@@ -26,7 +26,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/4")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/5")[
 
   #notes_quote(
     title: [OpenAI admits AI hallucinations are mathematically inevitable,\ not just engineering flaws],
@@ -50,7 +50,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/4")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/5")[
 
   #notes_quote(
     title: [Hallucination is Inevitable:
@@ -69,7 +69,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/4")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/5")[
 
   #notes_quote(title: "GPTZero")[
     "300 papers under review by the prestigious International Conference on Learning Representations (ICLR). We discovered that 50 submissions included at least one obvious hallucination.
@@ -90,7 +90,24 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "4/4")[
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "4/5")[
+
+  #notes_quote(
+    title: [Hallucinated citations are polluting the scientific literature.\ What can be done?],
+    details: [\ Nature News Feature, 2026],
+  )[
+    "As a rough estimate, if the rate of 65 publications with at least one invalid reference out of some 4,000 publications analysed holds across the academic literature, it would suggest that #bold[more than 110,000 of the 7 million or so scholarly publications from 2025 contain invalid references]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/d41586-026-00969-z",
+      "Hallucinated citations are polluting the scientific literature. What can be done?",
+      "Naddaf & Quill, Nature News Feature, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "5/5")[
 
   #notes_quote(title: "Deloitte goes all in on AI", details: [\ TechCrunch, 2025])[
     "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."

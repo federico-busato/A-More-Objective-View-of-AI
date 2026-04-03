@@ -1,6 +1,8 @@
 <p align="center">
 <img src="others/logo.webp" width="500">
 <br>
+<sup><sub> <a href="https://www.wri.org/insights/ai-promise-and-peril-for-planet">AI Can Help or Harm the Planet. It's Up to Us</a></sub></sup>
+<br>
 (<sup><sub>original image from <a href="https://newsroom.arm.com/blog/nvidia-drive-agx-jetson-thor-arm-neoverse">Arm</a></sub></sup>)
 </p>
 
@@ -66,15 +68,25 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 
 ### 3. [Implications for the Future](03.Implications_for_the_Future.pdf)
 
+- **Introduction**
 - **Unlikely Exponential Growth**
 - **Productivity Gain Uncertainty**
-- **Implications for the Future**
+- **Employment**
+- **Positive Impacts**
 
-  - Employment
-  - Environmental Risks
+  - Protein Structure Prediction
+  - Material Discovery
+  - Weather Forecasting
+  - Healthcare
   - Learning
+  - Soften Polarization
+
+- **Negative Impacts**
+
+  - Environmental Risks
   - Deskilling
   - Echo Chamber
+  - Health Risks
   - Social Risks
 
 ### 4. [Software Development in the Age of AI](04.Software_Development.pdf)
