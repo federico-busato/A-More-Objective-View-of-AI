@@ -1,4 +1,4 @@
-#import "@preview/touying:0.7.0": *
+#import "@preview/touying:0.7.1": *
 #import "@preview/numbly:0.1.0": numbly
 #import "@preview/fontawesome:0.6.0": fa-icon
 #import themes.metropolis: *
@@ -8,6 +8,10 @@
 #let notes_underline(string) = [#underline(offset: 3pt)[#string]]
 
 #let large(string) = [#text(size: 20pt)[#string]]
+
+#let science-tag() = [#fa-icon("microscope")]
+#let news-tag() = [#fa-icon("newspaper")]
+#let comment-tag() = [#text(size: 20pt)[#fa-icon("comment", solid: true)]]
 
 #let notes_slide(content, title: "", number: "") = slide(
   title: [

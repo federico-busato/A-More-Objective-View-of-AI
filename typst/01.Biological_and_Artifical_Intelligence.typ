@@ -16,7 +16,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Introduction")[
+#notes_slide(title: [Introduction])[
   One of the most common topics is the comparison between biological and artificial intelligence. Often, we superficially attribute human-like characteristics to AI systems, anthropomorphizing LLMs and chatbots, and even suggesting human-AI intimacy.
   #notes_footnote_link(
     "https://www.sciencedirect.com/science/article/pii/S2451958825001307",
@@ -34,7 +34,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "1/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "1/6")[
 
   The human brain has 86 billion neurons and 100 trillion synapses. We might intuitively think that once an AI system reaches this threshold, intelligence, or even consciousness, will naturally arise. However, recent studies argue that to reach the complexity of even one biological neuron, a modern deep neural network requires between five and eight layers of nodes #notes_footnote_link("https://www.sciencedirect.com/science/article/pii/S0896627321005018", "Single cortical neurons as deep artificial neural networks", "Beniaguev et al., Neuron, 2021"). Real neurons might be even more complex.
 
@@ -50,7 +50,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "2/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #comment-tag()], number: "2/6")[
 
   #notes_quote(title: "Computation's Limits: What a Neuron Teaches Us", details: [\ ocrampal, 2025])[
     "#bold[The neuron operates across multiple timescales] without coordinating them, generates its own organizational principles without pre-specification, and contextually determines what causes what.
@@ -65,7 +65,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "3/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "3/6")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is extremely sparse]. The probability of two neurons being connected is \~ 1 in 100 million. This is in sharp contrast to AI models that show mostly dense organization.
@@ -80,7 +80,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "4/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "4/6")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is subject to continuous learning]. It performs inference and learning #notes_underline[concurrently], in #notes_underline[real time].
@@ -102,7 +102,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "5/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "5/6")[
   #v(-15pt)
 
   - #bold[Continuous dynamics and perception].
@@ -128,7 +128,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Structurally Different", number: "6/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "6/6")[
 
   - #bold[Metabolic constraints].
 
@@ -149,7 +149,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "1/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "1/6")[
 
   - Current AI models are #bold["stochastic parrots"]. #notes_footnote_link(
       "https://dl.acm.org/doi/10.1145/3442188.3445922",
@@ -172,7 +172,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "2/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "2/6")[
 
   #notes_quote(
     title: [Language models cannot reliably distinguish belief from knowledge and fact],
@@ -191,7 +191,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "3/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "3/6")[
 
   #v(-15pt)
   #notes_quote(
@@ -210,7 +210,7 @@
   #v(-15pt)
   #notes_quote(
     title: "Shortcoming Makes LLMs Less Reliable",
-    details: [ MIT News, 2025],
+    details: [\ MIT News, 2025],
   )[
     "LLMs learn spurious correlations between a prompt's syntactic template and specific domains. The model may incorrectly rely solely on this learned association when answering questions, #bold[rather than on an understanding] of the query and subject matter."
     #notes_footnote_link(
@@ -228,7 +228,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "4/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "4/6")[
 
   - #bold[AI models struggle to generalize beyond their training sets]. The classic example of this behavior is the accuracy disparity between English and non-English results.
   #set text(size: 19pt)
@@ -248,7 +248,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "5/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "5/6")[
 
   #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
@@ -265,15 +265,15 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI and Human Brain are Functionally Different", number: "6/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "6/6")[
 
   #notes_quote(
     title: [Mirage: The Illusion of Visual Understanding],
     details: [\ Asadi et al., 2026],
   )[
-    "Frontier models readily generate detailed image descriptions and elaborate reasoning traces, including    pathology-biased clinical findings, #bold[for images never provided].
+    "Frontier models readily generate detailed image descriptions and elaborate reasoning traces, including pathology-biased clinical findings, #bold[for images never provided].
 
-    #indent()...  In the most extreme case, our model achieved the top rank on a standard chest Xray question-answering benchmark#bold[ without access to any images]."
+    #indent()... In the most extreme case, our model achieved the top rank on a standard chest X-ray question-answering benchmark #bold[without access to any images]."
     #notes_footnote_link(
       "https://arxiv.org/pdf/2603.21687",
       "Mirage: The Illusion of Visual Understanding",
@@ -288,10 +288,10 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "The Intelligence Illusion")[
+#notes_slide(title: [The Intelligence Illusion #comment-tag()])[
 
   #notes_quote(
-    title: "The intelligence illusion: why AI isn’t as smart as it is made out to be",
+    title: "The intelligence illusion: why AI isn't as smart as it is made out to be",
     details: [\ Nature, Book Review, 2026],
   )[
     "#bold[Who is being deceived?]
@@ -299,7 +299,7 @@
     #bold[The general public, by the technology companies and organizations that benefit from the hype around AI]. These companies are in a race to develop the technology and are incentivized to promote the idea of human-like artificial general intelligence to secure funding and market dominance. Members of the scientific community, particularly those who are not directly involved in the race for AI funding, acknowledge the reality that AI is a set of specialized tools, rather than a unified intelligent entity. #bold[This distinction is crucial, but it is blurred by commercial interests that amplify the illusion for monetary gain.]"
     #notes_footnote_link(
       "https://www.nature.com/articles/d41586-026-00882-5",
-      "The intelligence illusion: why AI isn’t as smart as it is made out to be",
+      "The intelligence illusion: why AI isn't as smart as it is made out to be",
       "Nature, Book Review, 2026",
     )
   ]
@@ -307,7 +307,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "The Illusion of Consciousness")[
+#notes_slide(title: [The Illusion of Consciousness #science-tag()])[
   #set text(size: 19pt)
 
   #notes_quote(
@@ -327,7 +327,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Final Remarks")[
+#notes_slide(title: [Final Remarks #comment-tag()])[
 
   #notes_quote(title: "The Mythology Of Conscious AI", details: [\ Noema Magazine, 2026])[
     "If we confuse ourselves too readily with our machine creations, we not only overestimate them, we also #bold[underestimate ourselves]."
@@ -338,4 +338,3 @@
     )
   ]
 ]
-

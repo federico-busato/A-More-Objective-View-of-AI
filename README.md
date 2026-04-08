@@ -84,7 +84,7 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 - **Negative Impacts**
 
   - Environmental Risks
-  - Deskilling
+  - Cognitive Offloading and Deskilling
   - Echo Chamber
   - Health Risks
   - Social Risks
@@ -93,7 +93,7 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 
 A practical look at AI in software development.
 
-- **AI and Software Employment**
+- **Software Employment**
 - **Limitations of AI-Generated Code**
 
   - Generalization

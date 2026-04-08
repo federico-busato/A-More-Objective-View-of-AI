@@ -33,7 +33,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "AI is not Going Away")[
+#notes_slide(title: [AI Is Not Going Away #news-tag()])[
 
   - #bold[AI is not going away]. Blindly refusing AI is not the solution. Instead, it is fundamental to understand its capabilities and limitations.
 
@@ -56,7 +56,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Unlikely Exponential Growth", number: "1/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "1/4")[
 
   #set list(spacing: 35pt)
   - #bold[Fundamental Physical Limits of Transistors and Memory].
@@ -81,7 +81,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Unlikely Exponential Growth", number: "2/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "2/4")[
 
   #set list(spacing: 40pt)
   - #bold[Hardware Resource Constraints]. Reconstructing one cubic millimeter of human temporal cortex (\~50-57k cells and \~130-150M synapses) generated 1.4 Petabytes of data. Scaling to the full human brain would require 1.6 zettabytes of storage costing \$50 billion and spanning 140 acres. #notes_footnote_link(
@@ -104,7 +104,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Unlikely Exponential Growth", number: "3/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "3/4")[
 
   #set text(size: 18pt)
   #v(-50pt)
@@ -127,10 +127,10 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Unlikely Exponential Growth", number: "4/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "4/4")[
 
   #set list(spacing: 40pt)
-  - #bold[Run out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
+  - #bold[Running out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
       "https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data",
       "Will we run out of data? Limits of LLM scaling based on human-generated data",
       "Villalobos et al., EpochAI, 2024",
@@ -167,7 +167,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty")[
+#notes_slide(title: [Productivity Gain Uncertainty #news-tag()])[
 
   - The relationship between AI adoption and evidence of productivity gains is a _controversial topic_. Some research studies and economic data suggest that AI enhances productivity, while others show no benefits or even a negative impact.
 
@@ -188,7 +188,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "1/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #news-tag()], number: "1/4")[
 
   #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
     "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
@@ -202,7 +202,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "2/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "2/4")[
   #set text(size: 19pt)
 
   #notes_quote(
@@ -232,7 +232,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "3/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "3/4")[
 
   #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
     "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
@@ -246,7 +246,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - No Benefits", number: "4/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "4/4")[
 
   #notes_quote(
     title: "Firm Data on AI",
@@ -263,7 +263,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "1/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #news-tag()], number: "1/2")[
 
   #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
     "AI tools didn't reduce work, they #bold[consistently intensified it].
@@ -281,7 +281,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - Mixed Benefits", number: "2/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #science-tag()], number: "2/2")[
 
   #set text(size: 19pt)
   #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
@@ -302,7 +302,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "1/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "1/3")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/smothering_heights.png", height: 83%)
@@ -316,7 +316,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain Uncertainty - Increased by AI", number: "2/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "2/3")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/metr_v2.png", height: 83%)
@@ -331,11 +331,30 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "3/3")[
+
+  #notes_quote(
+    title: "Mapping AI into Production: A Field Experiment on Firm Performance",
+    details: [\ The Business School of the World, 2026],
+  )[
+    Across 515 high-growth startups, we run a field experiment in which treated firms receive information about how other firms have reorganized production around AI, prompting them to search for use cases across a broader set of firm functions. We find that treated firms discover more AI use cases, a 44% increase, concentrated in product development and strategy.
+    These changes result in economically meaningful performance gains. #bold[Treated firms complete 12% more tasks,
+      are 18% more likely to acquire paying customers, and generate 1.9x higher revenue.]
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481",
+      "Mapping AI into Production: A Field Experiment on Firm Performance",
+      "Kim et al., The Business School of the World, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 = Employment <p1e>
 
 // =====================================================================================================================
 
-#notes_slide(title: "Productivity Gain and Labor Markets")[
+#notes_slide(title: [Productivity Gain and Labor Markets #science-tag()])[
 
   #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
     "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
@@ -351,7 +370,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "1/10")[
+#notes_slide(title: [Employment #news-tag()], number: "1/10")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -372,7 +391,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "2/10")[
+#notes_slide(title: [Employment #news-tag()], number: "2/10")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -391,7 +410,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "3/10")[
+#notes_slide(title: [Employment #science-tag()], number: "3/10")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
@@ -410,7 +429,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "4/10")[
+#notes_slide(title: [Employment #science-tag()], number: "4/10")[
 
   #notes_quote(
     title: [Labor Market Report],
@@ -429,7 +448,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "5/10")[
+#notes_slide(title: [Employment #science-tag()], number: "5/10")[
 
   #notes_quote(
     title: [FEDS Notes],
@@ -446,7 +465,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "6/10")[
+#notes_slide(title: [Employment #science-tag()], number: "6/10")[
 
   #notes_quote(
     title: [Mind the Gap: AI Adoption in Europe and the U.S.],
@@ -463,16 +482,16 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "7/10")[
+#notes_slide(title: [Employment #science-tag()], number: "7/10")[
 
   #notes_quote(
-    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
+    title: [Evaluating the Impact of AI on the Labor Market: Current State of Affairs],
     details: [\ Budgetlab, Yale University, 2025],
   )[
     "While anxiety over the effects of AI on today's labor market is widespread, our data suggests it remains largely speculative. The picture of AI's impact on the labor market that emerges from our data is one that #bold[largely reflects stability, not major disruption at an economy-wide level]."
     #notes_footnote_link(
       "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
-      "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "Evaluating the Impact of AI on the Labor Market: Current State of Affairs",
       "Gimbel et al., Budgetlab, Yale University, 2025",
     )
   ]
@@ -480,7 +499,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "8/10")[
+#notes_slide(title: [Employment #science-tag()], number: "8/10")[
 
   #notes_quote(
     title: [AI and Young-adult Jobs: The Real Mystery],
@@ -499,7 +518,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "9/10")[
+#notes_slide(title: [Employment #science-tag()], number: "9/10")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/graduate_employment.png", height: 83%)
@@ -507,7 +526,7 @@
 
   #notes_unmarked_footnote_link(
     "https://www.employamerica.org/labor-market-analysis/dont-blame-ai-for-the-rise-in-recent-graduate-unemployment/",
-    "Don’t Blame AI For The Rise in Recent Graduate Unemployment",
+    "Don't Blame AI For The Rise in Recent Graduate Unemployment",
     "W. Raderman, Employ America, 2026",
   )
 ]
@@ -515,7 +534,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Employment", number: "10/10")[
+#notes_slide(title: [Employment #science-tag()], number: "10/10")[
 
   #set text(size: 18pt)
   #v(-10pt)
@@ -546,7 +565,7 @@
 
 == Protein Structure Prediction
 
-#notes_slide(title: "Protein Structure Prediction")[
+#notes_slide(title: [Protein Structure Prediction #science-tag()])[
 
   #notes_quote(title: "AlphaFold2", details: [\ Nobel Prize in Chemistry, 2024])[
     "In 2020, Demis Hassabis and John Jumper presented an AI model called #bold[AlphaFold2]. With its help, they have been able to #bold[predict the structure of virtually all the 200 million proteins] that researchers have identified. Since their breakthrough, #bold[AlphaFold2 has been used by more than two million people from 190 countries]. Among a myriad of scientific applications, researchers can now better understand antibiotic resistance and create images of enzymes that can decompose plastic."
@@ -561,7 +580,7 @@
 
 == Material Discovery
 
-#notes_slide(title: "Material Discovery")[
+#notes_slide(title: [Material Discovery #science-tag()])[
 
   #set text(size: 19pt)
   #notes_quote(title: "GNoME", details: [DeepMind, 2023])[
@@ -575,7 +594,7 @@
 
   #notes_quote(title: "The Materials Project", details: [Berkeley Lab, 2026])[
     "The open-access materials database ... enabling AI-ready scientific datasets at an unprecedented scale for batteries,
-    quantum computing, microelectronics, and more..
+    quantum computing, microelectronics, and more.
 
     #indent() ... in 650,000+ registered users, 32,000+ scientific journal citations, \~5,000 active users a day, 200,000+ materials, 577,000+ molecules, 465+ TBs of data, 300 million+ data requests a year."
     #notes_footnote_link(
@@ -590,7 +609,7 @@
 
 == Weather Forecasting
 
-#notes_slide(title: "Weather Forecasting", number: "1/2")[
+#notes_slide(title: [Weather Forecasting #science-tag()], number: "1/2")[
 
   #notes_quote(title: "GraphCast", details: [\ Google, 2023])[
     "GraphCast, a state-of-the-art AI model able to make medium-range weather forecasts with unprecedented accuracy. GraphCast predicts weather conditions up to 10 days in advance #bold[more accurately and much faster than the industry gold-standard weather simulation system]."
@@ -604,7 +623,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Weather Forecasting", number: "2/2")[
+#notes_slide(title: [Weather Forecasting #science-tag()], number: "2/2")[
 
   #notes_quote(title: "FourCastNet", details: [\ Nvidia, 2025])[
     "FourCastNet 3 delivers forecasting accuracy that surpasses leading conventional ensemble models and rivals the best diffusion-based methods, while #bold[producing forecasts 8 to 60 times faster] than these approaches.
@@ -622,7 +641,7 @@
 
 == Healthcare
 
-#notes_slide(title: "Healthcare - Drug Discovery")[
+#notes_slide(title: [Healthcare - Drug Discovery #science-tag()])[
 
   #notes_quote(title: "TNIK Inhibitor", details: [\ Insilico, 2025])[
     Idiopathic pulmonary fibrosis (IPF) is a type of chronic scarring lung disease characterized by a progressive and irreversible decline in lung function affecting around 5 million people globally.
@@ -632,7 +651,7 @@
       "Insilico, 2025",
     )
 
-    #indent() ... This is the first time an #bold[AI-designed drug] for an AI-discovered disease-associated target  #bold[has been tested in the clinic] [phase 2a].
+    #indent() ... This is the first time an #bold[AI-designed drug] for an AI-discovered disease-associated target #bold[has been tested in the clinic] [phase 2a].
     #notes_footnote_link(
       "https://insilico.com/blog/1112",
       "A Phase 2 Readout Generates Excitement for the Potential of AI-Driven Drug Discovery",
@@ -643,7 +662,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Healthcare - Diagnose Diseases")[
+#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()])[
 
   #notes_quote(
     title: [New AI model can detect multiple cognitive brain diseases\ from a single blood sample],
@@ -664,7 +683,7 @@
 
 == Learning
 
-#notes_slide(title: "Learning", number: "1/2")[
+#notes_slide(title: [Learning #science-tag()], number: "1/2")[
 
   #notes_quote(title: "AI tutoring outperforms in-class active learning", details: [\ Nature, 2025])[
     "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
@@ -678,7 +697,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Learning", number: "2/2")[
+#notes_slide(title: [Learning #science-tag()], number: "2/2")[
 
   #notes_quote(
     title: "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
@@ -697,7 +716,7 @@
 
 == Soften Polarization <p2e>
 
-#notes_slide(title: "Soften Polarization")[
+#notes_slide(title: [Soften Polarization #news-tag()])[
 
   #v(-10pt)
   - #bold[AI may help to soften polarization].
@@ -722,16 +741,16 @@
 
 == Environmental Risks
 
-#notes_slide(title: "Environmental Risks - Local Impact", number: "1/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #science-tag()], number: "1/3")[
 
-  - #bold[While data centers are not a concern at global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, energy cost increases, reduce local tax revenues, and don't provide other benefits, such as, high-paying jobs. #notes_footnote_link(
+  - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, and energy cost increases. They can also reduce local tax revenues and typically do not provide other benefits such as high-paying jobs. #notes_footnote_link(
       "https://www.wri.org/insights/us-data-center-growth-impacts",
       "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
       "Walker and Goldsmith, World Resources Institute, 2026",
     )#super(",") #notes_footnote_link(
       "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
-      "What happends when data centers come to town?",
-      "Nguyen & Green, Univesity of Michigan, 2025",
+      "What happens when data centers come to town?",
+      "Nguyen & Green, University of Michigan, 2025",
     )
 
   // Chris Preist at the University of Bristol, UK, says the results may be more nuanced than they first appear. “It would be worth doing follow-up research to understand to what extent it’s the heat generated from computation versus the heat generated from the building itself,”
@@ -747,7 +766,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Environmental Risks - Local Impact", number: "2/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], number: "2/3")[
 
   #notes_quote(title: "Inside the Dirty, Dystopian World of AI Data Centers", details: [\ The Atlantic, 2026])[
     "... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
@@ -763,7 +782,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Environmental Risks - Local Impact", number: "3/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], number: "3/3")[
 
   #notes_quote(
     title: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant",
@@ -780,13 +799,13 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Environmental Risks - Global Impact", number: "1/2")[
+#notes_slide(title: [Environmental Risks - Global Impact #science-tag()], number: "1/2")[
 
   - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials #notes_footnote_link(
       "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
       "Millions of new materials discovered with deep learning",
       "Merchant & Cubuk, DeepMind, 2023",
-    ), funding small nuclear reactors #notes_footnote_link(
+    ), fund small nuclear reactors #notes_footnote_link(
       "https://www.cnbc.com/2025/03/29/these-nuclear-companies-lead-the-race-to-build-small-reactors-in-us.html",
       "These nuclear companies are leading the race to build advanced small reactors in the U.S.",
       "S. Kimball, CNBC, 2025",
@@ -800,9 +819,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Environmental Risks - Global Impact", number: "2/2")[
+#notes_slide(title: [Environmental Risks - Global Impact #comment-tag()], number: "2/2")[
 
-  #notes_quote(title: "AI tutoring outperforms in-class active learning", details: [\ Allen Holub, 2026])[
+  #notes_quote(title: "A. Holub", details: [\ 2026])[
     "#bold[All data centers combined account for about 0.5% of global carbon emissions].
     #notes_footnote_link(
       "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
@@ -811,18 +830,17 @@
     )
     Of that, \~10% is AI-related, so AI is responsible for 0.05% of global carbon emissions. Cars and other transportation account for ~25% of total emissions."
     #notes_footnote_link(
-      "https://www.nature.com/articles/s41598-025-97652-6",
-      "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
-      "Allen Holub, 2026",
+      "https://bsky.app/profile/allenholub.bsky.social/post/3mhvqmev2yk2o",
+      "A. Holub, 2026", ""
     )
   ]
 ]
 
 // =====================================================================================================================
 
-== Deskilling
+== Cognitive Offloading and Deskilling
 
-#notes_slide(title: "Deskilling", number: "1/2")[
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "1/3")[
 
   - #bold[AI has demonstrated significant user deskilling].
     #v(-10pt)
@@ -847,7 +865,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Deskilling", number: "2/2")[
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "2/3")[
 
   #notes_quote(title: "Your Brain on ChatGPT", details: [\ Kosmyna et al., 2025])[
     "EEG analysis presented robust evidence that LLM, Search Engine and Brain-only groups had significantly different neural connectivity patterns, reflecting divergent cognitive strategies.
@@ -863,9 +881,28 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "3/3")[
+
+  #notes_quote(
+    title: "Thinking-Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender",
+    details: [\ University of Pennsylvania, 2026],
+  )[
+    "Our findings demonstrate that people readily incorporate AI-generated outputs into their decision-making processes, #bold[often with minimal friction or skepticism].
+
+    #indent() These findings raise important questions about how decision-makers engage with AI under conditions of uncertainty or error. For example, in contexts such as financial advice, medical triage, or legal decision support, uncritical evaluation of System 3 #bold[could result in significant harm and a lack of personal accountability for serious life outcomes.]"
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646",
+      "Thinking-Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender",
+      "Shaw & Nave, University of Pennsylvania, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Echo Chamber
 
-#notes_slide(title: "Echo Chamber (Sycophancy Again)")[
+#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()])[
 
   #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
     "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses result in increased confidence in those hypotheses #bold[while not bringing the user any closer to the truth]."
@@ -881,7 +918,7 @@
 
 == Health Risks
 
-#notes_slide(title: "Health Risks")[
+#notes_slide(title: [Health Risks #science-tag()])[
 
   #notes_quote(
     title: "Patients Use AI-Clinicians Should Ask How",
@@ -900,7 +937,7 @@
 
 == Social Risks <p3e>
 
-#notes_slide(title: "Social Risks", number: "1/2")[
+#notes_slide(title: [Social Risks #science-tag()], number: "1/2")[
 
   The real danger to society is not that AI will actually become conscious, #bold[but rather the risks that arise from _believing_ it is]. We may grant legal rights or moral consideration to AI systems, or AI could be used to manipulate human users for commercial or #bold[political gain].
   #notes_footnote_link(
@@ -937,7 +974,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Social Risks", number: "2/2")[
+#notes_slide(title: [Social Risks #science-tag()], number: "2/2")[
 
   #v(-5pt)
   #notes_quote(title: "On the conversational persuasiveness of GPT-4", details: "Nature, 2025")[
@@ -964,4 +1001,3 @@
     )
   ]
 ]
- 

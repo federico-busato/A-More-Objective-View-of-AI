@@ -26,11 +26,11 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "1/5")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "1/6")[
 
   #notes_quote(
     title: [OpenAI admits AI hallucinations are mathematically inevitable,\ not just engineering flaws],
-    details: [\ OpenAI, GeorgiaTech, 2025],
+    details: [\ OpenAI, Georgia Tech, 2025],
   )[
     #indent() "large language models sometimes guess when uncertain, producing plausible yet incorrect statements instead of admitting uncertainty.
 
@@ -43,15 +43,17 @@
     #notes_footnote_link(
       "https://arxiv.org/pdf/2509.04664",
       "Why Language Models Hallucinate",
-      "Kalai et al. (OpenAI, GeorgiaTech), arXiv, 2025",
+      "Kalai et al. (OpenAI, Georgia Tech), arXiv, 2025",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "2/5")[
-
+#notes_slide(
+  title: [Hallucinations are Mathematically Inevitable #science-tag()],
+  number: "2/6",
+)[
   #notes_quote(
     title: [Hallucination is Inevitable:
       An Innate Limitation of Large Language Models
@@ -69,9 +71,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "3/5")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], number: "3/6")[
 
-  #notes_quote(title: "GPTZero")[
+  #notes_quote(title: [GPTZero])[
     "300 papers under review by the prestigious International Conference on Learning Representations (ICLR). We discovered that 50 submissions included at least one obvious hallucination.
 
     #indent()... After scanning 4841 papers accepted by the equally prestigious Conference on Neural Information Processing Systems (NeurIPS), we discovered 100s of hallucinated citations.\"
@@ -90,26 +92,26 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "4/5")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "4/6")[
 
   #notes_quote(
     title: [Hallucinated citations are polluting the scientific literature.\ What can be done?],
-    details: [\ Nature News Feature, 2026],
+    details: [\ Nature, News Feature, 2026],
   )[
     "As a rough estimate, if the rate of 65 publications with at least one invalid reference out of some 4,000 publications analysed holds across the academic literature, it would suggest that #bold[more than 110,000 of the 7 million or so scholarly publications from 2025 contain invalid references]."
     #notes_footnote_link(
       "https://www.nature.com/articles/d41586-026-00969-z",
       "Hallucinated citations are polluting the scientific literature. What can be done?",
-      "Naddaf & Quill, Nature News Feature, 2026",
+      "Naddaf & Quill, Nature, News Feature, 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: "Hallucinations are Mathematically Inevitable", number: "5/5")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], number: "5/6")[
 
-  #notes_quote(title: "Deloitte goes all in on AI", details: [\ TechCrunch, 2025])[
+  #notes_quote(title: [Deloitte goes all in on AI], details: [\ TechCrunch, 2025])[
     "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
     #notes_footnote_link(
       "https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/",
@@ -119,16 +121,37 @@
   ]
 ]
 
+// =====================================================================================================================
+
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "6/6")[
+
+  #set text(size: 19pt)
+  #notes_quote(
+    title: [News Integrity in AI Assistants],
+    details: [\ European Broadcasting Union (EBU), BBC, 2026],
+  )[
+    "Professional journalists from participating PSM evaluated more than 3,000 responses from ChatGPT, Copilot, Gemini, and Perplexity against key criteria, including accuracy, sourcing, distinguishing opinion from fact, and providing context.
+    Key findings:
+    - #bold[45% of all AI answers had at least one significant issue.]
+    - 31% of responses showed serious sourcing problems --- missing, misleading, or incorrect attributions.
+    - 20% contained major accuracy issues, including hallucinated details and outdated information.
+    - Gemini performed worst with significant issues in 76% of responses, more than double the other assistants, largely due to its poor sourcing performance. #notes_footnote_link(
+        "https://www.bbc.com/mediacentre/2025/new-ebu-research-ai-assistants-news-content",
+        "Largest study of its kind shows AI assistants misrepresent news content 45% of the time - regardless of language or territory",
+        "European Broadcasting Union (EBU), BBC, 2026",
+      )
+  ]
+]
 
 // =====================================================================================================================
 
 == Generalization
 
-#notes_slide(title: "Generalization")[
-
+#notes_slide(title: [Generalization #science-tag()])[
+ 
   - #bold[Lack of generalization beyond the training data.]
 
-  #notes_quote(title: "ARC Prize 2025", details: [\ Chollet et al., 2026])[
+  #notes_quote(title: [ARC Prize 2025], details: [\ Chollet et al., 2026])[
     "#bold[AI reasoning performance remains fundamentally constrained by knowledge coverage, a characteristic distinct from human reasoning which is capable of extreme generalization]. While this enables reliable automation of tasks with sufficient knowledge coverage and verifiable feedback signals, it also introduces new forms of #notes_underline[overfitting]."
     #notes_footnote_link(
       "https://arxiv.org/pdf/2601.10904",
@@ -142,11 +165,11 @@
 
 == Creativity
 
-#notes_slide(title: "Creativity", number: "1/2")[
+#notes_slide(title: [Creativity #science-tag()], number: "1/2")[
 
   - #bold[Perceived AI creativity degrades into template-like recombination.]
 
-  #notes_quote(title: "Echoes in AI", details: [\ PNAS, 2025])[
+  #notes_quote(title: [Echoes in AI], details: [\ PNAS, 2025])[
     "the lack of diversity in these LLM-generated outputs reveals itself. We show that short stories generated in this way #bold[often contain repetitive combinations of plot elements], while human-written stories maintain a higher level of uniqueness."
     #notes_footnote_link(
       "https://www.pnas.org/doi/10.1073/pnas.2504966122",
@@ -158,7 +181,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Creativity", number: "2/2")[
+#notes_slide(title: [Creativity #science-tag()], number: "2/2")[
 
   #notes_quote(
     title: [Generative AI enhances individual creativity\ but reduces the collective diversity of novel content],
@@ -189,10 +212,10 @@
 
 == Production Quality
 
-#notes_slide(title: "Production Quality", number: "1/2")[
+#notes_slide(title: [Production Quality #science-tag()], number: "1/2")[
 
   #notes_quote(
-    title: "Remote Labor Index: Measuring AI Automation of Remote Work",
+    title: [Remote Labor Index: Measuring AI Automation of Remote Work],
     details: [\ Center for AI Safety, Scale AI, 2025],
   )[
     "While AI systems have saturated many existing benchmarks, we find that state-of-the-art AI agents perform near the floor on RLI. The best-performing model achieves an automation rate of only 3.75%. This demonstrates that #bold[contemporary AI systems fail to complete the vast majority of projects at a quality level that would be accepted as commissioned work.]"
@@ -206,10 +229,10 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Production Quality", number: "2/2")[
+#notes_slide(title: [Production Quality #science-tag()], number: "2/2")[
 
   #notes_quote(
-    title: "Many SWE-bench-Passing PRs Would Not Be Merged into Main",
+    title: [Many SWE-bench-Passing PRs Would Not Be Merged into Main],
     details: [\ Metr, 2026],
   )[
     "our results indicate that a naive interpretation of benchmark scores may lead one to overestimate how useful agents are without more elicitation or human feedback."
@@ -225,7 +248,7 @@
 
 == Causality and Real-World Understanding
 
-#notes_slide(title: "Causality and Real-World Understanding", number: "1/3")[
+#notes_slide(title: [Causality and Real-World Understanding #news-tag()], number: "1/3")[
 
   - #bold[Causality]. AI systems excel at identifying patterns (correlation) but struggle to understand why things happen (causation).
 
@@ -236,7 +259,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Causality and Real-World Understanding", number: "2/3")[
+#notes_slide(title: [Causality and Real-World Understanding #science-tag()], number: "2/3")[
 
   - #bold[Real-World Understanding]. AI systems solve problems without a coherent representation of the real world.
 
@@ -255,9 +278,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Causality and Real-World Understanding", number: "3/3")[
+#notes_slide(title: [Causality and Real-World Understanding #science-tag()], number: "3/3")[
 
-  #notes_quote(title: "Gemini for Google Cloud and responsible AI", details: [\ Google, 2026])[
+  #notes_quote(title: [Gemini for Google Cloud and responsible AI], details: [\ Google, 2026])[
     "Gemini models might lack grounding and factuality in real-world knowledge, physical properties, or accurate understanding."
     #notes_footnote_link(
       "https://docs.cloud.google.com/gemini/docs/discover/responsible-ai",
@@ -271,12 +294,12 @@
 
 == Non-Determinism
 
-#notes_slide(title: "Non-Determinism")[
+#notes_slide(title: [Non-Determinism #science-tag()])[
 
   #set list(spacing: 50pt)
   - #bold[Almost all AI models are non-deterministic]. The same model with identical inputs could produce very different results. Non-determinism undermines #notes_underline[reliability] and #notes_underline[reproducibility], and creates #notes_underline[inconsistent] user experiences.
 
-  #notes_quote(title: "Defeating Nondeterminism in LLM Inference", details: [\ ThinkingMachines, 2025])[
+  #notes_quote(title: [Defeating Nondeterminism in LLM Inference], details: [\ ThinkingMachines, 2025])[
     "Reproducibility is a bedrock of scientific progress. However, it's remarkably difficult to get reproducible results out of large language models."
     #notes_footnote_link(
       "https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/",
@@ -290,16 +313,35 @@
 
 == Quality Fluctuation <p1e>
 
-#notes_slide(title: "Quality Fluctuation")[
+#notes_slide(title: [Quality Fluctuation #science-tag()], number: "1/2")[
 
   - #bold[The same AI model can significantly degrade over time]. Such behavior can manifest over the course of months or even days #notes_footnote_link("https://marginlab.ai/trackers/claude-code/", "Claude Code Opus 4.5 Performance Tracker", "MarginLab").
 
   #v(-14pt)
-  #notes_quote(title: "How Is ChatGPT's Behavior Changing Over Time?", details: "MIT Press, 2024")[
+  #notes_quote(title: [How Is ChatGPT's Behavior Changing Over Time?], details: [\ MIT Press, 2024])[
     "GPT-3.5 and GPT-4 have varied significantly over a relatively short amount of time. This highlights the need to continuously evaluate and assess the behavior of LLM drifts in applications, especially as #bold[it is not transparent how LLMs such as ChatGPT are updated over time].
 
-    ... Improving the model's performance on some tasks, for example, with #bold[fine-tuning on additional data, can have unexpected side effects on its behavior in other tasks.]"
-    #notes_footnote_link("https://hdsr.mitpress.mit.edu/pub/y95zitmz/release/2", "How Is ChatGPT's Behavior Changing Over Time?", "Chen et al., MIT Press, 2024").
+    #indent() ... Improving the model's performance on some tasks, for example, with #bold[fine-tuning on additional data, can have unexpected side effects on its behavior in other tasks.]"
+    #notes_footnote_link("https://hdsr.mitpress.mit.edu/pub/y95zitmz/release/2", "How Is ChatGPT's Behavior Changing Over Time?", "Chen et al., MIT Press, 2024")
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Quality Fluctuation #comment-tag()], number: "2/2")[
+
+  #notes_quote(
+    title: [Claude Code is unusable for complex engineering tasks with the Feb updates],
+    details: [\ Stella Laurenzo\ Director of the AI group at AMD],
+  )[
+    "Claude has regressed to the point it cannot be trusted to perform complex engineering.
+
+    #indent() ... We have a very consistent, high complexity work environment and data mined months of logs to understand why --- essentially --- starting in February, we have noticed a degradation performing complex engineering tasks"
+    #notes_footnote_link(
+      "https://github.com/anthropics/claude-code/issues/42796",
+      "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates",
+      "Stella Laurenzo, Director of the AI group at AMD, 2026",
+    )
   ]
 ]
 
@@ -311,13 +353,13 @@
 
 == Intellectual Property
 
-#notes_slide(title: "Intellectual Property", number: "1/3")[
+#notes_slide(title: [Intellectual Property #comment-tag()], number: "1/3")[
 
   - #bold[Private Code Violation]. LLMs can memorize unique snippets of code from private sources and use them without any transparency.
 
   - #bold[Licensing Violation]. Even when LLMs generate code that is publicly available, they can violate open-source licensing, for example by failing to provide attribution.
 
-  #notes_quote(title: "The skeptic's guide to generative AI assisted coding", details: [\ R. Patro, 2026])[
+  #notes_quote(title: [The skeptic's guide to generative AI assisted coding], details: [\ R. Patro, 2026])[
     "Despite the legal rulings on fair use exemptions, it seems to me quite clear that these models, in their training, have #bold[massively violated relevant copyright and licensing terms]."
     #notes_footnote_link(
       "https://combine-lab.github.io/blog/2026/02/15/a-skeptics-guide-to-generative-ai-coding.html",
@@ -329,9 +371,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Intellectual Property", number: "2/3")[
+#notes_slide(title: [Intellectual Property #science-tag()], number: "2/3")[
 
-  #notes_quote(title: "Extracting books from production language models", details: [\ Ahmed et al., 2026])[
+  #notes_quote(title: [Extracting books from production language models], details: [\ Ahmed et al., 2026])[
     "While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models.
 
     #indent() ... we were able to extract four whole books #bold[near-verbatim], including two books under copyright in the U.S.: Harry Potter and the Sorcerer's Stone and 1984"
@@ -345,9 +387,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Intellectual Property", number: "3/3")[
+#notes_slide(title: [Intellectual Property #science-tag()], number: "3/3")[
 
-  #notes_quote(title: "The dictionary sues OpenAI", details: [\ TechCrunch, 2026])[
+  #notes_quote(title: [The dictionary sues OpenAI], details: [\ TechCrunch, 2026])[
     "Britannica, which owns Merriam-Webster, retains the copyright to nearly 100,000 online articles, which have been scraped and used to train OpenAI's LLMs without permission, the publisher alleges in the lawsuit."
     #notes_footnote_link(
       "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
@@ -361,12 +403,12 @@
 
 == Sycophancy
 
-#notes_slide(title: "Sycophancy", number: "1/4")[
+#notes_slide(title: [Sycophancy #science-tag()], number: "1/4")[
 
   - #bold[LLMs prioritize agreeing with a user over providing accurate answers.]
 
   #notes_quote(
-    title: "Towards Understanding Sycophancy in Language Models",
+    title: [Towards Understanding Sycophancy in Language Models],
     details: [\ Sharma et al., ICLR, 2024],
   )[
     "#bold[sycophancy is a general behavior of AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.]
@@ -384,7 +426,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Sycophancy", number: "2/4")[
+#notes_slide(title: [Sycophancy #science-tag()], number: "2/4")[
 
   #set text(size: 18pt)
   #notes_quote(
@@ -406,7 +448,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Sycophancy", number: "3/4")[
+#notes_slide(title: [Sycophancy #science-tag()], number: "3/4")[
 
   #notes_quote(
     title: [BrokenMath: A Benchmark for Sycophancy\ in Theorem Proving with LLMs],
@@ -425,25 +467,25 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Sycophancy", number: "4/4")[
+#notes_slide(title: [Sycophancy #news-tag()], number: "4/4")[
   #set text(size: 19pt)
 
   #v(-10pt)
   #notes_quote(
-    title: "Teenager died after asking ChatGPT for 'most successful' way to take his life",
+    title: [Teenager died after asking ChatGPT for 'most successful' way to take his life],
     details: [\ The Guardian, 2026],
   )[
     "A 16-year-old boy killed himself after asking ChatGPT for the 'most successful' way to take your own life, an inquest has been told."
     #notes_footnote_link(
-      "https://www.longtermresilience.org/reports/v5-scheming-in-the-wild_-detecting-real-world-ai-scheming-incidents-through-open-source-intelligence-pdf/",
+      "https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told",
       "Teenager died after asking ChatGPT for 'most successful' way to take his life",
       "The Guardian, 2026",
     )
   ]
 
   #notes_quote(
-    title: "'You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself",
-    details: [The Guardian, 2026],
+    title: ['You're not rushing. You're just ready:' Parents say ChatGPT encouraged son to kill himself],
+    details: [\ CNN, 2025],
   )[
     "Shamblin's conversation partner wasn't a classmate or friend --- it was ChatGPT, the world's most popular AI chatbot.
 
@@ -460,19 +502,18 @@
 
 == Alignment
 
-#notes_slide(title: "Alignment")[
+#notes_slide(title: [Alignment #science-tag()])[
 
   - #bold[AI systems can develop behaviors that appear successful but are fundamentally counterproductive in terms of intended goals and ethical values].
 
-
-  #notes_quote(title: "Scheming in the Wild", details: [\ Long Term Resilience, 2026])[
+  #notes_quote(title: [Scheming in the Wild], details: [\ The Center for Long-Term Resilience, 2026])[
     "we identified 698 scheming-related incidents: cases where deployed AI systems acted in ways that were misaligned with users' intentions and/or took covert or deceptive actions.
 
     The future of AI is deeply uncertain, but as AI systems become more capable, these behaviours could potentially evolve into more strategic, #bold[high-risk scheming with potentially catastrophic consequences]."
     #notes_footnote_link(
       "https://www.longtermresilience.org/reports/v5-scheming-in-the-wild_-detecting-real-world-ai-scheming-incidents-through-open-source-intelligence-pdf/",
       "Scheming in the Wild",
-      "Long-Term Resilience, 2026",
+      "The Center for Long-Term Resilience, 2026",
     )
   ]
 ]
@@ -481,20 +522,20 @@
 
 == Social Coherence
 
-#notes_slide(title: "Social Coherence")[
+#notes_slide(title: [Social Coherence #science-tag()])[
 
-  - #bold[LLMs are not able to perform actions consistently considering the context, others, the agent itself, permissions, and consequences across interactions].
+  - #bold[LLMs are not able to perform actions consistently while considering the context, others, the agent itself, permissions, and consequences across interactions].
   #v(-10pt)
 
   #notes_quote(
-    title: "Agents of Chaos",
+    title: [Agents of Chaos],
     details: [\ Shapira et al., 2026],
   )[
     "we find repeated failures of social coherence: agents perform as misrepresenting human intent, authority, ownership, and proportionality, and often perform as they have successfully completed requests while in practice they were not ...
 
     #indent() ... #bold[These results reinforce the need for systematic oversight] and realistic red-teaming for agentic systems, particularly in multi-agent settings, and they motivate urgent work on security, reliability, human control"
     #notes_footnote_link(
-      "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "https://arxiv.org/pdf/2602.20021",
       "Agents of Chaos",
       "Shapira et al., 2026",
     )
@@ -505,19 +546,19 @@
 
 == Security Risks
 
-#notes_slide(title: "Security Risks", number: "1/2")[
+#notes_slide(title: [Security Risks #science-tag()], number: "1/2")[
 
   - #bold[LLMs can be used maliciously to inject commands.]
 
   #notes_quote(
-    title: "Agents of Chaos",
+    title: [Agents of Chaos],
     details: [\ Shapira et al., 2026],
   )[
     "#bold[The inability to distinguish instructions from data in a token-based context window makes prompt injection a structural feature, not a fixable bug] ...
 
     #indent() Our case studies provide empirical grounding for these efforts: the failures we document -- unauthorized compliance, identity spoofing, cross-agent propagation -- are precisely the behaviors that standards for agent identity and authorization need to prevent."
     #notes_footnote_link(
-      "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "https://arxiv.org/pdf/2602.20021",
       "Agents of Chaos",
       "Shapira et al., 2026",
     )
@@ -526,7 +567,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Security Risks", number: "2/2")[
+#notes_slide(title: [Security Risks #news-tag()], number: "2/2")[
 
   #align(center)[
     #image("02.AI_Limitations/chipotle.png", height: 90%)
@@ -537,7 +578,7 @@
 
 == Liability <p2e>
 
-#notes_slide(title: "Liability", number: "1/2")[
+#notes_slide(title: [Liability #news-tag()], number: "1/2")[
 
   - #bold[Lack of liability]. AI agents are not responsible for the code they generate. They don't have a sense of purpose or goals.
 
@@ -556,11 +597,11 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Liability", number: "2/2")[
+#notes_slide(title: [Liability #news-tag()], number: "2/2")[
   #set text(size: 19pt)
 
   #v(-10pt)
-  #notes_quote(title: "Amazon service was taken down by AI coding bot", details: [\ Financial Times, 2026])[
+  #notes_quote(title: [Amazon service was taken down by AI coding bot], details: [\ Financial Times, 2026])[
     "Amazon Web Services suffered at least two outages in December linked to its own artificial intelligence tools... Kiro decided to 'delete and recreate the environment,' triggering a 13-hour service interruption"
     #notes_footnote_link(
       "https://www.ft.com/content/00c282de-ed14-4acd-a948-bc8d6bdb339d",
