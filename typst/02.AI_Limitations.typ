@@ -148,7 +148,7 @@
 == Generalization
 
 #notes_slide(title: [Generalization #science-tag()])[
- 
+
   - #bold[Lack of generalization beyond the training data.]
 
   #notes_quote(title: [ARC Prize 2025], details: [\ Chollet et al., 2026])[
@@ -322,7 +322,11 @@
     "GPT-3.5 and GPT-4 have varied significantly over a relatively short amount of time. This highlights the need to continuously evaluate and assess the behavior of LLM drifts in applications, especially as #bold[it is not transparent how LLMs such as ChatGPT are updated over time].
 
     #indent() ... Improving the model's performance on some tasks, for example, with #bold[fine-tuning on additional data, can have unexpected side effects on its behavior in other tasks.]"
-    #notes_footnote_link("https://hdsr.mitpress.mit.edu/pub/y95zitmz/release/2", "How Is ChatGPT's Behavior Changing Over Time?", "Chen et al., MIT Press, 2024")
+    #notes_footnote_link(
+      "https://hdsr.mitpress.mit.edu/pub/y95zitmz/release/2",
+      "How Is ChatGPT's Behavior Changing Over Time?",
+      "Chen et al., MIT Press, 2024",
+    )
   ]
 ]
 

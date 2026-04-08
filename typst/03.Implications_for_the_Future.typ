@@ -831,7 +831,8 @@
     Of that, \~10% is AI-related, so AI is responsible for 0.05% of global carbon emissions. Cars and other transportation account for ~25% of total emissions."
     #notes_footnote_link(
       "https://bsky.app/profile/allenholub.bsky.social/post/3mhvqmev2yk2o",
-      "A. Holub, 2026", ""
+      "A. Holub, 2026",
+      "",
     )
   ]
 ]
