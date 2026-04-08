@@ -32,9 +32,9 @@ Opinions about AI range from predictions of imminent societal or economic collap
 
 ## Table of Contents
 
-### 0. [Preface and Introduction](00.Preface_and_Introduction.pdf)
+### 0. [Preface and Introduction](html/00.Preface_and_Introduction.html) ([pdf](00.Preface_and_Introduction.pdf))
 
-### 1. [Biological and Artificial Intelligence](01.Biological_and_Artifical_Intelligence.pdf)
+### 1. [Biological and Artificial Intelligence](html/01.Biological_and_Artifical_Intelligence.html) ([pdf](01.Biological_and_Artifical_Intelligence.pdf))
 
 A broad examination of AI from scientific, cognitive, and social perspectives.
 
@@ -43,7 +43,7 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 - **AI and Human Brain are Functionally Different**
 - **The Illusion of Consciousness**
 
-### 2. [AI Limitations](02.AI_Limitations.pdf)
+### 2. [AI Limitations](html/02.AI_Limitations.html) ([pdf](02.AI_Limitations.pdf))
 
 - **AI Technical Limitations**
  
@@ -64,7 +64,7 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
   - Security Risks
   - Liability
 
-### 3. [Implications for the Future](03.Implications_for_the_Future.pdf)
+### 3. [Implications for the Future](html/03.Implications_for_the_Future.html) ([pdf](03.Implications_for_the_Future.pdf))
 
 - **Introduction**
 - **Unlikely Exponential Growth**
