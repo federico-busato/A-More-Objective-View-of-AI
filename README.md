@@ -27,10 +27,8 @@ Opinions about AI range from predictions of imminent societal or economic collap
 
 \* These notes are a living document and will be updated with new research findings and community contributions.
 
-<img src="others/samples_1.png" width="350">
-<img src="others/samples_2.png" width="350">
-<img src="others/samples_3.png" width="350">
-<img src="others/samples_4.png" width="350">
+<img src="others/samples_1.png" width="400"> <img src="others/samples_2.png" width="400">
+<img src="others/samples_3.png" width="400"> <img src="others/samples_4.png" width="400">
 
 ## Table of Contents
 
