@@ -6,7 +6,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Preface", number: "1/2")[
+#notes_slide(title: "Preface", group: "preface")[
   I started writing these notes because I keep reading recurring misleading information, without any evidence, about the impact of AI on software development. #bold[I find this narrative harmful and unfair, especially for students or people in their early career].
 
   While studying, I discovered several important topics related to my research that I think are worth mentioning. These include the impact of AI on employment, the illusion of consciousness, comparisons between the human brain and AI, the physical constraints of AI, skill formation, implications for society, software development, and several others.
@@ -19,7 +19,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Preface", number: "2/2")[
+#notes_slide(title: "Preface", group: "preface")[
 
   To maintain focus on the main topics and avoid digressions, I preferred to leave out long descriptions and directly report data, research findings, anecdotal facts, and emblematic quotes from people with much more expertise than me. This helps to make the content succinct, not waste your time, and (hopefully) keep it appealing.
   #v(20pt)
@@ -35,7 +35,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Introduction", number: "1/2")[
+#notes_slide(title: "Introduction", group: "introduction")[
 
   Artificial Intelligence (AI) presents an unprecedented opportunity, not just as a _productivity booster_, but also to elevate people from domain-specific, expert-level tasks to #bold[designing higher-level intents].
   #v(20pt)
@@ -50,7 +50,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: "Introduction", number: "2/2")[
+#notes_slide(title: "Introduction", group: "introduction")[
 
   In the following slides, we disentangle the most common misconceptions related to AI, the role of human expertise, and the tendency to attribute human traits to Large Language Models (LLMs). Contrary to _sensationalist_ statements based on "personal feelings", which are very often present on social media, the following analysis is grounded in recent research data. A brief summary:
 

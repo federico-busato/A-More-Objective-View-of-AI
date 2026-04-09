@@ -56,7 +56,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "1/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set list(spacing: 35pt)
   - #bold[Fundamental Physical Limits of Transistors and Memory].
@@ -81,7 +81,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "2/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set list(spacing: 40pt)
   - #bold[Hardware Resource Constraints]. Reconstructing one cubic millimeter of human temporal cortex (\~50-57k cells and \~130-150M synapses) generated 1.4 Petabytes of data. Scaling to the full human brain would require 1.6 zettabytes of storage costing \$50 billion and spanning 140 acres. #notes_footnote_link(
@@ -104,7 +104,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "3/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set text(size: 18pt)
   #v(-50pt)
@@ -127,7 +127,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], number: "4/4")[
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set list(spacing: 40pt)
   - #bold[Running out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
@@ -188,7 +188,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #news-tag()], number: "1/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #news-tag()], group: "productivity-no-benefits")[
 
   #notes_quote(title: "The AI productivity boom is not here (yet)", details: [\ The Economist, 2026])[
     "Combine the increase in working hours spent using generative AI with how much it improves efficiency, and you get a boost of about #bold[0.25-0.5 percentage points to productivity growth over the past year. This calculation is almost certainly too generous.]"
@@ -202,7 +202,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "2/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], group: "productivity-no-benefits")[
   #set text(size: 19pt)
 
   #notes_quote(
@@ -232,7 +232,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "3/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], group: "productivity-no-benefits")[
 
   #notes_quote(title: "PwC 2026 Global CEO Survey", details: [\ (4,454 executives in 95 countries)])[
     "Despite widespread experimentation, #bold[only one-in-eight (12%) CEOs say AI has delivered both cost and revenue benefits]. Overall, 33% report gains in either cost or revenue, while 56% say they have seen no significant financial benefit to date."
@@ -246,7 +246,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], number: "4/4")[
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], group: "productivity-no-benefits")[
 
   #notes_quote(
     title: "Firm Data on AI",
@@ -263,7 +263,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #news-tag()], number: "1/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #news-tag()], group: "productivity-mixed")[
 
   #notes_quote(title: "AI Doesn't Reduce Work-It Intensifies It", details: [\ Harvard Business Review])[
     "AI tools didn't reduce work, they #bold[consistently intensified it].
@@ -281,7 +281,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #science-tag()], number: "2/2")[
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #science-tag()], group: "productivity-mixed")[
 
   #set text(size: 19pt)
   #notes_quote(title: "2026 State of the Workplace", details: [\ ActivTrak, 2026])[
@@ -302,7 +302,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "1/3")[
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/smothering_heights.png", height: 83%)
@@ -316,7 +316,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "2/3")[
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/metr_v2.png", height: 83%)
@@ -331,7 +331,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], number: "3/3")[
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
 
   #notes_quote(
     title: "Mapping AI into Production: A Field Experiment on Firm Performance",
@@ -370,7 +370,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #news-tag()], number: "1/10")[
+#notes_slide(title: [Employment #news-tag()], group: "employment")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
@@ -391,7 +391,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #news-tag()], number: "2/10")[
+#notes_slide(title: [Employment #news-tag()], group: "employment")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
@@ -410,7 +410,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "3/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
@@ -429,7 +429,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "4/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [Labor Market Report],
@@ -448,7 +448,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "5/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [FEDS Notes],
@@ -465,7 +465,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "6/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [Mind the Gap: AI Adoption in Europe and the U.S.],
@@ -482,7 +482,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "7/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [Evaluating the Impact of AI on the Labor Market: Current State of Affairs],
@@ -499,7 +499,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "8/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #notes_quote(
     title: [AI and Young-adult Jobs: The Real Mystery],
@@ -518,7 +518,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "9/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/graduate_employment.png", height: 83%)
@@ -531,10 +531,9 @@
   )
 ]
 
-
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], number: "10/10")[
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
 
   #set text(size: 18pt)
   #v(-10pt)
@@ -546,15 +545,31 @@
 
     #indent() ... the success rates achieved by LLMs in this analysis should not be interpreted as implying that a corresponding share of tasks can (or should) be automated today
 
-    #indent() ... the loss of individual tasks does not necessary hurt the employees. Indeed, based on the expertise of task and how that relates to the occupation's bundle of tasks, automation could increase or decrease wages.
+    #indent() ... #bold[the loss of individual tasks does not necessary hurt the employees]. Indeed, based on the expertise of task and how that relates to the occupation's bundle of tasks, automation could increase or decrease wages.
 
-    #indent() ... In particular, we require each task instance to be self-contained, with all relevant information provided in the prompt. This constraint limits our ability to represent tasks that depend on interaction with external artifacts"
+    #indent() ... In particular, #bold[we require each task instance to be self-contained], with all relevant information provided in the prompt. This constraint limits our ability to represent tasks that depend on interaction with external artifacts"
     #notes_unmarked_footnote_link(
       "https://arxiv.org/html/2604.01363v1",
       "Crashing Waves vs. Rising Tides: Preliminary Findings on AI Automation from Thousands of Worker Evaluations of Labor Market Tasks",
       "Mertens et al., arXiv, 2026",
     )
   ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/employment_by_industry.png", height: 88%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://bsky.app/profile/bencasselman.bsky.social/post/3mizcjhxd4k22",
+    "Employment by Industry",
+    "B. Casselman, Chief Economics Correspondent for The New York Times, 2026",
+  )
 ]
 
 // =====================================================================================================================
@@ -609,7 +624,7 @@
 
 == Weather Forecasting
 
-#notes_slide(title: [Weather Forecasting #science-tag()], number: "1/2")[
+#notes_slide(title: [Weather Forecasting #science-tag()], group: "weather-forecasting")[
 
   #notes_quote(title: "GraphCast", details: [\ Google, 2023])[
     "GraphCast, a state-of-the-art AI model able to make medium-range weather forecasts with unprecedented accuracy. GraphCast predicts weather conditions up to 10 days in advance #bold[more accurately and much faster than the industry gold-standard weather simulation system]."
@@ -623,7 +638,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Weather Forecasting #science-tag()], number: "2/2")[
+#notes_slide(title: [Weather Forecasting #science-tag()], group: "weather-forecasting")[
 
   #notes_quote(title: "FourCastNet", details: [\ Nvidia, 2025])[
     "FourCastNet 3 delivers forecasting accuracy that surpasses leading conventional ensemble models and rivals the best diffusion-based methods, while #bold[producing forecasts 8 to 60 times faster] than these approaches.
@@ -683,7 +698,7 @@
 
 == Learning
 
-#notes_slide(title: [Learning #science-tag()], number: "1/2")[
+#notes_slide(title: [Learning #science-tag()], group: "learning")[
 
   #notes_quote(title: "AI tutoring outperforms in-class active learning", details: [\ Nature, 2025])[
     "#bold[students learn more than twice as much] in less time with an AI tutor compared to an active learning classroom, while also being more engaged and motivated."
@@ -697,7 +712,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Learning #science-tag()], number: "2/2")[
+#notes_slide(title: [Learning #science-tag()], group: "learning")[
 
   #notes_quote(
     title: "Effective Personalized AI Tutors via LLM-Guided Reinforcement Learning",
@@ -741,7 +756,7 @@
 
 == Environmental Risks
 
-#notes_slide(title: [Environmental Risks - Local Impact #science-tag()], number: "1/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #science-tag()], group: "environmental-local")[
 
   - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, and energy cost increases. They can also reduce local tax revenues and typically do not provide other benefits such as high-paying jobs. #notes_footnote_link(
       "https://www.wri.org/insights/us-data-center-growth-impacts",
@@ -766,7 +781,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], number: "2/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], group: "environmental-local")[
 
   #notes_quote(title: "Inside the Dirty, Dystopian World of AI Data Centers", details: [\ The Atlantic, 2026])[
     "... #bold[residents report that they have had respiratory issues flare up] since xAI moved in.
@@ -782,7 +797,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], number: "3/3")[
+#notes_slide(title: [Environmental Risks - Local Impact #news-tag()], group: "environmental-local")[
 
   #notes_quote(
     title: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant",
@@ -799,7 +814,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Global Impact #science-tag()], number: "1/2")[
+#notes_slide(title: [Environmental Risks - Global Impact #science-tag()], group: "environmental-global")[
 
   - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials #notes_footnote_link(
       "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
@@ -819,7 +834,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Global Impact #comment-tag()], number: "2/2")[
+#notes_slide(title: [Environmental Risks - Global Impact #comment-tag()], group: "environmental-global")[
 
   #notes_quote(title: "A. Holub", details: [\ 2026])[
     "#bold[All data centers combined account for about 0.5% of global carbon emissions].
@@ -841,7 +856,7 @@
 
 == Cognitive Offloading and Deskilling
 
-#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "1/3")[
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
 
   - #bold[AI has demonstrated significant user deskilling].
     #v(-10pt)
@@ -866,7 +881,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "2/3")[
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
 
   #notes_quote(title: "Your Brain on ChatGPT", details: [\ Kosmyna et al., 2025])[
     "EEG analysis presented robust evidence that LLM, Search Engine and Brain-only groups had significantly different neural connectivity patterns, reflecting divergent cognitive strategies.
@@ -882,7 +897,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], number: "3/3")[
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
 
   #notes_quote(
     title: "Thinking-Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender",
@@ -919,7 +934,7 @@
 
 == Health Risks
 
-#notes_slide(title: [Health Risks #science-tag()])[
+#notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
 
   #notes_quote(
     title: "Patients Use AI-Clinicians Should Ask How",
@@ -936,9 +951,28 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
+
+  #notes_quote(
+    title: "Scientists invented a fake disease. AI told people it was real",
+    details: [\ Nature, Feature News, 2026],
+  )[
+    "The condition doesn't appear in the standard medical literature --- because it doesn't exist. It's the invention of a team led by Almira Osmanovic Thunström, a medical researcher at the University of Gothenburg, Sweden, who dreamt up the skin condition and then uploaded two fake studies about it to a preprint server in early 2024.
+
+    #indent() ... Even more troublingly, other researchers say, #bold[the fake papers were then cited in peer-reviewed literature]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/d41586-026-01100-y",
+      "Scientists invented a fake disease. AI told people it was real",
+      "C. Stokel-Walker, Nature, Feature News, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Social Risks <p3e>
 
-#notes_slide(title: [Social Risks #science-tag()], number: "1/2")[
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
   The real danger to society is not that AI will actually become conscious, #bold[but rather the risks that arise from _believing_ it is]. We may grant legal rights or moral consideration to AI systems, or AI could be used to manipulate human users for commercial or #bold[political gain].
   #notes_footnote_link(
@@ -975,7 +1009,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], number: "2/2")[
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
   #v(-5pt)
   #notes_quote(title: "On the conversational persuasiveness of GPT-4", details: "Nature, 2025")[

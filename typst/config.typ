@@ -13,13 +13,38 @@
 #let news-tag() = [#fa-icon("newspaper")]
 #let comment-tag() = [#text(size: 20pt)[#fa-icon("comment", solid: true)]]
 
-#let notes_slide(content, title: "", number: "") = slide(
-  title: [
-    #text(font: "Latin Modern Sans", weight: "bold")[
-      #if number != "" { [#title #h(1fr) #number] } else { [#title] }
-    ]
-  ],
-)[#content]
+#let _slide-group-counter = state("slide-group-counter", (:))
+
+#let notes_slide(content, title: "", number: "", group: none) = {
+  slide(
+    title: context {
+      let display-number = if group != none {
+        let counts = _slide-group-counter.get()
+        let idx = if group in counts { counts.at(group) } else { 0 }
+        let total = _slide-group-counter.final().at(group)
+        str(idx + 1) + "/" + str(total)
+      } else {
+        number
+      }
+      text(font: "Latin Modern Sans", weight: "bold")[
+        #if display-number != "" { [#title #h(1fr) #display-number] } else { [#title] }
+      ]
+    },
+  )[
+    #if group != none {
+      _slide-group-counter.update(counts => {
+        let c = counts
+        if group in c {
+          c.at(group) += 1
+        } else {
+          c.insert(group, 1)
+        }
+        c
+      })
+    }
+    #content
+  ]
+}
 
 #let notes_quote(string, title: "", details: "") = quote(
   attribution: [ #if details != "" { [#text(size: 18pt)[#bold[#title], #smallcaps[#details]]] } else {

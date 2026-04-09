@@ -34,7 +34,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "1/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
 
   The human brain has 86 billion neurons and 100 trillion synapses. We might intuitively think that once an AI system reaches this threshold, intelligence, or even consciousness, will naturally arise. However, recent studies argue that to reach the complexity of even one biological neuron, a modern deep neural network requires between five and eight layers of nodes #notes_footnote_link("https://www.sciencedirect.com/science/article/pii/S0896627321005018", "Single cortical neurons as deep artificial neural networks", "Beniaguev et al., Neuron, 2021"). Real neurons might be even more complex.
 
@@ -50,7 +50,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #comment-tag()], number: "2/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #comment-tag()], group: "structurally-different")[
 
   #notes_quote(title: "Computation's Limits: What a Neuron Teaches Us", details: [\ ocrampal, 2025])[
     "#bold[The neuron operates across multiple timescales] without coordinating them, generates its own organizational principles without pre-specification, and contextually determines what causes what.
@@ -65,7 +65,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "3/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is extremely sparse]. The probability of two neurons being connected is \~ 1 in 100 million. This is in sharp contrast to AI models that show mostly dense organization.
@@ -80,7 +80,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "4/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
 
   #set list(spacing: 60pt)
   - #bold[The human brain is subject to continuous learning]. It performs inference and learning #notes_underline[concurrently], in #notes_underline[real time].
@@ -102,7 +102,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "5/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
   #v(-15pt)
 
   - #bold[Continuous dynamics and perception].
@@ -128,7 +128,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], number: "6/6")[
+#notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
 
   - #bold[Metabolic constraints].
 
@@ -149,7 +149,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "1/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   - Current AI models are #bold["stochastic parrots"]. #notes_footnote_link(
       "https://dl.acm.org/doi/10.1145/3442188.3445922",
@@ -172,7 +172,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "2/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
     title: [Language models cannot reliably distinguish belief from knowledge and fact],
@@ -191,7 +191,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "3/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
     title: "Shortcoming Makes LLMs Less Reliable",
@@ -213,7 +213,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "4/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   - #bold[AI models struggle to generalize beyond their training sets]. The classic example of this behavior is the accuracy disparity between English and non-English results.
   #set text(size: 19pt)
@@ -233,7 +233,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "5/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
@@ -250,7 +250,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "6/6")[
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
     title: [Mirage: The Illusion of Visual Understanding],
@@ -273,7 +273,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [The Intelligence Illusion #comment-tag()])[
+#notes_slide(title: [The Intelligence Illusion #comment-tag()], group: "intelligence-illusion")[
 
   #notes_quote(
     title: "The intelligence illusion: why AI isn't as smart as it is made out to be",
@@ -292,7 +292,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [The Illusion of Consciousness #science-tag()])[
+#notes_slide(title: [The Illusion of Consciousness #science-tag()], group: "intelligence-illusion")[
   #set text(size: 19pt)
 
   #notes_quote(

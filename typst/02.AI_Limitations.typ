@@ -26,7 +26,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "1/6")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
   #notes_quote(
     title: [OpenAI admits AI hallucinations are mathematically inevitable,\ not just engineering flaws],
@@ -52,7 +52,7 @@
 
 #notes_slide(
   title: [Hallucinations are Mathematically Inevitable #science-tag()],
-  number: "2/6",
+  group: "hallucinations",
 )[
   #notes_quote(
     title: [Hallucination is Inevitable:
@@ -71,7 +71,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], number: "3/6")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
 
   #notes_quote(title: [GPTZero])[
     "300 papers under review by the prestigious International Conference on Learning Representations (ICLR). We discovered that 50 submissions included at least one obvious hallucination.
@@ -92,7 +92,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "4/6")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
   #notes_quote(
     title: [Hallucinated citations are polluting the scientific literature.\ What can be done?],
@@ -109,7 +109,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], number: "5/6")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
 
   #notes_quote(title: [Deloitte goes all in on AI], details: [\ TechCrunch, 2025])[
     "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
@@ -123,7 +123,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], number: "6/6")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
   #set text(size: 19pt)
   #notes_quote(
@@ -145,27 +145,48 @@
 
 // =====================================================================================================================
 
-== Prompt Sensitivity
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
-#notes_slide(title: [Prompt Sensitivity #science-tag()], number: "1/2")[
-
-  #v(-10pt)
   #notes_quote(
-    title: "Punctuation and Predicates in Language Models",
-    details: [\ Chauhan et al., 2025],
+    title: [How Accurate Are Google's A.I. Overviews?],
+    details: [\ New York Times, 2026],
   )[
-    #indent() "Punctuation/format sensitivity as a reliability problem: #bold[accuracy can vary substantially across different prompt formats]."
+    "A recent analysis of AI Overviews found that they were accurate approximately nine out of 10 times. But with Google processing more than five trillion searches a year, this means that #bold[it provides tens of millions of erroneous answers every hour] (or hundreds of thousands of inaccuracies every minute), according to an analysis done by an A.I. start-up called Oumi".
     #notes_footnote_link(
-      "https://arxiv.org/pdf/2508.14067",
-      "Punctuation and Predicates in Language Models",
-      "Chauhan et al., arXiv, 2025",
+      "https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html",
+      "How Accurate Are Google's A.I. Overviews?",
+      "Mickle et al., New York Times, 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Prompt Sensibility #science-tag()], number: "2/2")[
+== Prompt Sensitivity
+
+#notes_slide(title: [Prompt Sensitivity #science-tag()], group: "prompt-sensitivity")[
+
+  #v(-10pt)
+  #notes_quote(
+    title: "Benchmarking Prompt Sensitivity in Large Language Models",
+    details: [\ Razavi et al., 2025],
+  )[
+    "Large language Models (LLMs) are highly sensitive to variations in prompt formulation, which can #bold[significantly impact their ability to generate accurate responses].
+
+    #indent() ... Our findings reveal that existing methods struggle to effectively address prompt
+    sensitivity prediction, underscoring the need to understand how information needs
+    should be phrased for accurate LLM responses"
+    #notes_footnote_link(
+      "https://link.springer.com/chapter/10.1007/978-3-031-88714-7_29",
+      "Benchmarking Prompt Sensitivity in Large Language Models",
+      "Razavi et al., arXiv, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Prompt Sensibility #science-tag()], group: "prompt-sensitivity")[
 
   #notes_quote(
     title: [This Treatment Works, Right? Evaluating LLM Sensitivity to\ Patient Question Framing in Medical QA],
@@ -204,7 +225,7 @@
 
 == Creativity
 
-#notes_slide(title: [Creativity #science-tag()], number: "1/2")[
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
 
   - #bold[Perceived AI creativity degrades into template-like recombination.]
 
@@ -220,7 +241,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Creativity #science-tag()], number: "2/2")[
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
 
   #notes_quote(
     title: [Generative AI enhances individual creativity\ but reduces the collective diversity of novel content],
@@ -251,7 +272,7 @@
 
 == Production Quality
 
-#notes_slide(title: [Production Quality #science-tag()], number: "1/2")[
+#notes_slide(title: [Production Quality #science-tag()], group: "production-quality")[
 
   #notes_quote(
     title: [Remote Labor Index: Measuring AI Automation of Remote Work],
@@ -268,7 +289,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Production Quality #science-tag()], number: "2/2")[
+#notes_slide(title: [Production Quality #science-tag()], group: "production-quality")[
 
   #notes_quote(
     title: [Many SWE-bench-Passing PRs Would Not Be Merged into Main],
@@ -287,7 +308,7 @@
 
 == Causality and Real-World Understanding
 
-#notes_slide(title: [Causality and Real-World Understanding #news-tag()], number: "1/3")[
+#notes_slide(title: [Causality and Real-World Understanding #news-tag()], group: "causality")[
 
   - #bold[Causality]. AI systems excel at identifying patterns (correlation) but struggle to understand why things happen (causation).
 
@@ -298,7 +319,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Causality and Real-World Understanding #science-tag()], number: "2/3")[
+#notes_slide(title: [Causality and Real-World Understanding #science-tag()], group: "causality")[
 
   - #bold[Real-World Understanding]. AI systems solve problems without a coherent representation of the real world.
 
@@ -317,7 +338,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Causality and Real-World Understanding #science-tag()], number: "3/3")[
+#notes_slide(title: [Causality and Real-World Understanding #science-tag()], group: "causality")[
 
   #notes_quote(title: [Gemini for Google Cloud and responsible AI], details: [\ Google, 2026])[
     "Gemini models might lack grounding and factuality in real-world knowledge, physical properties, or accurate understanding."
@@ -352,7 +373,7 @@
 
 == Quality Fluctuation <p1e>
 
-#notes_slide(title: [Quality Fluctuation #science-tag()], number: "1/2")[
+#notes_slide(title: [Quality Fluctuation #science-tag()], group: "quality-fluctuation")[
 
   - #bold[The same AI model can significantly degrade over time]. Such behavior can manifest over the course of months or even days #notes_footnote_link("https://marginlab.ai/trackers/claude-code/", "Claude Code Opus 4.5 Performance Tracker", "MarginLab").
 
@@ -371,7 +392,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Quality Fluctuation #comment-tag()], number: "2/2")[
+#notes_slide(title: [Quality Fluctuation #comment-tag()], group: "quality-fluctuation")[
 
   #notes_quote(
     title: [Claude Code is unusable for complex engineering tasks with the Feb updates],
@@ -396,7 +417,7 @@
 
 == Intellectual Property
 
-#notes_slide(title: [Intellectual Property #comment-tag()], number: "1/3")[
+#notes_slide(title: [Intellectual Property #comment-tag()], group: "intellectual-property")[
 
   - #bold[Private Code Violation]. LLMs can memorize unique snippets of code from private sources and use them without any transparency.
 
@@ -414,7 +435,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Intellectual Property #science-tag()], number: "2/3")[
+#notes_slide(title: [Intellectual Property #science-tag()], group: "intellectual-property")[
 
   #notes_quote(title: [Extracting books from production language models], details: [\ Ahmed et al., 2026])[
     "While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models.
@@ -430,7 +451,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Intellectual Property #science-tag()], number: "3/3")[
+#notes_slide(title: [Intellectual Property #science-tag()], group: "intellectual-property")[
 
   #notes_quote(title: [The dictionary sues OpenAI], details: [\ TechCrunch, 2026])[
     "Britannica, which owns Merriam-Webster, retains the copyright to nearly 100,000 online articles, which have been scraped and used to train OpenAI's LLMs without permission, the publisher alleges in the lawsuit."
@@ -446,7 +467,7 @@
 
 == Sycophancy
 
-#notes_slide(title: [Sycophancy #science-tag()], number: "1/4")[
+#notes_slide(title: [Sycophancy #science-tag()], group: "sycophancy")[
 
   - #bold[LLMs prioritize agreeing with a user over providing accurate answers.]
 
@@ -469,7 +490,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Sycophancy #science-tag()], number: "2/4")[
+#notes_slide(title: [Sycophancy #science-tag()], group: "sycophancy")[
 
   #set text(size: 18pt)
   #notes_quote(
@@ -491,7 +512,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Sycophancy #science-tag()], number: "3/4")[
+#notes_slide(title: [Sycophancy #science-tag()], group: "sycophancy")[
 
   #notes_quote(
     title: [BrokenMath: A Benchmark for Sycophancy\ in Theorem Proving with LLMs],
@@ -510,7 +531,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Sycophancy #news-tag()], number: "4/4")[
+#notes_slide(title: [Sycophancy #news-tag()], group: "sycophancy")[
   #set text(size: 19pt)
 
   #v(-10pt)
@@ -589,7 +610,7 @@
 
 == Security Risks
 
-#notes_slide(title: [Security Risks #science-tag()], number: "1/2")[
+#notes_slide(title: [Security Risks #science-tag()], group: "security-risks")[
 
   - #bold[LLMs can be used maliciously to inject commands.]
 
@@ -610,7 +631,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Security Risks #news-tag()], number: "2/2")[
+#notes_slide(title: [Security Risks #news-tag()], group: "security-risks")[
 
   #align(center)[
     #image("02.AI_Limitations/chipotle.png", height: 90%)
@@ -621,7 +642,7 @@
 
 == Liability <p2e>
 
-#notes_slide(title: [Liability #news-tag()], number: "1/2")[
+#notes_slide(title: [Liability #news-tag()], group: "liability")[
 
   - #bold[Lack of liability]. AI agents are not responsible for the code they generate. They don't have a sense of purpose or goals.
 
@@ -640,7 +661,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Liability #news-tag()], number: "2/2")[
+#notes_slide(title: [Liability #news-tag()], group: "liability")[
   #set text(size: 19pt)
 
   #v(-10pt)
