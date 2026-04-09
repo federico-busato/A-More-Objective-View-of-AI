@@ -145,6 +145,45 @@
 
 // =====================================================================================================================
 
+== Prompt Sensitivity
+
+#notes_slide(title: [Prompt Sensitivity #science-tag()], number: "1/2")[
+
+  #v(-10pt)
+  #notes_quote(
+    title: "Punctuation and Predicates in Language Models",
+    details: [\ Chauhan et al., 2025],
+  )[
+    #indent() "Punctuation/format sensitivity as a reliability problem: #bold[accuracy can vary substantially across different prompt formats]."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2508.14067",
+      "Punctuation and Predicates in Language Models",
+      "Chauhan et al., arXiv, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Prompt Sensibility #science-tag()], number: "2/2")[
+
+  #notes_quote(
+    title: [This Treatment Works, Right? Evaluating LLM Sensitivity to\ Patient Question Framing in Medical QA],
+    details: [\ Yun et al., 2026],
+  )[
+    #indent() "Our findings show that LLMs are meaningfully sensitive to question framing in the context of medical QA, even when provided with the same set of evidence. This implies that, in clinical or consumer health settings, #bold[framing may affect the model's abilities to interpret or weigh evidence objectively].
+
+    #indent() ... This poses a critical challenge for real-world deployment of patient-facing medical QA applications, where models may operate under less ideal conditions"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2604.05051",
+      "This Treatment Works, Right? Evaluating LLM Sensitivity to Patient Question Framing in Medical QA",
+      "Yun et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Generalization
 
 #notes_slide(title: [Generalization #science-tag()])[

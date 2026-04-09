@@ -193,21 +193,6 @@
 
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], number: "3/6")[
 
-  #v(-15pt)
-  #notes_quote(
-    title: "Punctuation and Predicates in Language Models",
-    details: [\ Chauhan et al., 2025],
-  )[
-    #indent() "Punctuation/format sensitivity as a reliability problem: #bold[accuracy can vary substantially across different prompt formats]."
-    #notes_footnote_link(
-      "https://arxiv.org/pdf/2508.14067",
-      "Punctuation and Predicates in Language Models",
-      "Chauhan et al., arXiv, 2025",
-    )
-    #v(-5pt)
-  ]
-
-  #v(-15pt)
   #notes_quote(
     title: "Shortcoming Makes LLMs Less Reliable",
     details: [\ MIT News, 2025],
