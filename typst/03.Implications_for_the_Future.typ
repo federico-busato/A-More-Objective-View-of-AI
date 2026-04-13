@@ -677,7 +677,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()])[
+#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()], group: "healthcare")[
 
   #notes_quote(
     title: [New AI model can detect multiple cognitive brain diseases\ from a single blood sample],
@@ -690,6 +690,28 @@
       "https://www.lunduniversity.lu.se/article/new-ai-model-can-detect-multiple-cognitive-brain-diseases-single-blood-sample",
       "New AI model can detect multiple cognitive brain diseases from a single blood sample",
       "Lund University, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()], group: "healthcare")[
+
+  #notes_quote(
+    title: [Early Prediction of Heart Failure From Routine Cardiac CT Using Radiomic Phenotyping of Epicardial Fat],
+    details: [\ Oikonomou et al.,  Journal of the American College of Cardiology, 2026],
+  )[
+    "The AI tool was trained and validated in 72,000 patients from nine NHS trusts in England, who were followed up for a decade after their CT scans. #bold[It predicted their risk of developing heart failure in the next five years with 86% accuracy.]"
+    #notes_footnote_link(
+      "https://www.theguardian.com/society/2026/apr/08/oxford-scientists-develop-ai-tool-spot-heart-failure",
+      "Scientists develop AI tool to spot heart failure risk five years before it strikes",
+      "A. Gregory, The Guardian, 2026",
+    )#super(",")
+    #notes_footnote_link(
+      "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5116",
+      "Early Prediction of Heart Failure From Routine Cardiac CT Using Radiomic Phenotyping of Epicardial Fat",
+      "Oikonomou et al.,  Journal of the American College of Cardiology, 2026",
     )
   ]
 ]
@@ -911,6 +933,40 @@
       "Thinking-Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender",
       "Shaw & Nave, University of Pennsylvania, 2026",
     )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+  #notes_quote(
+    title: "Jeremy Howard",
+    details: [\ The Dangerous Illusion of AI Coding?, 2026],
+  )[
+    "If you focus on just driving out results at the limit of whatever AI can do right now, you're only caring about the intercept, you know. #bold[So I think it's basically a path to obsolescence through both the company and the people who are in it]. And so I'm really surprised how many executives of big companies are pushing this now ...
+
+    #indent() ... #bold[They're basically setting up their companies to be destroyed.]"
+    #notes_footnote_link(
+      "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+      "The Dangerous Illusion of AI Coding?",
+      "Jeremy Howard, 2026",
+    ) <jeremy_howard>
+  ]
+]
+
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+  #notes_quote(
+    title: "Jeremy Howard",
+    details: [\ The Dangerous Illusion of AI Coding?, 2026],
+  )[
+    So the default behavior is very similar to a self driving car. But there's this tipping point where at some point, you're not engaged anymore. You're not paying attention. And #bold[you get this delegation of competence. And you get understanding debt.]
+
+    #indent() ... But what happens is that the the default attractor is for people to just go into this autopilot mode and they've got no idea what's happening and #bold[it's actually making them dumber]". @jeremy_howard
   ]
 ]
 

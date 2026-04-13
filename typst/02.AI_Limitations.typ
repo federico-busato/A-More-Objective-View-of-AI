@@ -162,6 +162,16 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #comment-tag()], group: "hallucinations")[
+
+#align(center)[
+  #image("02.AI_Limitations/proof.png", width: 80%)
+]
+
+]
+
+// =====================================================================================================================
+
 == Prompt Sensitivity
 
 #notes_slide(title: [Prompt Sensitivity #science-tag()], group: "prompt-sensitivity")[
@@ -396,7 +406,7 @@
 
   #notes_quote(
     title: [Claude Code is unusable for complex engineering tasks with the Feb updates],
-    details: [\ Stella Laurenzo\ Director of the AI group at AMD],
+    details: [\ Stella Laurenzo,\ Director of the AI group at AMD],
   )[
     "Claude has regressed to the point it cannot be trusted to perform complex engineering.
 

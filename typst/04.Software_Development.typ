@@ -204,6 +204,25 @@
 
 // =====================================================================================================================
 
+== Slot Machine and the Illusion of Control
+
+#notes_slide(title: [Slot Machine and the Illusion of Control #comment-tag()])[
+
+  #notes_quote(title: "The Dangerous Illusion of AI Coding?", details: [\ Jeremy Howard, 2026])[
+    "The thing about AI based coding is that it's like a #bold[slot machine], and that you you have an #bold[illusion of control], you know, you can get to craft your prompt, and your list of MCPs, and your skills, and whatever, and then in the end, you pull the lever. Right?
+
+    #indent() ... #bold[It's the stochastic thing. You get the occasional win. It's like, oh, I won. I got a feature.]"
+    #notes_footnote_link(
+      "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+      "The Dangerous Illusion of AI Coding?",
+      "Jeremy Howard, 2026",
+    ) <jeremy_howard>
+  ]
+]
+
+
+// =====================================================================================================================
+
 == Generalization
 
 #notes_slide(title: [Generalization #comment-tag()])[
@@ -258,8 +277,20 @@
 
 #notes_slide(title: [The Illusion of Competence #science-tag()], group: "illusion-competence")[
 
+  #notes_quote(title: "Jeremy Howard", details: [\ The Dangerous Illusion of AI Coding?, 2026])[
+    "#bold[LLMs cosplay understanding things.]
+
+    #indent() ... #bold[The difference between pretending to be intelligent and actually being intelligent is entirely unimportant, as long as you're in the region in which the pretense is actually effective], you know. So it's actually fine for a great many tasks that LLMs only pretend to be intelligent, because for all intents and purposes, it just doesn't matter #bold[until you get to the point where it can't pretend anymore]. And then you realize, like, oh my god. This thing is so stupid."
+    @jeremy_howard
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [The Illusion of Competence #science-tag()], group: "illusion-competence")[
+
   #notes_quote(title: "Sonar", details: [\ State of Code Developer Survey report, 2026])[
-    #indent() "61% agree that \"AI often produces code that looks correct but isn't reliable.\" That's a critical finding---it means #bold[AI code can introduce subtle bugs that are harder to spot than typical human errors.]
+    "61% agree that \"AI often produces code that looks correct but isn't reliable.\" That's a critical finding---it means #bold[AI code can introduce subtle bugs that are harder to spot than typical human errors.]
 
     #indent() The same percentage (61%) agree that it \"#bold[requires a lot of effort to get good code from AI]\" through prompting and fixing."
     #notes_footnote_link(
@@ -460,7 +491,25 @@
 
   - #bold[LLMs should not be seen as a substitute for software engineering.]
 
-  #v(-10pt)
+  #notes_quote(
+    title: "Jeremy Howard",
+    details: [\ The Dangerous Illusion of AI Coding?, 2026],
+  )[
+    #bold[Software engineering is a unusual discipline, and a lot of people mistake it for being the same as typing code into an IDE.]
+
+    #indent() ... Because software engineering is all about finding what those pieces are, and how they should behave, and then how you can put them together to create a bigger piece, and then how you can put them together to create a bigger piece. #bold[And if we do that well, then in 10 years time, we could have software that is far more capable than anything we could even imagine today.]"
+    #notes_footnote_link(
+      "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+      "The Dangerous Illusion of AI Coding?",
+      "Jeremy Howard, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Code Generation is NOT Software Engineering #comment-tag()], group: "code-generation")[
+
   #notes_quote(title: "Simon Willison", details: [\ Vibe engineering])[
     "#bold[One of the lesser spoken truths of working productively with LLMs as a software engineer on non-toy-projects is that it's #notes_underline[difficult]]. There's a lot of depth to understanding how to use the tools, there are plenty of traps to avoid, and the pace at which they can churn out working code raises the bar for what the human participant can and should be contributing.
 

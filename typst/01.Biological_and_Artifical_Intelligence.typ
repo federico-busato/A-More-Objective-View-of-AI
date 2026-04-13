@@ -292,6 +292,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [The Intelligence Illusion #comment-tag()], group: "intelligence-illusion")[
+
+  #notes_quote(
+    title: "AI's doomsday hype highlights the dark art of marketing",
+    details: [\ Straits Times, 2026],
+  )[
+    "Since the beginning of the boom in generative artificial intelligence, technology leaders have talked up the dangers of the very systems they're trying to sell. #bold[It's a paradoxical marketing strategy] and, unfortunately for some of the industries and companies deemed most vulnerable to disruption, #bold[it's worked brilliantly]. Fear, it turns out, is the ultimate sales pitch."
+    #notes_footnote_link(
+      "https://www.straitstimes.com/opinion/ais-doomsday-hype-highlights-the-dark-art-of-marketing",
+      "AI's doomsday hype highlights the dark art of marketing",
+      "P. Olson, Straits Times, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [The Illusion of Consciousness #science-tag()], group: "intelligence-illusion")[
   #set text(size: 19pt)
 

@@ -1,12 +1,12 @@
+# (A More) Objective View of AI
+
 <p align="center">
-<img src="others/logo.webp" width="500">
+<img src="others/smd_hyperwall_gulf_white_2.png" width="600">
 <br>
 <sup><sub> <a href="https://www.wri.org/insights/ai-promise-and-peril-for-planet">AI Can Help or Harm the Planet. It's Up to Us</a></sub></sup>
-<br>
-(<sup><sub>original image from <a href="https://newsroom.arm.com/blog/nvidia-drive-agx-jetson-thor-arm-neoverse">Arm</a></sub></sup>)
+(<sup><sub>original image from <a href="https://svs.gsfc.nasa.gov/3913">Nasa</a></sub></sup>)
 </p>
 
-# (A More) Objective View of AI
 
 The profound influence of AI on technology, human culture, and society is undeniable.
 Opinions about AI range from predictions of imminent societal or economic collapse to, at the other extreme, excessive excitement and overreliance.
