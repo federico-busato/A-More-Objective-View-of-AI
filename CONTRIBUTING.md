@@ -25,8 +25,8 @@ typst/
 ├── config.typ                                    # Shared macros and theme configuration
 ├── 00.Preface_and_Introduction.typ               # Preface and Introduction
 ├── 00.Preface_and_Introduction/     
-├── 01.Biological_and_Artifical_Intelligence.typ  # Biological and Artificial Intelligence
-├── 01.Biological_and_Artifical_Intelligence     
+├── 01.Biological_and_Artificial_Intelligence.typ  # Biological and Artificial Intelligence
+├── 01.Biological_and_Artificial_Intelligence     
 ├── 02.AI_Limitations.typ                         # AI Limitations
 ├── 02.AI_Limitations/
 ├── ...

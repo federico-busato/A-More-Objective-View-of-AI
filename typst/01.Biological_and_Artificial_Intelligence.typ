@@ -163,7 +163,7 @@
     )[
       #indent() "The algorithms don't really \"know\" things the way we do. They do not understand anything. They learn mainly by #bold[recognizing patterns] in their training data;
 
-      #indent() ... We don't know how to infuse machines with knowledge beyond feeding it a set of facts.\"  #notes_footnote_link(
+      #indent() ... We don't know how to infuse machines with knowledge beyond feeding them a set of facts.\"  #notes_footnote_link(
         "https://www.quantamagazine.org/ai-is-nothing-like-a-brain-and-thats-ok-20250430",
         "AI Is Nothing Like a Brain, and That's OK",
         "Quanta Magazine, 2025",

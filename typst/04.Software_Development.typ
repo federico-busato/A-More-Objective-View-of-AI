@@ -209,7 +209,7 @@
 #notes_slide(title: [Slot Machine and the Illusion of Control #comment-tag()])[
 
   #notes_quote(title: "The Dangerous Illusion of AI Coding?", details: [\ Jeremy Howard, 2026])[
-    "The thing about AI based coding is that it's like a #bold[slot machine], and that you you have an #bold[illusion of control], you know, you can get to craft your prompt, and your list of MCPs, and your skills, and whatever, and then in the end, you pull the lever. Right?
+    "The thing about AI based coding is that it's like a #bold[slot machine], and that you have an #bold[illusion of control], you know, you can get to craft your prompt, and your list of MCPs, and your skills, and whatever, and then in the end, you pull the lever. Right?
 
     #indent() ... #bold[It's the stochastic thing. You get the occasional win. It's like, oh, I won. I got a feature.]"
     #notes_footnote_link(
@@ -495,9 +495,9 @@
     title: "Jeremy Howard",
     details: [\ The Dangerous Illusion of AI Coding?, 2026],
   )[
-    #bold[Software engineering is a unusual discipline, and a lot of people mistake it for being the same as typing code into an IDE.]
+    #bold[Software engineering is an unusual discipline, and a lot of people mistake it for being the same as typing code into an IDE.]
 
-    #indent() ... Because software engineering is all about finding what those pieces are, and how they should behave, and then how you can put them together to create a bigger piece, and then how you can put them together to create a bigger piece. #bold[And if we do that well, then in 10 years time, we could have software that is far more capable than anything we could even imagine today.]"
+    #indent() ... Because software engineering is all about finding what those pieces are, and how they should behave, and then how you can put them together to create a bigger piece, and then how you can put them together to create a bigger piece. #bold[And if we do that well, then in 10 years' time, we could have software that is far more capable than anything we could even imagine today.]"
     #notes_footnote_link(
       "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
       "The Dangerous Illusion of AI Coding?",
@@ -667,7 +667,7 @@
   )[
     "Relying too much on AI risks missing subtle bugs, architectural flaws, and vulnerabilities that only skilled engineers can catch. #bold[Human oversight, critical thinking, and domain knowledge are indispensable] for both correcting errors and driving innovation as technology progresses.
 
-    #indent() Generative AI currently acts as seniority-biased technological change: #bold[It disproportionately amplifies engineers who already possess systems judgment], like taste for architecture, debugging under uncertainty, and operational intuition." @russinovich
+    #indent() Generative AI currently acts as seniority-biased technological change: #bold[It disproportionately amplifies engineers who already possess systems judgment], like a taste for architecture, debugging under uncertainty, and operational intuition." @russinovich
   ]
 ]
 

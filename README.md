@@ -1,7 +1,7 @@
 # (A More) Objective View of AI
 
 <p align="center">
-<img src="others/smd_hyperwall_gulf_white_2.png" width="600">
+<img src="others/smd_hyperwall_gulf_white_2.png" width="500">
 <br>
 <sup><sub> <a href="https://www.wri.org/insights/ai-promise-and-peril-for-planet">AI Can Help or Harm the Planet. It's Up to Us</a></sub></sup>
 (<sup><sub>original image from <a href="https://svs.gsfc.nasa.gov/3913">Nasa</a></sub></sup>)
@@ -34,7 +34,7 @@ Opinions about AI range from predictions of imminent societal or economic collap
 
 ### 0. [Preface and Introduction](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/00.Preface_and_Introduction.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/00.Preface_and_Introduction.pdf))
 
-### 1. [Biological and Artificial Intelligence](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/01.Biological_and_Artifical_Intelligence.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/01.Biological_and_Artifical_Intelligence.pdf))
+### 1. [Biological and Artificial Intelligence](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/01.Biological_and_Artificial_Intelligence.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/01.Biological_and_Artificial_Intelligence.pdf))
 
 A broad examination of AI from scientific, cognitive, and social perspectives.
 
@@ -95,6 +95,7 @@ A practical look at AI in software development.
 - **Software Employment**
 - **Limitations of AI-Generated Code**
 
+  - Slot Machine and the Illusion of Control
   - Generalization
   - Creativity
   - The Illusion of Competence

@@ -350,6 +350,22 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
+
+  #v(-26pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/apollo.png", height: 90%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://www.apollo.com/wealth/the-daily-spark/the-ai-revolution-continues",
+    "The AI Revolution Continues",
+    "T. Slok, Apollo Global Management, 2026",
+  )
+]
+
+// =====================================================================================================================
+
 = Employment <p1e>
 
 // =====================================================================================================================
@@ -545,7 +561,7 @@
 
     #indent() ... the success rates achieved by LLMs in this analysis should not be interpreted as implying that a corresponding share of tasks can (or should) be automated today
 
-    #indent() ... #bold[the loss of individual tasks does not necessary hurt the employees]. Indeed, based on the expertise of task and how that relates to the occupation's bundle of tasks, automation could increase or decrease wages.
+    #indent() ... #bold[the loss of individual tasks does not necessarily hurt the employees]. Indeed, based on the expertise of task and how that relates to the occupation's bundle of tasks, automation could increase or decrease wages.
 
     #indent() ... In particular, #bold[we require each task instance to be self-contained], with all relevant information provided in the prompt. This constraint limits our ability to represent tasks that depend on interaction with external artifacts"
     #notes_unmarked_footnote_link(
@@ -966,7 +982,7 @@
   )[
     So the default behavior is very similar to a self driving car. But there's this tipping point where at some point, you're not engaged anymore. You're not paying attention. And #bold[you get this delegation of competence. And you get understanding debt.]
 
-    #indent() ... But what happens is that the the default attractor is for people to just go into this autopilot mode and they've got no idea what's happening and #bold[it's actually making them dumber]". @jeremy_howard
+    #indent() ... But what happens is that the default attractor is for people to just go into this autopilot mode and they've got no idea what's happening and #bold[it's actually making them dumber]". @jeremy_howard
   ]
 ]
 

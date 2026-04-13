@@ -164,9 +164,9 @@
 
 #notes_slide(title: [Hallucinations are Mathematically Inevitable #comment-tag()], group: "hallucinations")[
 
-#align(center)[
-  #image("02.AI_Limitations/proof.png", width: 80%)
-]
+  #align(center)[
+    #image("02.AI_Limitations/proof.png", width: 80%)
+  ]
 
 ]
 
@@ -196,7 +196,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Prompt Sensibility #science-tag()], group: "prompt-sensitivity")[
+#notes_slide(title: [Prompt Sensitivity #science-tag()], group: "prompt-sensitivity")[
 
   #notes_quote(
     title: [This Treatment Works, Right? Evaluating LLM Sensitivity to\ Patient Question Framing in Medical QA],
@@ -245,6 +245,27 @@
       "https://www.pnas.org/doi/10.1073/pnas.2504966122",
       "Echoes in AI: Quantifying lack of plot diversity in LLM outputs",
       "Xu et al., PNAS, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
+
+  #notes_quote(
+    title: [Why Creativity Cannot Be Interpolated],
+    details: [\ Budd & Scarfe, MLST Archive, 2026],
+  )[
+    "rapid pattern matching within their training distribution. #bold[But pattern matching fails when the territory is genuinely new]. #bold[Every domain we care about] --- writing code, driving cars, doing science, counselling patients --- #bold[demands handling unknown unknowns]: situations no training set anticipated.
+
+    #indent() ... LLMs are doing a shallow pattern-match over vast data. Every idea in that data has a phylogeny --- a structured lineage of prior discoveries it builds on.
+
+    #indent() ... they do not understand beyond a surface-level. This is why LLMs have lost their shine: at first, their surprising combinations were impressive. But as they made more and more stuff, their blandness and shallowness became more and more evident, even as their technical quality improved."
+    #notes_footnote_link(
+      "https://archive.mlst.ai/read/why-creativity-cannot-be-interpolated",
+      "Why Creativity Cannot Be Interpolated",
+      "Budd & Scarfe, MLST Archive, 2026",
     )
   ]
 ]
