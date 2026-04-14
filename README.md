@@ -1,4 +1,4 @@
-# (A More) Objective View of AI
+# *(A More) Objective View of AI*
 
 <p align="center">
 <img src="others/smd_hyperwall_gulf_white_2.png" width="500">
@@ -45,6 +45,8 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 
 ### 2. [AI Limitations](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/02.AI_Limitations.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/02.AI_Limitations.pdf))
 
+Coverage of AI limitations from a technical and social perspective.
+
 - **AI Technical Limitations**
  
   - Hallucinations are Mathematically Inevitable
@@ -66,6 +68,8 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
   - Liability
 
 ### 3. [Implications for the Future](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/03.Implications_for_the_Future.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/03.Implications_for_the_Future.pdf))
+
+AI consequences on growth, employment, society, and the environment.
 
 - **Introduction**
 - **Unlikely Exponential Growth**
