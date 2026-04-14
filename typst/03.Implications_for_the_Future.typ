@@ -352,15 +352,33 @@
 
 #notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
 
-  #v(-26pt)
+  #v(-40pt)
   #align(center)[
-    #image("03.Implications_for_the_Future/apollo.png", height: 90%)
+    #image("03.Implications_for_the_Future/apollo.png", height: 95%)
   ]
 
+  #v(-10pt)
   #notes_unmarked_footnote_link(
     "https://www.apollo.com/wealth/the-daily-spark/the-ai-revolution-continues",
     "The AI Revolution Continues",
     "T. Slok, Apollo Global Management, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
+
+  #v(-35pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/epochai_tasks.png", height: 95%)
+  ]
+
+  #v(-20pt)
+  #notes_unmarked_footnote_link(
+    "https://epochai.substack.com/p/ai-is-a-common-workplace-tool-half",
+    "Half of employed Al users now use it for work",
+    "E. & C. Falkman Olsson, Epoch AI, 2026",
   )
 ]
 

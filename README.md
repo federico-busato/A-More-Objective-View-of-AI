@@ -1,4 +1,4 @@
-# *(A More) Objective View of AI*
+# (A More) Objective View of AI
 
 <p align="center">
 <img src="others/smd_hyperwall_gulf_white_2.png" width="500">
