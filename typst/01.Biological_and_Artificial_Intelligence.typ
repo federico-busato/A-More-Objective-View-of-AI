@@ -215,6 +215,25 @@
 
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
+  #notes_quote(
+    title: "Why AI systems don't learn and what to do about it",
+    details: [\ E. Dupoux et al., 2026],
+  )[
+    "Paradoxically, given the importance of deep learning, #bold[one key component of human intelligence remains out of reach for current AI models]: #bold[the ability to learn as humans do].
+
+    #indent() ... Our analysis shows that current AI systems are lacking are three key abilities that are found across the animal kingdom: the ability to select their own training data (active learning), the ability to flexibly switch between learning modes (meta control), the ability sense their own performance (meta-cognition)."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2603.15381",
+      "Lessons on autonomous learning from cognitive science",
+      "E. Dupoux et al., 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
   - #bold[AI models struggle to generalize beyond their training sets]. The classic example of this behavior is the accuracy disparity between English and non-English results.
   #set text(size: 19pt)
 

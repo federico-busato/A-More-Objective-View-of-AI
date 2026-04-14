@@ -92,6 +92,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
+
+  #notes_quote(
+    title: [How Accurate Are Google's A.I. Overviews?],
+    details: [\ New York Times, 2026],
+  )[
+    "A recent analysis of AI Overviews found that they were accurate approximately nine out of 10 times. But with Google processing more than five trillion searches a year, this means that #bold[it provides tens of millions of erroneous answers every hour] (or hundreds of thousands of inaccuracies every minute), according to an analysis done by an A.I. start-up called Oumi".
+    #notes_footnote_link(
+      "https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html",
+      "How Accurate Are Google's A.I. Overviews?",
+      "Mickle et al., New York Times, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
   #notes_quote(
@@ -103,20 +120,6 @@
       "https://www.nature.com/articles/d41586-026-00969-z",
       "Hallucinated citations are polluting the scientific literature. What can be done?",
       "Naddaf & Quill, Nature, News Feature, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
-
-  #notes_quote(title: [Deloitte goes all in on AI], details: [\ TechCrunch, 2025])[
-    "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
-    #notes_footnote_link(
-      "https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/",
-      "Deloitte goes all in on AI - despite having to issue a hefty refund for use of AI",
-      "R. Szkutak, TechCrunch, 2025",
     )
   ]
 ]
@@ -145,20 +148,36 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
 
-  #notes_quote(
-    title: [How Accurate Are Google's A.I. Overviews?],
-    details: [\ New York Times, 2026],
-  )[
-    "A recent analysis of AI Overviews found that they were accurate approximately nine out of 10 times. But with Google processing more than five trillion searches a year, this means that #bold[it provides tens of millions of erroneous answers every hour] (or hundreds of thousands of inaccuracies every minute), according to an analysis done by an A.I. start-up called Oumi".
+  #notes_quote(title: [Deloitte goes all in on AI], details: [\ TechCrunch, 2025])[
+    "The department had commissioned a \$439,000 'independent assurance review' from Deloitte, which was published earlier this year. The Australian Financial Review reported in August the review had a number of errors, #bold[including multiple citations to non-existent academic reports] (AI hallucinations)."
     #notes_footnote_link(
-      "https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html",
-      "How Accurate Are Google's A.I. Overviews?",
-      "Mickle et al., New York Times, 2026",
+      "https://techcrunch.com/2025/10/06/deloitte-goes-all-in-on-ai-despite-having-to-issue-a-hefty-refund-for-use-of-ai/",
+      "Deloitte goes all in on AI - despite having to issue a hefty refund for use of AI",
+      "R. Szkutak, TechCrunch, 2025",
     )
   ]
 ]
+
+// =====================================================================================================================
+
+//#notes_slide(title: [ #science-tag()], group: "")[
+//
+//  #notes_quote(
+//    title: [Large Language Model Performance and Clinical Reasoning Tasks],
+//    details: [\ Jama, 2026],
+//  )[
+//    "The study compared 21 general-purpose LLMs, including the latest models of ChatGPT, DeepSeek, Claude, Gemini, and Grok at the time of submission. The researchers tested the models' ability to work through 29 published clinical cases.  However, #bold[all of the models failed to produce an appropriate differential diagnosis more than 80% of the time].
+//
+//    #indent() ... These models are great at naming a final diagnosis once the data is complete, but they struggle at the open-ended start of a case, #bold[when there isn't much information]."
+//    #notes_footnote_link(
+//      "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/ai-chatbot-lacks-clinical-reasoning",
+//      "Large Language Model Performance and Clinical Reasoning Tasks",
+//      "Rao et al., Jama, 2026",
+//    )
+//  ]
+//]
 
 // =====================================================================================================================
 
