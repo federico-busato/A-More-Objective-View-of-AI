@@ -302,6 +302,21 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #science-tag()], group: "productivity-mixed")[
+
+#align(center)[
+  #image("03.Implications_for_the_Future/ai_saving_time.png", height: 70%)
+]
+
+#notes_unmarked_footnote_link(
+  "https://www.wsj.com/lifestyle/workplace/ceos-say-ai-is-making-work-more-efficient-employees-tell-a-different-story-6613ce9d",
+  "CEOs Say AI Is Making Work More Efficient. Employees Tell a Different Story",
+  "L. Ellis, The Wall Street Journal, 2026",
+)
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Productivity Gain Uncertainty - Increased by AI #science-tag()], group: "productivity-increased")[
 
   #align(center)[

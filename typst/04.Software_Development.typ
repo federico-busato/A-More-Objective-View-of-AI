@@ -336,6 +336,27 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Technical Debt #science-tag()], group: "technical-debt")[
+
+  #notes_quote(
+    title: "GitClear",
+    details: [\ AI Coding Tools Attract Top Performers --- But Do They  Create Them?, 2026],
+  )[
+    "Relative code churn (refactoring) far outpaces increases in productive output. Regular AI users averaged 9.4x higher code churn than their non-AI counterparts, #bold[which is 2.2x greater than their composite productivity increase].
+
+    #v(-20pt)
+    - Code Review Minutes 3.1x
+    - Copy/Paste Lines 4.1x
+    - Churn Lines 9.4x" #notes_footnote_link(
+        "https://gitclear-public.s3.us-west-2.amazonaws.com/Developer_Cohort_Analysis_AI_Coding_Output.pdf",
+        "AI Coding Tools Attract Top Performers – But Do They Create Them?",
+        "GitClear, 2026",
+      )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Technical Debt #news-tag()], group: "technical-debt")[
 
   #set text(size: 19pt)
