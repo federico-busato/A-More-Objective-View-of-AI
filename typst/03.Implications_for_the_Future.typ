@@ -304,15 +304,15 @@
 
 #notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #science-tag()], group: "productivity-mixed")[
 
-#align(center)[
-  #image("03.Implications_for_the_Future/ai_saving_time.png", height: 70%)
-]
+  #align(center)[
+    #image("03.Implications_for_the_Future/ai_saving_time.png", height: 70%)
+  ]
 
-#notes_unmarked_footnote_link(
-  "https://www.wsj.com/lifestyle/workplace/ceos-say-ai-is-making-work-more-efficient-employees-tell-a-different-story-6613ce9d",
-  "CEOs Say AI Is Making Work More Efficient. Employees Tell a Different Story",
-  "L. Ellis, The Wall Street Journal, 2026",
-)
+  #notes_unmarked_footnote_link(
+    "https://www.wsj.com/lifestyle/workplace/ceos-say-ai-is-making-work-more-efficient-employees-tell-a-different-story-6613ce9d",
+    "CEOs Say AI Is Making Work More Efficient. Employees Tell a Different Story",
+    "L. Ellis, The Wall Street Journal, 2026",
+  )
 ]
 
 // =====================================================================================================================
@@ -921,6 +921,15 @@
       "",
     )
   ]
+
+  #notes_quote(title: "Robots Are Quietly Building the Future of Renewable Energy", details: [\ OilPrice, 2026])[
+    "Robots are dramatically increasing efficiency in solar and wind projects, with systems capable of doubling installation speeds and improving precision."
+    #notes_footnote_link(
+      "https://bsky.app/profile/allenholub.bsky.social/post/3mhvqmev2yk2o",
+      "Robots Are Quietly Building the Future of Renewable Energy",
+      "F. Bradstock, OilPrice, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -1051,6 +1060,43 @@
       "Patients Use AI-Clinicians Should Ask How",
       "K. Saba & B. Weeks, JAMA Psychiatry, 2026",
     )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
+
+  #notes_quote(
+    title: "Generative artificial intelligence-driven chatbots and medical misinformation: an accuracy, referencing and readability audit",
+    details: [\ BMJ Open, 2026],
+  )[
+    "Most interactions, however, come from non-experts using chatbots like search engines, including for everyday health and medical queries.
+
+    #indent() ... #bold[Nearly half (49.6%) of responses were problematic]: 30% somewhat problematic and 19.6% highly problematic... #bold[Chatbot outputs were consistently expressed with confidence and certainty]; ...  Reference quality was poor... Chatbot hallucinations and fabricated citations precluded any chatbot from producing a fully accurate reference list."
+    #notes_footnote_link(
+      "https://bmjopen.bmj.com/content/16/4/e112695",
+      "Generative artificial intelligence-driven chatbots and medical misinformation: an accuracy, referencing and readability audit",
+      "Tiller et al., BMJ Open, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
+
+  #notes_quote(
+    title: "Americans Turning to AI to Supplement Healthcare Visits",
+    details: [\ Gallup, 2026],
+  )[
+    - "59% who use AI for health info are researching before doctor visits.
+    - #bold[About 14 million adults report skipping a provider visit after using AI].
+    - Only 4% who use AI for health info strongly trust its accuracy". #notes_footnote_link(
+        "https://news.gallup.com/poll/707789/americans-turning-supplement-healthcare-visits.aspx",
+        "Americans Turning to AI to Supplement Healthcare Visits",
+        "Raynes & Maese, Gallup, 2026",
+      )
   ]
 ]
 

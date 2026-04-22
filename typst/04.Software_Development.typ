@@ -692,6 +692,26 @@
   ]
 ]
 
+
+// =====================================================================================================================
+
+#notes_slide(title: [The Role of Human Expertise #science-tag()], group: "human-expertise")[
+
+  #notes_quote(
+    title: "'AI makes me 10x productive', 'AI produces garbage'",
+    details: [\ Michael Rothrock, 2026],
+  )[
+    "LLMs have evolved into enormously powerful engines that can produce vast amounts of artifacts. However, #bold[they need to be guided to produce output that is actually #notes_underline[valuable]]. Without this, they can produce a mountain of garbage just as easily as gold.
+
+    ... The fluency of the AI makes it easy to think you should interact with it like you would a junior engineer. #bold[The best output comes from realizing that it is a machine that produces code and executes tasks], and you should treat it as such."
+    #notes_footnote_link(
+      "https://michael.roth.rocks/research/543-hours",
+      "'AI makes me 10x productive', 'AI produces garbage'",
+      "M. Rothrock, 2026",
+    )
+  ]
+]
+
 // =====================================================================================================================
 
 #notes_slide(title: [The Role of Human Expertise #comment-tag()], group: "human-expertise")[

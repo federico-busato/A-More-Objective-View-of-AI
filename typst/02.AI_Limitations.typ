@@ -146,6 +146,26 @@
   ]
 ]
 
+
+// =====================================================================================================================
+
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
+
+  #notes_quote(
+    title: [Sullivan & Cromwell law firm apologizes for AI 'hallucinations' in court filing],
+    details: [\ Reuters, 2026],
+  )[
+    "co-head of the firm's global restructuring group [Sullivan & Cromwell], said the errors included AI 'hallucinations' --- instances in which AI makes up case citations, misquotes the law or generates non-existent legal sources.
+
+    #indent() ... New York-based Sullivan & Cromwell, with more than 900 lawyers, has a reputation as one of the country's top corporate firms"
+    #notes_footnote_link(
+      "https://www.reuters.com/legal/litigation/sullivan-cromwell-law-firm-apologizes-ai-hallucinations-court-filing-2026-04-21/",
+      "Sullivan & Cromwell law firm apologizes for AI 'hallucinations' in court filing",
+      "Freifeld & Scarcella, Reuters, 2026",
+    )
+  ]
+]
+
 // =====================================================================================================================
 
 #notes_slide(title: [Hallucinations are Mathematically Inevitable #news-tag()], group: "hallucinations")[
