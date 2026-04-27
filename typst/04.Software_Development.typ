@@ -382,11 +382,29 @@
 #notes_slide(title: [Technical Debt - Redundancy #comment-tag()], group: "technical-debt")[
 
   #notes_quote(
-    title: "Your LLM Doesn't Write Correct Code. It Writes Plausible Code.",
+    title: "Your LLM Doesn't Write Correct Code. It Writes Plausible Code",
     details: [\ Hōrōshi, 2026],
   )[
     "In the 1980 Turing Award lecture Tony Hoare said: 'There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other is to make it so complicated that there are no obvious deficiencies.' This LLM-generated code falls into the second category. The reimplementation is 576,000 lines of Rust. #bold[That is 3.7x more code] than SQLite."
     @horoshi
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Technical Debt - Redundancy #comment-tag()], group: "technical-debt")[
+
+  #notes_quote(
+    title: "Sung Kim, 2026"
+  )[
+    "#bold[With AI coding agents, do you know you can accumulate years of technical debt in a matter of days.]
+
+    How do you prevent your codebase from becoming unmaintainable? Remember, these coding agents often rely heavily on text-search patterns to understand and modify code."
+    #notes_footnote_link(
+      "https://bsky.app/profile/sungkim.bsky.social/post/3mkcruqzquk25",
+      "",
+      "Sung Kim, 2026",
+    )
   ]
 ]
 

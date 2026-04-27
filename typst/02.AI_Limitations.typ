@@ -340,6 +340,26 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
+
+
+  #notes_quote(
+    title: ["The Cat Sat on the xxx?" Why generative AI has limited creativity],
+    details: [\ D. H. Cropley, 2025],
+  )[
+    #bold[the creativity of generative AI] --- specifically, Large Language Models --- is not merely a matter of subjective judgment or philosophical debate, but #bold[is, in fact, mathematically bounded].
+
+    This limitation is not the result of poor training, inadequate prompting, or underpowered architectures. Rather, it is a fundamental consequence of how these systems operate: token selection is governed by probability distributions where effectiveness and novelty are negatively correlated. High-probability tokens are semantically appropriate but predictable; low-probability tokens are unexpected but often nonsensical. #bold[The result is a structural inability to  simultaneously achieve both originality and effectiveness to the degree required for high creativity.]
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/8sfpd_v1",
+      "'The Cat Sat on the xxx?' Why generative AI has limited creativity",
+      "D. H. Cropley, OSF, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Production Quality
 
 #notes_slide(title: [Production Quality #science-tag()], group: "production-quality")[

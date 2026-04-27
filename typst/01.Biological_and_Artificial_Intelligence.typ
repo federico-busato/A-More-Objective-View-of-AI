@@ -194,6 +194,41 @@
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
+    title: "Large Language Mistake",
+    details: [\ Cognitive Resonance, 2025],
+  )[
+    "If we gather tons of data about the world, and combine this with ever more powerful computing power to improve our statistical correlations, then presto, we'll have AGI. Scaling is all we need.
+
+    #indent() But #notes_underline[this theory is seriously scientifically flawed]. #bold[LLMs are simply tools that emulate the communicative function of language, not the separate and distinct cognitive process of thinking and reasoning], no matter how many data centers we build."
+    #notes_footnote_link(
+      "https://buildcognitiveresonance.substack.com/p/large-language-mistake",
+      "Large Language Mistake",
+      "B. Riley, Cognitive Resonance, December 2025",
+    ) <large_language_mistake>
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
+  #notes_quote(
+    title: "Large Language Mistake",
+    details: [\ Cognitive Resonance, 2025],
+  )[
+    "using advanced functional magnetic resonance imaging (fMRI), we can see different parts of the human brain activating when we engage in different mental activities...  solving a math problem, say, or trying understand what is happening in the mind of another human --- different parts of our brains 'light up' as part of networks that are distinct from our linguistic ability.
+
+    #indent() ... studies of humans who have lost their language abilities due to brain damage or other disorders demonstrate conclusively that this loss does not fundamentally impair the general ability to think.
+
+    #indent() ... Studies suggest that children learn about the world in much the same way that scientists do--- by conducting experiments, analyzing statistics, and forming intuitive theories of the physical, biological and psychological realms... Babies may not yet be able to use language, but of course they are thinking" @large_language_mistake
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
+  #notes_quote(
     title: "Shortcoming Makes LLMs Less Reliable",
     details: [\ MIT News, 2025],
   )[
@@ -342,6 +377,22 @@
       "https://www.nature.com/articles/s41599-025-05868-8",
       "There is no such thing as conscious artificial intelligence",
       "Porębski & Figura, Nature, Humanities and Social Sciences Communications, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Final Remarks #comment-tag()])[
+
+  #notes_quote(title: "Software Brain", details: [\ The Verge, 2026])[
+    "It's everywhere: the absolute cutting edge of advertising and marketing is automation with AI. It's not being a creative.
+
+    #indent() But: not everything is a business. Not everything is a loop! #bold[The entire human experience cannot be captured in a database. That's the limit of #notes_underline[software brain].] That's why people hate AI. It flattens them."
+    #notes_footnote_link(
+      "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
+      "The Mythology Of Conscious AI",
+      "N. Patel, The Verge, April 2026",
     )
   ]
 ]

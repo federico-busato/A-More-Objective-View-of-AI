@@ -623,6 +623,46 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
+
+  #v(-30pt)
+  #notes_quote(
+    title: [The Microstructure of AI Diffusion],
+    details: [\ U.S. Census Bureau's Business Trends and Outlook Survey (BTOS),\ 1.2 million businesses firms, 2026],
+  )[
+    - "Labor impacts are dominated by augmentation rather than substitution. Among firms shifting   task structures, 66% engage exclusively in augmentation.
+
+    - Functional integration and operational investments are positively associated with sales increases, performance, and headcount declines. Conversely, worker-task breadth is positively associated with enhanced performance/sales, but not with displacing labor."
+    #notes_unmarked_footnote_link(
+      "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+      "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
+      "Boney et al., U.S. Census Bureau, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
+
+  #v(-30pt)
+  #notes_quote(
+    title: [FEDS Notes],
+    details: [\ Board of Governors of the Federal Reserve System, 2026],
+  )[
+    "Job postings are drawn from the Lightcast (formerly Burning Glass) database, which catalogues job postings from more than 65,000 sources
+
+    #indent() ... Despite the recent boom in AI investment across the economy and fears that the technology will lead to widespread job losses, #bold[we find no evidence of negative impacts thus far on firms' job-posting behavior]."
+    #notes_unmarked_footnote_link(
+      "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+      "FEDS Notes",
+      "Board of Governors of the Federal Reserve System, March, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 = Positive Impacts <p2s>
 
 // =====================================================================================================================
@@ -966,13 +1006,22 @@
   #notes_quote(title: "Your Brain on ChatGPT", details: [\ Kosmyna et al., 2025])[
     "EEG analysis presented robust evidence that LLM, Search Engine and Brain-only groups had significantly different neural connectivity patterns, reflecting divergent cognitive strategies.
 
-    #indent() #bold[Brain connectivity systematically scaled down with the amount of external support]: the Brain-only group exhibited the strongest, widest-ranging networks, Search Engine group showed intermediate engagement, and LLM assistance elicited the weakest overall coupling."
+    #indent() #bold[Brain connectivity systematically scaled down with the amount of external support]: the Brain-only group exhibited the strongest, widest-ranging networks, Search Engine group showed intermediate engagement, and LLM assistance elicited the weakest overall coupling. \*"
     #notes_footnote_link(
       "https://arxiv.org/pdf/2506.08872",
       "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
       "Kosmyna et al., arXiv, 2025",
     )
   ]
+
+  #set text(size: 16pt)
+  \* "The ChatGPT group showed notably less brain activity --- it was reduced by up to 55%."
+
+  #notes_unmarked_footnote_link(
+    "https://www.bbc.com/news/technology-65500506",
+    "AI chatbots could be making you stupider",
+    "BBC, 2026",
+  )
 ]
 
 // =====================================================================================================================
@@ -1024,7 +1073,26 @@
   )[
     So the default behavior is very similar to a self driving car. But there's this tipping point where at some point, you're not engaged anymore. You're not paying attention. And #bold[you get this delegation of competence. And you get understanding debt.]
 
-    #indent() ... But what happens is that the default attractor is for people to just go into this autopilot mode and they've got no idea what's happening and #bold[it's actually making them dumber]". @jeremy_howard
+    #indent() ... But what happens is that the default attractor is for people to just go into this autopilot mode and they've got no idea what's happening and #bold[it's actually making them dumber]".
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+  #notes_quote(
+    title: [Who Benefits from AI? Self-Selection, Skill Gap,\ and the Hidden Costs of AI Feedback],
+    details: [\ Riedl & Bogert, 2026],
+  )[
+    When many individuals consult the same centralized source of information, their beliefs and strategies tend to converge toward a common set of outputs, replacing previously heterogeneous private knowledge with shared knowledge derived from that source
+
+    #indent() ... #bold[This population-level loss of intellectual diversity could then negatively affect long-term problem solving ability of firms and undermine firms' competitive advantage]
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2409.18660",
+      "Who Benefits from AI? Self-Selection, SkillGap, and the Hidden Costs of AI Feedback",
+      "Riedl & Bogert, arXiv, 2026",
+    ) <riedl_bogert>
   ]
 ]
 
@@ -1086,6 +1154,7 @@
 
 #notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
 
+  #v(-10pt)
   #notes_quote(
     title: "Americans Turning to AI to Supplement Healthcare Visits",
     details: [\ Gallup, 2026],
@@ -1097,6 +1166,20 @@
         "Americans Turning to AI to Supplement Healthcare Visits",
         "Raynes & Maese, Gallup, 2026",
       )
+  ]
+
+  #notes_quote(
+    title: "Edelman Trust Barometer",
+    details: [2026],
+  )[
+    "Consumers are adopting AI across healthcare touchpoints.
+
+    #bold[64% of respondents believe fluent AI users can perform at least one task as well as --- or better than --- a doctor], including performing basic medical procedures 22%, and determining proper treatment or medication 21%."
+    #notes_footnote_link(
+      "https://www.edelman.com/sites/g/files/aatuss191/files/2026-04/Health%20Trust%202026_Top%2010%20Findings.pdf",
+      "Edelman Trust Barometer",
+      "16 Countries, 16,000+ Respondents, 2026",
+    )
   ]
 ]
 
@@ -1119,9 +1202,54 @@
   ]
 ]
 
+== Inequality
+
+// =====================================================================================================================
+
+#notes_slide(title: [Inequality #science-tag()])[
+
+  #notes_quote(
+    title: [Who Benefits from AI? Self-Selection, Skill Gap,\ and the Hidden Costs of AI Feedback],
+    details: [\ Riedl & Bogert, 2026],
+  )[
+    "The apparent benefits of AI feedback are largely or entirely attributable to the same unobserved factors that drive AI adoption and engagement. Learning is concentrated among higher-skill, highly motivated individuals, due to their endogenous tendency to seek more AI feedback and use it more productively (after a failure). This individual-level pattern has important implications on the population level: #bold[Instead of lifting lower-skilled individuals who have the most to gain, AI disproportionately complements higher-skilled individuals --- amplifying the existing skill gap]."
+    @riedl_bogert
+  ]
+]
+
 // =====================================================================================================================
 
 == Social Risks <p3e>
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  - 41.3% of LinkedIn posts are generated by AI.
+    #notes_footnote_link(
+      "https://gptzero.me/ai-vision",
+      "AI Vision",
+      "GPTZero, 2026",
+    )
+  - 71% of images shared on social media globally were AI-generated. #notes_footnote_link(
+      "https://artsmart.ai/blog/ai-image-generator-market-statistics/",
+      "AI Image Generator Market Statistics: An Analysis",
+      "ArtSmart, 2026",
+    )
+
+  #notes_quote(
+    title: "Towards a Post-Social Media Studies",
+    details: [\ Törnberg & Rogers, 2026],
+  )[
+    "an algorithmic shift from social-graph-based to interest-based recommendation, which is #bold[remaking the active 'user' into a passive 'viewer']; the generative AI revolution, which is replacing user-generated content with synthetic media and  #bold[decoupling platforms from any dependence on human participation];"
+    #notes_footnote_link(
+      "https://osf.io/preprints/socarxiv/6nue7_v1",
+      "Towards a Post-Social Media Studies",
+      "Törnberg & Rogers, SocArXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
