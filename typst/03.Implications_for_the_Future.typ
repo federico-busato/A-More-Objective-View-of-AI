@@ -135,6 +135,13 @@
       "Will we run out of data? Limits of LLM scaling based on human-generated data",
       "Villalobos et al., EpochAI, 2024",
     )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+
+
 
   - #bold[AI quality degradation when trained on recursively generated data]. AI-generated content has surpassed the _quantity_ of human-written articles. This implies that AI models are trained on increasingly low-quality data, reinforcing hallucinations.
     #notes_footnote_link(
@@ -157,8 +164,19 @@
       "74% of New Webpages Include AI Content (Study of 900k Pages)",
       "Law et al., Ahrefs, 2025",
     )
-]
 
+  #notes_quote(
+    title: "The Impact of AI-Generated Text on the Internet",
+    details: [\ Dolezal et al., 2026],
+  )[
+    "The 35% prevalence of AI-generated and AI-assisted text transforms the theoretical risk of model collapse, wherein future AI models degrade after recursively ingesting AI-generated data, into an empirical concern"
+    #notes_footnote_link(
+      "https://ai-on-the-internet.github.io/ai-on-the-internet.pdf",
+      "The Impact of AI-Generated Text on the Internet",
+      "Dolezal et al., 2026",
+    ) <dolezal>
+  ]
+]
 
 // =====================================================================================================================
 
@@ -1234,7 +1252,9 @@
       "AI Image Generator Market Statistics: An Analysis",
       "ArtSmart, 2026",
     )
+  - 35% of newly published websites were classified as AI-generated or AI-assisted. @dolezal
 
+  #v(-10pt)
   #notes_quote(
     title: "Towards a Post-Social Media Studies",
     details: [\ Törnberg & Rogers, 2026],

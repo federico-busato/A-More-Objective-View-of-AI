@@ -383,6 +383,29 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [The Illusion of Consciousness #science-tag()], group: "intelligence-illusion")[
+  #set text(size: 19pt)
+
+  #notes_quote(
+    title: "The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness",
+    details: [\ A. Lerchner, DeepMind, 2026],
+  )[
+    "conscious experience cannot be the downstream result of computation because it is the necessary physical prerequisite for it.
+
+    #indent() Furthermore, we show that computation is fundamentally a description, a map, that cannot physically
+    instantiate what it describes
+
+    #indent() ... By creating increasingly powerful artificial intelligence we are not engineering a new form of life, #bold[but instead constructing increasingly accurate predictive maps]. Yet, regardless of its predictive fidelity, its utility as a reasoning tool, or its physical embodiment, #bold[the artificial system remains categorically distinct from the territory of phenomenal experience.]"
+    #notes_footnote_link(
+      "https://philpapers.org/archive/LERTAF.pdf",
+      "The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness",
+      "A. Lerchner, DeepMind, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Final Remarks #comment-tag()])[
 
   #notes_quote(title: "Software Brain", details: [\ The Verge, 2026])[

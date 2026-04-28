@@ -53,7 +53,7 @@ The following fonts must be installed on your system for local compilation:
 - [Latin Modern Sans](https://www.fontsquirrel.com/fonts/Latin-Modern-Sans)
 - [Latin Modern Mono](https://www.fontsquirrel.com/fonts/Latin-Modern-Mono)
 - [Latin Modern Roman Caps](https://www.fontsquirrel.com/fonts/latin-modern-roman) (part of the Latin Modern family)
-- [Font Awesome 6 Free](https://fontawesome.com/download) (`Free-Regular-400.otf`)
+- [Font Awesome 7 Free](https://use.fontawesome.com/releases/v7.2.0/fontawesome-free-7.2.0-desktop.zip) (`Free-Regular-400.otf`)
 
 ### Typst Packages
 
