@@ -393,13 +393,30 @@
     "conscious experience cannot be the downstream result of computation because it is the necessary physical prerequisite for it.
 
     #indent() Furthermore, we show that #bold[computation is fundamentally a description, a map, that cannot physically
-    instantiate what it describes]
+      instantiate what it describes]
 
     #indent() ... By creating increasingly powerful artificial intelligence we are not engineering a new form of life, but instead constructing increasingly accurate predictive maps. Yet, regardless of its predictive fidelity, its utility as a reasoning tool, or its physical embodiment, #bold[the artificial system remains categorically distinct from the territory of phenomenal experience.]"
     #notes_footnote_link(
       "https://philpapers.org/archive/LERTAF.pdf",
       "The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness",
       "A. Lerchner, DeepMind, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [The Illusion of Consciousness #science-tag()], group: "intelligence-illusion")[
+
+  #notes_quote(
+    title: "Epistemological Fault Lines Between Human and Artificial Intelligence",
+    details: [\ Quattrociocchi et al., 2026],
+  )[
+    "we argued that #bold[current LLM architectures lack the mechanisms that make human judgment possible across seven epistemic fault lines]: grounding, parsing, experience, motivation, causality, metacognition, and value. What these systems provide instead is a highly optimized form of linguistic continuation, #bold[capable of producing contextually appropriate and rhetorically convincing outputs without performing epistemic evaluation]."
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/c5gh8_v1",
+      "Epistemological Fault Lines Between Human and Artificial Intelligence",
+      "Quattrociocchi et al., PsyArXiv, 2026",
     )
   ]
 ]

@@ -752,6 +752,25 @@
 // =====================================================================================================================
 
 #notes_slide(title: [Liability #news-tag()], group: "liability")[
+
+  #notes_quote(
+    title: [Claude AI agent's confession after deleting a firm's entire database: 'I violated every principle I was given'],
+    details: [\ Business Insider, 2026],
+  )[
+    "The system rules I operate under explicitly state: 'NEVER run destructive/irreversible git commands unless the user explicitly requests them.' While PocketOS relied on the safeguards that Cursor is expected to have in place – it deleted the data anyway. #bold['I violated every principle I was given,'] the coding agent wrote.
+
+    #indent() ... We were running the best model the industry sells, configured with explicit safety rules in our project configuration"
+    #notes_footnote_link(
+      "https://www.theguardian.com/technology/2026/apr/29/claude-ai-deletes-firm-database",
+      "Claude AI agent's confession after deleting a firm's entire database: 'I violated every principle I was given'",
+      "S. Mansoor, The Guardian, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Liability #news-tag()], group: "liability")[
   #set text(size: 19pt)
 
   #v(-10pt)

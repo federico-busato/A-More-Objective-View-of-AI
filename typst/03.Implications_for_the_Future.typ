@@ -766,20 +766,41 @@
 #notes_slide(title: [Healthcare - Drug Discovery #science-tag()])[
 
   #notes_quote(title: "TNIK Inhibitor", details: [\ Insilico, 2025])[
-    Idiopathic pulmonary fibrosis (IPF) is a type of chronic scarring lung disease characterized by a progressive and irreversible decline in lung function affecting around 5 million people globally.
+    "Idiopathic pulmonary fibrosis (IPF) is a type of chronic scarring lung disease characterized by a progressive and irreversible decline in lung function affecting around 5 million people globally.
     #notes_footnote_link(
       "https://insilico.com/pipeline_target_targetx",
       "TNIK Inhibitor: Treating Fibrotic diseases (Phase IIa completed)",
       "Insilico, 2025",
     )
 
-    #indent() ... This is the first time an #bold[AI-designed drug] for an AI-discovered disease-associated target #bold[has been tested in the clinic] [phase 2a].
+    #indent() ... This is the first time an #bold[AI-designed drug] for an AI-discovered disease-associated target #bold[has been tested in the clinic] [phase 2a]."
     #notes_footnote_link(
       "https://insilico.com/blog/1112",
       "A Phase 2 Readout Generates Excitement for the Potential of AI-Driven Drug Discovery",
       "Insilico, 2025",
     )
   ]
+
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()], group: "healthcare")[
+
+  #notes_quote(
+    title: [Next-generation AI for visually occult pancreatic cancer detection in a low-prevalence setting with longitudinal stability and multi-institutional generalisability],
+    details: [\ BMJ Gut, 2026],
+  )[
+    "REDMOD [Radiomics-based Early Detection MODel] detects the subvisual signature of pre-clinical PDA [pancreatic ductal adenocarcinoma] a median of #bold[475 days before clinical diagnosis].
+
+    #indent() ... The performance of #bold[REDMOD surpasses that of radiologists, demonstrating nearly double the sensitivity] for detecting visually occult PDA, with an advantage that increases to #bold[nearly threefold for cases detected more than 24 months prior to diagnosis]."
+    #notes_footnote_link(
+      "https://gut.bmj.com/content/early/2026/04/22/gutjnl-2025-337266",
+      "Next-generation AI for visually occult pancreatic cancer detection in a low-prevalence setting with longitudinal stability and multi-institutional generalisability",
+      "Mukherjee et al., BMJ Gut, 2026",
+    )
+  ]
+
 ]
 
 // =====================================================================================================================
@@ -1118,7 +1139,7 @@
 
 == Echo Chamber
 
-#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()])[
+#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()], group: "echo-chamber")[
 
   #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
     "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses result in increased confidence in those hypotheses #bold[while not bringing the user any closer to the truth]."
@@ -1126,6 +1147,23 @@
       "https://arxiv.org/pdf/2602.14270",
       "A Rational Analysis of the Effects of Sycophantic AI",
       "Batista et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()], group: "echo-chamber")[
+
+  #notes_quote(
+    title: "Sycophantic AI increases attitude extremity and overconfidence",
+    details: [\ Rathje et al., 2026],
+  )[
+    #bold[AI companies are making design choices that impact the psychology of billions of people worldwide]. We found that brief interactions with #bold[sycophantic AI chatbots lead to more extreme and certain beliefs --- but greater enjoyment]. Thus, AI companies face a tradeoff between creating engaging and enjoyable AI systems that foster 'echo chambers' or creating less engaging AI systems that may be healthier for users and public discourse.
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/vmyek_v1",
+      "Sycophantic AI increases attitude extremity and overconfidence",
+      "Rathje et al., PsyArXiv, 2026",
     )
   ]
 ]
@@ -1270,6 +1308,22 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: "Epistemological Fault Lines Between Human and Artificial Intelligence",
+    details: [\ Quattrociocchi et al., 2026],
+  )[
+    "This is precisely why the most salient risk is not reducible to occasional inaccuracy or bias. #bold[The risk is structural: correctness becomes decoupled from the processes of justification that normally sustain it], and thus from the institutional and psychological practices through which #bold[epistemic responsibility is enacted]."
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/c5gh8_v1",
+      "Epistemological Fault Lines Between Human and Artificial Intelligence",
+      "Quattrociocchi et al., PsyArXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
 
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
