@@ -55,7 +55,7 @@
   )]
 
 #let unmarked-footnote(body) = {
-  place(hide(footnote[#text(size: 14pt)[#h(3pt) #body]]))
+  footnote(numbering: _ => [])[#text(size: 14pt)[#h(3pt) #body]]
 }
 
 #let notes_link(url, string, reference: "") = [#link(url)[ //

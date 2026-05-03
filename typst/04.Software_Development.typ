@@ -99,7 +99,7 @@
 
 #notes_slide(title: [AI and Software Employment #news-tag()], group: "software-employment")[
 
-  #v(-30pt)
+  #v(-18pt)
   #align(center)[
     #image("04.Software_Development/capex_vs_people.png", width: 65%)
   ]
@@ -122,12 +122,11 @@
     "What are the fastest-growing professions in America?",
     "USAFacts, 2025",
   )
-  #place(
-    top + left,
+  #box(width: 0pt, height: 0pt)[#move(
     dx: 120pt,
     dy: 100pt,
     [#text(fill: blue)[➜]],
-  )
+  )]
   #align(center)[
     #image("04.Software_Development/occupation_2034.png", height: 80%)
   ]
