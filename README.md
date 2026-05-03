@@ -39,8 +39,8 @@ Opinions about AI range from predictions of imminent societal or economic collap
 A broad examination of AI from scientific, cognitive, and social perspectives.
 
 - **Introduction**
-- **AI and Human Brain are Structurally Different**
-- **AI and Human Brain are Functionally Different**
+- **AI and Human Brain are _Structurally_ Different**
+- **AI and Human Brain are _Functionally_ Different**
 - **The Illusion of Consciousness**
 
 ### 2. [AI Limitations](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/02.AI_Limitations.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/02.AI_Limitations.pdf))
@@ -75,6 +75,9 @@ AI consequences on growth, employment, society, and the environment.
 - **Unlikely Exponential Growth**
 - **Productivity Gain Uncertainty**
 - **Employment**
+
+  - Economic Impact
+
 - **Positive Impacts**
 
   - Protein Structure Prediction
@@ -90,6 +93,7 @@ AI consequences on growth, employment, society, and the environment.
   - Cognitive Offloading and Deskilling
   - Echo Chamber
   - Health Risks
+  - Inequality
   - Social Risks
 
 ### 4. [Software Development in the Age of AI](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/04.Software_Development.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/04.Software_Development.pdf))
@@ -105,7 +109,7 @@ A practical look at AI in software development.
   - The Illusion of Competence
   - Technical Debt
   - Security Vulnerabilities
-  - The 'Last Mile' Problem
+  - The "Last Mile" Problem
 
 - **AI as a Software Engineering Tool**
 

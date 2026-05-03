@@ -396,6 +396,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Production Quality #science-tag()], group: "production-quality")[
+
+  #notes_quote(
+    title: [More Versus Better: Artificial Intelligence, Incentives,\ and the Emerging Crisis in Peer Review],
+    details: [\ Organization Science, 2026],
+  )[
+    "AI is not improving writing quality in aggregate. #bold[Our evidence suggests that the written quality of manuscripts and reviews is in decline]. This is not to say that AI cannot improve writing quality, but so far, the systems-level effects have been negative."
+    #notes_footnote_link(
+      "https://www.ai.com/",
+      "More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review",
+      "Gartenberg et al., Organization Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Causality and Real-World Understanding
 
 #notes_slide(title: [Causality and Real-World Understanding #news-tag()], group: "causality")[

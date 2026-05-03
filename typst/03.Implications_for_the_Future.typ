@@ -417,7 +417,7 @@
 
 // =====================================================================================================================
 
-= Employment <p1e>
+= Employment
 
 // =====================================================================================================================
 
@@ -676,6 +676,37 @@
       "FEDS Notes",
       "Board of Governors of the Federal Reserve System, March, 2026",
     )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment #science-tag()], group: "employment")[
+
+  #v(-30pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/ai-displacement-risk.png", height: 91%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://www.cbre.com/insights/reports/ais-impact-on-the-economy-employment-and-productivity",
+    "AI's Impact on the Economy, Employment & Productivity",
+    "CBRE, 2026",
+  ) <cbre>
+]
+
+// =====================================================================================================================
+
+== Economic Impact <p1e>
+
+#notes_slide(title: [Economic Impact #science-tag()], group: "economic-impact")[
+
+  #notes_quote(
+    title: [AI's Impact on the Economy, Employment & Productivity],
+    details: [\ CBRE, 2026],
+  )[
+    "AI investment is rewriting the economic playbook in real time. Hyperscalers are projected to spend #bold[\$3.7 trillion on AI infrastructure over the next five years] --- a buildout that experts estimate #bold[will eclipse the railroad expansion of the 1850s] in relative scale. 2025 AI investment was equivalent to roughly half of U.S. GDP growth for the year."
+    @cbre
   ]
 ]
 
@@ -1132,6 +1163,26 @@
       "Who Benefits from AI? Self-Selection, SkillGap, and the Hidden Costs of AI Feedback",
       "Riedl & Bogert, arXiv, 2026",
     ) <riedl_bogert>
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+
+  #notes_quote(
+    title: [ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention],
+    details: [\ Social Sciences & Humanities Open, 2026],
+  )[
+    " Students who learned without AI retained substantially more information after 45 days than those who used ChatGPT. The effect size corresponds to an \~11 percentage-point performance gap.
+
+    #indent() ... #bold[By providing immediate, comprehensive answers, the AI tool facilitated a form of cognitive offloading that eliminated the desirable difficulties needed for deep learning]. Skipping those effortful processes likely led to weaker memory encoding, as evidenced by the steeper forgetting curve in the AI-assisted group"
+    #notes_footnote_link(
+      "https://www.cbre.com/insights/reports/ais-impact-on-the-economy-employment-and-productivity",
+      "ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention",
+      "A. Barcaui, Social Sciences & Humanities Open, 2026",
+    )
   ]
 ]
 
