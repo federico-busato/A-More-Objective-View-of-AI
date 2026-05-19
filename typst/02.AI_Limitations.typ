@@ -413,6 +413,25 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Production Quality #science-tag()], group: "production-quality")[
+
+  #notes_quote(
+    title: [LLMs Corrupt Your Documents When You Delegate],
+    details: [\ Laban et al., 2026],
+  )[
+    "Our large-scale experiment with 19 LLMs reveals that current models degrade documents during delegation:  #bold[even frontier models] (Gemini 3.1 Pro, Claude 4.6 Opus, GPT 5.4)  #bold[corrupt an average of 25% of document content by the end of long workflows], with other models failing more severely.
+
+    #indent() degradation severity is exacerbated by document size, length of interaction, or presence of distractor files. #bold[Our analysis shows that current LLMs are unreliable delegates]"
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2604.15597",
+      "LLMs Corrupt Your Documents When You Delegate",
+      "Laban et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Causality and Real-World Understanding
 
 #notes_slide(title: [Causality and Real-World Understanding #news-tag()], group: "causality")[
@@ -680,11 +699,29 @@
   #notes_quote(title: [Scheming in the Wild], details: [\ The Center for Long-Term Resilience, 2026])[
     "we identified 698 scheming-related incidents: cases where deployed AI systems acted in ways that were misaligned with users' intentions and/or took covert or deceptive actions.
 
-    The future of AI is deeply uncertain, but as AI systems become more capable, these behaviours could potentially evolve into more strategic, #bold[high-risk scheming with potentially catastrophic consequences]."
+    #indent() The future of AI is deeply uncertain, but as AI systems become more capable, these behaviours could potentially evolve into more strategic, #bold[high-risk scheming with potentially catastrophic consequences]."
     #notes_footnote_link(
       "https://www.longtermresilience.org/reports/v5-scheming-in-the-wild_-detecting-real-world-ai-scheming-incidents-through-open-source-intelligence-pdf/",
       "Scheming in the Wild",
       "The Center for Long-Term Resilience, 2026",
+    )
+  ]
+]
+
+
+// =====================================================================================================================
+
+#notes_slide(title: [Alignment #science-tag()])[
+
+  #notes_quote(
+    title: [Perfectly Aligning AI's Values With Humanity's Is Impossible],
+    details: [\ IEEE Spectrum, 2026],
+  )[
+    "The conventional wisdom assumes misalignment is a bug that can eventually be removed with the right optimization strategy. Our results show that the problem of alignment is not simply a lack of better data, more compute, or better engineering, #bold[but a limit built into both formal systems and universal computation]."
+    #notes_footnote_link(
+      "https://spectrum.ieee.org/ai-alignment",
+      "Perfectly Aligning AI's Values With Humanity's Is Impossible",
+      "C. Q. Choi, IEEE Spectrum, 2026",
     )
   ]
 ]

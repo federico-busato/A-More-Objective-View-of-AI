@@ -290,6 +290,25 @@
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
+    title: "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+    details: [\ ARC Prize Foundation, 2026],
+  )[
+    "We introduce ARC-AGI-3, an interactive benchmark for studying agentic intelligence through #bold[novel, abstract, turn-based environments] in which agents must explore, infer goals, build internal models of environment dynamics, and plan effective action sequences without explicit instructions.
+
+    #indent() ... #bold[Our testing shows humans can solve 100% of the environments, in contrast to frontier AI systems which, as of March 2026, score below 1%]."
+    #notes_footnote_link(
+      "https://arcprize.org/media/ARC_AGI_3_Technical_Report.pdf",
+      "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "ARC Prize Foundation, March 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
+  #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
     details: [\ BMC Research Notes, 2024],
   )[
@@ -317,6 +336,23 @@
       "https://arxiv.org/pdf/2603.21687",
       "Mirage: The Illusion of Visual Understanding",
       "Asadi et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
+  #notes_quote(
+    title: [ClockBench: Visual Time Benchmark Where Humans Beat the Clock,\ LLMs Don't],
+    details: [\ ClockBench.ai, 2026],
+  )[
+    "Untrained humans reach 89.1% average accuracy in valid time recognition, whereas the top model out of #bold[11 tested LLMs only reaches 13.3%], making this visual reasoning test harder for models than knowledge-intensive benchmarks"
+    #notes_footnote_link(
+      "https://clockbench.ai/ClockBench.pdf",
+      "ClockBench: Visual Time Benchmark Where Humans Beat the Clock, LLMs Don't",
+      "A. Safar, ClockBench.ai, 2026",
     )
   ]
 ]

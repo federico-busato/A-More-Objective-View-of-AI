@@ -394,7 +394,7 @@
 #notes_slide(title: [Technical Debt - Redundancy #comment-tag()], group: "technical-debt")[
 
   #notes_quote(
-    title: "Sung Kim, 2026"
+    title: "Sung Kim, 2026",
   )[
     "#bold[With AI coding agents, do you know you can accumulate years of technical debt in a matter of days.]
 
@@ -546,6 +546,27 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Code Generation is NOT Software Engineering #science-tag()], group: "code-generation")[
+
+  #notes_quote(
+    title: "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+    details: [\ Yang et al., 2026],
+  )[
+    "In ProgramBench, given only a program and its documentation, agents must architect and implement a codebase that matches the reference.
+
+    #indent() ... Our 200 tasks range from compact CLI tools to widely used software such as FFmpeg, SQLite, and the PHP interpreter. We evaluate 9 LMs and find that #bold[none fully resolve any task].
+
+    #indent() ... Models favor monolithic, single-file implementations #bold[that diverge sharply from human-written code]."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.03546",
+      "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+      "Yang et al., ArXiv, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Code Generation is NOT Software Engineering #comment-tag()], group: "code-generation")[
 
   #notes_quote(title: "Simon Willison", details: [\ Vibe engineering])[
@@ -565,7 +586,7 @@
 #notes_slide(title: [Code Generation is NOT Software Engineering #comment-tag()], group: "code-generation")[
 
   #notes_quote(title: "Andrej Karpathy")[
-    I'm not very happy with the code quality and I think #bold[agents bloat abstractions], have poor code aesthetics, are very prone to copy pasting code blocks and #bold[it's a mess], but at this point I stopped fighting it too hard and just moved on.
+    "I'm not very happy with the code quality and I think #bold[agents bloat abstractions], have poor code aesthetics, are very prone to copy pasting code blocks and #bold[it's a mess], but at this point I stopped fighting it too hard and just moved on."
     #notes_footnote_link(
       "https://x.com/karpathy/status/2035173492447224237",
       "Andrej Karpathy, 2026",
