@@ -111,23 +111,6 @@
 
 #notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
 
-  #notes_quote(
-    title: [Hallucinated citations are polluting the scientific literature.\ What can be done?],
-    details: [\ Nature, News Feature, 2026],
-  )[
-    "As a rough estimate, if the rate of 65 publications with at least one invalid reference out of some 4,000 publications analysed holds across the academic literature, it would suggest that #bold[more than 110,000 of the 7 million or so scholarly publications from 2025 contain invalid references]."
-    #notes_footnote_link(
-      "https://www.nature.com/articles/d41586-026-00969-z",
-      "Hallucinated citations are polluting the scientific literature. What can be done?",
-      "Naddaf & Quill, Nature, News Feature, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
-
   #set text(size: 19pt)
   #notes_quote(
     title: [News Integrity in AI Assistants],
@@ -146,6 +129,58 @@
   ]
 ]
 
+// =====================================================================================================================
+
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
+
+  #notes_quote(
+    title: [Hallucinated citations are polluting the scientific literature.\ What can be done?],
+    details: [\ Nature, News Feature, 2026],
+  )[
+    "As a rough estimate, if the rate of 65 publications with at least one invalid reference out of some 4,000 publications analysed holds across the academic literature, it would suggest that #bold[more than 110,000 of the 7 million or so scholarly publications from 2025 contain invalid references]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/d41586-026-00969-z",
+      "Hallucinated citations are polluting the scientific literature. What can be done?",
+      "Naddaf & Quill, Nature, News Feature, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(
+  title: [Hallucinations are Mathematically Inevitable #science-tag()],
+  group: "hallucinations",
+)[
+  #notes_quote(
+    title: [LLM hallucinations in the wild: Large-scale evidence\ from non-existent citations],
+    details: [\ Zhao et al., arXiv, 2026],
+  )[
+    "audit 111 million references across 2.5 million papers in arXiv, bioRxiv, SSRN, and PubMed Central. We find a sharp rise in non-existent references following widespread LLM adoption, with #bold[a conservative estimate of 146,932 hallucinated citations in 2025 alone]. "
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2605.07723",
+      "LLM hallucinations in the wild: Large-scale evidence from non-existent citations",
+      "Z. Zhao et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("02.AI_Limitations/pubmed_citations.png", width: 80%)
+  ]
+  #v(-26pt)
+
+  #notes_unmarked_footnote_link(
+    "https://www.thelancet.com/action/showPdf?pii=S0140-6736%2826%2900603-3",
+    "Fabricated citations: an audit across 2-5 million biomedical papers",
+    "J. K. Wang, The Lancet, 2026",
+  )
+]
 
 // =====================================================================================================================
 
@@ -198,16 +233,6 @@
 //    )
 //  ]
 //]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Hallucinations are Mathematically Inevitable #comment-tag()], group: "hallucinations")[
-
-  #align(center)[
-    #image("02.AI_Limitations/proof.png", width: 80%)
-  ]
-
-]
 
 // =====================================================================================================================
 
@@ -769,6 +794,25 @@
       "https://arxiv.org/pdf/2602.20021",
       "Agents of Chaos",
       "Shapira et al., 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Security Risks #news-tag()], group: "security-risks")[
+
+  #notes_quote(
+    title: [AI chatbots are giving out people's real phone numbers],
+    details: [\ MIT Technology Review, 2026],
+  )[
+    "DeleteMe, a company that helps customers remove their personal information from the internet, says #bold[customer queries about generative AI have increased by 400%] --- up to a few thousand --- in the last seven months. These queries 'specifically reference ChatGPT, Claude, Gemini ... or other generative AI tools,'
+
+    #indent() ... a customer asks a chatbot something innocuous about themselves and gets back accurate home addresses, phone numbers, family members' names, or employer details"
+    #notes_footnote_link(
+      "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "AI chatbots are giving out people's real phone numbers",
+      "E. Guo, MIT Technology Review, 2026",
     )
   ]
 ]

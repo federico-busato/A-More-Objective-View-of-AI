@@ -130,18 +130,24 @@
 #notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set list(spacing: 40pt)
-  - #bold[Running out of data]. AI training will exhaust its data by 2027, or by 2032 if the rate of computing growth slows down. #notes_footnote_link(
+  - #bold[Running out of data]. AI training will exhaust text data in a short timeframe.
+
+  #notes_quote(
+    title: text(size: 17pt)[The Projected Impact of Generative AI on Future Productivity Growth],
+    details: [\ University of Pennsylvania, 2025],
+  )[
+    "if rapid growth in dataset sizes continues, #bold[models will utilize the full supply of public human text data at some point between 2026 and 2032], or one or two years earlier if frontier models are overtrained. At this point, the availability of public human text data may become a limiting factor in further scaling of language models."
+    #notes_footnote_link(
       "https://epoch.ai/blog/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data",
       "Will we run out of data? Limits of LLM scaling based on human-generated data",
       "Villalobos et al., EpochAI, 2024",
     )
+  ]
 ]
 
 // =====================================================================================================================
 
 #notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
-
-
 
   - #bold[AI quality degradation when trained on recursively generated data]. AI-generated content has surpassed the _quantity_ of human-written articles. This implies that AI models are trained on increasingly low-quality data, reinforcing hallucinations.
     #notes_footnote_link(
@@ -948,16 +954,23 @@
       "What happens when data centers come to town?",
       "Nguyen & Green, University of Michigan, 2025",
     )
+]
 
-  // Chris Preist at the University of Bristol, UK, says the results may be more nuanced than they first appear. “It would be worth doing follow-up research to understand to what extent it’s the heat generated from computation versus the heat generated from the building itself,”
-  //  #notes_quote(title: "AI data centres can warm surrounding areas by up to 9.1°C", details: "Marinoni et al., 2026")[
-  //    "Land surface temperatures increased by an average of 2°C (3.6°F) in the months after an AI data centre started //operations. In the most extreme cases, the #bold[increase in temperature was 9.1°C] (16.4°F)."
-  //    #notes_footnote_link(
-  //      "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/",
-  //      "AI data centres can warm surrounding areas by up to 9.1°C",
-  //      "Marinoni et al., arXiv, 2026",
-  //    )
-  //  ]
+// =====================================================================================================================
+
+#notes_slide(title: [Environmental Risks - Local Impact #science-tag()], group: "environmental-local")[
+
+  #notes_quote(
+    title: "Data Centers and Local Economies in the Age of AI: A Shift-Share Approach",
+    details: [\ National Bureau of Economic Research, 2026],
+  )[
+    "#bold[The policy implication is therefore mixed. Data centers create economic activity, especially in directly related sectors and during construction], and they are associated with larger county-level income aggregates. They also raise electricity prices and are associated with higher house prices, which may benefit property owners while increasing costs for renters and  prospective homebuyers."
+    #notes_footnote_link(
+      "https://www.nber.org/system/files/working_papers/w35194/w35194.pdf",
+      "AI data centres can warm surrounding areas by up to 9.1°C",
+      "Alvarez et al., National Bureau of Economic Research, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -1190,10 +1203,10 @@
 
 == Echo Chamber
 
-#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()], group: "echo-chamber")[
+#notes_slide(title: [Echo Chamber / Sycophancy #science-tag()], group: "echo-chamber")[
 
   #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
-    "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses result in increased confidence in those hypotheses #bold[while not bringing the user any closer to the truth]."
+    "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses #bold[result in increased confidence in those hypotheses while not bringing the user any closer to the truth]."
     #notes_footnote_link(
       "https://arxiv.org/pdf/2602.14270",
       "A Rational Analysis of the Effects of Sycophantic AI",
@@ -1204,13 +1217,13 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Echo Chamber (Sycophancy Again) #science-tag()], group: "echo-chamber")[
+#notes_slide(title: [Echo Chamber / Sycophancy #science-tag()], group: "echo-chamber")[
 
   #notes_quote(
     title: "Sycophantic AI increases attitude extremity and overconfidence",
     details: [\ Rathje et al., 2026],
   )[
-    #bold[AI companies are making design choices that impact the psychology of billions of people worldwide]. We found that brief interactions with #bold[sycophantic AI chatbots lead to more extreme and certain beliefs --- but greater enjoyment]. Thus, AI companies face a tradeoff between creating engaging and enjoyable AI systems that foster 'echo chambers' or creating less engaging AI systems that may be healthier for users and public discourse.
+    "#bold[AI companies are making design choices that impact the psychology of billions of people worldwide]. We found that brief interactions with #bold[sycophantic AI chatbots lead to more extreme and certain beliefs --- but greater enjoyment]. Thus, AI companies face a tradeoff between creating engaging and enjoyable AI systems that foster 'echo chambers' or creating less engaging AI systems that may be healthier for users and public discourse."
     #notes_footnote_link(
       "https://osf.io/preprints/psyarxiv/vmyek_v1",
       "Sycophantic AI increases attitude extremity and overconfidence",
@@ -1378,6 +1391,25 @@
 
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
+  #notes_quote(
+    title: "LLMorphism: When humans come to see themselves as language models",
+    details: [\ V. Capraro, 2026],
+  )[
+    "LLMorphism: the biased belief that human cognition works like a large language model.
+
+    #indent() ... #bold[stronger LLMorphic beliefs will increase perceived replaceability of human workers, reduce perceived distinctiveness of human expertise, weaken attributions of agency and moral responsibility], increase reliance on verbal fluency as a proxy for understanding, and reduce attention to embodied, affective, and contextual cues"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.05419",
+      "LLMorphism: When humans come to see themselves as language models",
+      "V. Capraro, arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
+
   The real danger to society is not that AI will actually become conscious, #bold[but rather the risks that arise from _believing_ it is]. We may grant legal rights or moral consideration to AI systems, or AI could be used to manipulate human users for commercial or #bold[political gain].
   #notes_footnote_link(
     "https://www.science.org/doi/10.1126/science.adn4935",
@@ -1413,7 +1445,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+#notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
 
   #v(-5pt)
   #notes_quote(title: "On the conversational persuasiveness of GPT-4", details: "Nature, 2025")[
