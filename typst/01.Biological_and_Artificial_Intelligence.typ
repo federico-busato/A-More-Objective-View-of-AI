@@ -363,42 +363,6 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [The Intelligence Illusion #comment-tag()], group: "intelligence-illusion")[
-
-  #notes_quote(
-    title: "The intelligence illusion: why AI isn't as smart as it is made out to be",
-    details: [\ Nature, Book Review, 2026],
-  )[
-    "#bold[Who is being deceived?]
-
-    #bold[The general public, by the technology companies and organizations that benefit from the hype around AI]. These companies are in a race to develop the technology and are incentivized to promote the idea of human-like artificial general intelligence to secure funding and market dominance. Members of the scientific community, particularly those who are not directly involved in the race for AI funding, acknowledge the reality that AI is a set of specialized tools, rather than a unified intelligent entity. #bold[This distinction is crucial, but it is blurred by commercial interests that amplify the illusion for monetary gain.]"
-    #notes_footnote_link(
-      "https://www.nature.com/articles/d41586-026-00882-5",
-      "The intelligence illusion: why AI isn't as smart as it is made out to be",
-      "Nature, Book Review, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [The Intelligence Illusion #comment-tag()], group: "intelligence-illusion")[
-
-  #notes_quote(
-    title: "AI's doomsday hype highlights the dark art of marketing",
-    details: [\ Straits Times, 2026],
-  )[
-    "Since the beginning of the boom in generative artificial intelligence, technology leaders have talked up the dangers of the very systems they're trying to sell. #bold[It's a paradoxical marketing strategy] and, unfortunately for some of the industries and companies deemed most vulnerable to disruption, #bold[it's worked brilliantly]. Fear, it turns out, is the ultimate sales pitch."
-    #notes_footnote_link(
-      "https://www.straitstimes.com/opinion/ais-doomsday-hype-highlights-the-dark-art-of-marketing",
-      "AI's doomsday hype highlights the dark art of marketing",
-      "P. Olson, Straits Times, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
 #notes_slide(title: [The Illusion of Consciousness #science-tag()], group: "intelligence-illusion")[
   #set text(size: 19pt)
 
@@ -453,6 +417,63 @@
       "https://osf.io/preprints/psyarxiv/c5gh8_v1",
       "Epistemological Fault Lines Between Human and Artificial Intelligence",
       "Quattrociocchi et al., PsyArXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Who is being deceived?
+
+// =====================================================================================================================
+
+#notes_slide(title: [Who is being deceived? #comment-tag()], group: "who-is-being-deceived")[
+
+  #notes_quote(
+    title: "The intelligence illusion: why AI isn't as smart as it is made out to be",
+    details: [\ Nature, Book Review, 2026],
+  )[
+    "#bold[Who is being deceived?]
+
+    #bold[The general public, by the technology companies and organizations that benefit from the hype around AI]. These companies are in a race to develop the technology and are incentivized to promote the idea of human-like artificial general intelligence to secure funding and market dominance. Members of the scientific community, particularly those who are not directly involved in the race for AI funding, acknowledge the reality that AI is a set of specialized tools, rather than a unified intelligent entity. #bold[This distinction is crucial, but it is blurred by commercial interests that amplify the illusion for monetary gain.]"
+    #notes_footnote_link(
+      "https://www.nature.com/articles/d41586-026-00882-5",
+      "The intelligence illusion: why AI isn't as smart as it is made out to be",
+      "Nature, Book Review, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Who is being deceived? #comment-tag()], group: "who-is-being-deceived")[
+
+  #notes_quote(
+    title: "AI's doomsday hype highlights the dark art of marketing",
+    details: [\ Straits Times, 2026],
+  )[
+    "Since the beginning of the boom in generative artificial intelligence, technology leaders have talked up the dangers of the very systems they're trying to sell. #bold[It's a paradoxical marketing strategy] and, unfortunately for some of the industries and companies deemed most vulnerable to disruption, #bold[it's worked brilliantly]. Fear, it turns out, is the ultimate sales pitch."
+    #notes_footnote_link(
+      "https://www.straitstimes.com/opinion/ais-doomsday-hype-highlights-the-dark-art-of-marketing",
+      "AI's doomsday hype highlights the dark art of marketing",
+      "P. Olson, Straits Times, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Who is being deceived? #science-tag()], group: "who-is-being-deceived")[
+
+  #notes_quote(
+    title: "Waiting for AGI",
+    details: [\ AI & Society, 2026],
+  )[
+    "#bold[Whether AGI will arrive matters less than what waiting for it already organizes. Waiting coordinates belief by sustaining investment and economic expectation;] it structures time by orienting research and policy toward a future that remains permanently forthcoming; it organizes knowledge by keeping disagreement open and thresholds unsettled; it defers responsibility by attaching accountability to a moment that never quite materializes; and #bold[it reproduces social roles whose authority depends on continued anticipation rather than present judgment.]"
+    #notes_footnote_link(
+      "https://link.springer.com/article/10.1007/s00146-026-02970-6",
+      "Waiting for AGI",
+      "C. Corner, AI & Society, 2026",
     )
   ]
 ]

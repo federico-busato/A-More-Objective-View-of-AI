@@ -1407,6 +1407,9 @@
 ]
 
 // =====================================================================================================================
+== Political Influence
+
+// =====================================================================================================================
 
 #notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
 
@@ -1431,14 +1434,32 @@
     "DHS is using Google and Adobe AI to make videos",
     "J. O'Donnell, MIT Technology Review, 2026",
   )
+]
 
-  #v(-30pt)
-  #notes_quote(title: "How malicious AI swarms can threaten democracy", details: [Science, 2026])[
+// =====================================================================================================================
+
+#notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
+
+  #notes_quote(title: "How malicious AI swarms can threaten democracy", details: [\ Science, 2026])[
     "Fusing LLM reasoning with multiagent architectures, these systems are capable of coordinating autonomously, infiltrating communities, and fabricating consensus efficiently. #bold[By adaptively mimicking human social dynamics, they threaten democracy]."
     #notes_footnote_link(
       "https://www.science.org/doi/10.1126/science.adz1697",
       "How malicious AI swarms can threaten democracy",
       "Schroeder et al., Science, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
+
+  #notes_quote(title: "State media control influences large language models", details: [\ Nature, 2026])[
+    "prompting models in Chinese generates more positive responses about China's institutions and leaders than do the same queries in English. The combination of influence and persuasive potential across languages suggests the troubling conclusion that #bold[states and powerful institutions have increased strategic incentives to leverage media control in the hopes of shaping LLM output]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41586-026-10506-7",
+      "State media control influences large language models",
+      "Waight et al., Nature, 2026",
     )
   ]
 ]
