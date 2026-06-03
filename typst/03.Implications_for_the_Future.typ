@@ -945,10 +945,14 @@
 
 #notes_slide(title: [Environmental Risks - Local Impact #science-tag()], group: "environmental-local")[
 
-  - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution, noise, competition for land, and energy cost increases. They can also reduce local tax revenues and typically do not provide other benefits such as high-paying jobs. #notes_footnote_link(
+  - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution #notes_footnote_link(
+      "https://www.washingtonpost.com/business/2026/05/28/data-centers-boom-virginians-breathe-exhaust-10000-diesel-generators/",
+      "See where diesel-powered data center generators are polluting Virginia",
+      "Halper & Kevin Crowe, The Washington Post, 2026",
+    ), noise, competition for land, and energy cost increases. They can also reduce local tax revenues and typically do not provide other benefits such as high-paying jobs. #notes_footnote_link(
       "https://www.wri.org/insights/us-data-center-growth-impacts",
       "From Energy Use to Air Quality, the Many Ways Data Centers Affect US Communities",
-      "Walker and Goldsmith, World Resources Institute, 2026",
+      "Walker & Goldsmith, World Resources Institute, 2026",
     )#super(",") #notes_footnote_link(
       "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
       "What happens when data centers come to town?",
@@ -1008,7 +1012,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Global Impact #science-tag()], group: "environmental-global")[
+#notes_slide(title: [Environmental Risks - Carbon Emissions #science-tag()], group: "carbon-emissions")[
 
   - #bold[Carbon emissions from AI are negligible compared to other sources]. Additionally, this technology has the potential to develop new materials #notes_footnote_link(
       "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
@@ -1023,12 +1027,11 @@
       "GreenLight, Using Google AI to reduce traffic emissions",
       "Google, 2025",
     ), which could contribute to reducing carbon emissions overall.
-
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Global Impact #comment-tag()], group: "environmental-global")[
+#notes_slide(title: [Environmental Risks - Carbon Emissions #comment-tag()], group: "carbon-emissions")[
 
   #notes_quote(title: "A. Holub", details: [\ 2026])[
     "#bold[All data centers combined account for about 0.5% of global carbon emissions].
@@ -1042,6 +1045,20 @@
       "https://bsky.app/profile/allenholub.bsky.social/post/3mhvqmev2yk2o",
       "A. Holub, 2026",
       "",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Environmental Risks - Energy #science-tag()], group: "energy-consumption")[
+
+  #notes_quote(title: "US Data Center Power Demand Projected to Double by 2027", details: [\ Goldman Sachs, 2026])[
+    "Data centers' share of total US peak summer #bold[power demand is projected to jump to 8.5% in 2027] from 4.1% in 2025, creating significant tightening across the national power market."
+    #notes_footnote_link(
+      "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027",
+      "US Data Center Power Demand Projected to Double by 2027",
+      "Goldman Sachs, 2026",
     )
   ]
 
@@ -1375,6 +1392,25 @@
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
   #notes_quote(
+    title: [How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use:\ A Longitudinal Randomized Controlled Study],
+    details: [\ Fang et al., 2026],
+  )[
+    "...  AI design choices and user behaviors shape the psychosocial outcomes of prolonged chatbot interactions ...
+
+    #indent() ... the nature of the interaction critically influences outcomes such as #bold[loneliness, socialization with people, emotional dependence on AI chatbots, and problematic usage of AI chatbots]"
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2503.17473v1",
+      "How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use: A Longitudinal Randomized Controlled Study",
+      "Fang et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
     title: "Epistemological Fault Lines Between Human and Artificial Intelligence",
     details: [\ Quattrociocchi et al., 2026],
   )[
@@ -1383,6 +1419,25 @@
       "https://osf.io/preprints/psyarxiv/c5gh8_v1",
       "Epistemological Fault Lines Between Human and Artificial Intelligence",
       "Quattrociocchi et al., PsyArXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+    details: [\ Rodriguez-Alvarez et al., 2026],
+  )[
+    "'AI Paradox' wherein students significantly overestimate their critical awareness of deepfakes and algorithmic biases compared to their operational AI skills
+
+    #indent() ... The familiarity of this generation with basic social media filters appears to create a false sense of invulnerability, leading to an 'illusion of competence' where #bold[young users severely underestimate the sophistication of modern algorithmic manipulation]"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.26010",
+      "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+      "Rodriguez-Alvarez et al., arXiv, 2026",
     )
   ]
 ]
