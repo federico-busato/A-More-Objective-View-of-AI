@@ -10,7 +10,7 @@
 
 == #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future #h(1fr) 1/3] <touying:hidden>
 
-#show outline.entry.where(level: 1): set block(above: 60pt)
+#show outline.entry.where(level: 1): set block(above: 50pt)
 #outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
@@ -427,29 +427,17 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Productivity Gain and Labor Markets #science-tag()])[
-
-  #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
-    "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
-
-    #indent() ... By making execution cheap, AI shifts value upstream toward cognitive tasks-judgment, problem framing, and integration--that are #notes_underline[unevenly distributed] and #notes_underline[slow to acquire]. As a result, access to AI alone is unlikely to equalize outcomes. #bold[What matters is not whether workers can use AI but whether they can turn its output into useful work.]"
-    #notes_unmarked_footnote_link(
-      "https://www.science.org/doi/10.1126/science.aef5239",
-      "AI raises the productivity bar",
-      "Wu & Vasilescu, Science, 2026",
-    )
-  ]
-]
+== Employment Data
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #news-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #news-tag()], group: "employment-data")[
 
   #notes_quote(
     title: "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
-    details: [\ Bloomberg, 2026],
+    details: [\ Bloomberg, March 2026],
   )[
-    "AI has become the most powerful proactive frame available. 'We're restructuring around AI' is a growth signal. 'We over-hired during the pandemic and revenue softened' is an accountability signal.
+    "#bold[AI has become the most powerful proactive frame available]. 'We're restructuring around AI' is a growth signal. 'We over-hired during the pandemic and revenue softened' is an accountability signal.
 
     #indent() ... What makes AI washing corrosive is the confusion it creates, both inside and outside companies.
 
@@ -457,18 +445,18 @@
     #notes_footnote_link(
       "https://www.bloomberg.com/opinion/articles/2026-03-13/the-ai-washing-of-job-cuts-is-corrosive-and-confusing",
       "The 'AI-Washing' of Job Cuts Is Corrosive and Confusing",
-      "G. Mukunda, Bloomberg, 2026",
+      "G. Mukunda, Bloomberg, March 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #news-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #news-tag()], group: "employment-data")[
 
   #notes_quote(
     title: [See which jobs are most threatened by AI\ and who may be able to adapt],
-    details: [\ The Washington Post, 2026],
+    details: [\ The Washington Post, March 2026],
   )[
     "#bold[A flood of sometimes conflicting analyses shows the yawning gap between what little is known about how AI is changing work and everyone's understandable hunger for certainty].
 
@@ -476,18 +464,18 @@
     #notes_footnote_link(
       "https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/",
       "See which jobs are most threatened by AI and who may be able to adapt",
-      "Schaul & Shira, The Washington Post, 2026",
+      "Schaul & Shira, The Washington Post, March 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
     title: [Evidence of an AI-driven shakeup of job markets is patchy],
-    details: [\ Oxford Economics, 2026],
+    details: [\ Oxford Economics, January 2026],
   )[
     "#bold[we're sceptical that firms can quickly and seamlessly substitute workers with AI even in sectors where the potential for AI disruption is greatest]. What's more, some surveys suggest that AI use in larger US firms has recently stalled.
 
@@ -495,18 +483,36 @@
     #notes_footnote_link(
       "https://www.oxfordeconomics.com/wp-content/uploads/2026/01/Evidence-of-an-AI-driven-shakeup-of-job-markets-is-patchy.pdf",
       "Evidence of an AI-driven shakeup of job markets is patchy",
-      "Oxford Economics, 2026",
+      "Oxford Economics, January 2026",
     )
   ]
+
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #news-tag()], group: "employment-data")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/ai_jobs.png", height: 92%)
+  ]
+  #v(-30pt)
+
+  #notes_unmarked_footnote_link(
+    "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
+    "A reality check on the AI jobs hysteria",
+    "D. Rotman, MIT Technology Review, April 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
     title: [Labor Market Report],
-    details: [\ LinkedIn, 2026],
+    details: [\ LinkedIn, January 2026],
   )[
     "Despite headlines, #bold[AI isn't the culprit behind slow hiring]. LinkedIn data shows #bold[economic uncertainty, and monetary policy shifts are the primary drivers]. Advanced economies are struggling the most, with hiring down 20%-35% compared to pre-pandemic levels.
 
@@ -514,48 +520,68 @@
     #notes_footnote_link(
       "https://economicgraph.linkedin.com/content/dam/me/economicgraph/en-us/PDF/linkedIn-labor-market-report-building-a-future-of-work-that-works-jan-2026.pdf",
       "Labor Market Report",
-      "LinkedIn, 2026",
+      "LinkedIn, January 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
     title: [FEDS Notes],
-    details: [\ 2026],
+    details: [\ Board of Governors of the Federal Reserve System, March 2026],
   )[
-    We find that thus far, #bold[there is no evidence of a reduction in job postings for industries or firms which have higher levels of AI adoption]. The overall slowdown in national job postings following the pandemic recovery does not appear to be driven (even modestly) by AI.
+    "We find that thus far, #bold[there is no evidence of a reduction in job postings for industries or firms which have higher levels of AI adoption]. The overall slowdown in national job postings following the pandemic recovery does not appear to be driven (even modestly) by AI."
     #notes_footnote_link(
       "https://www.federalreserve.gov/econres/notes/feds-notes/ai-adoption-and-firms-job-posting-behavior-20260327.html",
       "FEDS Notes",
-      "Board of Governors of the Federal Reserve System, 2026",
+      "Board of Governors of the Federal Reserve System, March 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
+  #v(-30pt)
   #notes_quote(
-    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
-    details: [\ National Bureau of Economic Research, 2026],
+    title: [FEDS Notes],
+    details: [\ Board of Governors of the Federal Reserve System, March 2026],
   )[
-    "Micro-level evidence suggests that AI generates #bold[meaningful time savings] for many workers. At the macro level, in recent years industries with higher AI adoption rates have #bold[experienced faster productivity growth]. While we do not establish causality, this relationship is statistically significant and similar in magnitude in Europe and the US."
-    #notes_footnote_link(
-      "https://www.nber.org/papers/w34995",
-      "Mind the Gap: AI Adoption in Europe and the U.S.",
-      "National Bureau of Economic Research, 2026",
+    "Job postings are drawn from the Lightcast (formerly Burning Glass) database, which catalogues job postings from more than 65,000 sources
+
+    #indent() ... Despite the recent boom in AI investment across the economy and fears that the technology will lead to widespread job losses, #bold[we find no evidence of negative impacts thus far on firms' job-posting behavior]."
+    #notes_unmarked_footnote_link(
+      "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+      "FEDS Notes",
+      "Board of Governors of the Federal Reserve System, March 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/employment_by_industry.png", height: 92%)
+  ]
+  #v(-30pt)
+
+  #notes_unmarked_footnote_link(
+    "https://bsky.app/profile/bencasselman.bsky.social/post/3mizcjhxd4k22",
+    "Employment by Industry",
+    "B. Casselman, Chief Economics Correspondent for The New York Times, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
     title: [Evaluating the Impact of AI on the Labor Market: Current State of Affairs],
@@ -572,7 +598,11 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+== Employment and Early Career Jobs 
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
 
   #notes_quote(
     title: [AI and Young-adult Jobs: The Real Mystery],
@@ -580,7 +610,7 @@
   )[
     "Young workers of all education levels are lagging the rest of the labor market. #bold[Focusing too much on education rather than age as the main labor market weakness starts us in the wrong direction].
 
-    So is AI nonetheless to blame for the broad-based weakness in the labor market for young people? It's true that some lower-skilled jobs can be replaced by AI. Call center workers and data entry jobs are potential examples. But there are not enough of these jobs to really drive the youth labor market."
+    #indent() So is AI nonetheless to blame for the broad-based weakness in the labor market for young people? It's true that some lower-skilled jobs can be replaced by AI. Call center workers and data entry jobs are potential examples. But there are not enough of these jobs to really drive the youth labor market."
     #notes_footnote_link(
       "https://agglomerations.eig.org/p/ai-and-young-adult-jobs-the-real?publication_id=2739407&post_id=190033461&isFreemail=true&r=2mn9q2&triedRedirect=true",
       "AI and Young-adult Jobs: The Real Mystery",
@@ -591,7 +621,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
 
   #align(center)[
     #image("03.Implications_for_the_Future/graduate_employment.png", height: 83%)
@@ -606,7 +636,28 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+== Employment Predictions
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment Predictions #science-tag()], group: "employment-predictions")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/ai-displacement-risk.png", height: 91%)
+  ]
+  #v(-30pt)
+
+  #notes_unmarked_footnote_link(
+    "https://www.cbre.com/insights/reports/ais-impact-on-the-economy-employment-and-productivity",
+    "AI's Impact on the Economy, Employment & Productivity",
+    "CBRE, 2026",
+  ) <cbre>
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment Predictions #science-tag()], group: "employment-predictions")[
 
   #set text(size: 18pt)
   #v(-10pt)
@@ -631,74 +682,58 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+== Employment and Productivity
 
-  #v(-20pt)
-  #align(center)[
-    #image("03.Implications_for_the_Future/employment_by_industry.png", height: 88%)
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Productivity #science-tag()], group: "employment-productivity")[
+
+  #notes_quote(title: "AI raises the productivity bar", details: [\ Science, 2026])[
+    "Across domains, #bold[AI is better at amplifying human judgment than at replacing it], rewarding those who can evaluate outputs and decide how to direct them toward useful ends.
+
+    #indent() ... By making execution cheap, AI shifts value upstream toward cognitive tasks-judgment, problem framing, and integration--that are #notes_underline[unevenly distributed] and #notes_underline[slow to acquire]. As a result, access to AI alone is unlikely to equalize outcomes. #bold[What matters is not whether workers can use AI but whether they can turn its output into useful work.]"
+    #notes_unmarked_footnote_link(
+      "https://www.science.org/doi/10.1126/science.aef5239",
+      "AI raises the productivity bar",
+      "Wu & Vasilescu, Science, 2026",
+    )
   ]
-
-  #notes_unmarked_footnote_link(
-    "https://bsky.app/profile/bencasselman.bsky.social/post/3mizcjhxd4k22",
-    "Employment by Industry",
-    "B. Casselman, Chief Economics Correspondent for The New York Times, 2026",
-  )
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment and Productivity #science-tag()], group: "employment-productivity")[
 
   #v(-30pt)
   #notes_quote(
     title: [The Microstructure of AI Diffusion],
-    details: [\ U.S. Census Bureau's Business Trends and Outlook Survey (BTOS),\ 1.2 million businesses firms, 2026],
+    details: [\ U.S. Census Bureau's Business Trends and Outlook Survey (BTOS),\ 1.2 million businesses firms, April 2026],
   )[
-    - "Labor impacts are dominated by augmentation rather than substitution. Among firms shifting   task structures, 66% engage exclusively in augmentation.
+    - "#bold[Labor impacts are dominated by augmentation rather than substitution]. Among firms shifting   task structures, 66% engage exclusively in augmentation.
 
-    - Functional integration and operational investments are positively associated with sales increases, performance, and headcount declines. Conversely, worker-task breadth is positively associated with enhanced performance/sales, but not with displacing labor."
-    #notes_unmarked_footnote_link(
+    - Functional integration and operational investments are positively associated with sales increases, performance, and headcount declines. Conversely, worker-task breadth is positively associated with enhanced performance/sales, but not with displacing labor."  #notes_footnote_link(
       "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
       "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
-      "Boney et al., U.S. Census Bureau, 2026",
+      "Boney et al., U.S. Census Bureau, April 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
+#notes_slide(title: [Employment and Productivity #science-tag()], group: "employment-productivity")[
 
-  #v(-30pt)
   #notes_quote(
-    title: [FEDS Notes],
-    details: [\ Board of Governors of the Federal Reserve System, 2026],
+    title: [Mind the Gap: AI Adoption in Europe and the U.S.],
+    details: [\ National Bureau of Economic Research, 2026],
   )[
-    "Job postings are drawn from the Lightcast (formerly Burning Glass) database, which catalogues job postings from more than 65,000 sources
-
-    #indent() ... Despite the recent boom in AI investment across the economy and fears that the technology will lead to widespread job losses, #bold[we find no evidence of negative impacts thus far on firms' job-posting behavior]."
-    #notes_unmarked_footnote_link(
-      "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
-      "FEDS Notes",
-      "Board of Governors of the Federal Reserve System, March, 2026",
+    "Micro-level evidence suggests that AI generates #bold[meaningful time savings] for many workers. At the macro level, in recent years industries with higher AI adoption rates have #bold[experienced faster productivity growth]. While we do not establish causality, this relationship is statistically significant and similar in magnitude in Europe and the US."
+    #notes_footnote_link(
+      "https://www.nber.org/papers/w34995",
+      "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "National Bureau of Economic Research, 2026",
     )
   ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Employment #science-tag()], group: "employment")[
-
-  #v(-30pt)
-  #align(center)[
-    #image("03.Implications_for_the_Future/ai-displacement-risk.png", height: 91%)
-  ]
-
-  #notes_unmarked_footnote_link(
-    "https://www.cbre.com/insights/reports/ais-impact-on-the-economy-employment-and-productivity",
-    "AI's Impact on the Economy, Employment & Productivity",
-    "CBRE, 2026",
-  ) <cbre>
 ]
 
 // =====================================================================================================================
@@ -877,6 +912,25 @@
       "https://www.jacc.org/doi/10.1016/j.jacc.2026.02.5116",
       "Early Prediction of Heart Failure From Routine Cardiac CT Using Radiomic Phenotyping of Epicardial Fat",
       "Oikonomou et al.,  Journal of the American College of Cardiology, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Ancient Languages
+
+#notes_slide(title: [Ancient Languages #science-tag()], group: "ancient-languages")[
+
+  #notes_quote(
+    title: [Austrian Academy of Sciences is developing the Ancient Greek AI\ "Apollo" with Mistral AI and Reply],
+    details: [\ Austrian Academy of Sciences, 2026],
+  )[
+    "AI system can be developed in many directions for a wide range of research tasks, from reconstructing fragmentary inscriptions and papyri to conducting semantic and thematic searches across the entire Greek textual tradition to deciphering handwritten texts. For example, #bold[there are one million Greek papyri worldwide that have never been read]."
+    #notes_footnote_link(
+      "https://www.oeaw.ac.at/en/news/austrian-academy-of-sciences-is-developing-the-ancient-greek-ai-apollo-with-mistral-ai-and-reply",
+      "Austrian Academy of Sciences is developing the Ancient Greek AI “Apollo” with Mistral AI and Reply",
+      "Austrian Academy of Sciences, 2026",
     )
   ]
 ]

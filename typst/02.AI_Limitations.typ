@@ -303,12 +303,34 @@
 
   - #bold[Perceived AI creativity degrades into template-like recombination.]
 
-  #notes_quote(title: [Echoes in AI], details: [\ PNAS, 2025])[
-    "the lack of diversity in these LLM-generated outputs reveals itself. We show that short stories generated in this way #bold[often contain repetitive combinations of plot elements], while human-written stories maintain a higher level of uniqueness."
+  #notes_quote(
+    title: [I don't know if I like working at higher levels of abstraction],
+    details: [\ X. Iaso, 2026],
+  )[
+    "Everything becomes homogeneous, converging toward the average. #bold[The average makes nobody feel anything.]"
     #notes_footnote_link(
-      "https://www.pnas.org/doi/10.1073/pnas.2504966122",
-      "Echoes in AI: Quantifying lack of plot diversity in LLM outputs",
-      "Xu et al., PNAS, 2025",
+      "https://xeiaso.net/blog/2026/ai-abstraction/",
+      "I don't know if I like working at higher levels of abstraction",
+      "X. Iaso, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
+
+  #notes_quote(
+    title: ["The Cat Sat on the xxx?" Why generative AI has limited creativity],
+    details: [\ D. H. Cropley, 2025],
+  )[
+    #bold[the creativity of generative AI] --- specifically, Large Language Models --- is not merely a matter of subjective judgment or philosophical debate, but #bold[is, in fact, mathematically bounded].
+
+    This limitation is not the result of poor training, inadequate prompting, or underpowered architectures. Rather, #bold[it is a fundamental consequence of how these systems operate: token selection is governed by probability distributions where effectiveness and novelty are negatively correlated]. High-probability tokens are semantically appropriate but predictable; low-probability tokens are unexpected but often nonsensical. The result is a structural inability to  simultaneously achieve both originality and effectiveness to the degree required for high creativity.
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/8sfpd_v1",
+      "'The Cat Sat on the xxx?' Why generative AI has limited creativity",
+      "D. H. Cropley, OSF, 2025",
     )
   ]
 ]
@@ -339,6 +361,28 @@
 #notes_slide(title: [Creativity #science-tag()], group: "creativity")[
 
   #notes_quote(
+    title: [Forecasting Scientific Progress with Artificial Intelligence],
+    details: [\ Wu et al., arXiv, 2026],
+  )[
+    "while frontier models can identify plausible technical approaches and benefit from additional knowledge, they consistently fail to accurately predict whether scientific advances will be realized, when they will occur, and how they will be realized.
+
+    #indent() ... #bold[these results reveal a fundamental gap between access to knowledge and reliable scientific forecasting].
+
+    #indent() ... #bold[This suggests that anticipating scientific progress requires capabilities beyond knowledge retrieval], including the ability to reason under uncertainty about how scientific discoveries unfold over time."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.22681",
+      "Forecasting Scientific Progress with Artificial Intelligence",
+      "Wu et al., arXiv, 2026",
+    )
+  ]
+
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
+
+  #notes_quote(
     title: [Generative AI enhances individual creativity\ but reduces the collective diversity of novel content],
     details: [\ Science Advances, 2024],
   )[
@@ -350,38 +394,17 @@
     )
   ]
 
-  #notes_quote(
-    title: [I don't know if I like working at higher levels of abstraction],
-    details: [\ X. Iaso, 2026],
-  )[
-    "#bold[Everything becomes homogeneous, converging toward the average. The average makes nobody feel anything.]"
+
+  #notes_quote(title: [Echoes in AI], details: [\ PNAS, 2025])[
+    "the lack of diversity in these LLM-generated outputs reveals itself. We show that short stories generated in this way #bold[often contain repetitive combinations of plot elements], while human-written stories maintain a higher level of uniqueness."
     #notes_footnote_link(
-      "https://xeiaso.net/blog/2026/ai-abstraction/",
-      "I don't know if I like working at higher levels of abstraction",
-      "X. Iaso, 2026",
+      "https://www.pnas.org/doi/10.1073/pnas.2504966122",
+      "Echoes in AI: Quantifying lack of plot diversity in LLM outputs",
+      "Xu et al., PNAS, 2025",
     )
   ]
 ]
 
-// =====================================================================================================================
-
-#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
-
-
-  #notes_quote(
-    title: ["The Cat Sat on the xxx?" Why generative AI has limited creativity],
-    details: [\ D. H. Cropley, 2025],
-  )[
-    #bold[the creativity of generative AI] --- specifically, Large Language Models --- is not merely a matter of subjective judgment or philosophical debate, but #bold[is, in fact, mathematically bounded].
-
-    This limitation is not the result of poor training, inadequate prompting, or underpowered architectures. Rather, it is a fundamental consequence of how these systems operate: token selection is governed by probability distributions where effectiveness and novelty are negatively correlated. High-probability tokens are semantically appropriate but predictable; low-probability tokens are unexpected but often nonsensical. #bold[The result is a structural inability to  simultaneously achieve both originality and effectiveness to the degree required for high creativity.]
-    #notes_footnote_link(
-      "https://osf.io/preprints/psyarxiv/8sfpd_v1",
-      "'The Cat Sat on the xxx?' Why generative AI has limited creativity",
-      "D. H. Cropley, OSF, 2025",
-    )
-  ]
-]
 
 // =====================================================================================================================
 
