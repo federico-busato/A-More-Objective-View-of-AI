@@ -598,7 +598,7 @@
 
 // =====================================================================================================================
 
-== Employment and Early Career Jobs 
+== Employment and Early Career Jobs
 
 // =====================================================================================================================
 
@@ -712,10 +712,10 @@
     - "#bold[Labor impacts are dominated by augmentation rather than substitution]. Among firms shifting   task structures, 66% engage exclusively in augmentation.
 
     - Functional integration and operational investments are positively associated with sales increases, performance, and headcount declines. Conversely, worker-task breadth is positively associated with enhanced performance/sales, but not with displacing labor."  #notes_footnote_link(
-      "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
-      "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
-      "Boney et al., U.S. Census Bureau, April 2026",
-    )
+        "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+        "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
+        "Boney et al., U.S. Census Bureau, April 2026",
+      )
   ]
 ]
 
@@ -770,6 +770,26 @@
     )
   ]
 ]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Protein Structure Prediction #science-tag()], group: "protein-structure-prediction")[
+
+  #notes_quote(
+    title: "A generative artificial intelligence approach for peptide antibiotic optimization",
+    details: [\ Torres et al., Nature, 2026],
+  )[
+    "ApexGO achieved an 85% ground-truth experimental hit rate and a 72% success rate in enhancing antimicrobial activity against Gram-negative pathogens, outperforming previously reported methods for antibiotic discovery and optimization.
+
+    #indent() ... artificial-intelligence-optimized molecules exhibited potent anti-infective activity #bold[superior to their template controls and comparable with or exceeding that of last-resort antibiotic]."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s42256-026-01237-5#Sec11",
+      "A generative artificial intelligence approach for peptide antibiotic optimization",
+      "Torres et al., Nature, 2026",
+    )
+  ]
+]
+
 // =====================================================================================================================
 
 == Material Discovery

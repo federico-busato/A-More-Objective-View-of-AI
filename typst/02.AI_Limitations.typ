@@ -375,7 +375,25 @@
       "Wu et al., arXiv, 2026",
     )
   ]
+]
 
+// =====================================================================================================================
+
+#notes_slide(title: [Creativity #science-tag()], group: "creativity")[
+
+  #notes_quote(
+    title: "Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing",
+    details: [\ Moon et al., Computers in Human Behavior: Artificial Humans, 2026],
+  )[
+    "human writing increased the collective semantic diversity of a group of essays approximately two to eight times more than base GPT-4 essays did.
+
+    #indent() ... #bold[If organizations, educational institutions, or creative industries rely too much on a certain AI model, the collective pool of ideas may become more uniform over time. AI can thus inhibit innovation and diminish cultural diversity]. This homogenization is especially counterproductive in fields that thrive on diverse perspectives --- such as technology, healthcare, and education --- and underscores the importance of 'thinking outside the AI box' particularly when tackling the toughest challenges."
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s42256-026-01237-5#Sec11",
+      "Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing",
+      "Moon et al., Computers in Human Behavior: Artificial Humans, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -394,14 +412,14 @@
     )
   ]
 
-
-  #notes_quote(title: [Echoes in AI], details: [\ PNAS, 2025])[
+  #notes_quote(title: [Echoes in AI], details: [PNAS, 2025])[
     "the lack of diversity in these LLM-generated outputs reveals itself. We show that short stories generated in this way #bold[often contain repetitive combinations of plot elements], while human-written stories maintain a higher level of uniqueness."
     #notes_footnote_link(
       "https://www.pnas.org/doi/10.1073/pnas.2504966122",
       "Echoes in AI: Quantifying lack of plot diversity in LLM outputs",
       "Xu et al., PNAS, 2025",
     )
+    #v(-20pt)
   ]
 ]
 
