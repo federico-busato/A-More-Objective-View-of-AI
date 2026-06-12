@@ -563,6 +563,38 @@
 
 // =====================================================================================================================
 
+== Introspection
+
+#notes_slide(title: [Introspection #news-tag()], group: "introspection")[
+
+  #notes_quote(
+    title: [],
+  )[
+    "#bold[You're not talking to a consistent personality, person, or entity] when you interact with ChatGPT, Claude, Grok, or Replit. These names suggest individual agents with self-knowledge, but that's an illusion created by the conversational interface. What you're actually doing is guiding a statistical text generator to produce outputs based on your prompts.
+
+    #indent() ... #bold[Large language models (LLMs) alone cannot meaningfully assess their own capabilities] for several reasons. They generally lack any introspection into their training process, have no access to their surrounding system architecture, and cannot determine their own performance boundaries.
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Introspection #news-tag()], group: "introspection")[
+
+  #notes_quote(
+    title: [Why it's a mistake to ask chatbots about their mistakes],
+    details: [\ Ars Technica, 2025],
+  )[
+    #indent() ... #bold[Even if a language model somehow had perfect knowledge of its own workings, other layers of AI chatbot applications might be completely opaque]. For example, modern AI assistants like ChatGPT aren't single models but orchestrated systems of multiple AI models working together, each largely 'unaware' of the others' existence or capabilities."
+    #notes_footnote_link(
+      "https://arstechnica.com/ai/2025/08/why-its-a-mistake-to-ask-chatbots-about-their-mistakes/",
+      "Why it's a mistake to ask chatbots about their mistakes",
+      "B. Edwards, Ars Technica, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Quality Fluctuation <p1e>
 
 #notes_slide(title: [Quality Fluctuation #science-tag()], group: "quality-fluctuation")[

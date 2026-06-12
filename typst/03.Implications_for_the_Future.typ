@@ -107,7 +107,7 @@
 #notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
 
   #set text(size: 18pt)
-  #v(-50pt)
+  #v(-30pt)
   #quote()[
     #indent() #emph["#bold[The data center share of U.S. total electricity demand in 2030 ranges from 9% to 17%, an increase from 4-5% today]. At the state level, continued development of the largest DC market in Virginia implies a share increasing to between 39% and 57% by 2030."]
   ]
@@ -281,6 +281,20 @@
       "https://www.nber.org/papers/w34836",
       "Firm Data on AI",
       "National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #news-tag()], group: "productivity-mixed")[
+
+  #notes_quote(title: "Navigating the Jagged Technological Frontier", details: [\ Harvard Business School])[
+    "Across 18 realistic business tasks --- ranging from creative to analytical tasks --- #bold[AI significantly improved performance and quality] for every model specification, increasing speed by more than 25%, performance by more than 30%, and task completion by more than 12%. #bold[However, for a task outside the frontier, subjects using AI were 19 percentage points less likely to produce correct solutions.]"
+    #notes_footnote_link(
+      "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+      "Dell'Acqua et al., Harvard Business School, 2026",
     )
   ]
 ]
@@ -598,6 +612,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
+
+  #notes_quote(
+    title: [Apocalypse No],
+    details: [\ S. Galloway, 2026],
+  )[
+    "#bold[Every generation gets its 'machines will take your job' panic]. This one just comes with better public relations and a bigger balance sheet. The AI job apocalypse isn't data-driven --- it's narrative-driven, engineered by people who profit when you're scared. #bold[Fear is the product. Capital is the outcome.]"
+    #notes_footnote_link(
+      "https://www.profgmedia.com/p/apocalypse-no",
+      "Apocalypse No",
+      "S. Galloway, 2026",
+    ) <galloway_2026>
+  ]
+]
+
+// =====================================================================================================================
+
 == Employment and Early Career Jobs
 
 // =====================================================================================================================
@@ -632,6 +663,26 @@
     "Don't Blame AI For The Rise in Recent Graduate Unemployment",
     "W. Raderman, Employ America, 2026",
   )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
+
+  #notes_quote(
+    title: "The Broken Ladder: AI, Remote Work, and Early-Career Hiring",
+    details: [\ Harvard Business Review],
+  )[
+    "#bold[Demand for junior talent appears to have fallen in the post-pandemic era]. This paper tests two possible explanations for this shift: the impact of generative AI tools in the workplace, and the rapid and persistent adoption of work-from-home (WFH) arrangements.
+
+    #indent() ... #bold[Our findings point strongly towards WFH exposure as a better predictor of the
+      decline in relative early-career hiring]."
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638",
+      "The Broken Ladder: AI, Remote Work, and Early-Career Hiring",
+      "Lambert & Schindler, London School of Economics & University of Warwick, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -1417,7 +1468,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Inequality #science-tag()])[
+#notes_slide(title: [Inequality #science-tag()], group: "inequality")[
 
   #notes_quote(
     title: [Who Benefits from AI? Self-Selection, Skill Gap,\ and the Hidden Costs of AI Feedback],
@@ -1426,6 +1477,30 @@
     "The apparent benefits of AI feedback are largely or entirely attributable to the same unobserved factors that drive AI adoption and engagement. Learning is concentrated among higher-skill, highly motivated individuals, due to their endogenous tendency to seek more AI feedback and use it more productively (after a failure). This individual-level pattern has important implications on the population level: #bold[Instead of lifting lower-skilled individuals who have the most to gain, AI disproportionately complements higher-skilled individuals --- amplifying the existing skill gap]."
     @riedl_bogert
   ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Inequality #science-tag()], group: "inequality")[
+
+  #v(-20pt)
+  #notes_quote(
+    title: [Apocalypse No],
+    details: [S. Galloway, 2026],
+  )[
+    "AI's popularity is correlated to wealth, with only those earning more than \$200,000 per year viewing AI as a net positive."
+    <galloway_2026>
+  ]
+  #v(-10pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/galloway_2026.png", height: 60%)
+  ]
+  #v(-40pt)
+  #notes_unmarked_footnote_link(
+    "https://poll.qu.edu/poll-release?releaseid=3955",
+    "The Age Of Artificial Intelligence: Americans' AI Use Increases While Views On It Sour",
+    "Quinnipiac University Poll, 2026",
+  )
 ]
 
 // =====================================================================================================================
