@@ -485,6 +485,25 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Employment Data #news-tag()], group: "employment-data")[
+
+  #notes_quote(
+    title: [Myths About Generative AI, Productivity, and Job Displacement],
+    details: [\ Luddite Lab Resource Hub, May 2026],
+  )[
+    "#bold[claims around productivity and labor displacement are massively overblown]. Part of this is due to massive industry hype --- AI investment crested \$73.1 billion in the first quarter of 2025, making up nearly 58% of global venture capital.
+
+    #indent() ... hype is also reinforced by speculative research methods of estimating job replacement and misattributing the cause of recent layoffs to actual gains in productivity due to automation facilitated by generative AI tools."
+    #notes_footnote_link(
+      "https://cdn.sanity.io/files/uvgbyd32/production/45f1b26939d3502b2189c3839cfd352703ff5283.pdf",
+      "Myths About Generative AI, Productivity, and Job Displacement",
+      "Hanna et al., Luddite Lab Resource Hub, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
@@ -1070,7 +1089,7 @@
 
 #notes_slide(title: [Environmental Risks - Local Impact #science-tag()], group: "environmental-local")[
 
-  - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through water use, air pollution #notes_footnote_link(
+  - #bold[While data centers are not a concern on a global scale, they can severely impact local communities]. Their development can harm nearby communities through #strike[water use], air pollution #notes_footnote_link(
       "https://www.washingtonpost.com/business/2026/05/28/data-centers-boom-virginians-breathe-exhaust-10000-diesel-generators/",
       "See where diesel-powered data center generators are polluting Virginia",
       "Halper & Kevin Crowe, The Washington Post, 2026",
@@ -1199,7 +1218,65 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Environmental Risks - Water Consumption #science-tag()], group: "water-consumption")[
+
+  #quote()[
+    #indent() "#bold[The vast majority] (maybe 90%) is withdrawn, freshwater (not potable) that is indirectly (offsite) used non-consumptively in power plants (it's #bold[returned to the source unaffected]).
+
+    #indent() ... All U.S. data centers (#bold[which mostly support the internet, not AI]) used 200-250 million gallons of freshwater daily in 2023. The U.S. consumes approximately 132 billion gallons of freshwater daily... So #bold[data centers in the U.S. consumed approximately 0.2% of the nation's freshwater in 2023]... It's a miracle that something we spend 50% of our time using only consumes 0.2% of our water."
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Environmental Risks - Water Consumption #science-tag()], group: "water-consumption")[
+
+  #notes_quote(title: "The AI water issue is fake", details: [\ Andy Masley, 2026])[
+    #indent() ... #bold[Only 0.04% of America's freshwater in 2023 was consumed inside data centers themselves]. This is 3% of the water consumed by the American golf industry.
+
+    #indent() ... #bold[So in 2030, AI in data centers specifically will be using 0.08% of America's freshwater]. This means it will rise to the level of 5% of America's current water used on golf courses, or 5% of U.S. steel production, or be about 173 square miles of irrigated corn farms.
+    #notes_footnote_link(
+      "https://blog.andymasley.com/p/the-ai-water-issue-is-fake",
+      "The AI water issue is fake",
+      "Andy Masley, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Cognitive Offloading and Deskilling
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+  #notes_quote(
+    title: "AI Assistance Reduces Persistence and Hurts Independent Performance",
+    details: [\ Liu et al. (Carnegie Mellon, MIT, Oxford, UCLA), April 2026],
+  )[
+    "Current AI systems, however, represent a new kind of cognitive scaffold: one that solves anything, rarely refuses to help, and delivers answers instantly. Here, we show that #bold[just 10-15 minutes of AI interaction can result in significant impairments in independent performance and persistence --- capacities that are foundational to life-long learning]. If brief exposure produces measurable erosion, the cumulative effects of daily AI use over months or years may be profound and difficult to reverse."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2604.04721",
+      "AI Assistance Reduces Persistence and Hurts Independent Performance",
+      "Liu et al. (Carnegie Mellon, MIT, Oxford, UCLA), April 2026",
+    ) <liu_et_al>
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
+
+  #align(center)[
+    #image("03.Implications_for_the_Future/solve_rate.png", width: 105%)
+  ]
+
+  #quote()[
+    #indent() "#bold[Effects are concentrated among users who seek direct solutions]: Persistence costs were concentrated among participants who prompted AI to solve tasks for them directly. #bold[Using AI for hints or clarifications did not produce significant impairments.]
+    " @liu_et_al
+  ]
+]
+
+// =====================================================================================================================
 
 #notes_slide(title: [Cognitive Offloading and Deskilling #science-tag()], group: "cognitive-offloading")[
 

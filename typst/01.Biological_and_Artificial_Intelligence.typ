@@ -175,6 +175,24 @@
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
+    title: [GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning\ in Large Language Models],
+    details: [\ ICLR, 2025],
+  )[
+    "Adding seemingly relevant but ultimately inconsequential information to the logical reasoning of the problem led to substantial performance drops across models.
+
+    #indent() ... our work underscores significant limitations in LLMs' ability to perform genuine mathematical reasoning. The LLMs' high performance variance on different instances of the same question, their significant drop in performance with a slight increase in difficulty, and #bold[their sensitivity to inconsequential information indicate that their reasoning is fragile and may be more akin to sophisticated pattern matching rather than true logical reasoning.]"  #notes_footnote_link(
+      "https://www.quantamagazine.org/ai-is-nothing-like-a-brain-and-thats-ok-20250430",
+      "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
+      "Mirzadeh et al., ICLR, 2025",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
+  #notes_quote(
     title: [Language models cannot reliably distinguish belief from knowledge and fact],
     details: [\ Nature, 2025],
   )[
@@ -232,7 +250,7 @@
     title: "Shortcoming Makes LLMs Less Reliable",
     details: [\ MIT News, 2025],
   )[
-    "LLMs learn spurious correlations between a prompt's syntactic template and specific domains. The model may incorrectly rely solely on this learned association when answering questions, #bold[rather than on an understanding] of the query and subject matter."
+    "#bold[LLMs learn spurious correlations between a prompt's syntactic template and specific domains]. The model may incorrectly rely solely on this learned association when answering questions, #bold[rather than on an understanding] of the query and subject matter."
     #notes_footnote_link(
       "https://news.mit.edu/2025/shortcoming-makes-llms-less-reliable-1126",
       "Shortcoming Makes LLMs Less Reliable",
@@ -490,6 +508,22 @@
       "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
       "The Mythology Of Conscious AI",
       "N. Patel, The Verge, April 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Final Remarks #comment-tag()])[
+
+  #notes_quote(title: "Statistical approximation is not general intelligence", details: [\ Natural, 2026])[
+    "Current AI systems are powerful and increasingly useful tools, but they do not exhibit the flexible, self-directed competence that the original concept of artificial general intelligence was intended to capture. As AI systems become embedded in scientific and institutional decision-making, overestimating their cognitive capacities risks misallocating trust, responsibility, and authority.
+
+    #indent() #bold[Confusing increasingly sophisticated statistical approximation with general intelligence is therefore not only a conceptual error, but a #notes_underline[strategic misjudgment.]]"
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/qjrhs_v1",
+      "Statistical approximation is not general intelligence",
+      "Quattrociocchi et al., Nature, 2026",
     )
   ]
 ]
