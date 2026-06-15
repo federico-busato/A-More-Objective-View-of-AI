@@ -186,6 +186,25 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Unlikely Exponential Growth #news-tag()], group: "exponential-growth")[
+
+  - #bold[Data centers are facing increasing local opposition].
+
+  #notes_quote(
+    title: "Data Center Watch",
+    details: [2026],
+  )[
+    "Q1 2026 produced the largest single-quarter concentration of blocked and delayed data center projects on record, with #bold[at least 75 projects worth approximately \$130 billiondisrupted by local opposition] . The quarter reflected a structural shift rather than a cyclical spike"
+    #notes_footnote_link(
+      "https://www.datacenterwatch.org/",
+      "Data Center Watch",
+      "2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 
 = Productivity Gain Uncertainty
 
@@ -1062,7 +1081,7 @@
 
 == Soften Polarization <p2e>
 
-#notes_slide(title: [Soften Polarization #news-tag()])[
+#notes_slide(title: [Soften Polarization #news-tag()], group: "soften-polarization")[
 
   #v(-10pt)
   - #bold[AI may help to soften polarization].
@@ -1077,6 +1096,27 @@
     "Social media is populist and polarising; AI may be the opposite",
     "Financial Times, 2026",
   )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Soften Polarization #science-tag()], group: "soften-polarization")[
+
+  #notes_quote(
+    title: "AI Sycophancy and Decisions",
+    details: [\ Conlon & Schwardmann, April 2026],
+  )[
+    "#bold[Rather than polarizing choices, interacting with AI on average depolarizes
+      decisions], improves accuracy where there is an objective notion of correctness, and increases
+    confidence in final choices.
+
+    #indent() ...  Moreover, we find little evidence that market forces or user selection are pushing toward greater polarization. These results suggest that contemporary AI advice tends to improve rather than distort judgment.
+    #notes_footnote_link(
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6597184",
+      "AI Sycophancy and Decisions",
+      "Conlon & Schwardmann, April 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -1420,9 +1460,46 @@
 
 // =====================================================================================================================
 
+== Sycophancy
+
+#notes_slide(title: [Sycophancy #science-tag()], group: "sycophancy")[
+
+  #notes_quote(
+    title: [Sycophantic AI makes human interaction feel more effortful\ and less satisfying over time],
+    details: [\ Ibrahim et al., 2026],
+  )[
+    "Focusing on the personal advice domain, we show that #bold[interactions with sycophantic
+      AI can lead people to anticipate greater effort to be understood in their closest relationships], leave them less satisfied with their real-world social interactions, and over time, #bold[shift them toward treating sycophantic AI as a source of advice] comparable to friends and family."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2602.14270",
+      "Sycophantic AI makes human interaction feel more effortful and less satisfying over time",
+      "Ibrahim et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Sycophancy #science-tag()], group: "sycophancy")[
+
+  #notes_quote(
+    title: [When Chatbots Accommodate: What AI Companions Optimize for in Vulnerable Conversations],
+    details: [\ Duc Chu et al., June 2026],
+  )[
+    "#bold[Our findings reveal what AI companions prioritize in conversations with vulnerable users]: GPT4.1 reaches for advice, Character.AI spreads its response across different strategies without a dominant mode, and Replika consistently asks questions and stays present. Each, however, downweights the responses that introduce corrective friction."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2602.14270",
+      "When Chatbots Accommodate: What AI Companions Optimize for in Vulnerable Conversations",
+      "Duc Chu et al., arXiv, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 == Echo Chamber
 
-#notes_slide(title: [Echo Chamber / Sycophancy #science-tag()], group: "echo-chamber")[
+#notes_slide(title: [Echo Chamber (Sycophancy) #science-tag()], group: "echo-chamber")[
 
   #notes_quote(title: "A Rational Analysis of the Effects of Sycophantic AI", details: [\ Batista et al., 2026])[
     "We have provided both theoretical and empirical results showing that AI systems providing information that is informed by the user's hypotheses #bold[result in increased confidence in those hypotheses while not bringing the user any closer to the truth]."
@@ -1436,7 +1513,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Echo Chamber / Sycophancy #science-tag()], group: "echo-chamber")[
+#notes_slide(title: [Echo Chamber (Sycophancy) #science-tag()], group: "echo-chamber")[
 
   #notes_quote(
     title: "Sycophantic AI increases attitude extremity and overconfidence",
@@ -1584,6 +1661,106 @@
 
 == Social Risks <p3e>
 
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: [How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use:\ A Longitudinal Randomized Controlled Study],
+    details: [\ Fang et al., 2026],
+  )[
+    "...  AI design choices and user behaviors shape the psychosocial outcomes of prolonged chatbot interactions ...
+
+    #indent() ... the nature of the interaction critically influences outcomes such as #bold[loneliness, socialization with people, emotional dependence on AI chatbots, and problematic usage of AI chatbots]"
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2503.17473v1",
+      "How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use: A Longitudinal Randomized Controlled Study",
+      "Fang et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: "LLMorphism: When humans come to see themselves as language models",
+    details: [\ V. Capraro, 2026],
+  )[
+    "LLMorphism: the biased belief that human cognition works like a large language model.
+
+    #indent() ... #bold[stronger LLMorphic beliefs will increase perceived replaceability of human workers, reduce perceived distinctiveness of human expertise, weaken attributions of agency and moral responsibility], increase reliance on verbal fluency as a proxy for understanding, and reduce attention to embodied, affective, and contextual cues"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.05419",
+      "LLMorphism: When humans come to see themselves as language models",
+      "V. Capraro, arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #set text(size: 19pt)
+  #notes_quote(
+    title: "Biased AI writing assistants shift users' attitudes onsocietal issues",
+    details: [\ Science Advances, 2026],
+  )[
+    "Our findings offer robust evidence of one of multiple possible ways in which advanced artificial intelligence in the form of #bold[AI writing assistants can distort human beliefs and contribute to bias.]
+
+    #indent() ... Alarmingly, our work shows that biased #bold[AI models can distort attitudes in a covert and implicit way, without people noticing] that they are being presented with a persuasive argument by a different actor.
+
+    #indent() ... people who accepted more words from the biased AI suggestions exhibited stronger attitude shifts toward the biased position.
+
+    #indent() ... Participants whose attitudes shifted toward the AI's position  #bold[often failed to notice the suggestions' biases and influence on their attitudes.]"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.26010",
+      "Biased AI writing assistants shift users' attitudes onsocietal issues",
+      "Williams-Ceci et al., Science Advances, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+    details: [\ Rodriguez-Alvarez et al., 2026],
+  )[
+    "'AI Paradox' wherein students significantly overestimate their critical awareness of deepfakes and algorithmic biases compared to their operational AI skills
+
+    #indent() ... The familiarity of this generation with basic social media filters appears to create a false sense of invulnerability, leading to an 'illusion of competence' where #bold[young users severely underestimate the sophistication of modern algorithmic manipulation]"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.26010",
+      "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+      "Rodriguez-Alvarez et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #notes_quote(
+    title: "Epistemological Fault Lines Between Human and Artificial Intelligence",
+    details: [\ Quattrociocchi et al., 2026],
+  )[
+    "This is precisely why the most salient risk is not reducible to occasional inaccuracy or bias. #bold[The risk is structural: correctness becomes decoupled from the processes of justification that normally sustain it], and thus from the institutional and psychological practices through which #bold[epistemic responsibility is enacted]."
+    #notes_footnote_link(
+      "https://osf.io/preprints/psyarxiv/c5gh8_v1",
+      "Epistemological Fault Lines Between Human and Artificial Intelligence",
+      "Quattrociocchi et al., PsyArXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
   - 41.3% of LinkedIn posts are generated by AI.
@@ -1615,79 +1792,46 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+== Religious
+
+// =====================================================================================================================
+
+#notes_slide(title: [Religious #news-tag()], group: "religious")[
 
   #notes_quote(
-    title: [How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use:\ A Longitudinal Randomized Controlled Study],
-    details: [\ Fang et al., 2026],
+    title: "AI is Becoming a Spiritual Authority, Even Among Practicing Christians",
+    details: [\ Barna, May 2026],
   )[
-    "...  AI design choices and user behaviors shape the psychosocial outcomes of prolonged chatbot interactions ...
+    - "#bold[Practicing Christians express majority-level trust in AI across most domains of personal flourishing] --- and nearly half (48%) say they would trust AI with their spiritual growth.
+    - #bold[One in three U.S. adults say AI's spiritual guidance is as trustworthy as a pastor's] --- a share that climbs among younger adults, approaching two in five among Gen Z (39%) and nearly half among Millennials (44%)." #notes_footnote_link(
+        "https://www.gallup.com/poll/562435/ai-spiritual-growth.aspx",
+        "AI is Becoming a Spiritual Authority, Even Among Practicing Christians",
+        "Barna, May 2026",
+      )
+  ]
+]
 
-    #indent() ... the nature of the interaction critically influences outcomes such as #bold[loneliness, socialization with people, emotional dependence on AI chatbots, and problematic usage of AI chatbots]"
+// =====================================================================================================================
+
+#notes_slide(title: [Religious #news-tag()], group: "religious")[
+
+  #notes_quote(
+    title: [First They Built a Secular Apocalypse Belief System.\ Now They Want Religious Authority],
+    details: [\ N. Weiss-Blatt, June 2026],
+  )[
+    First, #bold[AI is a magnet for theological imagination]. AI discourse repeatedly returns to ancient religious motifs: creation, forbidden knowledge, omniscience, apocalypse, and salvation.
+
+    Second, #bold[AI doomerism fills a 'religious-shaped hole.'] For people who left religious upbringing but retain a hunger for a mission-driven community, the AI-risk subculture offers a replacement meaning system.
     #notes_footnote_link(
-      "https://arxiv.org/abs/2503.17473v1",
-      "How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use: A Longitudinal Randomized Controlled Study",
-      "Fang et al., arXiv, 2026",
+      "https://www.aipanic.news/p/first-they-built-a-secular-apocalypse",
+      "First They Built a Secular Apocalypse Belief System. Now They Want Religious Authority",
+      "N. Weiss-Blatt, June 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
-
-  #notes_quote(
-    title: "Epistemological Fault Lines Between Human and Artificial Intelligence",
-    details: [\ Quattrociocchi et al., 2026],
-  )[
-    "This is precisely why the most salient risk is not reducible to occasional inaccuracy or bias. #bold[The risk is structural: correctness becomes decoupled from the processes of justification that normally sustain it], and thus from the institutional and psychological practices through which #bold[epistemic responsibility is enacted]."
-    #notes_footnote_link(
-      "https://osf.io/preprints/psyarxiv/c5gh8_v1",
-      "Epistemological Fault Lines Between Human and Artificial Intelligence",
-      "Quattrociocchi et al., PsyArXiv, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
-
-  #notes_quote(
-    title: "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
-    details: [\ Rodriguez-Alvarez et al., 2026],
-  )[
-    "'AI Paradox' wherein students significantly overestimate their critical awareness of deepfakes and algorithmic biases compared to their operational AI skills
-
-    #indent() ... The familiarity of this generation with basic social media filters appears to create a false sense of invulnerability, leading to an 'illusion of competence' where #bold[young users severely underestimate the sophistication of modern algorithmic manipulation]"
-    #notes_footnote_link(
-      "https://arxiv.org/pdf/2605.26010",
-      "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
-      "Rodriguez-Alvarez et al., arXiv, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
-
-  #notes_quote(
-    title: "LLMorphism: When humans come to see themselves as language models",
-    details: [\ V. Capraro, 2026],
-  )[
-    "LLMorphism: the biased belief that human cognition works like a large language model.
-
-    #indent() ... #bold[stronger LLMorphic beliefs will increase perceived replaceability of human workers, reduce perceived distinctiveness of human expertise, weaken attributions of agency and moral responsibility], increase reliance on verbal fluency as a proxy for understanding, and reduce attention to embodied, affective, and contextual cues"
-    #notes_footnote_link(
-      "https://arxiv.org/pdf/2605.05419",
-      "LLMorphism: When humans come to see themselves as language models",
-      "V. Capraro, arXiv, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
 == Political Influence
 
 // =====================================================================================================================
