@@ -43,6 +43,8 @@ A broad examination of AI from scientific, cognitive, and social perspectives.
 - **AI and Human Brain are _Functionally_ Different**
 - **The Illusion of Consciousness**
 
+  - Who is being deceived?
+
 ### 2. [AI Limitations](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/02.AI_Limitations.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/02.AI_Limitations.pdf))
 
 Coverage of AI limitations from a technical and social perspective.
@@ -56,6 +58,7 @@ Coverage of AI limitations from a technical and social perspective.
   - Production Quality
   - Causality and Real-World Understanding
   - Non-Determinism
+  - Introspection
   - Quality Fluctuation
 
 - **AI "Social" Limitations**
@@ -76,6 +79,10 @@ AI consequences on growth, employment, society, and the environment.
 - **Productivity Gain Uncertainty**
 - **Employment**
 
+  - Employment Data
+  - Employment and Early Career Jobs
+  - Employment Predictions
+  - Employment and Productivity
   - Economic Impact
 
 - **Positive Impacts**
@@ -84,6 +91,7 @@ AI consequences on growth, employment, society, and the environment.
   - Material Discovery
   - Weather Forecasting
   - Healthcare
+  - Ancient Languages
   - Learning
   - Soften Polarization
 
@@ -95,6 +103,7 @@ AI consequences on growth, employment, society, and the environment.
   - Health Risks
   - Inequality
   - Social Risks
+  - Political Influence
 
 ### 4. [Software Development in the Age of AI](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/04.Software_Development.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/04.Software_Development.pdf))
 
