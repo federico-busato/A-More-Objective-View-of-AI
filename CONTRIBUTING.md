@@ -41,7 +41,7 @@ Each chapter consists of:
 
 ### Install Typst
 
-Install `Typst` by following the [official instructions](https://github.com/typst/typst#installation). You can install it via:
+Install `Typst` 0.15.0 by following the [official instructions](https://github.com/typst/typst#installation). You can install it via:
 
 - **CLI**: `cargo install typst-cli` (requires Rust), or download a prebuilt binary from [releases](https://github.com/typst/typst/releases).
 - **Web app**: [typst.app](https://typst.app/) for quick editing (no local setup needed).

@@ -1,6 +1,6 @@
 #import "@preview/touying:0.7.4": *
 #import "@preview/numbly:0.1.0": numbly
-#import "@preview/fontawesome:0.6.0": fa-icon
+#import "@preview/fontawesome:0.6.1": fa-icon
 #import themes.metropolis: *
 
 #let bold(string) = [#text(fill: black, weight: "bold")[#string]]
