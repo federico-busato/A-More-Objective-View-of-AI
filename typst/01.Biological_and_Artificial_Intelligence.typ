@@ -539,5 +539,10 @@
       "The Mythology Of Conscious AI",
       "A. Seth, Noema Magazine, 2026",
     )
+    #notes_footnote_link(
+      "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/conscious-artificial-intelligence-and-biological-naturalism/C9912A5BE9D806012E3C8B3AF612E39A",
+      "Conscious artificial intelligence and biological naturalism",
+      "A. Seth, Behavioral and Brain Sciences, 2025",
+    )
   ]
 ]

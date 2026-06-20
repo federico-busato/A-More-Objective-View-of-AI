@@ -6,15 +6,21 @@
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 1/2] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 1/3] <touying:hidden>
 
 #outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
-== #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 2/2] <touying:hidden>
+== #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 2/3] <touying:hidden>
 
 #outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
+
+// =====================================================================================================================
+
+== #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 3/3] <touying:hidden>
+
+#outline(target: selector(heading).after(<p3s>).before(<p3e>), title: none)
 
 // =====================================================================================================================
 
@@ -178,6 +184,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [AI and Software Employment #science-tag()], group: "software-employment")[
+
+  #notes_quote(
+    title: [Ten takeaways from the AI Engineering Report 2026:\ The Acceleration Whiplash],
+    details: [\ Faros Research, 2026],
+  )[
+    "Every organization cutting engineering headcount on the basis of AI output gains should read this report. The AI engineering impact data shows that output is up. It also shows that the work required to ensure that output is safe, correct, and maintainable has not decreased. It has increased substantially. "
+    #notes_footnote_link(
+      "https://www.faros.ai/blog/ai-acceleration-whiplash-takeaways",
+      "Ten takeaways from the AI Engineering Report 2026: The Acceleration Whiplash",
+      "Faros Research, April 2026",
+    ) <faros_research>
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [AI and Software Employment #comment-tag()], group: "software-employment")[
 
   #notes_quote(
@@ -203,9 +226,9 @@
 
 // =====================================================================================================================
 
-== Slot Machine and the Illusion of Control
+== The Slot Machine and the Illusion of Control
 
-#notes_slide(title: [Slot Machine and the Illusion of Control #comment-tag()])[
+#notes_slide(title: [The Slot Machine and the Illusion of Control #comment-tag()])[
 
   #notes_quote(title: "The Dangerous Illusion of AI Coding?", details: [\ Jeremy Howard, 2026])[
     "The thing about AI based coding is that it's like a #bold[slot machine], and that you have an #bold[illusion of control], you know, you can get to craft your prompt, and your list of MCPs, and your skills, and whatever, and then in the end, you pull the lever. Right?
@@ -302,6 +325,232 @@
 
 // =====================================================================================================================
 
+== Long-Term Tasks
+
+#notes_slide(title: [Long-Term Tasks #science-tag()], group: "long-term-tasks")[
+
+  #notes_quote(
+    title: "EvoClaw: Evaluating AI Agents on Continuous Software Evolution",
+    details: [\ Deng et al., 2026],
+  )[
+    "Overall performance scores drop significantly from > 80% on isolated tasks to at most 38% in continuous settings, exposing agents' profound struggle with longterm maintenance and error propagation. #notes_footnote_link(
+      "https://arxiv.org/pdf/2603.13428",
+      "EvoClaw: Evaluating AI Agents on Continuous Software Evolution",
+      "Deng et al., arXiv, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Long-Term Task #science-tag()], group: "long-term-tasks")[
+
+  #v(-32pt)
+  #notes_quote(
+    title: "Agentic Software: How AI Agents Are Restructuring the Software Paradigm",
+    details: [\ Z. Cao, 2026],
+  )[
+    #set enum(spacing: 24pt)
+    #set text(size: 19pt)
+    1. #bold[Context drift]. As codebases grow beyond the effective context window, agents lose coherent understanding of system-wide invariants and dependencies.
+    2. #bold[Error propagation]. A small error in an early commit cascades into compounding failures in subsequent work, and agents lack robust mechanisms for detecting and recovering from these chains.
+    3. #bold[Technical debt awareness]. Agents do not currently model the long-term costs of their design decisions --- they optimize for immediate task completion without considering maintainability.
+    4. #bold[Verification fidelity]. Automated testing remains incomplete; agents can pass tests while introducing subtle semantic errors that only manifest under novel inputs. #notes_footnote_link(
+        "https://arxiv.org/pdf/2606.05608",
+        "Agentic Software: How AI Agents Are Restructuring the Software Paradigm",
+        "Z. Cao, arXiv, June 2026",
+      )
+  ]
+]
+
+// =====================================================================================================================
+
+== The "Last Mile" Problem <p1e>
+
+#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
+
+  - #bold[The "Last Mile" Problem]. Prototyping with AI is not the same as building a production-quality product.
+
+  #notes_quote(title: "Benj Edwards", details: [\ Ars Technica, 2026])[
+    "The first 90 percent of an AI coding project comes in fast and amazes you. #bold[The last 10 percent involves tediously filling in the details] through back-and-forth trial-and-error conversation with the agent." @benj_edwards
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
+
+  #notes_quote(title: "Peter Yang")[
+    "Honest reflections from coding with AI so far as a non-engineer:
+
+    #indent() It can get you 70% of the way there, but that #bold[last 30% is frustrating]. It keeps taking one step forward and two steps backward with new bugs, issues, etc.
+
+    #indent() If I knew how the code worked I could probably fix it myself. But since I don't, #bold[I question if I'm actually learning that much.]"
+    #notes_footnote_link(
+      "https://x.com/petergyang/status/1863058206752379255",
+      "Peter Yang",
+      "",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
+
+  #notes_quote(
+    title: [The 100 hour gap between a vibecoded prototype and a working product],
+    details: [\ M. Budkowski, 2026],
+  )[
+    With AI, it's easier to get the first 90 percent out there. This means we can spend more time on the remaining 10 percent, which means more time for craftsmanship and figuring out how to make your users happy.
+    #notes_footnote_link(
+      "https://kanfa.macbudkowski.com/vibecoding-cryptosaurus",
+      "The 100 hour gap between a vibecoded prototype and a working product",
+      "M. Budkowski, 2026",
+    )
+  ]
+  // https://addyo.substack.com/p/the-70-problem-hard-truths-about
+]
+
+// =====================================================================================================================
+
+= Implications of AI-Generated Code <p2s>
+
+// =====================================================================================================================
+
+== Productivity
+
+#notes_slide(title: [Productivity #science-tag()], group: "productivity")[
+
+  #align(center)[
+    #image("04.Software_Development/productivity.png", width: 90%)
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity #science-tag()], group: "productivity")[
+
+  #align(center)[
+    #grid(
+      columns: 2,
+      gutter: 30pt,
+      image("04.Software_Development/new_apps.png", width: 100%),
+      image("04.Software_Development/app_rating.png", width: 100%),
+    ),
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity #science-tag()], group: "productivity")[
+
+  #notes_quote(
+    title: "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
+    details: [\ National Bureau of Economic Research, 2026],
+  )[
+    "AI coding tools produce increasingly large task-level productivity effects. Yet these gains attenuate sharply across the production hierarchy: #bold[sync agents lead to a 741% increase in lines of code and a 65% increase in pull requests, but releases rise by only 20%].
+
+    #indent() ... Across four major marketplaces, #bold[new application creation has accelerated] since mid-2025, but total usage within the first three months has not risen, and #bold[the share of new applications that fail to reach even a modest audience has increased]."
+    #notes_footnote_link(
+      "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools",
+      "Demirer et al., National Bureau of Economic Research, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity #science-tag()], group: "productivity")[
+
+  #notes_quote(
+    title: [Ten takeaways from the AI Engineering Report 2026:\ The Acceleration Whiplash],
+    details: [\ Faros Research, 2026],
+  )[
+    "Epics completed per developer are up 66%. Task throughput per developer is up 33.7%. PR merge rate per developer is up 16.2%. These numbers represent real delivery acceleration...
+
+    But the throughput numbers have an asterisk..."
+    @faros_research
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Productivity #science-tag()], group: "productivity")[
+
+  #v(-15pt)
+  #align(center)[
+    #image("04.Software_Development/mckinsey_productivity.png", width: 86%)
+  ]
+  #v(-15pt)
+
+  #notes_unmarked_footnote_link(
+    "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/unleashing%20developer%20productivity%20with%20generative%20ai/unleashing-developer-productivity-with-generative-ai.pdf",
+    "Unleashing developer productivity with generative AI",
+    "McKinsey, 2023",
+  )
+]
+
+// =====================================================================================================================
+
+== Deskilling
+
+#notes_slide(title: [Deskilling], group: "deskilling")[
+
+  #notes_quote(
+    title: "7 Questions with Jeremy Howard on Open Source AI and Agents",
+    details: [\ Jeremy Howard, 2026],
+  )[
+    "#bold[People who go all in on AI agents now are guaranteeing their obsolescence]. If you outsource all your thinking to computers, you stop upskilling, learning, and becoming more competent."
+    #notes_footnote_link(
+      "https://www.youtube.com/watch?v=zDkHJDgefyk",
+      "7 Questions with Jeremy Howard (Answer.ai, fast.ai) on Open Source AI and Agents",
+      "Jeremy Howard, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Deskilling], group: "deskilling")[
+
+  #notes_quote(
+    title: "How AI assistance impacts the formation of coding skills",
+    details: [\ Anthropic, 2026],
+  )[
+    "incorporating AI aggressively into the workplace, particularly with respect to software engineering, comes with trade-offs.
+
+    Given time constraints and organizational pressures, junior developers or other professionals may #bold[rely on AI to complete tasks as fast as possible at the cost of skill development] --- and notably the ability to debug issues when something goes wrong."
+    #notes_footnote_link(
+      "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "How AI assistance impacts the formation of coding skills",
+      "Anthropic, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== AI Addiction
+
+#notes_slide(title: [AI Addiction])[
+
+  #notes_quote(
+    title: "Agentic Coding is a Trap",
+    details: [\ Lars Faye, 2026],
+  )[
+    "When I was browsing LinkedIn during the Claude outage that occurred a bit ago, I noticed numerous posts highlighting that certain developers and engineering teams were at a standstill. Their workflows, their own coding abilities, had already reached a point where they were largely dependent on these vendors. #bold[What used to be a skill that they could execute with just a keyboard and text editor suddenly required a subscription to an AI model provider.]"
+    #notes_footnote_link(
+      "https://larsfaye.com/articles/agentic-coding-is-a-trap",
+      "Agentic Coding is a Trap",
+      "Lars Faye, 2026",
+    ) <agentic_coding_is_a_trap>
+  ]
+]
+
+// =====================================================================================================================
+
 == Technical Debt
 
 #notes_slide(title: [Technical Debt], group: "technical-debt")[
@@ -310,6 +559,23 @@
 
   #align(center)[
     #image("04.Software_Development/messy_codebase.jpg", width: 40%)
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Technical Debt #science-tag()], group: "technical-debt")[
+
+  #notes_quote(
+    title: [Ten takeaways from the AI Engineering Report 2026:\ The Acceleration Whiplash],
+    details: [\ Faros Research, 2026],
+  )[
+    "#bold[Code churn], the ratio of lines deleted to lines added for merged code in a given quarter, #bold[has increased 861% under high AI adoption]. At nearly 10 times the prior rate, #bold[significantly more code is being removed relative to what is being added.]
+
+    #indent() #bold[The incidents-to-PR ratio is up 242.7%] as teams move from low to high AI adoption. ... For every PR merged, incidents are occurring at more than three times the rate relative to the low AI adoption baseline.
+
+    #indent() #bold[bugs per developer has risen to 54%]. ... More AI-generated code in the codebase correlates with more bugs per developer, and that relationship is strengthening as adoption deepens."
+    @faros_research
   ]
 ]
 
@@ -351,28 +617,6 @@
         "AI Coding Tools Attract Top Performers – But Do They Create Them?",
         "GitClear, 2026",
       )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Technical Debt #news-tag()], group: "technical-debt")[
-
-  #set text(size: 19pt)
-  #notes_quote(
-    title: "For open source programs, AI coding tools are a mixed blessing",
-    details: [\ TechCrunch, 2026],
-  )[
-    "#bold[AI coding tools have caused as many problems as they have solved], according to industry experts. The easy-to-use and accessible nature of AI coding tools has enabled a flood of bad code that threatens to overwhelm projects. #bold[Building new features is easier than ever, but maintaining them is just as hard and threatens to further fragment software ecosystems.]"
-
-    #indent() ... Blender Foundation CEO Francesco Siddi said LLM-assisted contributions typically 'wasted reviewers' time and affected their motivation.
-
-    #indent() ... The open source data transfer program cURL recently halted its bug bounty program after being overwhelmed by what creator Daniel Stenberg described as 'AI slop.'"
-    #notes_footnote_link(
-      "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/",
-      "For open source programs, AI coding tools are a mixed blessing",
-      "R. Brandom, TechCrunch, 2026",
-    )
   ]
 ]
 
@@ -470,56 +714,208 @@
 
 // =====================================================================================================================
 
-== The "Last Mile" Problem <p1e>
+== Maintainability
 
-#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
-
-  - #bold[The "Last Mile" Problem]. Prototyping with AI is not the same as building a production-quality product.
-
-  #notes_quote(title: "Benj Edwards", details: [\ Ars Technica, 2026])[
-    "The first 90 percent of an AI coding project comes in fast and amazes you. #bold[The last 10 percent involves tediously filling in the details] through back-and-forth trial-and-error conversation with the agent." @benj_edwards
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
-
-  #notes_quote(title: "Peter Yang")[
-    "Honest reflections from coding with AI so far as a non-engineer:
-
-    #indent() It can get you 70% of the way there, but that #bold[last 30% is frustrating]. It keeps taking one step forward and two steps backward with new bugs, issues, etc.
-
-    #indent() If I knew how the code worked I could probably fix it myself. But since I don't, #bold[I question if I'm actually learning that much.]"
-    #notes_footnote_link(
-      "https://x.com/petergyang/status/1863058206752379255",
-      "Peter Yang",
-      "",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [The "Last Mile" Problem #comment-tag()], group: "last-mile")[
+#notes_slide(title: [Maintainability #news-tag()], group: "maintainability")[
 
   #notes_quote(
-    title: [The 100 hour gap between a vibecoded prototype and a working product],
-    details: [\ M. Budkowski, 2026],
+    title: "For open source programs, AI coding tools are a mixed blessing",
+    details: [\ TechCrunch, 2026],
   )[
-    With AI, it's easier to get the first 90 percent out there. This means we can spend more time on the remaining 10 percent, which means more time for craftsmanship and figuring out how to make your users happy.
+    "#bold[AI coding tools have caused as many problems as they have solved], according to industry experts. The easy-to-use and accessible nature of AI coding tools has enabled a flood of bad code that threatens to overwhelm projects. #bold[Building new features is easier than ever, but maintaining them is just as hard and threatens to further fragment software ecosystems.]"
+
+    #indent() ... Blender Foundation CEO Francesco Siddi said LLM-assisted contributions typically 'wasted reviewers' time and affected their motivation.
+
+    #indent() ... The open source data transfer program cURL recently halted its bug bounty program after being overwhelmed by what creator Daniel Stenberg described as 'AI slop.'"
     #notes_footnote_link(
-      "https://kanfa.macbudkowski.com/vibecoding-cryptosaurus",
-      "The 100 hour gap between a vibecoded prototype and a working product",
-      "M. Budkowski, 2026",
+      "https://techcrunch.com/2026/02/19/for-open-source-programs-ai-coding-tools-are-a-mixed-blessing/",
+      "For open source programs, AI coding tools are a mixed blessing",
+      "R. Brandom, TechCrunch, 2026",
     )
   ]
-  // https://addyo.substack.com/p/the-70-problem-hard-truths-about
 ]
 
 // =====================================================================================================================
 
-= AI as a Software Engineering Tool <p2s>
+#notes_slide(title: [Maintainability #news-tag()], group: "maintainability")[
+
+  #notes_quote(
+    title: "The State of Code Abundance 2026",
+    details: [\ CloudBees, 2026],
+  )[
+    "70% of engineering leaders say maintaining their test suite is now a bigger burden than writing code itself
+
+    81% of organizations have seen production issues increase linked to Al-generated code,
+    "
+    #notes_footnote_link(
+      "https://www.cloudbees.com/lp/2026-state-of-code-abundance-report",
+      "The State of Code Abundance 2026",
+      "CloudBees, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Maintainability #news-tag()], group: "maintainability")[
+
+  #notes_quote(
+    title: "The State of Code Abundance 2026",
+    details: [\ CloudBees, 2026],
+  )[
+    "70% of engineering leaders say maintaining their test suite is now a bigger burden than writing code itself
+
+    81% of organizations have seen production issues increase linked to Al-generated code,
+    "
+    #notes_footnote_link(
+      "https://www.cloudbees.com/lp/2026-state-of-code-abundance-report",
+      "The State of Code Abundance 2026",
+      "CloudBees, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Code Review
+
+#notes_slide(title: [The Senior Engineer Tax #science-tag()], group: "code-review")[
+
+  #notes_quote(
+    title: [Ten takeaways from the AI Engineering Report 2026:\ The Acceleration Whiplash],
+    details: [\ Faros Research, 2026],
+  )[
+    "The most experienced people in your organization are being buried...AI-generated code presents a specific and under-appreciated challenge for reviewers.
+
+    #indent() Median time to first PR review is up 156.6%. Average time spent in code review is up 199.6%. Median time in review is up 441.5%. #bold[The engineers with the deepest knowledge of the system are spending their most valuable hours unraveling plausible-looking code that should never have reached them in the state it did.]"
+    @faros_research
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Code Review #science-tag()], group: "code-review")[
+
+  #notes_quote(
+    title: "Agent pull requests are everywhere. Here's how to review them",
+    details: [\ GitHub, 2026],
+  )[
+    The traditional loop --- request review, wait for code owner, merge --- breaks down when one developer can kick off a dozen agent sessions before lunch. #bold[Throughput has scaled exponentially. Human review capacity hasn't. The gap is widening.]
+
+    #indent() Reviewing your own pull request isn't optional when agents are involved. #bold[It's basic respect for your reviewer's time.]
+    #notes_footnote_link(
+      "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+      "Agent pull requests are everywhere. Here's how to review them",
+      "GitHub, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Comprehension Debt
+
+#notes_slide(title: [Comprehension Debt #science-tag()], group: "comprehension-debt")[
+
+  #quote()[
+    #indent() "#bold[Comprehension debt is the hidden cost to human intelligence and memory resulting from excessive reliance on AI and automation]. For engineers, it applies most to agentic engineering.
+
+    #indent() There's a cost that doesn't show up in your velocity metrics when teams go deep on AI coding tools. Especially when its tedious to review all the code the AI generates. This cost accumulates steadily, and eventually it has to be paid - with interest."
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Comprehension Debt #science-tag()], group: "comprehension-debt")[
+
+  #quote()[
+    #indent() "Unlike technical debt, which announces itself through mounting friction - slow builds, tangled dependencies, the creeping dread every time you touch that one module - #bold[comprehension debt breeds false confidence]. The codebase looks clean. The tests are green. #bold[The reckoning arrives quietly, usually at the worst possible moment.]
+
+    #indent() ... no one on the team could explain why design decisions had been made or how different parts of the system were supposed to work together. The theory of the system had evaporated.
+
+    #indent() #bold[That's comprehension debt compounding in real time.]"
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Comprehension Debt #science-tag()], group: "comprehension-debt")[
+
+  #notes_quote(
+    title: "Comprehension Debt - The Hidden Cost of AI Generated Code",
+    details: [\ A. Osmani, 2026],
+  )[
+    "#bold[AI-generated code breaks that feedback loop]. The volume is too high. The output is syntactically clean, often well-formatted, superficially correct - precisely the signals that historically triggered merge confidence. #bold[But surface correctness is not systemic correctness.]
+
+    #indent() ... Research suggests that developers using AI for code generation delegation score below 40% on comprehension tests, while developers using AI for conceptual inquiry - asking questions, exploring tradeoffs - score above 65%. #bold[The tool doesn't destroy understanding. How you use it does.]
+
+    #indent() ... #bold[As AI volume goes up, the engineer who truly understands the system becomes more valuable, not less.]"
+    #notes_footnote_link(
+      "https://addyosmani.com/blog/comprehension-debt/",
+      "Comprehension Debt - The Hidden Cost of AI Generated Code",
+      "A. Osmani, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Cost <p2e>
+
+#notes_slide(title: [Cost #news-tag()], group: "cost")[
+
+  #notes_quote(
+    title: "The State of Code Abundance 2026",
+    details: [\ CloudBees, 2026],
+  )[
+    "54% report a significant increase in CI/CD infrastructure spend in the past 12 months. 53% report a significant increase in testing, security, and deployment costs.
+
+    #indent() Less than half (45%) of teams describe their Al spend as highly predictable quarter-to-quarter. 27% have set hard limits or quotas on token usage"
+    #notes_footnote_link(
+      "https://www.cloudbees.com/lp/2026-state-of-code-abundance-report",
+      "The State of Code Abundance 2026",
+      "CloudBees, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cost #news-tag()], group: "cost")[
+
+  #notes_quote(
+    title: "Agentic Coding is a Trap",
+    details: [\ Lars Faye, 2026],
+  )[
+    "#bold[Model providers are heavily subsidized, and the models themselves are built on shifting sands]. Every new model release follows the same pattern of high benchmarks, followed by hype, followed by the reality of usage and everyone complaining of them being 'nerfed' and burning through 2x-3x as many tokens to get the same job done."
+    @agentic_coding_is_a_trap
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Cost #news-tag()], group: "cost")[
+
+  #notes_quote(
+    title: "Software Developers Say AI Is Rotting Their Brains",
+    details: [\ E. Maiberg, 2026],
+  )[
+    "More concerning, developers who use AI at work report that they feel like they are de-skilling themselves and #bold[losing their ability to do their jobs as well as they used to].
+
+    #indent() There's no way to evaluate whether that much code is well-written or secure --- especially when hundreds of other programmers in the company are doing the same.
+
+    #indent() #bold[We're building a rat's nest of tech debt that will be impossible to untangle when these models become prohibitively expensive (any minute now...).]"
+    #notes_footnote_link(
+      "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+      "Software Developers Say AI Is Rotting Their Brains",
+      "E. Maiberg, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+= AI as a Software Engineering Tool <p3s>
 
 // =====================================================================================================================
 
@@ -843,7 +1239,7 @@
 
   - #bold[Vibe Coding Tools]. It is common to face limitations with open-source tools because each project has its own specific context. Engineering work often does not leave time to contribute to external projects to overcome these limitations. LLMs can implement small features while engineers stay focused on the actual code. One example could be adding a new check to `clang-tidy`.
 
-  - #bold[Syntax Helper]. It is common to work on projects written in programming languages outside our area of expertise. LLMs can assist by explaining new syntax and translating between languages.
+  - #bold[Help with Unfamiliar Tasks]. It is common to work on projects outside area of expertise. For example, LLMs can assist by explaining new syntax and translating between languages.
 ]
 
 // =====================================================================================================================
@@ -853,4 +1249,4 @@
   - #bold[Git Interaction]. LLMs show excellent capabilities when working with `git`. They can navigate history, reverse changes, and identify the root causes of bugs. They can also handle complex rebases without human intervention.
 ]
 
-<p2e>
+<p3e>
