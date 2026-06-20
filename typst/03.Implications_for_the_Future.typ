@@ -306,6 +306,27 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Productivity Gain Uncertainty - No Benefits #science-tag()], group: "productivity-no-benefits")[
+
+  #notes_quote(
+    title: "The efficiency-gain illusion: People underestimate the rate of AI use and overestimate its benefits on simple tasks",
+    details: [\ Yu et al., 2026],
+  )[
+    "#bold[AI assistance may not actually provide the time and effort savings on simple tasks that people expect].
+
+    #indent() ... Our findings point to risks of a feedback loop of reliance where people habituate to using AI even when doing so does not save time or effort.
+
+    #indent() ... The finding is particularly alarming because an excessive amount of offloading to AI has been linked to cognitive deskilling, overreliance, and disempowerment"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.22687",
+      "The efficiency-gain illusion: People underestimate the rate of AI use and overestimate its benefits on simple tasks",
+      "Yu et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Productivity Gain Uncertainty - Mixed Benefits #news-tag()], group: "productivity-mixed")[
 
   #notes_quote(title: "Navigating the Jagged Technological Frontier", details: [\ Harvard Business School])[
@@ -837,6 +858,23 @@
   )[
     "AI investment is rewriting the economic playbook in real time. Hyperscalers are projected to spend #bold[\$3.7 trillion on AI infrastructure over the next five years] --- a buildout that experts estimate #bold[will eclipse the railroad expansion of the 1850s] in relative scale. 2025 AI investment was equivalent to roughly half of U.S. GDP growth for the year."
     @cbre
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Economic Impact #science-tag()], group: "economic-impact")[
+
+  #notes_quote(
+    title: [AI Set to be Largest CapEx Cycle Ever ...\ and Soon Majority Externally Financed],
+    details: [\ Paul Kedrosky, 2026],
+  )[
+    "Hyperscaler and data-center investment, negligible through 2022, is now tracking toward \$1.5 trillion annually by 2030. At that level, #bold[it will surpass, in real terms, the residential construction boom of 2005-06, the 1990s fiber build peak year, and the 1882 railroad peak #notes_underline[combined]]."
+    #notes_footnote_link(
+      "https://paulkedrosky.com/ai-set-to-be-largest-capex-cycle-ever-and-soon-majority-externally-financed/",
+      "AI Set to be Largest CapEx Cycle Ever ... and Soon Majority Externally Financed",
+      "Paul Kedrosky, June2026",
+    )
   ]
 ]
 
@@ -1659,7 +1697,73 @@
 
 // =====================================================================================================================
 
-== Social Risks <p3e>
+== User Manipulation
+
+// =====================================================================================================================
+
+#notes_slide(title: [User Manipulation #science-tag()], group: "user-manipulation")[
+
+  #set text(size: 19pt)
+  #notes_quote(
+    title: "Biased AI writing assistants shift users' attitudes onsocietal issues",
+    details: [\ Science Advances, 2026],
+  )[
+    "Our findings offer robust evidence of one of multiple possible ways in which advanced artificial intelligence in the form of #bold[AI writing assistants can distort human beliefs and contribute to bias.]
+
+    #indent() ... Alarmingly, our work shows that biased #bold[AI models can distort attitudes in a covert and implicit way, without people noticing] that they are being presented with a persuasive argument by a different actor.
+
+    #indent() ... people who accepted more words from the biased AI suggestions exhibited stronger attitude shifts toward the biased position.
+
+    #indent() ... Participants whose attitudes shifted toward the AI's position  #bold[often failed to notice the suggestions' biases and influence on their attitudes.]"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.26010",
+      "Biased AI writing assistants shift users' attitudes on societal issues",
+      "Williams-Ceci et al., Science Advances, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [User Manipulation #science-tag()], group: "user-manipulation")[
+
+  #notes_quote(
+    title: "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+    details: [\ Rodriguez-Alvarez et al., 2026],
+  )[
+    "'AI Paradox' wherein students significantly overestimate their critical awareness of deepfakes and algorithmic biases compared to their operational AI skills
+
+    #indent() ... The familiarity of this generation with basic social media filters appears to create a false sense of invulnerability, leading to an 'illusion of competence' where #bold[young users severely underestimate the sophistication of modern algorithmic manipulation]"
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.26010",
+      "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
+      "Rodriguez-Alvarez et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [User Manipulation #science-tag()], group: "user-manipulation")[
+
+  #notes_quote(
+    title: "Deep-Research Agents Can Be Poisoned via User-Generated Content",
+    details: [\ Zhang et al., 2026],
+  )[
+    "Recent reporting suggests that marketers are already testing strategies intended to influence AI-generated answers.
+
+    #indent() ... Our findings raise important questions about information integrity in the age of agentic search. #bold[Evidence suggests that users find LLM outputs highly convincing, even when they contain explicit falsehoods], across a variety of contexts."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2605.24245",
+      "Deep-Research Agents Can Be Poisoned via User-Generated Content",
+      "Zhang et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+== Social Risks
 
 // =====================================================================================================================
 
@@ -1699,48 +1803,6 @@
   ]
 ]
 
-// =====================================================================================================================
-
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
-
-  #set text(size: 19pt)
-  #notes_quote(
-    title: "Biased AI writing assistants shift users' attitudes onsocietal issues",
-    details: [\ Science Advances, 2026],
-  )[
-    "Our findings offer robust evidence of one of multiple possible ways in which advanced artificial intelligence in the form of #bold[AI writing assistants can distort human beliefs and contribute to bias.]
-
-    #indent() ... Alarmingly, our work shows that biased #bold[AI models can distort attitudes in a covert and implicit way, without people noticing] that they are being presented with a persuasive argument by a different actor.
-
-    #indent() ... people who accepted more words from the biased AI suggestions exhibited stronger attitude shifts toward the biased position.
-
-    #indent() ... Participants whose attitudes shifted toward the AI's position  #bold[often failed to notice the suggestions' biases and influence on their attitudes.]"
-    #notes_footnote_link(
-      "https://arxiv.org/pdf/2605.26010",
-      "Biased AI writing assistants shift users' attitudes onsocietal issues",
-      "Williams-Ceci et al., Science Advances, 2026",
-    )
-  ]
-]
-
-// =====================================================================================================================
-
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
-
-  #notes_quote(
-    title: "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
-    details: [\ Rodriguez-Alvarez et al., 2026],
-  )[
-    "'AI Paradox' wherein students significantly overestimate their critical awareness of deepfakes and algorithmic biases compared to their operational AI skills
-
-    #indent() ... The familiarity of this generation with basic social media filters appears to create a false sense of invulnerability, leading to an 'illusion of competence' where #bold[young users severely underestimate the sophistication of modern algorithmic manipulation]"
-    #notes_footnote_link(
-      "https://arxiv.org/pdf/2605.26010",
-      "The Illusion of Competence: Self-Perceived Digital Literacy and AI Readiness Among European Secondary Students",
-      "Rodriguez-Alvarez et al., arXiv, 2026",
-    )
-  ]
-]
 
 // =====================================================================================================================
 
@@ -1763,6 +1825,7 @@
 
 #notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
 
+  #set list(spacing: 40pt)
   - 41.3% of LinkedIn posts are generated by AI.
     #notes_footnote_link(
       "https://gptzero.me/ai-vision",
@@ -1775,8 +1838,17 @@
       "ArtSmart, 2026",
     )
   - 35% of newly published websites were classified as AI-generated or AI-assisted. @dolezal
+  - 59% of TikTok videos and 20% of YouTube videos are AI-generated.  #notes_footnote_link(
+      "https://www.kapwing.com/resources/the-tiktok-ai-slop-report/",
+      "The TikTok AI Slop Report",
+      "Kapwing, May 2026",
+    )
+]
 
-  #v(-10pt)
+// =====================================================================================================================
+
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
   #notes_quote(
     title: "Towards a Post-Social Media Studies",
     details: [\ Törnberg & Rogers, 2026],
@@ -1792,7 +1864,23 @@
 
 // =====================================================================================================================
 
-== Religious
+#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future/chatgpt_books.png", height: 90%)
+  ]
+  #v(-20pt)
+  #notes_unmarked_footnote_link(
+    "https://www.economist.com/graphic-detail/2026/06/16/did-ai-write-this-article",
+    "Did AI write this article?",
+    "The Economist, 2026",
+  )
+]
+
+// =====================================================================================================================
+
+== Religious 
 
 // =====================================================================================================================
 
@@ -1918,3 +2006,4 @@
     )
   ]
 ]
+<p3e>
