@@ -106,7 +106,7 @@
   })
 })
 
-#let notes-theme(title: none, body) = {
+#let notes-theme(title: none, subtitle: none, body) = {
   set quote(block: true)
   set text(font: "Latin Modern Sans")
   set heading(numbering: numbly("{1}.", default: "1.1"))
@@ -122,7 +122,10 @@
         v(50pt)
         text(40pt)[#smallcaps[#title]]
       },
-      subtitle: "",
+      subtitle: {
+        v(5pt)
+        text(24pt)[#smallcaps[#subtitle]]
+      },
       author: [#text(20pt, font: "Latin Modern Sans")[\ _Federico Busato_]],
       date: [#h(21.5cm) #datetime.today().display()],
     ),
