@@ -36,7 +36,7 @@
 
 #notes_slide(title: [AI and Human Brain are Structurally Different #science-tag()], group: "structurally-different")[
 
-  The human brain has 86 billion neurons and 100 trillion synapses. We might intuitively think that once an AI system reaches this threshold, intelligence, or even consciousness, will naturally arise. However, recent studies argue that to reach the complexity of even one biological neuron, a modern deep neural network requires between five and eight layers of nodes #notes_footnote_link("https://www.sciencedirect.com/science/article/pii/S0896627321005018", "Single cortical neurons as deep artificial neural networks", "Beniaguev et al., Neuron, 2021"). Real neurons might be even more complex.
+  The human brain has 86 billion neurons and 100 trillion synapses. We might intuitively think that once an AI system reaches this threshold, intelligence, or even consciousness, will naturally arise. However, recent studies argue that to reach the complexity of even one biological neuron, a modern deep neural network requires between five and eight layers of nodes. #notes_footnote_link("https://www.sciencedirect.com/science/article/pii/S0896627321005018", "Single cortical neurons as deep artificial neural networks", "Beniaguev et al., Neuron, 2021") Real neurons might be even more complex.
 
   #notes_quote(title: "Computation's Limits: What a Neuron Teaches Us", details: [\ ocrampal, 2025])[
     "The neuron teaches us something uncomfortable: computation isn't a lens revealing neural truth --- #bold[it's a filter that shows us only the biology that looks like a computer]. Everything else gets discarded before we even begin our analysis."
@@ -85,14 +85,14 @@
   #set list(spacing: 60pt)
   - #bold[The human brain is subject to continuous learning]. It performs inference and learning #notes_underline[concurrently], in #notes_underline[real time].
 
-  - #bold[The biological brain performs forward-only propagation]
+  - #bold[The biological brain performs forward-only propagation].
     #notes_footnote_link(
       "https://arxiv.org/abs/2212.13345",
       "The Forward-Forward Algorithm: Some Preliminary Investigations",
       "G. Hinton, 2022",
-    ). It replaces "back-propagation" with feedback loops and local learning rules.
+    ) It replaces "back-propagation" with feedback loops and local learning rules.
 
-  - #bold[The human brain is a non-von Neumann architecture.] Computation and memory are co-located. Knowledge spreads across a pattern of activity over many neurons and synapses. Computation is distributed and massively parallel.
+  - #bold[The human brain is a non-von Neumann architecture].Computation and memory are co-located. Knowledge spreads across a pattern of activity over many neurons and synapses. Computation is distributed and massively parallel.
     #notes_footnote_link(
       "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2023.1220030/full",
       "The computational power of the human brain",
@@ -181,7 +181,7 @@
     "Adding seemingly relevant but ultimately inconsequential information to the logical reasoning of the problem led to substantial performance drops across models.
 
     #indent() ... our work underscores significant limitations in LLMs' ability to perform genuine mathematical reasoning. The LLMs' high performance variance on different instances of the same question, their significant drop in performance with a slight increase in difficulty, and #bold[their sensitivity to inconsequential information indicate that their reasoning is fragile and may be more akin to sophisticated pattern matching rather than true logical reasoning.]"  #notes_footnote_link(
-      "https://www.quantamagazine.org/ai-is-nothing-like-a-brain-and-thats-ok-20250430",
+      "https://arxiv.org/abs/2410.05229",
       "GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models",
       "Mirzadeh et al., ICLR, 2025",
     )
@@ -238,7 +238,7 @@
 
     #indent() ... studies of humans who have lost their language abilities due to brain damage or other disorders demonstrate conclusively that this loss does not fundamentally impair the general ability to think.
 
-    #indent() ... Studies suggest that children learn about the world in much the same way that scientists do--- by conducting experiments, analyzing statistics, and forming intuitive theories of the physical, biological and psychological realms... Babies may not yet be able to use language, but of course they are thinking" @large_language_mistake
+    #indent() ... Studies suggest that children learn about the world in much the same way that scientists do --- by conducting experiments, analyzing statistics, and forming intuitive theories of the physical, biological and psychological realms... Babies may not yet be able to use language, but of course they are thinking" @large_language_mistake
   ]
 ]
 
@@ -277,7 +277,7 @@
     #indent() ... Our analysis shows that current AI systems are lacking are three key abilities that are found across the animal kingdom: the ability to select their own training data (active learning), the ability to flexibly switch between learning modes (meta control), the ability sense their own performance (meta-cognition)."
     #notes_footnote_link(
       "https://arxiv.org/pdf/2603.15381",
-      "Lessons on autonomous learning from cognitive science",
+      "Why AI systems don't learn and what to do about it",
       "E. Dupoux et al., 2026",
     )
   ]
@@ -500,13 +500,13 @@
 
 #notes_slide(title: [Final Remarks #comment-tag()])[
 
-  #notes_quote(title: "Software Brain", details: [\ The Verge, 2026])[
+  #notes_quote(title: "The People Do Not Yearn for Automation", details: [\ The Verge, 2026])[
     "It's everywhere: the absolute cutting edge of advertising and marketing is automation with AI. It's not being a creative.
 
     #indent() But: not everything is a business. Not everything is a loop! #bold[The entire human experience cannot be captured in a database. That's the limit of #notes_underline[software brain].] That's why people hate AI. It flattens them."
     #notes_footnote_link(
       "https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation",
-      "The Mythology Of Conscious AI",
+      "The People Do Not Yearn for Automation",
       "N. Patel, The Verge, April 2026",
     )
   ]
@@ -516,7 +516,7 @@
 
 #notes_slide(title: [Final Remarks #comment-tag()])[
 
-  #notes_quote(title: "Statistical approximation is not general intelligence", details: [\ Natural, 2026])[
+  #notes_quote(title: "Statistical approximation is not general intelligence", details: [\ Nature, 2026])[
     "Current AI systems are powerful and increasingly useful tools, but they do not exhibit the flexible, self-directed competence that the original concept of artificial general intelligence was intended to capture. As AI systems become embedded in scientific and institutional decision-making, overestimating their cognitive capacities risks misallocating trust, responsibility, and authority.
 
     #indent() #bold[Confusing increasingly sophisticated statistical approximation with general intelligence is therefore not only a conceptual error, but a #notes_underline[strategic misjudgment.]]"

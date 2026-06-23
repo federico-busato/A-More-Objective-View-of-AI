@@ -70,9 +70,9 @@ Coverage of AI limitations from a technical and social perspective.
   - Security Risks
   - Liability
 
-### 3. [Implications for the Future](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/03.Implications_for_the_Future.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/03.Implications_for_the_Future.pdf))
+### 3. [Implications for the Future, Part 1: Growth, Productivity, and Employment](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/03.Implications_for_the_Future_part1.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/03.Implications_for_the_Future_part1.pdf))
 
-AI consequences on growth, employment, society, and the environment.
+AI consequences on growth, productivity, and employment.
 
 - **Introduction**
 - **Unlikely Exponential Growth**
@@ -84,6 +84,10 @@ AI consequences on growth, employment, society, and the environment.
   - Employment Predictions
   - Employment and Productivity
   - Economic Impact
+
+### 4. [Implications for the Future, Part 2: Positive and Negative Impacts](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/04.Implications_for_the_Future_part2.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/04.Implications_for_the_Future_part2.pdf))
+
+AI consequences on society, science, health, politics, and the environment.
 
 - **Positive Impacts**
 
@@ -102,22 +106,37 @@ AI consequences on growth, employment, society, and the environment.
   - Echo Chamber
   - Health Risks
   - Inequality
+  - User Manipulation
   - Social Risks
+  - Religious
   - Political Influence
 
-### 4. [Software Development in the Age of AI](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/04.Software_Development.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/04.Software_Development.pdf))
+### 5. [Software Development in the Age of AI, Part 1: Implications of AI-Generated Code](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/05.Software_Development_part1.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/05.Software_Development_part1.pdf))
 
-A practical look at AI in software development.
+A practical look at the effects of AI-generated code on software work.
 
-- **Software Employment**
+- **Software Developer Employment**
+- **Productivity**
+- **Deskilling**
+- **AI Addiction**
+- **Technical Debt**
+- **Security Vulnerabilities**
+- **Maintainability**
+- **Code Review**
+- **Comprehension Debt**
+- **Cost**
+
+### 6. [Software Development in the Age of AI, Part 2: Limitations and Engineering Practices](https://federico-busato.github.io/A-More-Objective-View-of-AI/html/06.Software_Development_part2.html) ([pdf](https://federico-busato.github.io/A-More-Objective-View-of-AI/06.Software_Development_part2.pdf))
+
+A practical look at AI limitations and engineering practices.
+
 - **Limitations of AI-Generated Code**
 
   - Slot Machine and the Illusion of Control
   - Generalization
   - Creativity
   - The Illusion of Competence
-  - Technical Debt
-  - Security Vulnerabilities
+  - Long-Term Tasks
   - The "Last Mile" Problem
 
 - **AI as a Software Engineering Tool**

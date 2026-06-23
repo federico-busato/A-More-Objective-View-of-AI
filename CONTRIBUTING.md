@@ -121,14 +121,14 @@ touying compile typst/02.AI_Limitations.typ --output html/02.AI_Limitations.html
 1. **Fork** the [A-More-Objective-View-of-AI](https://github.com/federico-busato/A-More-Objective-View-of-AI) repository.
 2. **Create a branch** with a descriptive name (e.g., `fix/ch01-typo`).
 3. **Make your changes** to the `Typst` source files.
-4. **Verify** that the modified chapter compiles without errors.
+4. **Verify** that each modified `.typ` file compiles without errors.
 5. **Submit a pull request** with a clear description of what you changed and why.
 
 ### What We Look For in PRs
 
 - Changes compile cleanly with `typst compile`.
 - Slide content remains concise and follows the existing style.
-- New images are placed in the correct chapter directory.
+- New images are placed in the correct asset directory for the modified `.typ` file.
 
 ## AI / LLM Policy
 
