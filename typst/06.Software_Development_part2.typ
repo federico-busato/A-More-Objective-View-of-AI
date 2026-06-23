@@ -1,6 +1,9 @@
 #import "config.typ": *
 
-#show: notes-theme.with(title: [Software Development\ in the Age of AI], subtitle: "Limitations and Engineering Practices")
+#show: notes-theme.with(
+  title: [Software Development\ in the Age of AI],
+  subtitle: "Limitations and Engineering Practices",
+)
 
 #title-slide()
 
@@ -483,6 +486,25 @@
       "https://lalitm.com/post/building-syntaqlite-ai/",
       "Eight years of wanting, three months of building with AI",
       "L. Maganti, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [The Role of Human Expertise #comment-tag()], group: "human-expertise")[
+
+  #notes_quote(
+    title: "Chatting with an AI Won't Make You a Top Programmer",
+    details: [\ D. Lemire, 2026],
+  )[
+    "The Google engineer paid a million dollars was never a machine that produces code. #bold[Nobody actually wants code, any more than they want raw text].
+
+    #indent() In fact, I predict a bifurcation in the tooling. The best engineers will work with tools that maximize their understanding of the code. I believe that reading and writing code, at a high level, is more like studying Socrates than like cursive writing. It is a necessary mental labor that does not become obsolete just because we have better tools for generating output."
+    #notes_footnote_link(
+      "https://lemire.me/blog/2026/06/21/chatting-with-ai-wont-make-you-a-top-programmer/",
+      "Chatting with an AI Won't Make You a Top Programmer",
+      "D. Lemire, June2026",
     )
   ]
 ]

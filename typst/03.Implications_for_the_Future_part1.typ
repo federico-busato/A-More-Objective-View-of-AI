@@ -191,6 +191,25 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Unlikely Exponential Growth #news-tag()], group: "exponential-growth")[
+
+  #notes_quote(
+    title: "Data centers become the face of AI backlash",
+    details: [\ Axios, 2026],
+  )[
+    "The public is still divided on data centers, with direct opposition not yet a majority view. But #bold[nearly half of respondents support a temporary construction ban].
+
+    #indent() ... 49% say they support a moratorium on construction of new data centers, while only 16% oppose a moratorium."
+    #notes_footnote_link(
+      "https://www.axios.com/2026/06/22/ai-data-center-backlash-poll",
+      "Data centers become the face of AI backlash",
+      "Axios, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 
 = Productivity Gain Uncertainty
 
@@ -726,6 +745,23 @@
       "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6787638",
       "The Broken Ladder: AI, Remote Work, and Early-Career Hiring",
       "Lambert & Schindler, London School of Economics & University of Warwick, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
+
+  #notes_quote(
+    title: "What AI Can't - or Shouldn't - Do for You",
+    details: [\ WSJ, 2026],
+  )[
+    "#bold[Companies that are too quick to lay off workers on the assumption that AI can do their jobs risk wrecking their future competitiveness in two ways]. The first is that they can lose critical institutional knowledge. The second is that they risk hurting their own talent pipelines. While it may be tempting to replace junior engineers with AI, doing so means that when senior engineers move on, a company will no longer have the humans required to review the work of those AIs."
+    #notes_footnote_link(
+      "https://www.wsj.com/tech/ai/when-ai-more-harm-than-good-519a83e7",
+      "What AI Can’t—or Shouldn’t—Do for You",
+      "C. Mims, WSJ, 2026",
     )
   ]
 ]
