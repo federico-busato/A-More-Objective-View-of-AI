@@ -11,11 +11,18 @@
 == #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future] <touying:hidden>
 
 #show outline.entry.where(level: 1): set block(above: 50pt)
-#outline(title: none)
+#outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
-= Introduction
+== #text(font: "Latin Modern Sans", weight: "bold")[Implications for the Future] <touying:hidden>
+
+#show outline.entry.where(level: 1): set block(above: 50pt)
+#outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
+
+// =====================================================================================================================
+
+= Introduction <p1s>
 
 // =====================================================================================================================
 
@@ -42,7 +49,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+== Hardware
+
+#notes_slide(title: [Hardware #science-tag()], group: "hardware")[
 
   #set list(spacing: 35pt)
   - #bold[Fundamental Physical Limits of Transistors and Memory].
@@ -67,7 +76,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+#notes_slide(title: [Hardware #science-tag()], group: "hardware")[
 
   #set list(spacing: 40pt)
   - #bold[Hardware Resource Constraints]. Reconstructing one cubic millimeter of human temporal cortex (\~50-57k cells and \~130-150M synapses) generated 1.4 Petabytes of data. Scaling to the full human brain would require 1.6 zettabytes of storage costing \$50 billion and spanning 140 acres. #notes_footnote_link(
@@ -79,18 +88,23 @@
       "Full scan of 1 cubic millimeter of brain tissue took 1.4 petabytes of data, equivalent to 14,000 4K movies",
       "S. Grimm, Tom's Hardware, 2024",
     )
+]
+
+// =====================================================================================================================
+== Energy Consumption
+
+#notes_slide(title: [Energy Consumption #science-tag()], group: "energy-consumption")[
 
   - #bold[Datacenters require 24/7 energy]. Solar and wind energy are not suitable for this purpose. On average, a nuclear power plant takes about #notes_underline[9.4 years] to build, with an additional #notes_underline[3-4 years] for the licensing process. #notes_footnote_link(
       "https://visualizingenergy.org/global-nuclear-reactor-construction-starts-and-duration-1949-2023/",
       "Global nuclear reactor construction starts and duration, 1949-2023",
       "Cleveland & Mirkova, Boston University, 2024",
     )
-
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+#notes_slide(title: [Energy Consumption #science-tag()], group: "energy-consumption")[
 
   #set text(size: 18pt)
   #v(-30pt)
@@ -113,7 +127,9 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+== Training Data
+
+#notes_slide(title: [Training Data #science-tag()], group: "training-data")[
 
   #set list(spacing: 40pt)
   - #bold[Running out of data]. AI training will exhaust text data in a short timeframe.
@@ -133,7 +149,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #science-tag()], group: "exponential-growth")[
+#notes_slide(title: [Training Data #science-tag()], group: "training-data")[
 
   - #bold[AI quality degradation when trained on recursively generated data]. AI-generated content has surpassed the _quantity_ of human-written articles. This implies that AI models are trained on increasingly low-quality data, reinforcing hallucinations.
     #notes_footnote_link(
@@ -172,9 +188,11 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #news-tag()], group: "exponential-growth")[
+== Public Opposition
 
-  - #bold[Data centers are facing increasing local opposition].
+#notes_slide(title: [Public Opposition #news-tag()], group: "public-opposition")[
+
+  - #bold[AI and data centers are facing increasing public opposition].
 
   #notes_quote(
     title: "Data Center Watch",
@@ -191,7 +209,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Unlikely Exponential Growth #news-tag()], group: "exponential-growth")[
+#notes_slide(title: [Public Opposition #news-tag()], group: "public-opposition")[
 
   #notes_quote(
     title: "Data centers become the face of AI backlash",
@@ -210,8 +228,24 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Public Opposition #news-tag()], group: "public-opposition")[
 
-= Productivity Gain Uncertainty
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future_part1/public_opinion.png", height: 94%)
+  ]
+  #v(-20pt)
+  #notes_unmarked_footnote_link(
+    "https://www.glassdoor.com/blog/worklife-trends-2026-midyear-check-in/#trend-4-ai-isnt-bringing-employees-downyet",
+    "Glassdoor Worklife Trends 2026: Midyear Check-in",
+    "Glassdoor, June 2026",
+  )
+]
+
+// =====================================================================================================================
+
+
+= Productivity Gain Uncertainty <p1e>
 
 // =====================================================================================================================
 
@@ -482,7 +516,7 @@
 
 // =====================================================================================================================
 
-= Employment
+= Employment <p2s>
 
 // =====================================================================================================================
 
@@ -900,3 +934,4 @@
   ]
 ]
 
+<p2e>

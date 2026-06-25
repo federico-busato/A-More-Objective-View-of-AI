@@ -9,17 +9,17 @@
 == #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 1/3] <touying:hidden>
 
 #show outline.entry.where(level: 1): set block(above: 50pt)
-#outline(title: none)
+#outline(target: selector(heading).after(<p1s>).before(<p1e>), title: none)
 
 // =====================================================================================================================
 
 == #text(font: "Latin Modern Sans", weight: "bold")[Software Development in the Age of AI #h(1fr) 2/3] <touying:hidden>
 
-#outline(title: none)
+#outline(target: selector(heading).after(<p2s>).before(<p2e>), title: none)
 
 // =====================================================================================================================
 
-= Software Developer Employment
+= Software Developer Employment <p1s>
 
 // =====================================================================================================================
 
@@ -82,6 +82,46 @@
   - The World Economic Forum lists software and application developers among the #bold[fastest-growing jobs] in the 2025-2030 timeframe #notes_footnote_link("https://www.weforum.org/publications/the-future-of-jobs-report-2025/", "Future of Jobs Report, 2025-2030", "World Economic Forum, 2025").
 
   - The global software market size is projected to reach \$1.4 trillion by 2030, growing at a compound annual #bold[growth rate] (CAGR) of #bold[+11.3%] #notes_footnote_link("https://www.grandviewresearch.com/industry-analysis/software-market-report", "Software Market (2025 - 2030)", "Grand View Research, 2025").
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Software Employment #science-tag()], group: "software-employment")[
+
+  #notes_quote(title: "SignalFire's State of Talent Report - 2026")[
+    "The AI code apocalypse impacted designers and marketers, not engineers
+
+    #indent() ... our data shows that engineers are among the least affected functions in 2025. Instead of shrinking the technical workforce, #bold[AI tools are actually making engineers more valuable].
+
+    #indent() ... #bold[software engineers now represent a majority (55%) of all hiring at the Tech Majors] (Alphabet, Meta, Apple, Amazon, Microsoft, Netflix, NVIDIA, Tesla, Uber, Airbnb, Block, and Stripe), up from 46% in 2019."
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Software Employment #science-tag()], group: "software-employment")[
+
+  #notes_quote(
+    title: "SignalFire's State of Talent Report - 2026",
+    details: [\ SignalFire\ (650+ million individuals and 80+ million organizations)],
+  )[
+    #indent() ... "Graduates from the top 20 U.S. computer science programs in 2025 are 45% less likely to take an engineering role at a Tech Major compared to just a few years ago."
+    #notes_footnote_link(
+      "https://www.signalfire.com/blog/signalfire-state-of-talent-report-2026",
+      "SignalFire's State of Talent Report - 2026",
+      "SignalFire, June 2026, ",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Software Employment #science-tag()], group: "software-employment")[
+
+  #notes_quote(title: "AI exuberance: Economic upside, stock market downside")[
+    \~ Jobs with high exposure to AI have seen #notes_underline[greater wage] and #notes_underline[stronger job growth] than jobs minimally exposed to AI
+    #notes_footnote_link("https://corporate.vanguard.com/content/dam/corp/research/pdf/isg_vemo_2026.pdf", "AI exuberance: Economic upside, stock market downside", "Vanguard economic and market outlook for 2026").
+  ]
 ]
 
 // =====================================================================================================================
@@ -456,7 +496,7 @@
 
 // =====================================================================================================================
 
-= Security Vulnerabilities
+= Security Vulnerabilities <p1e>
 
 #notes_slide(title: [Security Vulnerabilities #science-tag()], group: "security-vulnerabilities")[
 
@@ -517,7 +557,7 @@
 
 // =====================================================================================================================
 
-= Maintainability
+= Maintainability <p2s>
 
 #notes_slide(title: [Maintainability #news-tag()], group: "maintainability")[
 
@@ -715,3 +755,5 @@
     )
   ]
 ]
+
+<p2e>

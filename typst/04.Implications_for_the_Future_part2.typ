@@ -818,6 +818,27 @@
 #notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
 
   #notes_quote(
+    title: "First, do NOHARM: towards clinically safe large language models",
+    details: [\ Wu et al., 2026 \ (12,747 expert annotations for 4,249 clinical management options)],
+  )[
+    "cross 28 LLMs, recommendations carried the potential for #bold[severe harm in up to 22.6% of cases, with errors of omission accounting for more than 80% of severe errors].
+
+    #indent() ... even frontier LLMs make harmful errors at nontrivial rates.
+
+    #indent() ... Our study highlights the urgency of measuring and monitoring for clinical safety at a moment when powerful LLMs are being integrated into patient care faster than their risks can be understood."
+    #notes_footnote_link(
+      "https://arxiv.org/abs/2512.01241",
+      "First, do NOHARM: towards clinically safe large language models",
+      "Wu et al., arXiv, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
+
+  #notes_quote(
     title: "Scientists invented a fake disease. AI told people it was real",
     details: [\ Nature, Feature News, 2026],
   )[
