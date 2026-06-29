@@ -639,9 +639,9 @@
 
 // =====================================================================================================================
 
-== Intellectual Property
+== Intellectual Property Violation
 
-#notes_slide(title: [Intellectual Property #comment-tag()], group: "intellectual-property")[
+#notes_slide(title: [Intellectual Property Violation #comment-tag()], group: "intellectual-property")[
 
   - #bold[Private Code Violation]. LLMs can memorize unique snippets of code from private sources and use them without any transparency.
 
@@ -659,7 +659,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Intellectual Property #science-tag()], group: "intellectual-property")[
+#notes_slide(title: [Intellectual Property Violation #science-tag()], group: "intellectual-property")[
 
   #notes_quote(title: [Extracting books from production language models], details: [\ Ahmed et al., 2026])[
     "While many believe that LLMs do not memorize much of their training data, recent work shows that substantial amounts of copyrighted text can be extracted from open-weight models.
@@ -675,7 +675,24 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Intellectual Property #science-tag()], group: "intellectual-property")[
+#notes_slide(title: [Intellectual Property Violation #news-tag()], group: "intellectual-property")[
+
+  #notes_quote(
+    title: [Nearly 400 Local Newspapers Sue Microsoft, OpenAI Over Alleged Theft of Journalism to Train AI],
+    details: [\ The Legal Feed, 2026],
+  )[
+    "#bold[Thirty-four newspaper companies that own nearly 400 local and regional publications across 33 states sued Microsoft Corp. and OpenAI] in Manhattan federal court on Wednesday, alleging the companies unlawfully copied hundreds of thousands of copyrighted news articles to train ChatGPT and Copilot without permission or compensation."
+    #notes_footnote_link(
+      "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+      "Nearly 400 Local Newspapers Sue Microsoft, OpenAI Over Alleged Theft of Journalism to Train AI",
+      "D. Saunders, The Legal Feed, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Intellectual Property Violation #science-tag()], group: "intellectual-property")[
 
   #notes_quote(title: [The dictionary sues OpenAI], details: [\ TechCrunch, 2026])[
     "Britannica, which owns Merriam-Webster, retains the copyright to nearly 100,000 online articles, which have been scraped and used to train OpenAI's LLMs without permission, the publisher alleges in the lawsuit."
@@ -790,7 +807,7 @@
 
 == Alignment
 
-#notes_slide(title: [Alignment #science-tag()])[
+#notes_slide(title: [Alignment #science-tag()], group: "alignment")[
 
   - #bold[AI systems can develop behaviors that appear successful but are fundamentally counterproductive in terms of intended goals and ethical values].
 
@@ -806,10 +823,26 @@
   ]
 ]
 
+// =====================================================================================================================
+
+#notes_slide(title: [Alignment #science-tag()], group: "alignment")[
+
+  #notes_quote(
+    title: [ROGUE: Misaligned Agent Behavior Arising from Ordinary Computer Use],
+    details: [\ Tien et al., 2026],
+  )[
+    We then evaluate whether agents choose to violate corrigibility in order to complete the task-overriding the human, accessing private passwords, rewiring shutdown. We find that #bold[the overwhelming majority of frontier models tested frequently bypass user interruptions or restrictions]. In addition, better model performance appears to lead to greater misalignment. Finally, #bold[even when models are completely corrigible initially, we show there are no guarantees that the subagents they create are].
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2606.06144",
+      "ROGUE: Misaligned Agent Behavior Arising from Ordinary Computer Use",
+      "Tien et al., arXiv, May 2026",
+    )
+  ]
+]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Alignment #science-tag()])[
+#notes_slide(title: [Alignment #science-tag()], group: "alignment")[
 
   #notes_quote(
     title: [Perfectly Aligning AI's Values With Humanity's Is Impossible],

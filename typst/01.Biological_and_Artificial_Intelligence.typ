@@ -92,7 +92,7 @@
       "G. Hinton, 2022",
     ) It replaces "back-propagation" with feedback loops and local learning rules.
 
-  - #bold[The human brain is a non-von Neumann architecture].Computation and memory are co-located. Knowledge spreads across a pattern of activity over many neurons and synapses. Computation is distributed and massively parallel.
+  - #bold[The human brain is a non-von Neumann architecture]. Computation and memory are co-located. Knowledge spreads across a pattern of activity over many neurons and synapses. Computation is distributed and massively parallel.
     #notes_footnote_link(
       "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2023.1220030/full",
       "The computational power of the human brain",
@@ -326,6 +326,27 @@
 
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
+
+  #notes_quote(
+    title: [The Riddle Riddle: Testing Flexible Reasoning in\ Large Language Models and Humans
+    ],
+    details: [\ Fascendini et al., 2026],
+  )[
+    "Riddle riddles are word problems written to mimic popular riddles, but they have been altered so their answers only require literal interpretations of the problem
+
+    #indent() ... #bold[LLMs' strong performance on genuine riddles may reflect retrieval of memory rather than flexible strategy selection], and without stimuli designed to elicit this contrast, #bold[it becomes easy to conflate LLM generated outputs that look like reasoning with genuine reasoning about question content.]"
+  ]
+  #notes_footnote_link(
+    "https://arxiv.org/pdf/2606.27103",
+    "The Riddle Riddle: Testing Flexible Reasoning in Large Language Models and Humans",
+    "Fascendini et al., arXiv, June 2026",
+  )
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
+
   #notes_quote(
     title: [The performance of OpenAI ChatGPT-4 and\ Google Gemini in virology multiple-choice questions],
     details: [\ BMC Research Notes, 2024],
@@ -494,6 +515,20 @@
       "C. Corner, AI & Society, 2026",
     )
   ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Who is being deceived? #science-tag()], group: "who-is-being-deceived")[
+
+  #align(center)[
+    #image("01.Biological_and_Artificial_Intelligence/gpt2.png", height: 60%)
+  ]
+  #notes_unmarked_footnote_link(
+    "https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html",
+    "When Is Technology Too Dangerous to Release to the Public?",
+    "A. Mak, Slate, 2019",
+  )
 ]
 
 // =====================================================================================================================

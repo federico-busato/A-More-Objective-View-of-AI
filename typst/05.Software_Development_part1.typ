@@ -705,13 +705,34 @@
 
 = Cost
 
+// =====================================================================================================================
+
+#notes_slide(title: [Cost #news-tag()], group: "cost")[
+
+  #notes_quote(
+    title: "Gartner Predicts AI Coding Costs Will Surpass Average Developer’s Salary by 2028 as Token Consumption Surges",
+    details: [\ Gartner, 2026],
+  )[
+    "#bold[By 2028, AI coding costs will overtake the average developer's salary] due to rising large language model (LLM) token consumption and the shift to consumption-based licensing models
+
+    #indent() ... AI coding costs will continue to rise as infrastructure investment and profitability challenges push model pricing higher... At the same time, as more developers adopt AI tools, light users are expected to rapidly become mainstream users as familiarity and reliance increase, driving further growth in token consumption and overall spend."
+    #notes_footnote_link(
+      "https://www.gartner.com/en/newsroom/press-releases/2026-06-24-gartner-predicts-ai-coding-costs-will-surpass-average-developer-salary-by-2028-as-token-consumption-surges",
+      "Gartner Predicts AI Coding Costs Will Surpass Average Developer’s Salary by 2028 as Token Consumption Surges",
+      "Gartner, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Cost #news-tag()], group: "cost")[
 
   #notes_quote(
     title: "The State of Code Abundance 2026",
     details: [\ CloudBees, 2026],
   )[
-    "54% report a significant increase in CI/CD infrastructure spend in the past 12 months. 53% report a significant increase in testing, security, and deployment costs.
+    "54% report a #bold[significant increase in CI/CD infrastructure spend] in the past 12 months. 53% report a #bold[significant increase in testing, security, and deployment costs.]
 
     #indent() Less than half (45%) of teams describe their Al spend as highly predictable quarter-to-quarter. 27% have set hard limits or quotas on token usage"
     #notes_footnote_link(

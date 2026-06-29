@@ -1176,6 +1176,25 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Political Influence #comment-tag()], group: "political-influence")[
+
+  #notes_quote(
+    title: "What's In America's Code?",
+    details: [\ Booz Allen, 2026],
+  )[
+    "1. Chinese LLMs produce more vulnerable code when prompted with a U.S. government persona than without --- and the vulnerabilities are highly obfuscated.
+
+    #indent() 2. Chinese LLMs inject PRC-aligned political bias into both the answers and code they generate."
+    #notes_footnote_link(
+      "https://www.boozallen.com/expertise/cybersecurity/whats-in-americas-code.html",
+      "What's In America's Code?",
+      "Booz Allen, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Political Influence #science-tag()], group: "political-influence")[
 
   #v(-5pt)
