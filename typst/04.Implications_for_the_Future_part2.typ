@@ -141,7 +141,25 @@
       "Insilico, 2025",
     )
   ]
+]
 
+// =====================================================================================================================
+
+#notes_slide(title: [Healthcare - Diagnosing Diseases #science-tag()], group: "healthcare")[
+
+  #notes_quote(
+    title: "An ECG biomarker for sudden cardiac death discovered with deep learning",
+    details: [\ Obermeyer et al., Nature, June 2026],
+  )[
+    "every year, many patients die without defibrillators because doctors fail to predict their risk. The only predictive biomarker in wide use ... misses most sudden cardiac deaths, and flags many low-risk patients for futile defibrillators that never fire.
+
+    #indent() ... #bold[deep learning identifies new patients who are at high risk of sudden cardiac death, in data from three continents]. These high-risk patients are overlooked by doctors, and could benefit from defibrillators, an observation with great practical importance. "
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41586-026-10674-6#Sec8",
+      "An ECG biomarker for sudden cardiac death discovered with deep learning",
+      "Obermeyer et al., Nature, June 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
@@ -839,6 +857,30 @@
 #notes_slide(title: [Health Risks #science-tag()], group: "health-risks")[
 
   #notes_quote(
+    title: [Evaluating the robustness and readiness of\ large frontier models in health AI applications],
+    details: [\ Nature, June 2026],
+  )[
+    "Our study reveals significant competency gaps of frontier AI in attaining real-world readiness for health applications.
+
+    #indent() ... current benchmarks often overstate model readiness. Despite impressive leaderboard scores, many leading models exhibit inconsistent behavior, reliance on superficial patterns, and fragile reasoning under mild input perturbations. #bold[These findings challenge the prevailing assumption that benchmark success signals medical viability.]"
+    #notes_footnote_link(
+      "https://www.nature.com/articles/s41591-026-04501-8",
+      "Evaluating the robustness and readiness of large frontier models in health AI applications",
+      "Gu et al., Nature, June 2026",
+    )
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2509.18234",
+      "The Illusion of Readiness in Health AI",
+      "Gu et al., arXiv, 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Health Risks #news-tag()], group: "health-risks")[
+
+  #notes_quote(
     title: "Scientists invented a fake disease. AI told people it was real",
     details: [\ Nature, Feature News, 2026],
   )[
@@ -902,7 +944,7 @@
 
   #set text(size: 19pt)
   #notes_quote(
-    title: "Biased AI writing assistants shift users' attitudes onsocietal issues",
+    title: "Biased AI writing assistants shift users' attitudes on societal issues",
     details: [\ Science Advances, 2026],
   )[
     "Our findings offer robust evidence of one of multiple possible ways in which advanced artificial intelligence in the form of #bold[AI writing assistants can distort human beliefs and contribute to bias.]
@@ -960,11 +1002,28 @@
 
 // =====================================================================================================================
 
-== Social Risks
+== LLMorphism
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+#notes_slide(title: [LLMorphism #science-tag()], group: "LLMorphism")[
+
+  #notes_quote(
+    title: [Understanding Artificial Neural Networks:\ Mysterianism about Known Mechanism is Mysticism],
+    details: [\ Guest et al., May 2026],
+  )[
+    "Many people [...] are AI illiterate ---  understandably, because of the misleading ways its loudest champions describe the technology, and troublingly, because that #bold[illiteracy makes them vulnerable to one of the most concerning near-term AI threats]: the possibility that they will enter into corrosive relationships (intellectual, spiritual, romantic) with machines that only seem like they have ideas or emotions."
+    #notes_footnote_link(
+      "https://zenodo.org/records/20071869",
+      "Understanding Artificial Neural Networks: Mysterianism about Known Mechanism is Mysticism",
+      "Guest et al., Zenodo, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [LLMorphism #science-tag()], group: "LLMorphism")[
 
   #notes_quote(
     title: [How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use:\ A Longitudinal Randomized Controlled Study],
@@ -983,7 +1042,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Social Risks #science-tag()], group: "social-risks")[
+#notes_slide(title: [LLMorphism #science-tag()], group: "LLMorphism")[
 
   #notes_quote(
     title: "LLMorphism: When humans come to see themselves as language models",
@@ -1000,6 +1059,9 @@
   ]
 ]
 
+// =====================================================================================================================
+
+== Social Risks
 
 // =====================================================================================================================
 

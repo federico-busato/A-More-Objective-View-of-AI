@@ -24,6 +24,28 @@
 
 == Hallucinations are Mathematically Inevitable
 
+
+// =====================================================================================================================
+
+#notes_slide(
+  title: [Hallucinations are Mathematically Inevitable #science-tag()],
+  group: "hallucinations",
+)[
+  #notes_quote(
+    title: [Understanding Artificial Neural Networks:\ Mysterianism about Known Mechanism is Mysticism],
+    details: [\ Guest et al., May 2026],
+  )[
+    if 'transparency about these models is the  most important thing to ensure safety [i.e. predictability]' then we already know what is in the black box: #bold[a lossy reflection of the data].
+
+    #indent() Since we understand nothing of the data --- both because science is an unfinished unending journey and because the datasets are hidden from researchers --- #bold[we can easily conclude in principle that ANNs are therefore unsafe and unpredictable].
+    #notes_footnote_link(
+      "https://zenodo.org/records/20071869",
+      "Understanding Artificial Neural Networks: Mysterianism about Known Mechanism is Mysticism",
+      "Guest et al., Zenodo, May 2026",
+    )
+  ]
+]
+
 // =====================================================================================================================
 
 #notes_slide(title: [Hallucinations are Mathematically Inevitable #science-tag()], group: "hallucinations")[

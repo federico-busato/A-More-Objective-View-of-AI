@@ -149,6 +149,41 @@
 
 // =====================================================================================================================
 
+#notes_slide(
+  title: [AI and Human Brain are Functionally Different #science-tag()],
+  group: "functionally-different",
+)[
+
+  #quote()[
+    #indent() "We do know the mechanistic structure of such models because we designed and built them. We also do know their functional role (what they are for) as well as the mathematical function they are asked to approximate (map inputs to target outputs).
+
+    #indent() #bold[ANNs, as turbo-charged statistical models (recall their formal relation to logistic regression) can only but provide correlations]."
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(
+  title: [AI and Human Brain are Functionally Different #science-tag()],
+  group: "functionally-different",
+)[
+  #notes_quote(
+    title: [Understanding Artificial Neural Networks:\ Mysterianism about Known Mechanism is Mysticism],
+    details: [\ Guest et al., May 2026],
+  )[
+    "Statement 2: ANNs constitute a black box that we do not mechanistically understand. Or worse: we cannot ever understand ANNs because they are more intelligent than us.
+
+    #indent() #bold[Given the ANNs are engineered systems, this is baseless marketing and misuse of terminology.]"
+    #notes_footnote_link(
+      "https://zenodo.org/records/20071869",
+      "Understanding Artificial Neural Networks: Mysterianism about Known Mechanism is Mysticism",
+      "Guest et al., Zenodo, May 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   - Current AI models are #bold["stochastic parrots"]. #notes_footnote_link(
@@ -384,7 +419,7 @@
 #notes_slide(title: [AI and Human Brain are Functionally Different #science-tag()], group: "functionally-different")[
 
   #notes_quote(
-    title: [ClockBench: Visual Time Benchmark Where Humans Beat the Clock,\ LLMs Don't],
+    title: [ClockBench: Visual Time Benchmark Where\ Humans Beat the Clock, LLMs Don't],
     details: [\ ClockBench.ai, 2026],
   )[
     "Untrained humans reach 89.1% average accuracy in valid time recognition, whereas the top model out of #bold[11 tested LLMs only reaches 13.3%], making this visual reasoning test harder for models than knowledge-intensive benchmarks"

@@ -620,6 +620,23 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Employment Data #news-tag()], group: "employment-data")[
+
+  #v(-20pt)
+  #align(center)[
+    #image("03.Implications_for_the_Future_part1/goldman_jobs.png", height: 90%)
+  ]
+  #v(-30pt)
+
+  #notes_unmarked_footnote_link(
+    "https://fortune.com/2026/04/06/ai-tech-displacement-effect-gen-z-16000-jobs-per-month/",
+    "AI is cutting 16,000 U.S. jobs a month—and Gen Z is taking the brunt, Goldman Sachs says",
+    "N. Lichtenberg, Fortune, April 2026",
+  )
+]
+
+// =====================================================================================================================
+
 #notes_slide(title: [Employment Data #science-tag()], group: "employment-data")[
 
   #notes_quote(
@@ -768,6 +785,43 @@
 #notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
 
   #notes_quote(
+    title: [A New Look at AI's Impact on Jobs],
+    details: [\ Ramp, June2026 2026],
+  )[
+    #set list(spacing: 30pt)
+    - "#bold[Firms that adopt AI grow headcount 10.2% over the two years following adoption], but these gains are entirely driven by high-intensity adopters. Low-intensity adopters see no statistically significant change.
+    - #bold[Entry-level headcount grew even faster]. At the companies making the largest AI investments, entry-level headcount grew 12% over the two years following adoption.
+    - #bold[AI adoption and the associated gains are unevenly distributed]. AI adopters are already larger, more engineering-intensive, more likely to be venture-backed, and faster-growing than non-adopters. These firms then grow faster upon adoption."
+    #notes_unmarked_footnote_link(
+      "https://ramp.com/data/ai-jobs-impact",
+      "A New Look at AI's Impact on Jobs",
+      "Kharazian et al., Ramp, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Early Career Jobs #economics-tag()], group: "employment-early-career-jobs")[
+
+  #notes_quote(
+    title: [How Shifts in Labor Supply and Demand Shape Outcomes for Young Workers],
+    details: [\ St. Louis Federal Reserve Bank, June 2026],
+  )[
+    "The recent employment experiences of young workers fit squarely within a low-hire, low-fire labor market. Since April 2023, hiring has slowed, and young workers, especially new entrants, have borne the brunt of that softening. #bold[AI adds an additional headwind at the point of labor market entry, particularly for recent college graduates, but its effects remain smaller than those of the broader decline in job openings.]"
+    #notes_footnote_link(
+      "https://www.stlouisfed.org/on-the-economy/2026/jun/how-shifts-labor-supply-demand-shape-outcomes-young-workers",
+      "How Shifts in Labor Supply and Demand Shape Outcomes for Young Workers",
+      "W. M. Rodgers III &&&  A. L. Kassens, St. Louis Federal Reserve Bank, June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
+
+  #notes_quote(
     title: "The Broken Ladder: AI, Remote Work, and Early-Career Hiring",
     details: [\ Harvard Business Review],
   )[
@@ -785,7 +839,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Employment and Early Career Jobs #science-tag()], group: "employment-early-career-jobs")[
+#notes_slide(title: [Employment and Early Career Jobs #news-tag()], group: "employment-early-career-jobs")[
 
   #notes_quote(
     title: "What AI Can't - or Shouldn't - Do for You",
@@ -794,7 +848,7 @@
     "#bold[Companies that are too quick to lay off workers on the assumption that AI can do their jobs risk wrecking their future competitiveness in two ways]. The first is that they can lose critical institutional knowledge. The second is that they risk hurting their own talent pipelines. While it may be tempting to replace junior engineers with AI, doing so means that when senior engineers move on, a company will no longer have the humans required to review the work of those AIs."
     #notes_footnote_link(
       "https://www.wsj.com/tech/ai/when-ai-more-harm-than-good-519a83e7",
-      "What AI Can’t—or Shouldn’t—Do for You",
+      "What AI Can't - or Shouldn't - Do for You",
       "C. Mims, WSJ, 2026",
     )
   ]

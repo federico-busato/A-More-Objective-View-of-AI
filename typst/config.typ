@@ -10,6 +10,7 @@
 #let large(string) = [#text(size: 20pt)[#string]]
 
 #let science-tag() = [#fa-icon("microscope")]
+#let economics-tag() = [#fa-icon("chart-line")]
 #let news-tag() = [#fa-icon("newspaper")]
 #let comment-tag() = [#text(size: 20pt)[#fa-icon("comment", solid: true)]]
 
