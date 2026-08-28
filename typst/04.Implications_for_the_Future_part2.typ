@@ -433,24 +433,61 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Energy #science-tag()], group: "energy-consumption")[
+#notes_slide(title: [Environmental Risks - Energy Consumption #science-tag()], group: "energy-consumption")[
 
   #notes_quote(
-    title: "US Data Center Power Demand Projected to Double by 2027",
-    details: [\ Goldman Sachs, 2026],
+    title: "How much energy do data centers and artificial intelligence use?",
+    details: [\ Our World in Data, July 2026],
   )[
-    "Data centers' share of total US peak summer #bold[power demand is projected to jump to 8.5% in 2027] from 4.1% in 2025, creating significant tightening across the national power market."
+    "According to the International Energy Agency (IEA), around 485 terawatt-hours (TWh). That's equivalent to the annual electricity generation of Germany. And for context, that's #bold[around 1.5% of the world's electricity generation].
+
+    #indent() Now, #bold[data centers are more than just AI]: they're facilities that contain the servers and IT infrastructure behind all of our digital services. That's everything from email and Internet browsing to Netflix streaming, Google Maps, online banking, and messaging friends.
+
+    #indent() ... This is really the key challenge with growing data center demand: #bold[it's geographically concentrated], meaning the world's demand is served by a small number of electricity grids."
     #notes_footnote_link(
-      "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027",
-      "US Data Center Power Demand Projected to Double by 2027",
-      "Goldman Sachs, 2026",
+      "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "How much energy do data centers and artificial intelligence use?",
+      "H. Ritchie, Our World in Data, 2026",
     )
   ]
 ]
 
 // =====================================================================================================================
 
-#notes_slide(title: [Environmental Risks - Energy #science-tag()], group: "energy-consumption")[
+#notes_slide(title: [Environmental Risks - Energy Consumption #science-tag()], group: "energy-consumption")[
+
+#v(-10pt)
+#align(center)[
+  #image("04.Implications_for_the_Future_part2/energy_use_comparison.png", height: 88%)
+]
+#v(-10pt)
+
+#notes_unmarked_footnote_link(
+  "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+  "How much energy do data centers and artificial intelligence use?",
+  "H. Ritchie, Our World in Data, 2026",
+)
+]
+
+// =====================================================================================================================
+
+//#notes_slide(title: [Environmental Risks - Energy Consumption #science-tag()], group: //"energy-consumption")[
+//
+//#align(center)[
+//  #image("04.Implications_for_the_Future_part2/energy_consumption.png", height: 83%)
+//]
+//
+//#notes_unmarked_footnote_link(
+//  "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
+//  "AI and climate change",
+//  "International Energy Agency (IEA), 2025",
+//)
+//
+//]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Environmental Risks - Energy Consumption #science-tag()], group: "energy-consumption")[
 
   #notes_quote(
     title: [Have Data Centers Raised Your Electric Bill?\ Causal Evidence from the United States],
@@ -463,6 +500,23 @@
       "https://arxiv.org/pdf/2606.19777",
       "Have Data Centers Raised Your Electric Bill? Causal Evidence from the United States",
       "Wattenberg et al., June 2026",
+    )
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Environmental Risks - Energy Consumption #science-tag()], group: "energy-consumption")[
+
+  #notes_quote(
+    title: "US Data Center Power Demand Projected to Double by 2027",
+    details: [\ Goldman Sachs, 2026],
+  )[
+    "Data centers' share of total US peak summer #bold[power demand is projected to jump to 8.5% in 2027] from 4.1% in 2025, creating significant tightening across the national power market."
+    #notes_footnote_link(
+      "https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027",
+      "US Data Center Power Demand Projected to Double by 2027",
+      "Goldman Sachs, 2026",
     )
   ]
 ]

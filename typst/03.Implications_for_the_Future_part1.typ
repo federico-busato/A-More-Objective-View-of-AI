@@ -188,6 +188,22 @@
 
 // =====================================================================================================================
 
+#notes_slide(title: [Training Data #science-tag()], group: "training-data")[
+
+  #align(center)[
+    #image("03.Implications_for_the_Future_part1/pew_research.png", height: 83%)
+  ]
+
+  #notes_unmarked_footnote_link(
+    "https://www.pewresearch.org/data-labs/2026/08/20/how-much-of-the-internet-is-written-with-ai/",
+    "How Much of the Internet Is Written With AI?",
+    "Pew Research Center, August 2026",
+  )
+
+]
+
+// =====================================================================================================================
+
 == Public Opposition
 
 #notes_slide(title: [Public Opposition #news-tag()], group: "public-opposition")[
@@ -195,14 +211,16 @@
   - #bold[AI and data centers are facing increasing public opposition].
 
   #notes_quote(
-    title: "Data Center Watch",
-    details: [2026],
+    title: [Over 500 jurisdictions ban data center construction,\ threatening US pole position in AI race],
+    details: [\ NY Post, August 2026],
   )[
-    "Q1 2026 produced the largest single-quarter concentration of blocked and delayed data center projects on record, with #bold[at least 75 projects worth approximately \$130 billiondisrupted by local opposition] . The quarter reflected a structural shift rather than a cyclical spike"
+    "Over 500 jurisdictions across the US are slamming the brakes on construction of massive data centers, threatening the US' position in the AI race against countries like China.
+
+    #indent() ... More than 150 localities passed bans last month alone, as tech giants and developers face a tsunami of opposition from local Luddites"
     #notes_footnote_link(
-      "https://www.datacenterwatch.org/",
-      "Data Center Watch",
-      "2026",
+      "https://nypost.com/2026/08/10/business/over-500-jurisdictions-ban-data-center-construction-threatening-us-pole-position-in-ai-race//",
+      "Over 500 jurisdictions ban data center construction, threatening US pole position in AI race",
+      "M. Vartabedian, NY Post, 2026",
     )
   ]
 ]
@@ -240,6 +258,25 @@
     "Glassdoor Worklife Trends 2026: Midyear Check-in",
     "Glassdoor, June 2026",
   )
+]
+
+== Construction Delays
+
+// =====================================================================================================================
+
+#notes_slide(title: [Construction Delays #news-tag()], group: "construction-delays")[
+
+  #notes_quote(
+    title: "Eye on the Market",
+    details: [\ JP Morgan, May 2026],
+  )[
+    "The latest analysis based on satellite images shows that #bold[over 60% of data center capacity planned for completion in 2027 has not begun construction with another 7% delayed]. The culprits are typically related to permitting issues and delays in obtaining gas turbines, transformers and skilled labor."
+    #notes_footnote_link(
+      "https://www.jpmorgan.com/us/en/asset-management/research/global-investment-strategy/data-center-delay-analysis",
+      "Eye on the Market",
+      "M. Cembalest, JP Morgan, 2026",
+    )
+  ]
 ]
 
 // =====================================================================================================================
