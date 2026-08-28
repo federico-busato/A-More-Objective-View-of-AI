@@ -461,7 +461,7 @@
   #set text(size: 19pt)
 
   #notes_quote(
-    title: "The Abstraction Fallacy: Why AI Can Simulate But Not Instantiate Consciousness",
+    title: [The Abstraction Fallacy: Why AI Can Simulate But\ Not Instantiate Consciousness],
     details: [\ A. Lerchner, DeepMind, 2026],
   )[
     "conscious experience cannot be the downstream result of computation because it is the necessary physical prerequisite for it.
@@ -568,7 +568,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Final Remarks #comment-tag()])[
+#notes_slide(title: [Final Remarks #comment-tag()], group: "final-remarks")[
 
   #notes_quote(title: "The People Do Not Yearn for Automation", details: [\ The Verge, 2026])[
     "It's everywhere: the absolute cutting edge of advertising and marketing is automation with AI. It's not being a creative.
@@ -584,7 +584,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Final Remarks #comment-tag()])[
+#notes_slide(title: [Final Remarks #comment-tag()], group: "final-remarks")[
 
   #notes_quote(title: "Statistical approximation is not general intelligence", details: [\ Nature, 2026])[
     "Current AI systems are powerful and increasingly useful tools, but they do not exhibit the flexible, self-directed competence that the original concept of artificial general intelligence was intended to capture. As AI systems become embedded in scientific and institutional decision-making, overestimating their cognitive capacities risks misallocating trust, responsibility, and authority.
@@ -600,7 +600,7 @@
 
 // =====================================================================================================================
 
-#notes_slide(title: [Final Remarks #comment-tag()])[
+#notes_slide(title: [Final Remarks #comment-tag()], group: "final-remarks")[
 
   #notes_quote(title: "The Mythology Of Conscious AI", details: [\ Noema Magazine, 2026])[
     "If we confuse ourselves too readily with our machine creations, we not only overestimate them, we also #bold[underestimate ourselves]."

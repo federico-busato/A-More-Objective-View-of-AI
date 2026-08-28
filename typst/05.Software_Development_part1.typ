@@ -514,7 +514,7 @@
   ]
 
   #notes_quote(title: "4x Velocity, 10x Vulnerabilities", details: "Apiiro")[
-    By June 2025, AI-generated code was introducing over 10,000 new security findings per month across the repositories in our study---a 10x spike in just six months compared to December 2024. And #bold[the curve isn't flattening; it's accelerating].
+    "By June 2025, AI-generated code was introducing over 10,000 new security findings per month across the repositories in our study---a 10x spike in just six months compared to December 2024. And #bold[the curve isn't flattening; it's accelerating]."
     #notes_footnote_link(
       "https://apiiro.com/blog/4x-velocity-10x-vulnerabilities-ai-coding-assistants-are-shipping-more-risks/",
       "4x Velocity, 10x Vulnerabilities: AI Coding Assistants Are Shipping More Risks",
@@ -538,6 +538,23 @@
 
   #align(center)[
     #image("05.Software_Development_part1/apiiro_2.png", width: 75%)
+  ]
+]
+
+// =====================================================================================================================
+
+#notes_slide(title: [Security Vulnerabilities #comment-tag()], group: "security-vulnerabilities")[
+
+  #notes_quote(
+    title: "The Illusion of Safety: Multi-Tier Verification of AI vs. Human C++ Code",
+    details: [\ Mahmud et al., June 2026],
+  )[
+    "AI-generated code is significantly more vulnerable than human-written code. Under dynamic verification, #bold[runtime violations occur at 3.6x the rate] (9.3% vs. 2.6%); under formal verification, AI violation rates span 25.9--36.7% versus 18.8% for human solutions."
+    #notes_footnote_link(
+      "https://arxiv.org/pdf/2607.00107",
+      "The Illusion of Safety: Multi-Tier Verification of AI vs. Human C++ Code",
+      "Mahmud et al., arXiv, June 2026",
+    )
   ]
 ]
 
